@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FPL Streamlit Decision Lab</title>
+    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div class="rule-heavy"></div>
+        <div class="dateline">
+          <span>Fantasy Premier League | Streamlit | Machine Learning</span>
+          <span>GitHub Pages portfolio wrapper | Live app embedded</span>
+        </div>
+        <div class="rule-light"></div>
+        <h1>FPL Streamlit Decision Lab</h1>
+        <p class="standfirst">A transfer and squad-planning workbench using public FPL data, fixture-adjusted projections, interpretable model diagnostics, and constrained squad optimization.</p>
+        <nav class="jump-nav" aria-label="Page sections">
+          <a href="#app">Live App</a>
+          <a href="#method">Method</a>
+          <a href="#portfolio">Portfolio Fit</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="stat-strip" aria-label="Project highlights">
+          <div class="stat"><span>Surface</span><strong>Streamlit</strong></div>
+          <div class="stat"><span>Hosting</span><strong>Pages + Cloud</strong></div>
+          <div class="stat"><span>Model</span><strong>Interpretable</strong></div>
+          <div class="stat"><span>Decision layer</span><strong>Optimizer</strong></div>
+        </section>
+
+        <section id="app" class="app-band">
+          <div class="section-head split">
+            <div>
+              <p class="eyebrow">Live workbench</p>
+              <h2>Explore, rank, transfer, optimize</h2>
+            </div>
+            <a class="chip" href="https://fpl-streamlit-predictor.streamlit.app/?embed=true">Open app</a>
+          </div>
+          <div class="embed-shell">
+            <iframe title="FPL Streamlit Decision Lab" src="https://fpl-streamlit-predictor.streamlit.app/?embed=true"></iframe>
+          </div>
+          <p class="source-line">If the embedded app is sleeping, open it directly and wait for Streamlit Community Cloud to wake it.</p>
+        </section>
+
+        <section id="method" class="method-grid">
+          <div>
+            <p class="eyebrow">Pipeline</p>
+            <h3>Self-contained data, renewable each gameweek</h3>
+            <p>The repository commits processed app-ready data so the portfolio loads without a private service. A scheduled GitHub Actions workflow can fetch the public FPL API, rebuild projections, regenerate static metadata, run tests, and commit the updated snapshot.</p>
+          </div>
+          <div>
+            <p class="eyebrow">Machine learning</p>
+            <h3>Explainable before clever</h3>
+            <p>The first model is an interpretable fixture-adjusted projection blend with room for Ridge, ElasticNet, and tree baselines once historical gameweek labels are added. The app shows feature influence and baseline lift alongside recommendations.</p>
+          </div>
+          <div>
+            <p class="eyebrow">Optimization</p>
+            <h3>FPL rules as constraints</h3>
+            <p>The optimizer respects budget, positions, club limits, legal formations, captaincy, bench ordering, and transfer costs. It supports generic transfer discovery and optional squad-specific recommendations.</p>
+          </div>
+        </section>
+
+        <section id="portfolio" class="method-band">
+          <p class="eyebrow">Portfolio fit</p>
+          <p>This project is designed as a companion to the StatsBomb recruitment explorer: similar editorial visual system, but a different technical proof point. StatsBomb demonstrates event-data profiling and static browser visualisation; this project demonstrates Streamlit, current data refresh, modelling, and decision optimization.</p>
+          <p class="source-line">Data: public Fantasy Premier League API | Code: GitHub repository | App: Streamlit Community Cloud</p>
+        </section>
+      </main>
+    </div>
+    <script src="app.js?v=2026-09-02-fpl"></script>
+  </body>
+</html>
+

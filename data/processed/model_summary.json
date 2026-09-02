@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-09-02T14:58:03.891798+00:00",
+  "modelName": "Interpretable fixture-adjusted projection blend",
+  "target": "next three gameweek expected points",
+  "features": [
+    "points_per_game",
+    "form",
+    "points_per_90",
+    "xgi_per_90",
+    "fixture_ease",
+    "start_rate",
+    "value_points_per_million"
+  ],
+  "weights": {
+    "points_per_game": 0.34,
+    "form": 0.26,
+    "points_per_90": 0.16,
+    "xgi_per_90": 0.58,
+    "fixture_ease": 0.22,
+    "start_rate": 0.18,
+    "value_points_per_million": 0.04
+  },
+  "rows": 24,
+  "positions": {
+    "GKP": 4,
+    "DEF": 6,
+    "MID": 9,
+    "FWD": 5
+  },
+  "diagnostics": {
+    "meanPrediction": 15.34,
+    "meanBaseline": 16.913,
+    "meanLift": -1.573,
+    "backtestStatus": "sample-snapshot-placeholder",
+    "note": "Use scripts/refresh_all.py with live API data before treating diagnostics as current-season evidence."
+  }
+}

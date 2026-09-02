@@ -1,0 +1,15 @@
+name: fpl-decision-lab
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy
+      - pandas
+      - plotly
+      - scikit-learn
+      - streamlit
+      - pytest
+      - ruff
+
