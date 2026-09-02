@@ -55,8 +55,17 @@ def load_players() -> pd.DataFrame:
         "ict_index",
         "form",
         "points_per_game",
+        "ep_next",
         "fixture_difficulty_next3",
         "fixture_ease",
+        "prior_found",
+        "prior_team_found",
+        "blended_points_per_90",
+        "blended_xgi_per_90",
+        "blended_start_rate",
+        "team_attack_prior",
+        "team_defence_prior",
+        "availability_factor",
         "predicted_next_gw",
         "predicted_next3",
         "baseline_next3",
@@ -122,7 +131,7 @@ with tabs[0]:
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Filtered players", f"{len(filtered):,}")
     c2.metric("Best 3-GW projection", f"{filtered['predicted_next3'].max():.1f}" if len(filtered) else "-")
-    c3.metric("Best value", f"{filtered['optimizer_value'].max():.2f}" if len(filtered) else "-")
+    c3.metric("2025-26 player priors", f"{int(filtered['prior_found'].sum()):,}" if len(filtered) and 'prior_found' in filtered else "-")
     c4.metric("Lowest fixture difficulty", f"{filtered['fixture_difficulty_next3'].min():.1f}" if len(filtered) else "-")
 
     chart_data = filtered.sort_values("predicted_next3", ascending=False).head(80)
@@ -148,7 +157,9 @@ with tabs[0]:
         "selected_by_percent",
         "form",
         "points_per_game",
+        "ep_next",
         "fixture_difficulty_next3",
+        "prior_found",
         "predicted_next_gw",
         "predicted_next3",
         "transfer_score",
@@ -164,7 +175,7 @@ with tabs[1]:
     st.write("Use the sidebar filters for generic target discovery, or add your current squad below for player-specific swaps.")
     generic = filtered.sort_values("transfer_score", ascending=False).head(20)
     st.dataframe(
-        generic[["web_name", "team", "position", "price", "selected_by_percent", "predicted_next3", "transfer_score", "risk_score"]],
+        generic[["web_name", "team", "position", "price", "selected_by_percent", "prior_found", "predicted_next3", "transfer_score", "risk_score"]],
         width="stretch",
         hide_index=True,
     )
@@ -205,7 +216,7 @@ with tabs[2]:
         st.metric("Projected XI + captain", f"{xi['score_with_captain']:.1f}")
         st.write(f"Formation: {xi['formation']['DEF']}-{xi['formation']['MID']}-{xi['formation']['FWD']}")
         st.dataframe(
-            squad_frame[["web_name", "team", "position", "price", "predicted_next_gw", "predicted_next3", "optimizer_value"]]
+            squad_frame[["web_name", "team", "position", "price", "prior_found", "predicted_next_gw", "predicted_next3", "optimizer_value"]]
             .sort_values(["position", "predicted_next3"], ascending=[True, False]),
             width="stretch",
             hide_index=True,
@@ -224,15 +235,16 @@ with tabs[3]:
         fig.update_layout(template="plotly_white", paper_bgcolor="#f3f2f2", plot_bgcolor="#f3f2f2")
         st.plotly_chart(fig, width="stretch")
     st.write(
-        "The committed sample uses an interpretable projection blend. After live refresh, "
-        "this tab becomes the place to compare baselines, residuals, and feature influence."
+        "The model uses 2026-27 live data as the authority and joins 2025-26 player/team priors "
+        "where stable FPL codes match. New players and promoted clubs are handled with neutral priors."
     )
 
 with tabs[4]:
     st.subheader("Data notes")
     st.write(
-        "Data comes from the public Fantasy Premier League API. The repository keeps processed "
-        "CSV/JSON snapshots committed so the public app remains self-contained."
+        "Current-season data comes from the public Fantasy Premier League API. Prior-season player "
+        "and team fields come from Vaastav's 2025-26 dataset when available. The repository keeps "
+        "processed CSV/JSON snapshots committed so the public app remains self-contained."
     )
     st.write(
         "Model features use cumulative public fields and upcoming fixtures. The pipeline should "

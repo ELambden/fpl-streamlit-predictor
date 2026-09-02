@@ -11,19 +11,21 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from fpl_decision_lab.paths import PLAYERS_CSV, STATIC_JSON
 
+STREAMLIT_APP_URL = "https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true"
+
 
 def main() -> None:
     with PLAYERS_CSV.open(newline="", encoding="utf-8") as handle:
         players = list(csv.DictReader(handle))
     payload = {
         "generatedAt": datetime.now(UTC).isoformat(),
-        "source": "Official Fantasy Premier League public API plus committed sample snapshot",
+        "source": "Official Fantasy Premier League public API plus 2025-26 prior-season features",
         "scope": {
             "players": len(players),
             "positions": sorted({player["position"] for player in players}),
             "teams": sorted({player["team"] for player in players}),
         },
-        "streamlitAppUrl": "https://fpl-decision-lab.streamlit.app/?embed=true",
+        "streamlitAppUrl": STREAMLIT_APP_URL,
         "players": players,
     }
     STATIC_JSON.parent.mkdir(parents=True, exist_ok=True)

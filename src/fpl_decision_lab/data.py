@@ -5,27 +5,56 @@ import json
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 BOOTSTRAP_URL = "https://fantasy.premierleague.com/api/bootstrap-static/"
 FIXTURES_URL = "https://fantasy.premierleague.com/api/fixtures/"
+PRIOR_PLAYERS_URL = "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/players_raw.csv"
+PRIOR_TEAMS_URL = "https://raw.githubusercontent.com/vaastav/Fantasy-Premier-League/master/data/2025-26/teams.csv"
 
 POSITION_BY_ID = {1: "GKP", 2: "DEF", 3: "MID", 4: "FWD"}
+NEUTRAL_TEAM_STRENGTH = 1000.0
 
 
 def fetch_json(url: str, timeout: int = 30) -> Any:
-    request = Request(url, headers={"User-Agent": "fpl-decision-lab/0.1"})
+    request = Request(url, headers={"User-Agent": "fpl-streamlit-predictor/0.2"})
     with urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
+def fetch_text(url: str, timeout: int = 30) -> str:
+    request = Request(url, headers={"User-Agent": "fpl-streamlit-predictor/0.2"})
+    with urlopen(request, timeout=timeout) as response:
+        return response.read().decode("utf-8-sig")
+
+
+def _csv_text_records(text: str) -> list[dict[str, Any]]:
+    return [dict(row) for row in csv.DictReader(text.splitlines())]
+
+
+def fetch_optional_csv(url: str) -> tuple[list[dict[str, Any]], str]:
+    try:
+        return _csv_text_records(fetch_text(url)), "ok"
+    except (HTTPError, URLError, TimeoutError, OSError) as exc:
+        return [], f"unavailable: {exc}"
+
+
 def fetch_current_fpl_data(raw_dir: Path) -> dict[str, Any]:
-    """Fetch public FPL snapshots and persist raw JSON for traceability."""
+    """Fetch public FPL snapshots and optional prior-season priors."""
 
     raw_dir.mkdir(parents=True, exist_ok=True)
+    prior_players, prior_players_status = fetch_optional_csv(PRIOR_PLAYERS_URL)
+    prior_teams, prior_teams_status = fetch_optional_csv(PRIOR_TEAMS_URL)
     payload = {
         "bootstrap": fetch_json(BOOTSTRAP_URL),
         "fixtures": fetch_json(FIXTURES_URL),
+        "prior_players_2025_26": prior_players,
+        "prior_teams_2025_26": prior_teams,
+        "prior_source_status": {
+            "players_raw": prior_players_status,
+            "teams": prior_teams_status,
+        },
         "fetched_at": datetime.now(UTC).isoformat(),
     }
     stamp = datetime.now(UTC).strftime("%Y%m%dT%H%M%SZ")
@@ -39,7 +68,7 @@ def load_latest_raw(raw_path: Path) -> dict[str, Any]:
 
 
 def _as_float(value: Any, default: float = 0.0) -> float:
-    if value in ("", None):
+    if value in ("", None, "None"):
         return default
     try:
         return float(value)
@@ -48,12 +77,25 @@ def _as_float(value: Any, default: float = 0.0) -> float:
 
 
 def _as_int(value: Any, default: int = 0) -> int:
-    if value in ("", None):
+    if value in ("", None, "None"):
         return default
     try:
         return int(float(value))
     except (TypeError, ValueError):
         return default
+
+
+def current_gameweek(events: list[dict[str, Any]]) -> dict[str, Any]:
+    for event in events:
+        if event.get("is_current"):
+            return event
+    for event in events:
+        if event.get("is_next"):
+            return event
+    for event in reversed(events):
+        if event.get("finished"):
+            return event
+    return events[0] if events else {}
 
 
 def fixture_summary(fixtures: list[dict[str, Any]], next_n: int = 3) -> dict[int, dict[str, float]]:
@@ -87,18 +129,86 @@ def fixture_summary(fixtures: list[dict[str, Any]], next_n: int = 3) -> dict[int
     return summary
 
 
+def build_prior_player_map(rows: list[dict[str, Any]]) -> dict[int, dict[str, float]]:
+    priors: dict[int, dict[str, float]] = {}
+    for row in rows:
+        code = _as_int(row.get("code"))
+        if not code:
+            continue
+        raw_minutes = _as_float(row.get("minutes"))
+        minutes = max(raw_minutes, 1.0)
+        ninety = minutes / 90.0
+        prior_found = int(raw_minutes >= 90.0)
+        starts_per_90 = _as_float(row.get("starts_per_90"), _as_float(row.get("starts")) / max(ninety, 1.0))
+        priors[code] = {
+            "prior_minutes": round(raw_minutes, 1),
+            "prior_total_points": round(_as_float(row.get("total_points")), 1) if prior_found else 0.0,
+            "prior_points_per_90": round(_as_float(row.get("total_points")) / ninety, 3) if prior_found else 0.0,
+            "prior_xgi_per_90": round(_as_float(row.get("expected_goal_involvements")) / ninety, 3) if prior_found else 0.0,
+            "prior_starts_per_90": round(max(0.0, min(1.05, starts_per_90)), 3) if prior_found else 0.0,
+            "prior_found": prior_found,
+        }
+    return priors
+
+
+def build_prior_team_map(rows: list[dict[str, Any]]) -> dict[int, dict[str, float]]:
+    priors: dict[int, dict[str, float]] = {}
+    for row in rows:
+        code = _as_int(row.get("code"))
+        if not code:
+            continue
+        attack = (_as_float(row.get("strength_attack_home"), NEUTRAL_TEAM_STRENGTH) + _as_float(row.get("strength_attack_away"), NEUTRAL_TEAM_STRENGTH)) / 2
+        defence = (_as_float(row.get("strength_defence_home"), NEUTRAL_TEAM_STRENGTH) + _as_float(row.get("strength_defence_away"), NEUTRAL_TEAM_STRENGTH)) / 2
+        overall = (_as_float(row.get("strength_overall_home"), NEUTRAL_TEAM_STRENGTH) + _as_float(row.get("strength_overall_away"), NEUTRAL_TEAM_STRENGTH)) / 2
+        priors[code] = {
+            "prior_team_strength": round(overall, 1),
+            "prior_team_attack_strength": round(attack, 1),
+            "prior_team_defence_strength": round(defence, 1),
+            "prior_team_found": 1,
+        }
+    return priors
+
+
+def neutral_player_prior() -> dict[str, float]:
+    return {
+        "prior_minutes": 0.0,
+        "prior_total_points": 0.0,
+        "prior_points_per_90": 0.0,
+        "prior_xgi_per_90": 0.0,
+        "prior_starts_per_90": 0.0,
+        "prior_found": 0,
+    }
+
+
+def neutral_team_prior() -> dict[str, float]:
+    return {
+        "prior_team_strength": NEUTRAL_TEAM_STRENGTH,
+        "prior_team_attack_strength": NEUTRAL_TEAM_STRENGTH,
+        "prior_team_defence_strength": NEUTRAL_TEAM_STRENGTH,
+        "prior_team_found": 0,
+    }
+
+
 def normalize_bootstrap(raw_payload: dict[str, Any]) -> list[dict[str, Any]]:
     bootstrap = raw_payload["bootstrap"]
-    teams = {team["id"]: team["name"] for team in bootstrap.get("teams", [])}
+    teams_by_id = {team["id"]: team for team in bootstrap.get("teams", [])}
     fixture_by_team = fixture_summary(raw_payload.get("fixtures", []))
+    prior_players = build_prior_player_map(raw_payload.get("prior_players_2025_26", []))
+    prior_teams = build_prior_team_map(raw_payload.get("prior_teams_2025_26", []))
+    gameweek = current_gameweek(bootstrap.get("events", []))
     rows: list[dict[str, Any]] = []
 
     for player in bootstrap.get("elements", []):
         team_id = _as_int(player.get("team"))
+        team = teams_by_id.get(team_id, {})
+        team_code = _as_int(team.get("code"), _as_int(player.get("team_code")))
+        player_code = _as_int(player.get("code"))
         fixture = fixture_by_team.get(
             team_id,
             {"fixture_difficulty_next3": 3.0, "next3_home_count": 1.5, "opponent_count_next3": 3},
         )
+        player_prior = prior_players.get(player_code, neutral_player_prior())
+        team_prior = prior_teams.get(team_code, neutral_team_prior())
         expected_goal_involvements = _as_float(player.get("expected_goal_involvements"))
         total_points = _as_int(player.get("total_points"))
         minutes = _as_int(player.get("minutes"))
@@ -106,12 +216,18 @@ def normalize_bootstrap(raw_payload: dict[str, Any]) -> list[dict[str, Any]]:
         cost = _as_float(player.get("now_cost"))
         rows.append(
             {
+                "season": "2026-27",
+                "current_gameweek": _as_int(gameweek.get("id")),
                 "player_id": str(player.get("id")),
+                "player_code": player_code,
                 "web_name": player.get("web_name", ""),
                 "full_name": f"{player.get('first_name', '')} {player.get('second_name', '')}".strip(),
-                "team": teams.get(team_id, str(team_id)),
+                "team": team.get("name", str(team_id)),
                 "team_id": team_id,
+                "team_code": team_code,
                 "position": POSITION_BY_ID.get(_as_int(player.get("element_type")), "UNK"),
+                "status": player.get("status", ""),
+                "chance_of_playing_next_round": _as_int(player.get("chance_of_playing_next_round"), 100),
                 "now_cost": cost,
                 "selected_by_percent": _as_float(player.get("selected_by_percent")),
                 "total_points": total_points,
@@ -124,10 +240,14 @@ def normalize_bootstrap(raw_payload: dict[str, Any]) -> list[dict[str, Any]]:
                 "expected_goals": _as_float(player.get("expected_goals")),
                 "expected_assists": _as_float(player.get("expected_assists")),
                 "expected_goal_involvements": expected_goal_involvements,
+                "expected_goals_conceded": _as_float(player.get("expected_goals_conceded")),
                 "ict_index": _as_float(player.get("ict_index")),
                 "form": _as_float(player.get("form")),
                 "points_per_game": _as_float(player.get("points_per_game")),
+                "ep_next": _as_float(player.get("ep_next")),
                 **fixture,
+                **player_prior,
+                **team_prior,
             }
         )
     return rows
@@ -147,4 +267,3 @@ def write_csv_records(path: Path, rows: list[dict[str, Any]]) -> None:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
-

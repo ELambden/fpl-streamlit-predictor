@@ -6,6 +6,7 @@ The repository is designed as a hybrid public portfolio:
 
 - `docs/` is a static GitHub Pages case-study wrapper styled to match the neighboring StatsBomb portfolio project.
 - `app/streamlit_app.py` is the live Streamlit application, suitable for Streamlit Community Cloud.
+- The current deployed app is expected at `https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/`.
 - `data/processed/` contains committed sample outputs so the app can run without a live API call.
 - `scripts/` contains the refresh pipeline for fetching current FPL data, rebuilding features, refreshing projections, and exporting static site data.
 
@@ -41,7 +42,7 @@ python -m http.server 8000 --directory docs
 
 ## Data Refresh
 
-The project ships with a compact sample dataset so the app is self-contained. To refresh from the live public FPL API:
+The project ships with committed processed data so the app is self-contained. The current-season authority is the public FPL API for 2026-27. The refresh also tries to join Vaastav 2025-26 player and team files as priors using stable FPL player/team codes; unmatched new players and new/promoted clubs receive neutral priors. To refresh from the live public FPL API:
 
 ```bash
 python scripts/refresh_all.py
@@ -65,3 +66,11 @@ tests/               Contract and logic tests
 
 This is a decision-support and portfolio project, not guaranteed FPL advice. Public FPL data does not capture injuries, tactical role changes, press conferences, likely minutes, private bookmaker prices, or human context. The model views should be read alongside the backtest and caveats in the app.
 
+
+## GitHub Pages
+
+Set Pages `Source` to `GitHub Actions`. The workflow deploys `docs/` on every push to `main`; scheduled and manual runs also refresh data before deploying. The public Pages URL should become:
+
+```text
+https://elambden.github.io/fpl-streamlit-predictor/
+```
