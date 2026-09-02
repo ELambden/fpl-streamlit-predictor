@@ -14,8 +14,10 @@ The repository is designed as a hybrid public portfolio:
 
 - Current-season FPL data handling from public endpoints
 - Player exploration by position, club, price, ownership, form, fixture difficulty, and projection
-- Interpretable projection models with coefficient/model-audit views
-- Transfer recommendations for generic managers and optional squad-specific inputs
+- Public FPL team lookup by entry ID with a pitch-style squad view
+- Current-season player history charts and upcoming fixture forecasts
+- RandomForest point forecasts with Ridge/form baselines and an accessible model explainer page
+- Transfer recommendations and a five-gameweek transfer planner
 - Wildcard-style squad optimization under FPL squad constraints
 - A reproducible path from raw API data to deployed portfolio artifacts
 
@@ -42,7 +44,7 @@ python -m http.server 8000 --directory docs
 
 ## Data Refresh
 
-The project ships with committed processed data so the app is self-contained. The current-season authority is the public FPL API for 2026-27. The refresh also tries to join Vaastav 2025-26 player and team files as priors using stable FPL player/team codes; unmatched new players and new/promoted clubs receive neutral priors. To refresh from the live public FPL API:
+The project ships with committed processed data so the app is self-contained. The current-season authority is the public FPL API for 2026-27. The refresh also fetches checked player gameweek histories, upcoming fixture forecasts, and Vaastav 2025-26 player/team/gameweek files as priors and training rows where available. Unmatched new players and new/promoted clubs receive neutral priors. To refresh from the live public FPL API:
 
 ```bash
 python scripts/refresh_all.py
@@ -54,13 +56,24 @@ The GitHub Actions workflow in `.github/workflows/refresh-data.yml` can run this
 
 ```text
 app/                 Streamlit user experience
-data/processed/      Committed app-ready CSV and JSON outputs
+data/processed/      Committed player, history, forecast, and model-summary outputs
 data/raw/            Optional fetched API snapshots, ignored by git
 docs/                GitHub Pages portfolio wrapper
 scripts/             Pipeline entry points
 src/fpl_decision_lab Reusable data, feature, model, and optimizer code
 tests/               Contract and logic tests
 ```
+
+## Streamlit Pages
+
+The app includes:
+
+- `Home`: player discovery and transfer-target landscape
+- `My Team`: public FPL team-ID import, pitch view, and immediate transfer advice
+- `Player Lab`: current-season gameweek history and future fixture forecasts
+- `Planner`: five-gameweek transfer path planning
+- `Model Explainer`: a separate, accessible explanation of the RandomForest model
+- `Data Notes`: metric glossary and coverage notes
 
 ## Limits
 

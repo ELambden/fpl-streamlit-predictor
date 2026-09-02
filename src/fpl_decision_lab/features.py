@@ -36,7 +36,7 @@ def add_projection_features(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         ppg = as_float(item.get("points_per_game"))
         ep_next = as_float(item.get("ep_next"), ppg)
         xgi = as_float(item.get("expected_goal_involvements"))
-        fixture = as_float(item.get("fixture_difficulty_next3"), 3.0)
+        fixture = as_float(item.get("fixture_difficulty_next5"), as_float(item.get("fixture_difficulty_next3"), 3.0))
         ownership = as_float(item.get("selected_by_percent"))
         starts = as_float(item.get("starts"))
         prior_found = as_float(item.get("prior_found"))
@@ -88,9 +88,11 @@ def add_projection_features(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
         predicted_next_gw *= item["availability_factor"]
         item["predicted_next_gw"] = round(max(0.0, predicted_next_gw), 3)
         item["predicted_next3"] = round(item["predicted_next_gw"] * max(as_float(item.get("opponent_count_next3"), 3.0), 1.0), 3)
+        item["predicted_next5"] = round(item["predicted_next_gw"] * max(as_float(item.get("opponent_count_next5"), 5.0), 1.0), 3)
         item["baseline_next3"] = round(max(ppg, form, ep_next, 0.0) * 3.0, 3)
-        item["model_residual"] = round(item["predicted_next3"] - item["baseline_next3"], 3)
-        item["optimizer_value"] = round(item["predicted_next3"] / (cost / 10.0), 3)
+        item["baseline_next5"] = round(max(ppg, form, ep_next, 0.0) * 5.0, 3)
+        item["model_residual"] = round(item["predicted_next5"] - item["baseline_next5"], 3)
+        item["optimizer_value"] = round(item["predicted_next5"] / (cost / 10.0), 3)
         item["risk_score"] = round(
             max(0.0, 1.0 - min(1.0, minutes / 900.0))
             + max(0.0, 0.65 - item["blended_start_rate"])
@@ -98,7 +100,7 @@ def add_projection_features(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
             3,
         )
         item["transfer_score"] = round(
-            item["predicted_next3"]
+            item["predicted_next5"]
             + 0.35 * item["fixture_ease"]
             + 0.035 * item["differential_score"]
             + 0.20 * prior_found

@@ -1,0 +1,3256 @@
+player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixture_difficulty,forecast_points
+1,Raya,Arsenal,GKP,3,1,1,6,4.0,3.615
+1,Raya,Arsenal,GKP,4,2,0,20,3.0,4.027
+1,Raya,Arsenal,GKP,5,3,0,5,3.0,4.027
+1,Raya,Arsenal,GKP,6,4,1,13,2.0,4.15
+1,Raya,Arsenal,GKP,7,5,0,18,3.0,4.027
+2,Arrizabalaga,Arsenal,GKP,3,1,1,6,4.0,0.822
+2,Arrizabalaga,Arsenal,GKP,4,2,0,20,3.0,0.678
+2,Arrizabalaga,Arsenal,GKP,5,3,0,5,3.0,0.678
+2,Arrizabalaga,Arsenal,GKP,6,4,1,13,2.0,0.735
+2,Arrizabalaga,Arsenal,GKP,7,5,0,18,3.0,0.678
+3,Meslier,Arsenal,GKP,3,1,1,6,4.0,0.073
+3,Meslier,Arsenal,GKP,4,2,0,20,3.0,0.003
+3,Meslier,Arsenal,GKP,5,3,0,5,3.0,0.003
+3,Meslier,Arsenal,GKP,6,4,1,13,2.0,0.016
+3,Meslier,Arsenal,GKP,7,5,0,18,3.0,0.003
+4,Gabriel,Arsenal,DEF,3,1,1,6,4.0,3.704
+4,Gabriel,Arsenal,DEF,4,2,0,20,3.0,4.597
+4,Gabriel,Arsenal,DEF,5,3,0,5,3.0,4.597
+4,Gabriel,Arsenal,DEF,6,4,1,13,2.0,4.891
+4,Gabriel,Arsenal,DEF,7,5,0,18,3.0,4.597
+5,J.Timber,Arsenal,DEF,3,1,1,6,4.0,0.0
+5,J.Timber,Arsenal,DEF,4,2,0,20,3.0,0.0
+5,J.Timber,Arsenal,DEF,5,3,0,5,3.0,0.0
+5,J.Timber,Arsenal,DEF,6,4,1,13,2.0,0.0
+5,J.Timber,Arsenal,DEF,7,5,0,18,3.0,0.0
+6,Saliba,Arsenal,DEF,3,1,1,6,4.0,0.0
+6,Saliba,Arsenal,DEF,4,2,0,20,3.0,0.0
+6,Saliba,Arsenal,DEF,5,3,0,5,3.0,0.0
+6,Saliba,Arsenal,DEF,6,4,1,13,2.0,0.0
+6,Saliba,Arsenal,DEF,7,5,0,18,3.0,0.0
+7,Lewis-Skelly,Arsenal,MID,3,1,1,6,4.0,2.438
+7,Lewis-Skelly,Arsenal,MID,4,2,0,20,3.0,3.176
+7,Lewis-Skelly,Arsenal,MID,5,3,0,5,3.0,3.176
+7,Lewis-Skelly,Arsenal,MID,6,4,1,13,2.0,3.003
+7,Lewis-Skelly,Arsenal,MID,7,5,0,18,3.0,3.176
+8,Calafiori,Arsenal,DEF,3,1,1,6,4.0,3.055
+8,Calafiori,Arsenal,DEF,4,2,0,20,3.0,3.332
+8,Calafiori,Arsenal,DEF,5,3,0,5,3.0,3.332
+8,Calafiori,Arsenal,DEF,6,4,1,13,2.0,3.173
+8,Calafiori,Arsenal,DEF,7,5,0,18,3.0,3.332
+9,Hincapie,Arsenal,DEF,3,1,1,6,4.0,1.502
+9,Hincapie,Arsenal,DEF,4,2,0,20,3.0,1.605
+9,Hincapie,Arsenal,DEF,5,3,0,5,3.0,1.605
+9,Hincapie,Arsenal,DEF,6,4,1,13,2.0,1.979
+9,Hincapie,Arsenal,DEF,7,5,0,18,3.0,1.605
+10,White,Arsenal,DEF,3,1,1,6,4.0,3.475
+10,White,Arsenal,DEF,4,2,0,20,3.0,3.38
+10,White,Arsenal,DEF,5,3,0,5,3.0,3.38
+10,White,Arsenal,DEF,6,4,1,13,2.0,3.781
+10,White,Arsenal,DEF,7,5,0,18,3.0,3.38
+11,Mosquera,Arsenal,DEF,3,1,1,6,4.0,2.153
+11,Mosquera,Arsenal,DEF,4,2,0,20,3.0,3.068
+11,Mosquera,Arsenal,DEF,5,3,0,5,3.0,3.068
+11,Mosquera,Arsenal,DEF,6,4,1,13,2.0,3.752
+11,Mosquera,Arsenal,DEF,7,5,0,18,3.0,3.068
+12,Saka,Arsenal,MID,3,1,1,6,4.0,2.901
+12,Saka,Arsenal,MID,4,2,0,20,3.0,4.778
+12,Saka,Arsenal,MID,5,3,0,5,3.0,4.778
+12,Saka,Arsenal,MID,6,4,1,13,2.0,5.586
+12,Saka,Arsenal,MID,7,5,0,18,3.0,4.778
+13,Rice,Arsenal,MID,3,1,1,6,4.0,3.9
+13,Rice,Arsenal,MID,4,2,0,20,3.0,3.7
+13,Rice,Arsenal,MID,5,3,0,5,3.0,3.7
+13,Rice,Arsenal,MID,6,4,1,13,2.0,3.814
+13,Rice,Arsenal,MID,7,5,0,18,3.0,3.7
+14,Eze,Arsenal,MID,3,1,1,6,4.0,2.465
+14,Eze,Arsenal,MID,4,2,0,20,3.0,2.382
+14,Eze,Arsenal,MID,5,3,0,5,3.0,2.382
+14,Eze,Arsenal,MID,6,4,1,13,2.0,2.805
+14,Eze,Arsenal,MID,7,5,0,18,3.0,2.382
+15,Ødegaard,Arsenal,MID,3,1,1,6,4.0,2.719
+15,Ødegaard,Arsenal,MID,4,2,0,20,3.0,2.955
+15,Ødegaard,Arsenal,MID,5,3,0,5,3.0,2.955
+15,Ødegaard,Arsenal,MID,6,4,1,13,2.0,3.068
+15,Ødegaard,Arsenal,MID,7,5,0,18,3.0,2.955
+16,Madueke,Arsenal,MID,3,1,1,6,4.0,1.555
+16,Madueke,Arsenal,MID,4,2,0,20,3.0,1.601
+16,Madueke,Arsenal,MID,5,3,0,5,3.0,1.601
+16,Madueke,Arsenal,MID,6,4,1,13,2.0,1.667
+16,Madueke,Arsenal,MID,7,5,0,18,3.0,1.601
+17,Merino,Arsenal,MID,3,1,1,6,4.0,2.106
+17,Merino,Arsenal,MID,4,2,0,20,3.0,2.113
+17,Merino,Arsenal,MID,5,3,0,5,3.0,2.113
+17,Merino,Arsenal,MID,6,4,1,13,2.0,2.237
+17,Merino,Arsenal,MID,7,5,0,18,3.0,2.113
+18,Martinelli,Arsenal,MID,3,1,1,6,4.0,0.233
+18,Martinelli,Arsenal,MID,4,2,0,20,3.0,0.135
+18,Martinelli,Arsenal,MID,5,3,0,5,3.0,0.135
+18,Martinelli,Arsenal,MID,6,4,1,13,2.0,0.202
+18,Martinelli,Arsenal,MID,7,5,0,18,3.0,0.135
+19,Zubimendi,Arsenal,MID,3,1,1,6,4.0,1.107
+19,Zubimendi,Arsenal,MID,4,2,0,20,3.0,1.076
+19,Zubimendi,Arsenal,MID,5,3,0,5,3.0,1.076
+19,Zubimendi,Arsenal,MID,6,4,1,13,2.0,1.5
+19,Zubimendi,Arsenal,MID,7,5,0,18,3.0,1.076
+20,Dowman,Arsenal,MID,3,1,1,6,4.0,0.633
+20,Dowman,Arsenal,MID,4,2,0,20,3.0,0.51
+20,Dowman,Arsenal,MID,5,3,0,5,3.0,0.51
+20,Dowman,Arsenal,MID,6,4,1,13,2.0,0.583
+20,Dowman,Arsenal,MID,7,5,0,18,3.0,0.51
+22,Nwaneri,Arsenal,MID,3,1,1,6,4.0,0.0
+22,Nwaneri,Arsenal,MID,4,2,0,20,3.0,0.0
+22,Nwaneri,Arsenal,MID,5,3,0,5,3.0,0.0
+22,Nwaneri,Arsenal,MID,6,4,1,13,2.0,0.0
+22,Nwaneri,Arsenal,MID,7,5,0,18,3.0,0.0
+23,Fábio Vieira,Arsenal,MID,3,1,1,6,4.0,0.0
+23,Fábio Vieira,Arsenal,MID,4,2,0,20,3.0,0.0
+23,Fábio Vieira,Arsenal,MID,5,3,0,5,3.0,0.0
+23,Fábio Vieira,Arsenal,MID,6,4,1,13,2.0,0.0
+23,Fábio Vieira,Arsenal,MID,7,5,0,18,3.0,0.0
+24,Nelson,Arsenal,MID,3,1,1,6,4.0,0.0
+24,Nelson,Arsenal,MID,4,2,0,20,3.0,0.0
+24,Nelson,Arsenal,MID,5,3,0,5,3.0,0.0
+24,Nelson,Arsenal,MID,6,4,1,13,2.0,0.0
+24,Nelson,Arsenal,MID,7,5,0,18,3.0,0.0
+25,Gyökeres,Arsenal,FWD,3,1,1,6,4.0,0.727
+25,Gyökeres,Arsenal,FWD,4,2,0,20,3.0,0.51
+25,Gyökeres,Arsenal,FWD,5,3,0,5,3.0,0.51
+25,Gyökeres,Arsenal,FWD,6,4,1,13,2.0,0.91
+25,Gyökeres,Arsenal,FWD,7,5,0,18,3.0,0.51
+26,Havertz,Arsenal,FWD,3,1,1,6,4.0,4.035
+26,Havertz,Arsenal,FWD,4,2,0,20,3.0,5.101
+26,Havertz,Arsenal,FWD,5,3,0,5,3.0,5.101
+26,Havertz,Arsenal,FWD,6,4,1,13,2.0,5.848
+26,Havertz,Arsenal,FWD,7,5,0,18,3.0,5.101
+27,G.Jesus,Arsenal,FWD,3,1,1,6,4.0,0.0
+27,G.Jesus,Arsenal,FWD,4,2,0,20,3.0,0.0
+27,G.Jesus,Arsenal,FWD,5,3,0,5,3.0,0.0
+27,G.Jesus,Arsenal,FWD,6,4,1,13,2.0,0.0
+27,G.Jesus,Arsenal,FWD,7,5,0,18,3.0,0.0
+31,Konsa,Arsenal,DEF,3,1,1,6,4.0,1.593
+31,Konsa,Arsenal,DEF,4,2,0,20,3.0,1.581
+31,Konsa,Arsenal,DEF,5,3,0,5,3.0,1.581
+31,Konsa,Arsenal,DEF,6,4,1,13,2.0,1.67
+31,Konsa,Arsenal,DEF,7,5,0,18,3.0,1.581
+452,Bruno G.,Arsenal,MID,3,1,1,6,4.0,2.122
+452,Bruno G.,Arsenal,MID,4,2,0,20,3.0,2.082
+452,Bruno G.,Arsenal,MID,5,3,0,5,3.0,2.082
+452,Bruno G.,Arsenal,MID,6,4,1,13,2.0,2.403
+452,Bruno G.,Arsenal,MID,7,5,0,18,3.0,2.082
+557,Tzolis,Arsenal,MID,3,1,1,6,4.0,2.717
+557,Tzolis,Arsenal,MID,4,2,0,20,3.0,3.352
+557,Tzolis,Arsenal,MID,5,3,0,5,3.0,3.352
+557,Tzolis,Arsenal,MID,6,4,1,13,2.0,3.409
+557,Tzolis,Arsenal,MID,7,5,0,18,3.0,3.352
+29,M.Bizot,Aston Villa,GKP,3,1,0,11,2.0,1.001
+29,M.Bizot,Aston Villa,GKP,4,2,1,18,3.0,1.173
+29,M.Bizot,Aston Villa,GKP,5,3,0,19,3.0,0.978
+29,M.Bizot,Aston Villa,GKP,6,4,1,4,3.0,1.173
+29,M.Bizot,Aston Villa,GKP,7,5,0,17,3.0,0.978
+30,Digne,Aston Villa,DEF,3,1,0,11,2.0,0.0
+30,Digne,Aston Villa,DEF,4,2,1,18,3.0,0.0
+30,Digne,Aston Villa,DEF,5,3,0,19,3.0,0.0
+30,Digne,Aston Villa,DEF,6,4,1,4,3.0,0.0
+30,Digne,Aston Villa,DEF,7,5,0,17,3.0,0.0
+32,Cash,Aston Villa,DEF,3,1,0,11,2.0,4.042
+32,Cash,Aston Villa,DEF,4,2,1,18,3.0,3.998
+32,Cash,Aston Villa,DEF,5,3,0,19,3.0,4.104
+32,Cash,Aston Villa,DEF,6,4,1,4,3.0,3.998
+32,Cash,Aston Villa,DEF,7,5,0,17,3.0,4.104
+33,Mings,Aston Villa,DEF,3,1,0,11,2.0,1.05
+33,Mings,Aston Villa,DEF,4,2,1,18,3.0,1.105
+33,Mings,Aston Villa,DEF,5,3,0,19,3.0,1.034
+33,Mings,Aston Villa,DEF,6,4,1,4,3.0,1.105
+33,Mings,Aston Villa,DEF,7,5,0,17,3.0,1.034
+34,Pau,Aston Villa,DEF,3,1,0,11,2.0,2.465
+34,Pau,Aston Villa,DEF,4,2,1,18,3.0,2.284
+34,Pau,Aston Villa,DEF,5,3,0,19,3.0,2.18
+34,Pau,Aston Villa,DEF,6,4,1,4,3.0,2.284
+34,Pau,Aston Villa,DEF,7,5,0,17,3.0,2.18
+35,Bogarde,Aston Villa,MID,3,1,0,11,2.0,0.928
+35,Bogarde,Aston Villa,MID,4,2,1,18,3.0,0.782
+35,Bogarde,Aston Villa,MID,5,3,0,19,3.0,0.865
+35,Bogarde,Aston Villa,MID,6,4,1,4,3.0,0.782
+35,Bogarde,Aston Villa,MID,7,5,0,17,3.0,0.865
+36,Maatsen,Aston Villa,DEF,3,1,0,11,2.0,3.076
+36,Maatsen,Aston Villa,DEF,4,2,1,18,3.0,2.471
+36,Maatsen,Aston Villa,DEF,5,3,0,19,3.0,2.415
+36,Maatsen,Aston Villa,DEF,6,4,1,4,3.0,2.471
+36,Maatsen,Aston Villa,DEF,7,5,0,17,3.0,2.415
+37,Lindelöf,Aston Villa,DEF,3,1,0,11,2.0,2.579
+37,Lindelöf,Aston Villa,DEF,4,2,1,18,3.0,2.606
+37,Lindelöf,Aston Villa,DEF,5,3,0,19,3.0,2.551
+37,Lindelöf,Aston Villa,DEF,6,4,1,4,3.0,2.606
+37,Lindelöf,Aston Villa,DEF,7,5,0,17,3.0,2.551
+38,A.García,Aston Villa,DEF,3,1,0,11,2.0,0.076
+38,A.García,Aston Villa,DEF,4,2,1,18,3.0,0.04
+38,A.García,Aston Villa,DEF,5,3,0,19,3.0,0.024
+38,A.García,Aston Villa,DEF,6,4,1,4,3.0,0.04
+38,A.García,Aston Villa,DEF,7,5,0,17,3.0,0.024
+39,Nedeljkovic,Aston Villa,DEF,3,1,0,11,2.0,0.0
+39,Nedeljkovic,Aston Villa,DEF,4,2,1,18,3.0,0.0
+39,Nedeljkovic,Aston Villa,DEF,5,3,0,19,3.0,0.0
+39,Nedeljkovic,Aston Villa,DEF,6,4,1,4,3.0,0.0
+39,Nedeljkovic,Aston Villa,DEF,7,5,0,17,3.0,0.0
+41,Buendía,Aston Villa,MID,3,1,0,11,2.0,4.602
+41,Buendía,Aston Villa,MID,4,2,1,18,3.0,3.34
+41,Buendía,Aston Villa,MID,5,3,0,19,3.0,3.293
+41,Buendía,Aston Villa,MID,6,4,1,4,3.0,3.34
+41,Buendía,Aston Villa,MID,7,5,0,17,3.0,3.293
+44,Bailey,Aston Villa,MID,3,1,0,11,2.0,0.383
+44,Bailey,Aston Villa,MID,4,2,1,18,3.0,0.404
+44,Bailey,Aston Villa,MID,5,3,0,19,3.0,0.366
+44,Bailey,Aston Villa,MID,6,4,1,4,3.0,0.404
+44,Bailey,Aston Villa,MID,7,5,0,17,3.0,0.366
+45,McGinn,Aston Villa,MID,3,1,0,11,2.0,3.854
+45,McGinn,Aston Villa,MID,4,2,1,18,3.0,3.394
+45,McGinn,Aston Villa,MID,5,3,0,19,3.0,3.393
+45,McGinn,Aston Villa,MID,6,4,1,4,3.0,3.394
+45,McGinn,Aston Villa,MID,7,5,0,17,3.0,3.393
+46,Barkley,Aston Villa,MID,3,1,0,11,2.0,3.296
+46,Barkley,Aston Villa,MID,4,2,1,18,3.0,2.63
+46,Barkley,Aston Villa,MID,5,3,0,19,3.0,2.719
+46,Barkley,Aston Villa,MID,6,4,1,4,3.0,2.63
+46,Barkley,Aston Villa,MID,7,5,0,17,3.0,2.719
+47,Kamara,Aston Villa,MID,3,1,0,11,2.0,2.631
+47,Kamara,Aston Villa,MID,4,2,1,18,3.0,3.036
+47,Kamara,Aston Villa,MID,5,3,0,19,3.0,2.862
+47,Kamara,Aston Villa,MID,6,4,1,4,3.0,3.036
+47,Kamara,Aston Villa,MID,7,5,0,17,3.0,2.862
+48,Onana,Aston Villa,MID,3,1,0,11,2.0,0.0
+48,Onana,Aston Villa,MID,4,2,1,18,3.0,0.0
+48,Onana,Aston Villa,MID,5,3,0,19,3.0,0.0
+48,Onana,Aston Villa,MID,6,4,1,4,3.0,0.0
+48,Onana,Aston Villa,MID,7,5,0,17,3.0,0.0
+49,Iling Jr,Aston Villa,MID,3,1,0,11,2.0,0.0
+49,Iling Jr,Aston Villa,MID,4,2,1,18,3.0,0.0
+49,Iling Jr,Aston Villa,MID,5,3,0,19,3.0,0.0
+49,Iling Jr,Aston Villa,MID,6,4,1,4,3.0,0.0
+49,Iling Jr,Aston Villa,MID,7,5,0,17,3.0,0.0
+50,Burrowes,Aston Villa,MID,3,1,0,11,2.0,0.367
+50,Burrowes,Aston Villa,MID,4,2,1,18,3.0,0.352
+50,Burrowes,Aston Villa,MID,5,3,0,19,3.0,0.329
+50,Burrowes,Aston Villa,MID,6,4,1,4,3.0,0.352
+50,Burrowes,Aston Villa,MID,7,5,0,17,3.0,0.329
+51,George Hemmings,Aston Villa,MID,3,1,0,11,2.0,2.791
+51,George Hemmings,Aston Villa,MID,4,2,1,18,3.0,2.282
+51,George Hemmings,Aston Villa,MID,5,3,0,19,3.0,2.247
+51,George Hemmings,Aston Villa,MID,6,4,1,4,3.0,2.282
+51,George Hemmings,Aston Villa,MID,7,5,0,17,3.0,2.247
+52,Alysson,Aston Villa,MID,3,1,0,11,2.0,0.563
+52,Alysson,Aston Villa,MID,4,2,1,18,3.0,0.515
+52,Alysson,Aston Villa,MID,5,3,0,19,3.0,0.487
+52,Alysson,Aston Villa,MID,6,4,1,4,3.0,0.515
+52,Alysson,Aston Villa,MID,7,5,0,17,3.0,0.487
+53,Manzambi,Aston Villa,MID,3,1,0,11,2.0,0.0
+53,Manzambi,Aston Villa,MID,4,2,1,18,3.0,0.0
+53,Manzambi,Aston Villa,MID,5,3,0,19,3.0,0.0
+53,Manzambi,Aston Villa,MID,6,4,1,4,3.0,0.0
+53,Manzambi,Aston Villa,MID,7,5,0,17,3.0,0.0
+54,Gomes,Aston Villa,MID,3,1,0,11,2.0,0.0
+54,Gomes,Aston Villa,MID,4,2,1,18,3.0,0.0
+54,Gomes,Aston Villa,MID,5,3,0,19,3.0,0.0
+54,Gomes,Aston Villa,MID,6,4,1,4,3.0,0.0
+54,Gomes,Aston Villa,MID,7,5,0,17,3.0,0.0
+55,Watkins,Aston Villa,FWD,3,1,0,11,2.0,0.0
+55,Watkins,Aston Villa,FWD,4,2,1,18,3.0,0.0
+55,Watkins,Aston Villa,FWD,5,3,0,19,3.0,0.0
+55,Watkins,Aston Villa,FWD,6,4,1,4,3.0,0.0
+55,Watkins,Aston Villa,FWD,7,5,0,17,3.0,0.0
+56,Abraham,Aston Villa,FWD,3,1,0,11,2.0,1.162
+56,Abraham,Aston Villa,FWD,4,2,1,18,3.0,1.209
+56,Abraham,Aston Villa,FWD,5,3,0,19,3.0,1.168
+56,Abraham,Aston Villa,FWD,6,4,1,4,3.0,1.209
+56,Abraham,Aston Villa,FWD,7,5,0,17,3.0,1.168
+160,Garnacho,Aston Villa,MID,3,1,0,11,2.0,1.557
+160,Garnacho,Aston Villa,MID,4,2,1,18,3.0,1.45
+160,Garnacho,Aston Villa,MID,5,3,0,19,3.0,1.403
+160,Garnacho,Aston Villa,MID,6,4,1,4,3.0,1.45
+160,Garnacho,Aston Villa,MID,7,5,0,17,3.0,1.403
+166,N.Jackson,Aston Villa,FWD,3,1,0,11,2.0,1.865
+166,N.Jackson,Aston Villa,FWD,4,2,1,18,3.0,1.977
+166,N.Jackson,Aston Villa,FWD,5,3,0,19,3.0,1.804
+166,N.Jackson,Aston Villa,FWD,6,4,1,4,3.0,1.977
+166,N.Jackson,Aston Villa,FWD,7,5,0,17,3.0,1.804
+582,Madjo,Aston Villa,FWD,3,1,0,11,2.0,0.0
+582,Madjo,Aston Villa,FWD,4,2,1,18,3.0,0.0
+582,Madjo,Aston Villa,FWD,5,3,0,19,3.0,0.0
+582,Madjo,Aston Villa,FWD,6,4,1,4,3.0,0.0
+582,Madjo,Aston Villa,FWD,7,5,0,17,3.0,0.0
+596,Ruggeri,Aston Villa,DEF,3,1,0,11,2.0,0.477
+596,Ruggeri,Aston Villa,DEF,4,2,1,18,3.0,0.541
+596,Ruggeri,Aston Villa,DEF,5,3,0,19,3.0,0.462
+596,Ruggeri,Aston Villa,DEF,6,4,1,4,3.0,0.541
+596,Ruggeri,Aston Villa,DEF,7,5,0,17,3.0,0.462
+597,Suzuki,Aston Villa,GKP,3,1,0,11,2.0,2.175
+597,Suzuki,Aston Villa,GKP,4,2,1,18,3.0,2.192
+597,Suzuki,Aston Villa,GKP,5,3,0,19,3.0,1.934
+597,Suzuki,Aston Villa,GKP,6,4,1,4,3.0,2.192
+597,Suzuki,Aston Villa,GKP,7,5,0,17,3.0,1.934
+606,Rowe,Aston Villa,DEF,3,1,0,11,2.0,0.02
+606,Rowe,Aston Villa,DEF,4,2,1,18,3.0,0.01
+606,Rowe,Aston Villa,DEF,5,3,0,19,3.0,0.017
+606,Rowe,Aston Villa,DEF,6,4,1,4,3.0,0.01
+606,Rowe,Aston Villa,DEF,7,5,0,17,3.0,0.017
+607,Lynch,Aston Villa,MID,3,1,0,11,2.0,0.038
+607,Lynch,Aston Villa,MID,4,2,1,18,3.0,0.013
+607,Lynch,Aston Villa,MID,5,3,0,19,3.0,0.027
+607,Lynch,Aston Villa,MID,6,4,1,4,3.0,0.013
+607,Lynch,Aston Villa,MID,7,5,0,17,3.0,0.027
+611,Wan-Bissaka,Aston Villa,DEF,3,1,0,11,2.0,0.644
+611,Wan-Bissaka,Aston Villa,DEF,4,2,1,18,3.0,0.64
+611,Wan-Bissaka,Aston Villa,DEF,5,3,0,19,3.0,0.586
+611,Wan-Bissaka,Aston Villa,DEF,6,4,1,4,3.0,0.64
+611,Wan-Bissaka,Aston Villa,DEF,7,5,0,17,3.0,0.586
+618,Goretzka,Aston Villa,MID,3,1,0,11,2.0,0.003
+618,Goretzka,Aston Villa,MID,4,2,1,18,3.0,0.013
+618,Goretzka,Aston Villa,MID,5,3,0,19,3.0,0.003
+618,Goretzka,Aston Villa,MID,6,4,1,4,3.0,0.013
+618,Goretzka,Aston Villa,MID,7,5,0,17,3.0,0.003
+630,Harwood-Bellis,Aston Villa,DEF,3,1,0,11,2.0,0.019
+630,Harwood-Bellis,Aston Villa,DEF,4,2,1,18,3.0,0.0
+630,Harwood-Bellis,Aston Villa,DEF,5,3,0,19,3.0,0.0
+630,Harwood-Bellis,Aston Villa,DEF,6,4,1,4,3.0,0.0
+630,Harwood-Bellis,Aston Villa,DEF,7,5,0,17,3.0,0.0
+631,Mbaye,Aston Villa,MID,3,1,0,11,2.0,0.003
+631,Mbaye,Aston Villa,MID,4,2,1,18,3.0,0.013
+631,Mbaye,Aston Villa,MID,5,3,0,19,3.0,0.003
+631,Mbaye,Aston Villa,MID,6,4,1,4,3.0,0.013
+631,Mbaye,Aston Villa,MID,7,5,0,17,3.0,0.003
+57,Petrović,Bournemouth,GKP,3,1,0,17,3.0,3.618
+57,Petrović,Bournemouth,GKP,4,2,1,4,3.0,3.617
+57,Petrović,Bournemouth,GKP,5,3,1,14,4.0,2.484
+57,Petrović,Bournemouth,GKP,6,4,0,6,4.0,2.495
+57,Petrović,Bournemouth,GKP,7,5,1,20,2.0,3.962
+58,Forster,Bournemouth,GKP,3,1,0,17,3.0,0.551
+58,Forster,Bournemouth,GKP,4,2,1,4,3.0,0.701
+58,Forster,Bournemouth,GKP,5,3,1,14,4.0,0.711
+58,Forster,Bournemouth,GKP,6,4,0,6,4.0,0.563
+58,Forster,Bournemouth,GKP,7,5,1,20,2.0,0.84
+59,Dennis,Bournemouth,GKP,3,1,0,17,3.0,0.0
+59,Dennis,Bournemouth,GKP,4,2,1,4,3.0,0.0
+59,Dennis,Bournemouth,GKP,5,3,1,14,4.0,0.0
+59,Dennis,Bournemouth,GKP,6,4,0,6,4.0,0.0
+59,Dennis,Bournemouth,GKP,7,5,1,20,2.0,0.0
+60,Hill,Bournemouth,DEF,3,1,0,17,3.0,2.979
+60,Hill,Bournemouth,DEF,4,2,1,4,3.0,2.946
+60,Hill,Bournemouth,DEF,5,3,1,14,4.0,3.239
+60,Hill,Bournemouth,DEF,6,4,0,6,4.0,3.197
+60,Hill,Bournemouth,DEF,7,5,1,20,2.0,3.637
+61,Truffert,Bournemouth,DEF,3,1,0,17,3.0,3.791
+61,Truffert,Bournemouth,DEF,4,2,1,4,3.0,3.593
+61,Truffert,Bournemouth,DEF,5,3,1,14,4.0,3.209
+61,Truffert,Bournemouth,DEF,6,4,0,6,4.0,3.141
+61,Truffert,Bournemouth,DEF,7,5,1,20,2.0,4.549
+62,Diakité,Bournemouth,DEF,3,1,0,17,3.0,0.676
+62,Diakité,Bournemouth,DEF,4,2,1,4,3.0,0.756
+62,Diakité,Bournemouth,DEF,5,3,1,14,4.0,0.888
+62,Diakité,Bournemouth,DEF,6,4,0,6,4.0,0.687
+62,Diakité,Bournemouth,DEF,7,5,1,20,2.0,0.696
+63,Milosavljević,Bournemouth,DEF,3,1,0,17,3.0,0.0
+63,Milosavljević,Bournemouth,DEF,4,2,1,4,3.0,0.0
+63,Milosavljević,Bournemouth,DEF,5,3,1,14,4.0,0.0
+63,Milosavljević,Bournemouth,DEF,6,4,0,6,4.0,0.0
+63,Milosavljević,Bournemouth,DEF,7,5,1,20,2.0,0.0
+64,Smith,Bournemouth,DEF,3,1,0,17,3.0,1.643
+64,Smith,Bournemouth,DEF,4,2,1,4,3.0,1.528
+64,Smith,Bournemouth,DEF,5,3,1,14,4.0,1.799
+64,Smith,Bournemouth,DEF,6,4,0,6,4.0,1.931
+64,Smith,Bournemouth,DEF,7,5,1,20,2.0,1.605
+65,J.Araujo,Bournemouth,DEF,3,1,0,17,3.0,0.0
+65,J.Araujo,Bournemouth,DEF,4,2,1,4,3.0,0.0
+65,J.Araujo,Bournemouth,DEF,5,3,1,14,4.0,0.0
+65,J.Araujo,Bournemouth,DEF,6,4,0,6,4.0,0.0
+65,J.Araujo,Bournemouth,DEF,7,5,1,20,2.0,0.0
+66,Soler,Bournemouth,DEF,3,1,0,17,3.0,0.044
+66,Soler,Bournemouth,DEF,4,2,1,4,3.0,0.024
+66,Soler,Bournemouth,DEF,5,3,1,14,4.0,0.021
+66,Soler,Bournemouth,DEF,6,4,0,6,4.0,0.036
+66,Soler,Bournemouth,DEF,7,5,1,20,2.0,0.022
+67,Rayan,Bournemouth,MID,3,1,0,17,3.0,3.281
+67,Rayan,Bournemouth,MID,4,2,1,4,3.0,3.253
+67,Rayan,Bournemouth,MID,5,3,1,14,4.0,3.633
+67,Rayan,Bournemouth,MID,6,4,0,6,4.0,3.597
+67,Rayan,Bournemouth,MID,7,5,1,20,2.0,3.989
+68,Tavernier,Bournemouth,MID,3,1,0,17,3.0,3.91
+68,Tavernier,Bournemouth,MID,4,2,1,4,3.0,4.032
+68,Tavernier,Bournemouth,MID,5,3,1,14,4.0,2.863
+68,Tavernier,Bournemouth,MID,6,4,0,6,4.0,2.817
+68,Tavernier,Bournemouth,MID,7,5,1,20,2.0,3.894
+69,Scott,Bournemouth,MID,3,1,0,17,3.0,3.699
+69,Scott,Bournemouth,MID,4,2,1,4,3.0,3.791
+69,Scott,Bournemouth,MID,5,3,1,14,4.0,2.28
+69,Scott,Bournemouth,MID,6,4,0,6,4.0,2.213
+69,Scott,Bournemouth,MID,7,5,1,20,2.0,3.802
+70,Kluivert,Bournemouth,MID,3,1,0,17,3.0,3.331
+70,Kluivert,Bournemouth,MID,4,2,1,4,3.0,3.356
+70,Kluivert,Bournemouth,MID,5,3,1,14,4.0,2.091
+70,Kluivert,Bournemouth,MID,6,4,0,6,4.0,2.17
+70,Kluivert,Bournemouth,MID,7,5,1,20,2.0,4.983
+71,Cook,Bournemouth,MID,3,1,0,17,3.0,2.141
+71,Cook,Bournemouth,MID,4,2,1,4,3.0,2.405
+71,Cook,Bournemouth,MID,5,3,1,14,4.0,2.351
+71,Cook,Bournemouth,MID,6,4,0,6,4.0,2.192
+71,Cook,Bournemouth,MID,7,5,1,20,2.0,2.556
+72,Gannon-Doak,Bournemouth,MID,3,1,0,17,3.0,0.727
+72,Gannon-Doak,Bournemouth,MID,4,2,1,4,3.0,0.8
+72,Gannon-Doak,Bournemouth,MID,5,3,1,14,4.0,0.831
+72,Gannon-Doak,Bournemouth,MID,6,4,0,6,4.0,0.769
+72,Gannon-Doak,Bournemouth,MID,7,5,1,20,2.0,0.76
+73,Adams,Bournemouth,MID,3,1,0,17,3.0,0.785
+73,Adams,Bournemouth,MID,4,2,1,4,3.0,0.803
+73,Adams,Bournemouth,MID,5,3,1,14,4.0,0.863
+73,Adams,Bournemouth,MID,6,4,0,6,4.0,0.854
+73,Adams,Bournemouth,MID,7,5,1,20,2.0,1.014
+74,Brooks,Bournemouth,MID,3,1,0,17,3.0,0.97
+74,Brooks,Bournemouth,MID,4,2,1,4,3.0,0.945
+74,Brooks,Bournemouth,MID,5,3,1,14,4.0,1.024
+74,Brooks,Bournemouth,MID,6,4,0,6,4.0,1.06
+74,Brooks,Bournemouth,MID,7,5,1,20,2.0,0.949
+75,Christie,Bournemouth,MID,3,1,0,17,3.0,0.766
+75,Christie,Bournemouth,MID,4,2,1,4,3.0,0.787
+75,Christie,Bournemouth,MID,5,3,1,14,4.0,0.81
+75,Christie,Bournemouth,MID,6,4,0,6,4.0,0.78
+75,Christie,Bournemouth,MID,7,5,1,20,2.0,0.777
+76,Tóth.A,Bournemouth,MID,3,1,0,17,3.0,0.776
+76,Tóth.A,Bournemouth,MID,4,2,1,4,3.0,0.773
+76,Tóth.A,Bournemouth,MID,5,3,1,14,4.0,0.792
+76,Tóth.A,Bournemouth,MID,6,4,0,6,4.0,0.798
+76,Tóth.A,Bournemouth,MID,7,5,1,20,2.0,0.833
+77,Adli,Bournemouth,MID,3,1,0,17,3.0,0.0
+77,Adli,Bournemouth,MID,4,2,1,4,3.0,0.0
+77,Adli,Bournemouth,MID,5,3,1,14,4.0,0.0
+77,Adli,Bournemouth,MID,6,4,0,6,4.0,0.0
+77,Adli,Bournemouth,MID,7,5,1,20,2.0,0.0
+78,Kroupi.Jr,Bournemouth,MID,3,1,0,17,3.0,0.0
+78,Kroupi.Jr,Bournemouth,MID,4,2,1,4,3.0,0.0
+78,Kroupi.Jr,Bournemouth,MID,5,3,1,14,4.0,0.0
+78,Kroupi.Jr,Bournemouth,MID,6,4,0,6,4.0,0.0
+78,Kroupi.Jr,Bournemouth,MID,7,5,1,20,2.0,0.0
+79,Evanilson,Bournemouth,FWD,3,1,0,17,3.0,3.435
+79,Evanilson,Bournemouth,FWD,4,2,1,4,3.0,3.292
+79,Evanilson,Bournemouth,FWD,5,3,1,14,4.0,2.647
+79,Evanilson,Bournemouth,FWD,6,4,0,6,4.0,2.673
+79,Evanilson,Bournemouth,FWD,7,5,1,20,2.0,3.43
+80,Enes Ünal,Bournemouth,FWD,3,1,0,17,3.0,0.0
+80,Enes Ünal,Bournemouth,FWD,4,2,1,4,3.0,0.0
+80,Enes Ünal,Bournemouth,FWD,5,3,1,14,4.0,0.0
+80,Enes Ünal,Bournemouth,FWD,6,4,0,6,4.0,0.0
+80,Enes Ünal,Bournemouth,FWD,7,5,1,20,2.0,0.0
+81,Rodríguez,Bournemouth,FWD,3,1,0,17,3.0,0.58
+81,Rodríguez,Bournemouth,FWD,4,2,1,4,3.0,0.625
+81,Rodríguez,Bournemouth,FWD,5,3,1,14,4.0,0.685
+81,Rodríguez,Bournemouth,FWD,6,4,0,6,4.0,0.642
+81,Rodríguez,Bournemouth,FWD,7,5,1,20,2.0,0.641
+566,Silva,Bournemouth,DEF,3,1,0,17,3.0,3.657
+566,Silva,Bournemouth,DEF,4,2,1,4,3.0,3.606
+566,Silva,Bournemouth,DEF,5,3,1,14,4.0,3.39
+566,Silva,Bournemouth,DEF,6,4,0,6,4.0,3.397
+566,Silva,Bournemouth,DEF,7,5,1,20,2.0,3.297
+573,Sanchez,Bournemouth,DEF,3,1,0,17,3.0,0.308
+573,Sanchez,Bournemouth,DEF,4,2,1,4,3.0,0.127
+573,Sanchez,Bournemouth,DEF,5,3,1,14,4.0,0.16
+573,Sanchez,Bournemouth,DEF,6,4,0,6,4.0,0.323
+573,Sanchez,Bournemouth,DEF,7,5,1,20,2.0,0.12
+608,Jebbison,Bournemouth,FWD,3,1,0,17,3.0,1.272
+608,Jebbison,Bournemouth,FWD,4,2,1,4,3.0,1.182
+608,Jebbison,Bournemouth,FWD,5,3,1,14,4.0,1.292
+608,Jebbison,Bournemouth,FWD,6,4,0,6,4.0,1.361
+608,Jebbison,Bournemouth,FWD,7,5,1,20,2.0,1.263
+615,Di Gregorio,Bournemouth,GKP,3,1,0,17,3.0,0.0
+615,Di Gregorio,Bournemouth,GKP,4,2,1,4,3.0,0.0
+615,Di Gregorio,Bournemouth,GKP,5,3,1,14,4.0,0.0
+615,Di Gregorio,Bournemouth,GKP,6,4,0,6,4.0,0.0
+615,Di Gregorio,Bournemouth,GKP,7,5,1,20,2.0,0.037
+82,Kelleher,Brentford,GKP,3,1,1,20,2.0,4.817
+82,Kelleher,Brentford,GKP,4,2,0,3,3.0,2.9
+82,Kelleher,Brentford,GKP,5,3,1,6,4.0,2.767
+82,Kelleher,Brentford,GKP,6,4,0,2,4.0,2.926
+82,Kelleher,Brentford,GKP,7,5,1,14,4.0,2.767
+83,Valdimarsson,Brentford,GKP,3,1,1,20,2.0,0.032
+83,Valdimarsson,Brentford,GKP,4,2,0,3,3.0,0.027
+83,Valdimarsson,Brentford,GKP,5,3,1,6,4.0,0.075
+83,Valdimarsson,Brentford,GKP,6,4,0,2,4.0,0.026
+83,Valdimarsson,Brentford,GKP,7,5,1,14,4.0,0.075
+84,Collins,Brentford,DEF,3,1,1,20,2.0,4.448
+84,Collins,Brentford,DEF,4,2,0,3,3.0,3.964
+84,Collins,Brentford,DEF,5,3,1,6,4.0,2.805
+84,Collins,Brentford,DEF,6,4,0,2,4.0,2.698
+84,Collins,Brentford,DEF,7,5,1,14,4.0,2.805
+85,Van den Berg,Brentford,DEF,3,1,1,20,2.0,0.0
+85,Van den Berg,Brentford,DEF,4,2,0,3,3.0,0.0
+85,Van den Berg,Brentford,DEF,5,3,1,6,4.0,0.0
+85,Van den Berg,Brentford,DEF,6,4,0,2,4.0,0.0
+85,Van den Berg,Brentford,DEF,7,5,1,14,4.0,0.0
+86,Lewis-Potter,Brentford,MID,3,1,1,20,2.0,3.58
+86,Lewis-Potter,Brentford,MID,4,2,0,3,3.0,3.245
+86,Lewis-Potter,Brentford,MID,5,3,1,6,4.0,2.699
+86,Lewis-Potter,Brentford,MID,6,4,0,2,4.0,2.623
+86,Lewis-Potter,Brentford,MID,7,5,1,14,4.0,2.699
+87,Ajer,Brentford,DEF,3,1,1,20,2.0,4.554
+87,Ajer,Brentford,DEF,4,2,0,3,3.0,3.718
+87,Ajer,Brentford,DEF,5,3,1,6,4.0,2.946
+87,Ajer,Brentford,DEF,6,4,0,2,4.0,2.926
+87,Ajer,Brentford,DEF,7,5,1,14,4.0,2.946
+88,Kayode,Brentford,DEF,3,1,1,20,2.0,4.092
+88,Kayode,Brentford,DEF,4,2,0,3,3.0,3.567
+88,Kayode,Brentford,DEF,5,3,1,6,4.0,1.881
+88,Kayode,Brentford,DEF,6,4,0,2,4.0,1.869
+88,Kayode,Brentford,DEF,7,5,1,14,4.0,1.881
+89,Henry,Brentford,DEF,3,1,1,20,2.0,0.695
+89,Henry,Brentford,DEF,4,2,0,3,3.0,0.646
+89,Henry,Brentford,DEF,5,3,1,6,4.0,0.678
+89,Henry,Brentford,DEF,6,4,0,2,4.0,0.668
+89,Henry,Brentford,DEF,7,5,1,14,4.0,0.678
+90,Hickey,Brentford,DEF,3,1,1,20,2.0,0.746
+90,Hickey,Brentford,DEF,4,2,0,3,3.0,0.618
+90,Hickey,Brentford,DEF,5,3,1,6,4.0,0.744
+90,Hickey,Brentford,DEF,6,4,0,2,4.0,0.669
+90,Hickey,Brentford,DEF,7,5,1,14,4.0,0.744
+92,Ji-soo,Brentford,DEF,3,1,1,20,2.0,0.037
+92,Ji-soo,Brentford,DEF,4,2,0,3,3.0,0.0
+92,Ji-soo,Brentford,DEF,5,3,1,6,4.0,0.0
+92,Ji-soo,Brentford,DEF,6,4,0,2,4.0,0.0
+92,Ji-soo,Brentford,DEF,7,5,1,14,4.0,0.0
+93,Schuster,Brentford,DEF,3,1,1,20,2.0,0.12
+93,Schuster,Brentford,DEF,4,2,0,3,3.0,0.308
+93,Schuster,Brentford,DEF,5,3,1,6,4.0,0.16
+93,Schuster,Brentford,DEF,6,4,0,2,4.0,0.323
+93,Schuster,Brentford,DEF,7,5,1,14,4.0,0.16
+94,Schade,Brentford,MID,3,1,1,20,2.0,3.823
+94,Schade,Brentford,MID,4,2,0,3,3.0,3.998
+94,Schade,Brentford,MID,5,3,1,6,4.0,2.833
+94,Schade,Brentford,MID,6,4,0,2,4.0,2.772
+94,Schade,Brentford,MID,7,5,1,14,4.0,2.833
+95,O.Dango,Brentford,MID,3,1,1,20,2.0,3.151
+95,O.Dango,Brentford,MID,4,2,0,3,3.0,3.014
+95,O.Dango,Brentford,MID,5,3,1,6,4.0,2.917
+95,O.Dango,Brentford,MID,6,4,0,2,4.0,2.833
+95,O.Dango,Brentford,MID,7,5,1,14,4.0,2.917
+96,Damsgaard,Brentford,MID,3,1,1,20,2.0,2.545
+96,Damsgaard,Brentford,MID,4,2,0,3,3.0,2.403
+96,Damsgaard,Brentford,MID,5,3,1,6,4.0,2.194
+96,Damsgaard,Brentford,MID,6,4,0,2,4.0,2.145
+96,Damsgaard,Brentford,MID,7,5,1,14,4.0,2.194
+97,Jensen,Brentford,MID,3,1,1,20,2.0,1.413
+97,Jensen,Brentford,MID,4,2,0,3,3.0,1.351
+97,Jensen,Brentford,MID,5,3,1,6,4.0,1.341
+97,Jensen,Brentford,MID,6,4,0,2,4.0,1.295
+97,Jensen,Brentford,MID,7,5,1,14,4.0,1.341
+98,Janelt,Brentford,MID,3,1,1,20,2.0,3.996
+98,Janelt,Brentford,MID,4,2,0,3,3.0,3.115
+98,Janelt,Brentford,MID,5,3,1,6,4.0,2.83
+98,Janelt,Brentford,MID,6,4,0,2,4.0,2.886
+98,Janelt,Brentford,MID,7,5,1,14,4.0,2.83
+99,Milambo,Brentford,MID,3,1,1,20,2.0,0.0
+99,Milambo,Brentford,MID,4,2,0,3,3.0,0.0
+99,Milambo,Brentford,MID,5,3,1,6,4.0,0.0
+99,Milambo,Brentford,MID,6,4,0,2,4.0,0.0
+99,Milambo,Brentford,MID,7,5,1,14,4.0,0.0
+100,Carvalho,Brentford,MID,3,1,1,20,2.0,0.028
+100,Carvalho,Brentford,MID,4,2,0,3,3.0,0.016
+100,Carvalho,Brentford,MID,5,3,1,6,4.0,0.085
+100,Carvalho,Brentford,MID,6,4,0,2,4.0,0.014
+100,Carvalho,Brentford,MID,7,5,1,14,4.0,0.085
+102,Yarmoliuk,Brentford,MID,3,1,1,20,2.0,1.385
+102,Yarmoliuk,Brentford,MID,4,2,0,3,3.0,1.209
+102,Yarmoliuk,Brentford,MID,5,3,1,6,4.0,1.309
+102,Yarmoliuk,Brentford,MID,6,4,0,2,4.0,1.202
+102,Yarmoliuk,Brentford,MID,7,5,1,14,4.0,1.309
+103,Dasilva,Brentford,MID,3,1,1,20,2.0,0.016
+103,Dasilva,Brentford,MID,4,2,0,3,3.0,0.003
+103,Dasilva,Brentford,MID,5,3,1,6,4.0,0.073
+103,Dasilva,Brentford,MID,6,4,0,2,4.0,0.001
+103,Dasilva,Brentford,MID,7,5,1,14,4.0,0.073
+105,Anthony,Brentford,MID,3,1,1,20,2.0,2.395
+105,Anthony,Brentford,MID,4,2,0,3,3.0,2.213
+105,Anthony,Brentford,MID,5,3,1,6,4.0,2.157
+105,Anthony,Brentford,MID,6,4,0,2,4.0,2.081
+105,Anthony,Brentford,MID,7,5,1,14,4.0,2.157
+106,Thiago,Brentford,FWD,3,1,1,20,2.0,5.273
+106,Thiago,Brentford,FWD,4,2,0,3,3.0,4.371
+106,Thiago,Brentford,FWD,5,3,1,6,4.0,3.322
+106,Thiago,Brentford,FWD,6,4,0,2,4.0,3.36
+106,Thiago,Brentford,FWD,7,5,1,14,4.0,3.322
+107,Furo,Brentford,FWD,3,1,1,20,2.0,0.281
+107,Furo,Brentford,FWD,4,2,0,3,3.0,0.174
+107,Furo,Brentford,FWD,5,3,1,6,4.0,0.257
+107,Furo,Brentford,FWD,6,4,0,2,4.0,0.198
+107,Furo,Brentford,FWD,7,5,1,14,4.0,0.257
+108,Wilson,Brentford,FWD,3,1,1,20,2.0,2.077
+108,Wilson,Brentford,FWD,4,2,0,3,3.0,2.11
+108,Wilson,Brentford,FWD,5,3,1,6,4.0,1.97
+108,Wilson,Brentford,FWD,6,4,0,2,4.0,2.04
+108,Wilson,Brentford,FWD,7,5,1,14,4.0,1.97
+565,M.Sangaré,Brentford,MID,3,1,1,20,2.0,4.205
+565,M.Sangaré,Brentford,MID,4,2,0,3,3.0,3.469
+565,M.Sangaré,Brentford,MID,5,3,1,6,4.0,2.61
+565,M.Sangaré,Brentford,MID,6,4,0,2,4.0,2.65
+565,M.Sangaré,Brentford,MID,7,5,1,14,4.0,2.61
+620,Diouf,Brentford,DEF,3,1,1,20,2.0,0.043
+620,Diouf,Brentford,DEF,4,2,0,3,3.0,0.04
+620,Diouf,Brentford,DEF,5,3,1,6,4.0,0.087
+620,Diouf,Brentford,DEF,6,4,0,2,4.0,0.039
+620,Diouf,Brentford,DEF,7,5,1,14,4.0,0.087
+109,Verbruggen,Brighton,GKP,3,1,1,13,2.0,4.021
+109,Verbruggen,Brighton,GKP,4,2,0,7,2.0,4.073
+109,Verbruggen,Brighton,GKP,5,3,1,1,4.0,3.104
+109,Verbruggen,Brighton,GKP,6,4,0,20,3.0,3.36
+109,Verbruggen,Brighton,GKP,7,5,1,8,3.0,3.381
+111,Steele,Brighton,GKP,3,1,1,13,2.0,0.585
+111,Steele,Brighton,GKP,4,2,0,7,2.0,0.505
+111,Steele,Brighton,GKP,5,3,1,1,4.0,0.481
+111,Steele,Brighton,GKP,6,4,0,20,3.0,0.377
+111,Steele,Brighton,GKP,7,5,1,8,3.0,0.468
+113,F.Kadıoğlu,Brighton,DEF,3,1,1,13,2.0,2.285
+113,F.Kadıoğlu,Brighton,DEF,4,2,0,7,2.0,1.93
+113,F.Kadıoğlu,Brighton,DEF,5,3,1,1,4.0,1.997
+113,F.Kadıoğlu,Brighton,DEF,6,4,0,20,3.0,1.746
+113,F.Kadıoğlu,Brighton,DEF,7,5,1,8,3.0,2.108
+114,Boscagli,Brighton,DEF,3,1,1,13,2.0,3.681
+114,Boscagli,Brighton,DEF,4,2,0,7,2.0,3.353
+114,Boscagli,Brighton,DEF,5,3,1,1,4.0,3.167
+114,Boscagli,Brighton,DEF,6,4,0,20,3.0,3.487
+114,Boscagli,Brighton,DEF,7,5,1,8,3.0,3.743
+115,De Cuyper,Brighton,DEF,3,1,1,13,2.0,4.857
+115,De Cuyper,Brighton,DEF,4,2,0,7,2.0,4.992
+115,De Cuyper,Brighton,DEF,5,3,1,1,4.0,3.204
+115,De Cuyper,Brighton,DEF,6,4,0,20,3.0,4.584
+115,De Cuyper,Brighton,DEF,7,5,1,8,3.0,4.558
+116,Dunk,Brighton,DEF,3,1,1,13,2.0,4.298
+116,Dunk,Brighton,DEF,4,2,0,7,2.0,4.192
+116,Dunk,Brighton,DEF,5,3,1,1,4.0,2.499
+116,Dunk,Brighton,DEF,6,4,0,20,3.0,2.972
+116,Dunk,Brighton,DEF,7,5,1,8,3.0,3.14
+117,Coppola,Brighton,DEF,3,1,1,13,2.0,0.037
+117,Coppola,Brighton,DEF,4,2,0,7,2.0,0.019
+117,Coppola,Brighton,DEF,5,3,1,1,4.0,0.0
+117,Coppola,Brighton,DEF,6,4,0,20,3.0,0.0
+117,Coppola,Brighton,DEF,7,5,1,8,3.0,0.0
+118,Igor,Brighton,DEF,3,1,1,13,2.0,0.0
+118,Igor,Brighton,DEF,4,2,0,7,2.0,0.0
+118,Igor,Brighton,DEF,5,3,1,1,4.0,0.0
+118,Igor,Brighton,DEF,6,4,0,20,3.0,0.0
+118,Igor,Brighton,DEF,7,5,1,8,3.0,0.0
+119,Costinha,Brighton,DEF,3,1,1,13,2.0,0.829
+119,Costinha,Brighton,DEF,4,2,0,7,2.0,0.882
+119,Costinha,Brighton,DEF,5,3,1,1,4.0,0.864
+119,Costinha,Brighton,DEF,6,4,0,20,3.0,0.88
+119,Costinha,Brighton,DEF,7,5,1,8,3.0,0.837
+120,Svoboda,Brighton,DEF,3,1,1,13,2.0,0.735
+120,Svoboda,Brighton,DEF,4,2,0,7,2.0,0.678
+120,Svoboda,Brighton,DEF,5,3,1,1,4.0,0.822
+120,Svoboda,Brighton,DEF,6,4,0,20,3.0,0.678
+120,Svoboda,Brighton,DEF,7,5,1,8,3.0,0.72
+121,Mitoma,Brighton,MID,3,1,1,13,2.0,0.0
+121,Mitoma,Brighton,MID,4,2,0,7,2.0,0.0
+121,Mitoma,Brighton,MID,5,3,1,1,4.0,0.0
+121,Mitoma,Brighton,MID,6,4,0,20,3.0,0.0
+121,Mitoma,Brighton,MID,7,5,1,8,3.0,0.0
+122,Minteh,Brighton,MID,3,1,1,13,2.0,0.0
+122,Minteh,Brighton,MID,4,2,0,7,2.0,0.0
+122,Minteh,Brighton,MID,5,3,1,1,4.0,0.0
+122,Minteh,Brighton,MID,6,4,0,20,3.0,0.0
+122,Minteh,Brighton,MID,7,5,1,8,3.0,0.0
+123,Hinshelwood,Brighton,MID,3,1,1,13,2.0,1.441
+123,Hinshelwood,Brighton,MID,4,2,0,7,2.0,1.449
+123,Hinshelwood,Brighton,MID,5,3,1,1,4.0,1.375
+123,Hinshelwood,Brighton,MID,6,4,0,20,3.0,1.429
+123,Hinshelwood,Brighton,MID,7,5,1,8,3.0,1.422
+124,Groß,Brighton,MID,3,1,1,13,2.0,3.364
+124,Groß,Brighton,MID,4,2,0,7,2.0,3.477
+124,Groß,Brighton,MID,5,3,1,1,4.0,3.39
+124,Groß,Brighton,MID,6,4,0,20,3.0,3.397
+124,Groß,Brighton,MID,7,5,1,8,3.0,3.402
+125,Georginio,Brighton,FWD,3,1,1,13,2.0,1.347
+125,Georginio,Brighton,FWD,4,2,0,7,2.0,1.379
+125,Georginio,Brighton,FWD,5,3,1,1,4.0,1.382
+125,Georginio,Brighton,FWD,6,4,0,20,3.0,1.376
+125,Georginio,Brighton,FWD,7,5,1,8,3.0,1.367
+126,O'Riley,Brighton,MID,3,1,1,13,2.0,0.42
+126,O'Riley,Brighton,MID,4,2,0,7,2.0,0.383
+126,O'Riley,Brighton,MID,5,3,1,1,4.0,0.464
+126,O'Riley,Brighton,MID,6,4,0,20,3.0,0.366
+126,O'Riley,Brighton,MID,7,5,1,8,3.0,0.404
+127,Gomez,Brighton,MID,3,1,1,13,2.0,4.222
+127,Gomez,Brighton,MID,4,2,0,7,2.0,4.361
+127,Gomez,Brighton,MID,5,3,1,1,4.0,3.029
+127,Gomez,Brighton,MID,6,4,0,20,3.0,4.176
+127,Gomez,Brighton,MID,7,5,1,8,3.0,4.2
+128,Buonanotte,Brighton,MID,3,1,1,13,2.0,0.0
+128,Buonanotte,Brighton,MID,4,2,0,7,2.0,0.0
+128,Buonanotte,Brighton,MID,5,3,1,1,4.0,0.0
+128,Buonanotte,Brighton,MID,6,4,0,20,3.0,0.0
+128,Buonanotte,Brighton,MID,7,5,1,8,3.0,0.0
+129,Ayari,Brighton,MID,3,1,1,13,2.0,1.669
+129,Ayari,Brighton,MID,4,2,0,7,2.0,1.617
+129,Ayari,Brighton,MID,5,3,1,1,4.0,1.466
+129,Ayari,Brighton,MID,6,4,0,20,3.0,1.45
+129,Ayari,Brighton,MID,7,5,1,8,3.0,1.471
+130,Wieffer,Brighton,DEF,3,1,1,13,2.0,3.049
+130,Wieffer,Brighton,DEF,4,2,0,7,2.0,3.11
+130,Wieffer,Brighton,DEF,5,3,1,1,4.0,3.084
+130,Wieffer,Brighton,DEF,6,4,0,20,3.0,3.531
+130,Wieffer,Brighton,DEF,7,5,1,8,3.0,3.504
+132,Howell,Brighton,MID,3,1,1,13,2.0,0.0
+132,Howell,Brighton,MID,4,2,0,7,2.0,0.0
+132,Howell,Brighton,MID,5,3,1,1,4.0,0.0
+132,Howell,Brighton,MID,6,4,0,20,3.0,0.0
+132,Howell,Brighton,MID,7,5,1,8,3.0,0.0
+133,Watson,Brighton,MID,3,1,1,13,2.0,0.0
+133,Watson,Brighton,MID,4,2,0,7,2.0,0.0
+133,Watson,Brighton,MID,5,3,1,1,4.0,0.0
+133,Watson,Brighton,MID,6,4,0,20,3.0,0.0
+133,Watson,Brighton,MID,7,5,1,8,3.0,0.0
+134,Oriola,Brighton,MID,3,1,1,13,2.0,0.071
+134,Oriola,Brighton,MID,4,2,0,7,2.0,0.11
+134,Oriola,Brighton,MID,5,3,1,1,4.0,0.062
+134,Oriola,Brighton,MID,6,4,0,20,3.0,0.112
+134,Oriola,Brighton,MID,7,5,1,8,3.0,0.054
+135,Yohanna,Brighton,MID,3,1,1,13,2.0,1.055
+135,Yohanna,Brighton,MID,4,2,0,7,2.0,1.073
+135,Yohanna,Brighton,MID,5,3,1,1,4.0,1.035
+135,Yohanna,Brighton,MID,6,4,0,20,3.0,1.036
+135,Yohanna,Brighton,MID,7,5,1,8,3.0,0.995
+137,Tzimas,Brighton,FWD,3,1,1,13,2.0,0.0
+137,Tzimas,Brighton,FWD,4,2,0,7,2.0,0.0
+137,Tzimas,Brighton,FWD,5,3,1,1,4.0,0.0
+137,Tzimas,Brighton,FWD,6,4,0,20,3.0,0.0
+137,Tzimas,Brighton,FWD,7,5,1,8,3.0,0.0
+138,Kostoulas,Brighton,FWD,3,1,1,13,2.0,2.758
+138,Kostoulas,Brighton,FWD,4,2,0,7,2.0,2.761
+138,Kostoulas,Brighton,FWD,5,3,1,1,4.0,2.609
+138,Kostoulas,Brighton,FWD,6,4,0,20,3.0,2.728
+138,Kostoulas,Brighton,FWD,7,5,1,8,3.0,2.723
+139,Ferguson,Brighton,FWD,3,1,1,13,2.0,0.0
+139,Ferguson,Brighton,FWD,4,2,0,7,2.0,0.0
+139,Ferguson,Brighton,FWD,5,3,1,1,4.0,0.0
+139,Ferguson,Brighton,FWD,6,4,0,20,3.0,0.0
+139,Ferguson,Brighton,FWD,7,5,1,8,3.0,0.0
+328,Struijk,Brighton,DEF,3,1,1,13,2.0,0.697
+328,Struijk,Brighton,DEF,4,2,0,7,2.0,0.621
+328,Struijk,Brighton,DEF,5,3,1,1,4.0,0.889
+328,Struijk,Brighton,DEF,6,4,0,20,3.0,0.677
+328,Struijk,Brighton,DEF,7,5,1,8,3.0,0.757
+504,Vuskovic,Brighton,DEF,3,1,1,13,2.0,4.026
+504,Vuskovic,Brighton,DEF,4,2,0,7,2.0,4.303
+504,Vuskovic,Brighton,DEF,5,3,1,1,4.0,3.352
+504,Vuskovic,Brighton,DEF,6,4,0,20,3.0,4.508
+504,Vuskovic,Brighton,DEF,7,5,1,8,3.0,4.323
+594,David,Brighton,FWD,3,1,1,13,2.0,1.594
+594,David,Brighton,FWD,4,2,0,7,2.0,1.549
+594,David,Brighton,FWD,5,3,1,1,4.0,1.505
+594,David,Brighton,FWD,6,4,0,20,3.0,1.454
+594,David,Brighton,FWD,7,5,1,8,3.0,1.526
+600,Osman,Brighton,MID,3,1,1,13,2.0,1.292
+600,Osman,Brighton,MID,4,2,0,7,2.0,1.272
+600,Osman,Brighton,MID,5,3,1,1,4.0,1.245
+600,Osman,Brighton,MID,6,4,0,20,3.0,1.226
+600,Osman,Brighton,MID,7,5,1,8,3.0,1.237
+605,Yalcouyé,Brighton,MID,3,1,1,13,2.0,2.01
+605,Yalcouyé,Brighton,MID,4,2,0,7,2.0,1.853
+605,Yalcouyé,Brighton,MID,5,3,1,1,4.0,1.893
+605,Yalcouyé,Brighton,MID,6,4,0,20,3.0,1.768
+605,Yalcouyé,Brighton,MID,7,5,1,8,3.0,1.938
+614,Hadjam,Brighton,DEF,3,1,1,13,2.0,0.037
+614,Hadjam,Brighton,DEF,4,2,0,7,2.0,0.019
+614,Hadjam,Brighton,DEF,5,3,1,1,4.0,0.0
+614,Hadjam,Brighton,DEF,6,4,0,20,3.0,0.0
+614,Hadjam,Brighton,DEF,7,5,1,8,3.0,0.0
+624,Cozier-Duberry,Brighton,MID,3,1,1,13,2.0,0.0
+624,Cozier-Duberry,Brighton,MID,4,2,0,7,2.0,0.0
+624,Cozier-Duberry,Brighton,MID,5,3,1,1,4.0,0.0
+624,Cozier-Duberry,Brighton,MID,6,4,0,20,3.0,0.0
+624,Cozier-Duberry,Brighton,MID,7,5,1,8,3.0,0.0
+639,Andrés,Brighton,MID,3,1,1,13,2.0,0.012
+639,Andrés,Brighton,MID,4,2,0,7,2.0,0.003
+639,Andrés,Brighton,MID,5,3,1,1,4.0,0.074
+639,Andrés,Brighton,MID,6,4,0,20,3.0,0.003
+639,Andrés,Brighton,MID,7,5,1,8,3.0,0.012
+28,Martinez,Chelsea,GKP,3,1,0,1,5.0,1.68
+28,Martinez,Chelsea,GKP,4,2,1,11,2.0,2.59
+28,Martinez,Chelsea,GKP,5,3,0,4,3.0,1.806
+28,Martinez,Chelsea,GKP,6,4,1,3,3.0,2.062
+28,Martinez,Chelsea,GKP,7,5,0,9,3.0,1.806
+40,Rogers,Chelsea,MID,3,1,0,1,5.0,3.274
+40,Rogers,Chelsea,MID,4,2,1,11,2.0,5.696
+40,Rogers,Chelsea,MID,5,3,0,4,3.0,5.485
+40,Rogers,Chelsea,MID,6,4,1,3,3.0,5.292
+40,Rogers,Chelsea,MID,7,5,0,9,3.0,5.485
+101,Henderson,Chelsea,MID,3,1,0,1,5.0,0.016
+101,Henderson,Chelsea,MID,4,2,1,11,2.0,0.021
+101,Henderson,Chelsea,MID,5,3,0,4,3.0,0.012
+101,Henderson,Chelsea,MID,6,4,1,3,3.0,0.02
+101,Henderson,Chelsea,MID,7,5,0,9,3.0,0.012
+136,Welbeck,Chelsea,FWD,3,1,0,1,5.0,1.162
+136,Welbeck,Chelsea,FWD,4,2,1,11,2.0,0.829
+136,Welbeck,Chelsea,FWD,5,3,0,4,3.0,0.706
+136,Welbeck,Chelsea,FWD,6,4,1,3,3.0,0.878
+136,Welbeck,Chelsea,FWD,7,5,0,9,3.0,0.706
+140,Sánchez,Chelsea,GKP,3,1,0,1,5.0,0.0
+140,Sánchez,Chelsea,GKP,4,2,1,11,2.0,0.0
+140,Sánchez,Chelsea,GKP,5,3,0,4,3.0,0.0
+140,Sánchez,Chelsea,GKP,6,4,1,3,3.0,0.0
+140,Sánchez,Chelsea,GKP,7,5,0,9,3.0,0.0
+141,Jörgensen,Chelsea,GKP,3,1,0,1,5.0,0.0
+141,Jörgensen,Chelsea,GKP,4,2,1,11,2.0,0.0
+141,Jörgensen,Chelsea,GKP,5,3,0,4,3.0,0.0
+141,Jörgensen,Chelsea,GKP,6,4,1,3,3.0,0.0
+141,Jörgensen,Chelsea,GKP,7,5,0,9,3.0,0.0
+142,James,Chelsea,DEF,3,1,0,1,5.0,2.96
+142,James,Chelsea,DEF,4,2,1,11,2.0,3.772
+142,James,Chelsea,DEF,5,3,0,4,3.0,3.201
+142,James,Chelsea,DEF,6,4,1,3,3.0,3.218
+142,James,Chelsea,DEF,7,5,0,9,3.0,3.201
+143,Chalobah,Chelsea,DEF,3,1,0,1,5.0,0.0
+143,Chalobah,Chelsea,DEF,4,2,1,11,2.0,0.0
+143,Chalobah,Chelsea,DEF,5,3,0,4,3.0,0.0
+143,Chalobah,Chelsea,DEF,6,4,1,3,3.0,0.0
+143,Chalobah,Chelsea,DEF,7,5,0,9,3.0,0.0
+144,Gusto,Chelsea,DEF,3,1,0,1,5.0,1.839
+144,Gusto,Chelsea,DEF,4,2,1,11,2.0,3.658
+144,Gusto,Chelsea,DEF,5,3,0,4,3.0,2.961
+144,Gusto,Chelsea,DEF,6,4,1,3,3.0,3.068
+144,Gusto,Chelsea,DEF,7,5,0,9,3.0,2.961
+145,Fofana,Chelsea,DEF,3,1,0,1,5.0,2.018
+145,Fofana,Chelsea,DEF,4,2,1,11,2.0,2.247
+145,Fofana,Chelsea,DEF,5,3,0,4,3.0,2.12
+145,Fofana,Chelsea,DEF,6,4,1,3,3.0,2.322
+145,Fofana,Chelsea,DEF,7,5,0,9,3.0,2.12
+146,B.Badiashile,Chelsea,DEF,3,1,0,1,5.0,0.0
+146,B.Badiashile,Chelsea,DEF,4,2,1,11,2.0,0.0
+146,B.Badiashile,Chelsea,DEF,5,3,0,4,3.0,0.0
+146,B.Badiashile,Chelsea,DEF,6,4,1,3,3.0,0.0
+146,B.Badiashile,Chelsea,DEF,7,5,0,9,3.0,0.0
+148,Hato,Chelsea,DEF,3,1,0,1,5.0,2.537
+148,Hato,Chelsea,DEF,4,2,1,11,2.0,3.641
+148,Hato,Chelsea,DEF,5,3,0,4,3.0,4.52
+148,Hato,Chelsea,DEF,6,4,1,3,3.0,4.44
+148,Hato,Chelsea,DEF,7,5,0,9,3.0,4.52
+149,Colwill,Chelsea,DEF,3,1,0,1,5.0,1.695
+149,Colwill,Chelsea,DEF,4,2,1,11,2.0,3.12
+149,Colwill,Chelsea,DEF,5,3,0,4,3.0,2.249
+149,Colwill,Chelsea,DEF,6,4,1,3,3.0,2.408
+149,Colwill,Chelsea,DEF,7,5,0,9,3.0,2.249
+150,M.Sarr,Chelsea,DEF,3,1,0,1,5.0,0.0
+150,M.Sarr,Chelsea,DEF,4,2,1,11,2.0,0.0
+150,M.Sarr,Chelsea,DEF,5,3,0,4,3.0,0.0
+150,M.Sarr,Chelsea,DEF,6,4,1,3,3.0,0.0
+150,M.Sarr,Chelsea,DEF,7,5,0,9,3.0,0.0
+151,Acheampong,Chelsea,DEF,3,1,0,1,5.0,0.89
+151,Acheampong,Chelsea,DEF,4,2,1,11,2.0,1.154
+151,Acheampong,Chelsea,DEF,5,3,0,4,3.0,0.902
+151,Acheampong,Chelsea,DEF,6,4,1,3,3.0,1.126
+151,Acheampong,Chelsea,DEF,7,5,0,9,3.0,0.902
+152,Palestra,Chelsea,DEF,3,1,0,1,5.0,0.593
+152,Palestra,Chelsea,DEF,4,2,1,11,2.0,0.358
+152,Palestra,Chelsea,DEF,5,3,0,4,3.0,0.285
+152,Palestra,Chelsea,DEF,6,4,1,3,3.0,0.355
+152,Palestra,Chelsea,DEF,7,5,0,9,3.0,0.285
+154,Palmer,Chelsea,MID,3,1,0,1,5.0,3.302
+154,Palmer,Chelsea,MID,4,2,1,11,2.0,6.424
+154,Palmer,Chelsea,MID,5,3,0,4,3.0,5.575
+154,Palmer,Chelsea,MID,6,4,1,3,3.0,5.547
+154,Palmer,Chelsea,MID,7,5,0,9,3.0,5.575
+156,Neto,Chelsea,MID,3,1,0,1,5.0,2.656
+156,Neto,Chelsea,MID,4,2,1,11,2.0,2.819
+156,Neto,Chelsea,MID,5,3,0,4,3.0,2.776
+156,Neto,Chelsea,MID,6,4,1,3,3.0,2.825
+156,Neto,Chelsea,MID,7,5,0,9,3.0,2.776
+157,Estêvão,Chelsea,MID,3,1,0,1,5.0,0.985
+157,Estêvão,Chelsea,MID,4,2,1,11,2.0,1.132
+157,Estêvão,Chelsea,MID,5,3,0,4,3.0,0.982
+157,Estêvão,Chelsea,MID,6,4,1,3,3.0,1.039
+157,Estêvão,Chelsea,MID,7,5,0,9,3.0,0.982
+158,Gittens,Chelsea,MID,3,1,0,1,5.0,0.026
+158,Gittens,Chelsea,MID,4,2,1,11,2.0,0.026
+158,Gittens,Chelsea,MID,5,3,0,4,3.0,0.017
+158,Gittens,Chelsea,MID,6,4,1,3,3.0,0.027
+158,Gittens,Chelsea,MID,7,5,0,9,3.0,0.017
+159,Caicedo,Chelsea,MID,3,1,0,1,5.0,1.051
+159,Caicedo,Chelsea,MID,4,2,1,11,2.0,1.271
+159,Caicedo,Chelsea,MID,5,3,0,4,3.0,1.039
+159,Caicedo,Chelsea,MID,6,4,1,3,3.0,1.054
+159,Caicedo,Chelsea,MID,7,5,0,9,3.0,1.039
+161,Lavia,Chelsea,MID,3,1,0,1,5.0,2.121
+161,Lavia,Chelsea,MID,4,2,1,11,2.0,3.529
+161,Lavia,Chelsea,MID,5,3,0,4,3.0,2.29
+161,Lavia,Chelsea,MID,6,4,1,3,3.0,2.351
+161,Lavia,Chelsea,MID,7,5,0,9,3.0,2.29
+163,D.Essugo,Chelsea,MID,3,1,0,1,5.0,0.0
+163,D.Essugo,Chelsea,MID,4,2,1,11,2.0,0.0
+163,D.Essugo,Chelsea,MID,5,3,0,4,3.0,0.0
+163,D.Essugo,Chelsea,MID,6,4,1,3,3.0,0.0
+163,D.Essugo,Chelsea,MID,7,5,0,9,3.0,0.0
+164,Quenda,Chelsea,MID,3,1,0,1,5.0,0.636
+164,Quenda,Chelsea,MID,4,2,1,11,2.0,0.537
+164,Quenda,Chelsea,MID,5,3,0,4,3.0,0.569
+164,Quenda,Chelsea,MID,6,4,1,3,3.0,0.549
+164,Quenda,Chelsea,MID,7,5,0,9,3.0,0.569
+165,João Pedro,Chelsea,FWD,3,1,0,1,5.0,2.665
+165,João Pedro,Chelsea,FWD,4,2,1,11,2.0,5.2
+165,João Pedro,Chelsea,FWD,5,3,0,4,3.0,4.769
+165,João Pedro,Chelsea,FWD,6,4,1,3,3.0,4.93
+165,João Pedro,Chelsea,FWD,7,5,0,9,3.0,4.769
+168,Marc Guiu,Chelsea,FWD,3,1,0,1,5.0,0.0
+168,Marc Guiu,Chelsea,FWD,4,2,1,11,2.0,0.0
+168,Marc Guiu,Chelsea,FWD,5,3,0,4,3.0,0.0
+168,Marc Guiu,Chelsea,FWD,6,4,1,3,3.0,0.0
+168,Marc Guiu,Chelsea,FWD,7,5,0,9,3.0,0.0
+169,Mheuka,Chelsea,FWD,3,1,0,1,5.0,0.094
+169,Mheuka,Chelsea,FWD,4,2,1,11,2.0,0.114
+169,Mheuka,Chelsea,FWD,5,3,0,4,3.0,0.057
+169,Mheuka,Chelsea,FWD,6,4,1,3,3.0,0.053
+169,Mheuka,Chelsea,FWD,7,5,0,9,3.0,0.057
+170,Emegha,Chelsea,FWD,3,1,0,1,5.0,0.704
+170,Emegha,Chelsea,FWD,4,2,1,11,2.0,0.735
+170,Emegha,Chelsea,FWD,5,3,0,4,3.0,0.678
+170,Emegha,Chelsea,FWD,6,4,1,3,3.0,0.72
+170,Emegha,Chelsea,FWD,7,5,0,9,3.0,0.678
+200,Lacroix,Chelsea,DEF,3,1,0,1,5.0,3.252
+200,Lacroix,Chelsea,DEF,4,2,1,11,2.0,4.244
+200,Lacroix,Chelsea,DEF,5,3,0,4,3.0,4.272
+200,Lacroix,Chelsea,DEF,6,4,1,3,3.0,4.291
+200,Lacroix,Chelsea,DEF,7,5,0,9,3.0,4.272
+560,Penders,Chelsea,GKP,3,1,0,1,5.0,0.066
+560,Penders,Chelsea,GKP,4,2,1,11,2.0,0.032
+560,Penders,Chelsea,GKP,5,3,0,4,3.0,0.027
+560,Penders,Chelsea,GKP,6,4,1,3,3.0,0.013
+560,Penders,Chelsea,GKP,7,5,0,9,3.0,0.027
+561,Anselmino,Chelsea,DEF,3,1,0,1,5.0,0.002
+561,Anselmino,Chelsea,DEF,4,2,1,11,2.0,0.037
+561,Anselmino,Chelsea,DEF,5,3,0,4,3.0,0.0
+561,Anselmino,Chelsea,DEF,6,4,1,3,3.0,0.0
+561,Anselmino,Chelsea,DEF,7,5,0,9,3.0,0.0
+568,Barco,Chelsea,MID,3,1,0,1,5.0,0.82
+568,Barco,Chelsea,MID,4,2,1,11,2.0,0.776
+568,Barco,Chelsea,MID,5,3,0,4,3.0,0.783
+568,Barco,Chelsea,MID,6,4,1,3,3.0,0.78
+568,Barco,Chelsea,MID,7,5,0,9,3.0,0.783
+583,Chavarria,Chelsea,DEF,3,1,0,1,5.0,1.153
+583,Chavarria,Chelsea,DEF,4,2,1,11,2.0,1.352
+583,Chavarria,Chelsea,DEF,5,3,0,4,3.0,1.08
+583,Chavarria,Chelsea,DEF,6,4,1,3,3.0,1.104
+583,Chavarria,Chelsea,DEF,7,5,0,9,3.0,1.08
+91,Pinnock,Coventry City,DEF,3,1,0,15,5.0,0.699
+91,Pinnock,Coventry City,DEF,4,2,1,5,2.0,0.809
+91,Pinnock,Coventry City,DEF,5,3,0,18,3.0,0.654
+91,Pinnock,Coventry City,DEF,6,4,1,17,2.0,0.809
+91,Pinnock,Coventry City,DEF,7,5,0,19,3.0,0.654
+104,Onyeka,Coventry City,MID,3,1,0,15,5.0,1.232
+104,Onyeka,Coventry City,MID,4,2,1,5,2.0,1.294
+104,Onyeka,Coventry City,MID,5,3,0,18,3.0,1.219
+104,Onyeka,Coventry City,MID,6,4,1,17,2.0,1.294
+104,Onyeka,Coventry City,MID,7,5,0,19,3.0,1.219
+110,Rushworth,Coventry City,GKP,3,1,0,15,5.0,1.878
+110,Rushworth,Coventry City,GKP,4,2,1,5,2.0,3.465
+110,Rushworth,Coventry City,GKP,5,3,0,18,3.0,2.568
+110,Rushworth,Coventry City,GKP,6,4,1,17,2.0,3.465
+110,Rushworth,Coventry City,GKP,7,5,0,19,3.0,2.568
+171,Dovin,Coventry City,GKP,3,1,0,15,5.0,0.0
+171,Dovin,Coventry City,GKP,4,2,1,5,2.0,0.0
+171,Dovin,Coventry City,GKP,5,3,0,18,3.0,0.0
+171,Dovin,Coventry City,GKP,6,4,1,17,2.0,0.0
+171,Dovin,Coventry City,GKP,7,5,0,19,3.0,0.0
+172,Wilson,Coventry City,GKP,3,1,0,15,5.0,0.094
+172,Wilson,Coventry City,GKP,4,2,1,5,2.0,0.114
+172,Wilson,Coventry City,GKP,5,3,0,18,3.0,0.057
+172,Wilson,Coventry City,GKP,6,4,1,17,2.0,0.114
+172,Wilson,Coventry City,GKP,7,5,0,19,3.0,0.057
+173,Thomas,Coventry City,DEF,3,1,0,15,5.0,1.83
+173,Thomas,Coventry City,DEF,4,2,1,5,2.0,2.857
+173,Thomas,Coventry City,DEF,5,3,0,18,3.0,2.054
+173,Thomas,Coventry City,DEF,6,4,1,17,2.0,2.857
+173,Thomas,Coventry City,DEF,7,5,0,19,3.0,2.054
+174,Kitching,Coventry City,DEF,3,1,0,15,5.0,0.0
+174,Kitching,Coventry City,DEF,4,2,1,5,2.0,0.0
+174,Kitching,Coventry City,DEF,5,3,0,18,3.0,0.0
+174,Kitching,Coventry City,DEF,6,4,1,17,2.0,0.0
+174,Kitching,Coventry City,DEF,7,5,0,19,3.0,0.0
+175,van Ewijk,Coventry City,DEF,3,1,0,15,5.0,2.349
+175,van Ewijk,Coventry City,DEF,4,2,1,5,2.0,3.351
+175,van Ewijk,Coventry City,DEF,5,3,0,18,3.0,2.642
+175,van Ewijk,Coventry City,DEF,6,4,1,17,2.0,3.351
+175,van Ewijk,Coventry City,DEF,7,5,0,19,3.0,2.642
+176,Dasilva,Coventry City,DEF,3,1,0,15,5.0,1.799
+176,Dasilva,Coventry City,DEF,4,2,1,5,2.0,3.218
+176,Dasilva,Coventry City,DEF,5,3,0,18,3.0,2.742
+176,Dasilva,Coventry City,DEF,6,4,1,17,2.0,3.218
+176,Dasilva,Coventry City,DEF,7,5,0,19,3.0,2.742
+177,Kesler-Hayden,Coventry City,DEF,3,1,0,15,5.0,0.0
+177,Kesler-Hayden,Coventry City,DEF,4,2,1,5,2.0,0.0
+177,Kesler-Hayden,Coventry City,DEF,5,3,0,18,3.0,0.0
+177,Kesler-Hayden,Coventry City,DEF,6,4,1,17,2.0,0.0
+177,Kesler-Hayden,Coventry City,DEF,7,5,0,19,3.0,0.0
+178,Bidwell,Coventry City,DEF,3,1,0,15,5.0,0.002
+178,Bidwell,Coventry City,DEF,4,2,1,5,2.0,0.0
+178,Bidwell,Coventry City,DEF,5,3,0,18,3.0,0.0
+178,Bidwell,Coventry City,DEF,6,4,1,17,2.0,0.0
+178,Bidwell,Coventry City,DEF,7,5,0,19,3.0,0.0
+179,Latibeaudiere,Coventry City,DEF,3,1,0,15,5.0,0.0
+179,Latibeaudiere,Coventry City,DEF,4,2,1,5,2.0,0.004
+179,Latibeaudiere,Coventry City,DEF,5,3,0,18,3.0,0.0
+179,Latibeaudiere,Coventry City,DEF,6,4,1,17,2.0,0.004
+179,Latibeaudiere,Coventry City,DEF,7,5,0,19,3.0,0.0
+180,Woolfenden,Coventry City,DEF,3,1,0,15,5.0,0.0
+180,Woolfenden,Coventry City,DEF,4,2,1,5,2.0,0.0
+180,Woolfenden,Coventry City,DEF,5,3,0,18,3.0,0.0
+180,Woolfenden,Coventry City,DEF,6,4,1,17,2.0,0.0
+180,Woolfenden,Coventry City,DEF,7,5,0,19,3.0,0.0
+181,Brau,Coventry City,DEF,3,1,0,15,5.0,0.0
+181,Brau,Coventry City,DEF,4,2,1,5,2.0,0.0
+181,Brau,Coventry City,DEF,5,3,0,18,3.0,0.0
+181,Brau,Coventry City,DEF,6,4,1,17,2.0,0.0
+181,Brau,Coventry City,DEF,7,5,0,19,3.0,0.0
+182,Amenda,Coventry City,DEF,3,1,0,15,5.0,1.735
+182,Amenda,Coventry City,DEF,4,2,1,5,2.0,2.637
+182,Amenda,Coventry City,DEF,5,3,0,18,3.0,2.274
+182,Amenda,Coventry City,DEF,6,4,1,17,2.0,2.637
+182,Amenda,Coventry City,DEF,7,5,0,19,3.0,2.274
+183,Rudoni,Coventry City,MID,3,1,0,15,5.0,1.619
+183,Rudoni,Coventry City,MID,4,2,1,5,2.0,2.173
+183,Rudoni,Coventry City,MID,5,3,0,18,3.0,1.696
+183,Rudoni,Coventry City,MID,6,4,1,17,2.0,2.173
+183,Rudoni,Coventry City,MID,7,5,0,19,3.0,1.696
+184,Grimes,Coventry City,MID,3,1,0,15,5.0,1.816
+184,Grimes,Coventry City,MID,4,2,1,5,2.0,1.479
+184,Grimes,Coventry City,MID,5,3,0,18,3.0,1.523
+184,Grimes,Coventry City,MID,6,4,1,17,2.0,1.479
+184,Grimes,Coventry City,MID,7,5,0,19,3.0,1.523
+185,Sakamoto,Coventry City,MID,3,1,0,15,5.0,1.138
+185,Sakamoto,Coventry City,MID,4,2,1,5,2.0,1.174
+185,Sakamoto,Coventry City,MID,5,3,0,18,3.0,1.048
+185,Sakamoto,Coventry City,MID,6,4,1,17,2.0,1.174
+185,Sakamoto,Coventry City,MID,7,5,0,19,3.0,1.048
+186,Mason-Clark,Coventry City,MID,3,1,0,15,5.0,1.745
+186,Mason-Clark,Coventry City,MID,4,2,1,5,2.0,1.76
+186,Mason-Clark,Coventry City,MID,5,3,0,18,3.0,1.772
+186,Mason-Clark,Coventry City,MID,6,4,1,17,2.0,1.76
+186,Mason-Clark,Coventry City,MID,7,5,0,19,3.0,1.772
+187,Eccles,Coventry City,MID,3,1,0,15,5.0,0.096
+187,Eccles,Coventry City,MID,4,2,1,5,2.0,0.055
+187,Eccles,Coventry City,MID,5,3,0,18,3.0,0.026
+187,Eccles,Coventry City,MID,6,4,1,17,2.0,0.055
+187,Eccles,Coventry City,MID,7,5,0,19,3.0,0.026
+188,Torp,Coventry City,MID,3,1,0,15,5.0,1.528
+188,Torp,Coventry City,MID,4,2,1,5,2.0,1.631
+188,Torp,Coventry City,MID,5,3,0,18,3.0,1.477
+188,Torp,Coventry City,MID,6,4,1,17,2.0,1.631
+188,Torp,Coventry City,MID,7,5,0,19,3.0,1.477
+189,Shepherd,Coventry City,MID,3,1,0,15,5.0,0.147
+189,Shepherd,Coventry City,MID,4,2,1,5,2.0,0.071
+189,Shepherd,Coventry City,MID,5,3,0,18,3.0,0.112
+189,Shepherd,Coventry City,MID,6,4,1,17,2.0,0.071
+189,Shepherd,Coventry City,MID,7,5,0,19,3.0,0.112
+190,Tchaouna,Coventry City,MID,3,1,0,15,5.0,2.096
+190,Tchaouna,Coventry City,MID,4,2,1,5,2.0,2.486
+190,Tchaouna,Coventry City,MID,5,3,0,18,3.0,2.104
+190,Tchaouna,Coventry City,MID,6,4,1,17,2.0,2.486
+190,Tchaouna,Coventry City,MID,7,5,0,19,3.0,2.104
+191,Borges Rodrigues,Coventry City,MID,3,1,0,15,5.0,0.0
+191,Borges Rodrigues,Coventry City,MID,4,2,1,5,2.0,0.0
+191,Borges Rodrigues,Coventry City,MID,5,3,0,18,3.0,0.0
+191,Borges Rodrigues,Coventry City,MID,6,4,1,17,2.0,0.0
+191,Borges Rodrigues,Coventry City,MID,7,5,0,19,3.0,0.0
+192,Andrews,Coventry City,MID,3,1,0,15,5.0,0.0
+192,Andrews,Coventry City,MID,4,2,1,5,2.0,0.0
+192,Andrews,Coventry City,MID,5,3,0,18,3.0,0.0
+192,Andrews,Coventry City,MID,6,4,1,17,2.0,0.0
+192,Andrews,Coventry City,MID,7,5,0,19,3.0,0.0
+193,Wright,Coventry City,FWD,3,1,0,15,5.0,0.0
+193,Wright,Coventry City,FWD,4,2,1,5,2.0,0.0
+193,Wright,Coventry City,FWD,5,3,0,18,3.0,0.0
+193,Wright,Coventry City,FWD,6,4,1,17,2.0,0.0
+193,Wright,Coventry City,FWD,7,5,0,19,3.0,0.0
+194,Thomas-Asante,Coventry City,FWD,3,1,0,15,5.0,2.198
+194,Thomas-Asante,Coventry City,FWD,4,2,1,5,2.0,2.633
+194,Thomas-Asante,Coventry City,FWD,5,3,0,18,3.0,2.413
+194,Thomas-Asante,Coventry City,FWD,6,4,1,17,2.0,2.633
+194,Thomas-Asante,Coventry City,FWD,7,5,0,19,3.0,2.413
+195,Simms,Coventry City,FWD,3,1,0,15,5.0,1.739
+195,Simms,Coventry City,FWD,4,2,1,5,2.0,2.189
+195,Simms,Coventry City,FWD,5,3,0,18,3.0,1.88
+195,Simms,Coventry City,FWD,6,4,1,17,2.0,2.189
+195,Simms,Coventry City,FWD,7,5,0,19,3.0,1.88
+196,Markelo,Coventry City,FWD,3,1,0,15,5.0,0.0
+196,Markelo,Coventry City,FWD,4,2,1,5,2.0,0.0
+196,Markelo,Coventry City,FWD,5,3,0,18,3.0,0.0
+196,Markelo,Coventry City,FWD,6,4,1,17,2.0,0.0
+196,Markelo,Coventry City,FWD,7,5,0,19,3.0,0.0
+197,Bassette,Coventry City,FWD,3,1,0,15,5.0,0.0
+197,Bassette,Coventry City,FWD,4,2,1,5,2.0,0.0
+197,Bassette,Coventry City,FWD,5,3,0,18,3.0,0.0
+197,Bassette,Coventry City,FWD,6,4,1,17,2.0,0.0
+197,Bassette,Coventry City,FWD,7,5,0,19,3.0,0.0
+492,Awoniyi,Coventry City,FWD,3,1,0,15,5.0,3.293
+492,Awoniyi,Coventry City,FWD,4,2,1,5,2.0,3.632
+492,Awoniyi,Coventry City,FWD,5,3,0,18,3.0,3.51
+492,Awoniyi,Coventry City,FWD,6,4,1,17,2.0,3.632
+492,Awoniyi,Coventry City,FWD,7,5,0,19,3.0,3.51
+575,Yirenkyi,Coventry City,MID,3,1,0,15,5.0,1.836
+575,Yirenkyi,Coventry City,MID,4,2,1,5,2.0,1.802
+575,Yirenkyi,Coventry City,MID,5,3,0,18,3.0,1.664
+575,Yirenkyi,Coventry City,MID,6,4,1,17,2.0,1.802
+575,Yirenkyi,Coventry City,MID,7,5,0,19,3.0,1.664
+584,Hamer,Coventry City,MID,3,1,0,15,5.0,0.757
+584,Hamer,Coventry City,MID,4,2,1,5,2.0,0.774
+584,Hamer,Coventry City,MID,5,3,0,18,3.0,0.743
+584,Hamer,Coventry City,MID,6,4,1,17,2.0,0.774
+584,Hamer,Coventry City,MID,7,5,0,19,3.0,0.743
+599,Cherif,Coventry City,FWD,3,1,0,15,5.0,0.704
+599,Cherif,Coventry City,FWD,4,2,1,5,2.0,0.735
+599,Cherif,Coventry City,FWD,5,3,0,18,3.0,0.678
+599,Cherif,Coventry City,FWD,6,4,1,17,2.0,0.735
+599,Cherif,Coventry City,FWD,7,5,0,19,3.0,0.678
+623,Bentley,Coventry City,GKP,3,1,0,15,5.0,0.002
+623,Bentley,Coventry City,GKP,4,2,1,5,2.0,0.0
+623,Bentley,Coventry City,GKP,5,3,0,18,3.0,0.0
+623,Bentley,Coventry City,GKP,6,4,1,17,2.0,0.0
+623,Bentley,Coventry City,GKP,7,5,0,19,3.0,0.0
+42,Guessand,Crystal Palace,MID,3,1,0,10,3.0,1.14
+42,Guessand,Crystal Palace,MID,4,2,1,12,2.0,1.28
+42,Guessand,Crystal Palace,MID,5,3,0,13,3.0,1.14
+42,Guessand,Crystal Palace,MID,6,4,1,18,3.0,1.174
+42,Guessand,Crystal Palace,MID,7,5,0,5,3.0,1.14
+153,Disasi,Crystal Palace,DEF,3,1,0,10,3.0,0.604
+153,Disasi,Crystal Palace,DEF,4,2,1,12,2.0,0.783
+153,Disasi,Crystal Palace,DEF,5,3,0,13,3.0,0.604
+153,Disasi,Crystal Palace,DEF,6,4,1,18,3.0,0.708
+153,Disasi,Crystal Palace,DEF,7,5,0,5,3.0,0.604
+198,Henderson,Crystal Palace,GKP,3,1,0,10,3.0,3.161
+198,Henderson,Crystal Palace,GKP,4,2,1,12,2.0,3.087
+198,Henderson,Crystal Palace,GKP,5,3,0,13,3.0,3.161
+198,Henderson,Crystal Palace,GKP,6,4,1,18,3.0,3.124
+198,Henderson,Crystal Palace,GKP,7,5,0,5,3.0,3.161
+199,Benitez,Crystal Palace,GKP,3,1,0,10,3.0,0.027
+199,Benitez,Crystal Palace,GKP,4,2,1,12,2.0,0.032
+199,Benitez,Crystal Palace,GKP,5,3,0,13,3.0,0.027
+199,Benitez,Crystal Palace,GKP,6,4,1,18,3.0,0.013
+199,Benitez,Crystal Palace,GKP,7,5,0,5,3.0,0.027
+202,Richards,Crystal Palace,DEF,3,1,0,10,3.0,3.256
+202,Richards,Crystal Palace,DEF,4,2,1,12,2.0,3.651
+202,Richards,Crystal Palace,DEF,5,3,0,13,3.0,3.256
+202,Richards,Crystal Palace,DEF,6,4,1,18,3.0,2.918
+202,Richards,Crystal Palace,DEF,7,5,0,5,3.0,3.256
+203,Canvot,Crystal Palace,DEF,3,1,0,10,3.0,2.26
+203,Canvot,Crystal Palace,DEF,4,2,1,12,2.0,2.525
+203,Canvot,Crystal Palace,DEF,5,3,0,13,3.0,2.26
+203,Canvot,Crystal Palace,DEF,6,4,1,18,3.0,2.216
+203,Canvot,Crystal Palace,DEF,7,5,0,5,3.0,2.26
+204,Mitchell,Crystal Palace,DEF,3,1,0,10,3.0,3.241
+204,Mitchell,Crystal Palace,DEF,4,2,1,12,2.0,4.143
+204,Mitchell,Crystal Palace,DEF,5,3,0,13,3.0,3.241
+204,Mitchell,Crystal Palace,DEF,6,4,1,18,3.0,3.298
+204,Mitchell,Crystal Palace,DEF,7,5,0,5,3.0,3.241
+205,Sosa,Crystal Palace,DEF,3,1,0,10,3.0,0.0
+205,Sosa,Crystal Palace,DEF,4,2,1,12,2.0,0.0
+205,Sosa,Crystal Palace,DEF,5,3,0,13,3.0,0.0
+205,Sosa,Crystal Palace,DEF,6,4,1,18,3.0,0.0
+205,Sosa,Crystal Palace,DEF,7,5,0,5,3.0,0.0
+206,Chadi Riad,Crystal Palace,DEF,3,1,0,10,3.0,0.0
+206,Chadi Riad,Crystal Palace,DEF,4,2,1,12,2.0,0.0
+206,Chadi Riad,Crystal Palace,DEF,5,3,0,13,3.0,0.0
+206,Chadi Riad,Crystal Palace,DEF,6,4,1,18,3.0,0.0
+206,Chadi Riad,Crystal Palace,DEF,7,5,0,5,3.0,0.0
+207,Mingueza,Crystal Palace,DEF,3,1,0,10,3.0,0.374
+207,Mingueza,Crystal Palace,DEF,4,2,1,12,2.0,0.503
+207,Mingueza,Crystal Palace,DEF,5,3,0,13,3.0,0.374
+207,Mingueza,Crystal Palace,DEF,6,4,1,18,3.0,0.478
+207,Mingueza,Crystal Palace,DEF,7,5,0,5,3.0,0.374
+208,Sarr,Crystal Palace,MID,3,1,0,10,3.0,0.0
+208,Sarr,Crystal Palace,MID,4,2,1,12,2.0,0.0
+208,Sarr,Crystal Palace,MID,5,3,0,13,3.0,0.0
+208,Sarr,Crystal Palace,MID,6,4,1,18,3.0,0.0
+208,Sarr,Crystal Palace,MID,7,5,0,5,3.0,0.0
+210,Wharton,Crystal Palace,MID,3,1,0,10,3.0,3.25
+210,Wharton,Crystal Palace,MID,4,2,1,12,2.0,4.713
+210,Wharton,Crystal Palace,MID,5,3,0,13,3.0,3.25
+210,Wharton,Crystal Palace,MID,6,4,1,18,3.0,3.102
+210,Wharton,Crystal Palace,MID,7,5,0,5,3.0,3.25
+211,Yeremy,Crystal Palace,MID,3,1,0,10,3.0,1.961
+211,Yeremy,Crystal Palace,MID,4,2,1,12,2.0,2.217
+211,Yeremy,Crystal Palace,MID,5,3,0,13,3.0,1.961
+211,Yeremy,Crystal Palace,MID,6,4,1,18,3.0,2.064
+211,Yeremy,Crystal Palace,MID,7,5,0,5,3.0,1.961
+212,Hughes,Crystal Palace,MID,3,1,0,10,3.0,1.585
+212,Hughes,Crystal Palace,MID,4,2,1,12,2.0,2.045
+212,Hughes,Crystal Palace,MID,5,3,0,13,3.0,1.585
+212,Hughes,Crystal Palace,MID,6,4,1,18,3.0,1.967
+212,Hughes,Crystal Palace,MID,7,5,0,5,3.0,1.585
+213,Lerma,Crystal Palace,MID,3,1,0,10,3.0,0.168
+213,Lerma,Crystal Palace,MID,4,2,1,12,2.0,0.275
+213,Lerma,Crystal Palace,MID,5,3,0,13,3.0,0.168
+213,Lerma,Crystal Palace,MID,6,4,1,18,3.0,0.201
+213,Lerma,Crystal Palace,MID,7,5,0,5,3.0,0.168
+214,Kamada,Crystal Palace,MID,3,1,0,10,3.0,3.174
+214,Kamada,Crystal Palace,MID,4,2,1,12,2.0,3.645
+214,Kamada,Crystal Palace,MID,5,3,0,13,3.0,3.174
+214,Kamada,Crystal Palace,MID,6,4,1,18,3.0,3.056
+214,Kamada,Crystal Palace,MID,7,5,0,5,3.0,3.174
+215,Devenny,Crystal Palace,MID,3,1,0,10,3.0,0.0
+215,Devenny,Crystal Palace,MID,4,2,1,12,2.0,0.0
+215,Devenny,Crystal Palace,MID,5,3,0,13,3.0,0.0
+215,Devenny,Crystal Palace,MID,6,4,1,18,3.0,0.0
+215,Devenny,Crystal Palace,MID,7,5,0,5,3.0,0.0
+216,Esse,Crystal Palace,MID,3,1,0,10,3.0,0.0
+216,Esse,Crystal Palace,MID,4,2,1,12,2.0,0.0
+216,Esse,Crystal Palace,MID,5,3,0,13,3.0,0.0
+216,Esse,Crystal Palace,MID,6,4,1,18,3.0,0.0
+216,Esse,Crystal Palace,MID,7,5,0,5,3.0,0.0
+217,M.França,Crystal Palace,MID,3,1,0,10,3.0,0.026
+217,M.França,Crystal Palace,MID,4,2,1,12,2.0,0.055
+217,M.França,Crystal Palace,MID,5,3,0,13,3.0,0.026
+217,M.França,Crystal Palace,MID,6,4,1,18,3.0,0.036
+217,M.França,Crystal Palace,MID,7,5,0,5,3.0,0.026
+218,Doucouré,Crystal Palace,MID,3,1,0,10,3.0,0.149
+218,Doucouré,Crystal Palace,MID,4,2,1,12,2.0,0.26
+218,Doucouré,Crystal Palace,MID,5,3,0,13,3.0,0.149
+218,Doucouré,Crystal Palace,MID,6,4,1,18,3.0,0.186
+218,Doucouré,Crystal Palace,MID,7,5,0,5,3.0,0.149
+219,J.Rak-Sakyi,Crystal Palace,MID,3,1,0,10,3.0,0.003
+219,J.Rak-Sakyi,Crystal Palace,MID,4,2,1,12,2.0,0.016
+219,J.Rak-Sakyi,Crystal Palace,MID,5,3,0,13,3.0,0.003
+219,J.Rak-Sakyi,Crystal Palace,MID,6,4,1,18,3.0,0.015
+219,J.Rak-Sakyi,Crystal Palace,MID,7,5,0,5,3.0,0.003
+220,Cardines,Crystal Palace,DEF,3,1,0,10,3.0,0.0
+220,Cardines,Crystal Palace,DEF,4,2,1,12,2.0,0.0
+220,Cardines,Crystal Palace,DEF,5,3,0,13,3.0,0.0
+220,Cardines,Crystal Palace,DEF,6,4,1,18,3.0,0.0
+220,Cardines,Crystal Palace,DEF,7,5,0,5,3.0,0.0
+221,Drakes-Thomas,Crystal Palace,MID,3,1,0,10,3.0,0.027
+221,Drakes-Thomas,Crystal Palace,MID,4,2,1,12,2.0,0.032
+221,Drakes-Thomas,Crystal Palace,MID,5,3,0,13,3.0,0.027
+221,Drakes-Thomas,Crystal Palace,MID,6,4,1,18,3.0,0.013
+221,Drakes-Thomas,Crystal Palace,MID,7,5,0,5,3.0,0.027
+222,Strand Larsen,Crystal Palace,FWD,3,1,0,10,3.0,2.014
+222,Strand Larsen,Crystal Palace,FWD,4,2,1,12,2.0,1.935
+222,Strand Larsen,Crystal Palace,FWD,5,3,0,13,3.0,2.014
+222,Strand Larsen,Crystal Palace,FWD,6,4,1,18,3.0,1.979
+222,Strand Larsen,Crystal Palace,FWD,7,5,0,5,3.0,2.014
+223,Mateta,Crystal Palace,FWD,3,1,0,10,3.0,0.0
+223,Mateta,Crystal Palace,FWD,4,2,1,12,2.0,0.0
+223,Mateta,Crystal Palace,FWD,5,3,0,13,3.0,0.0
+223,Mateta,Crystal Palace,FWD,6,4,1,18,3.0,0.0
+223,Mateta,Crystal Palace,FWD,7,5,0,5,3.0,0.0
+224,Nketiah,Crystal Palace,FWD,3,1,0,10,3.0,3.97
+224,Nketiah,Crystal Palace,FWD,4,2,1,12,2.0,4.351
+224,Nketiah,Crystal Palace,FWD,5,3,0,13,3.0,3.97
+224,Nketiah,Crystal Palace,FWD,6,4,1,18,3.0,4.111
+224,Nketiah,Crystal Palace,FWD,7,5,0,5,3.0,3.97
+225,Uche,Crystal Palace,FWD,3,1,0,10,3.0,0.0
+225,Uche,Crystal Palace,FWD,4,2,1,12,2.0,0.0
+225,Uche,Crystal Palace,FWD,5,3,0,13,3.0,0.0
+225,Uche,Crystal Palace,FWD,6,4,1,18,3.0,0.0
+225,Uche,Crystal Palace,FWD,7,5,0,5,3.0,0.0
+241,McNeil,Crystal Palace,MID,3,1,0,10,3.0,1.546
+241,McNeil,Crystal Palace,MID,4,2,1,12,2.0,1.685
+241,McNeil,Crystal Palace,MID,5,3,0,13,3.0,1.546
+241,McNeil,Crystal Palace,MID,6,4,1,18,3.0,1.636
+241,McNeil,Crystal Palace,MID,7,5,0,5,3.0,1.546
+555,Matthews,Crystal Palace,GKP,3,1,0,10,3.0,0.071
+555,Matthews,Crystal Palace,GKP,4,2,1,12,2.0,0.085
+555,Matthews,Crystal Palace,GKP,5,3,0,13,3.0,0.071
+555,Matthews,Crystal Palace,GKP,6,4,1,18,3.0,0.082
+555,Matthews,Crystal Palace,GKP,7,5,0,5,3.0,0.071
+577,Tomiyasu,Crystal Palace,DEF,3,1,0,10,3.0,1.114
+577,Tomiyasu,Crystal Palace,DEF,4,2,1,12,2.0,1.689
+577,Tomiyasu,Crystal Palace,DEF,5,3,0,13,3.0,1.114
+577,Tomiyasu,Crystal Palace,DEF,6,4,1,18,3.0,1.65
+577,Tomiyasu,Crystal Palace,DEF,7,5,0,5,3.0,1.114
+588,Khalaili,Crystal Palace,DEF,3,1,0,10,3.0,1.642
+588,Khalaili,Crystal Palace,DEF,4,2,1,12,2.0,2.091
+588,Khalaili,Crystal Palace,DEF,5,3,0,13,3.0,1.642
+588,Khalaili,Crystal Palace,DEF,6,4,1,18,3.0,1.883
+588,Khalaili,Crystal Palace,DEF,7,5,0,5,3.0,1.642
+595,Gozo,Crystal Palace,MID,3,1,0,10,3.0,0.446
+595,Gozo,Crystal Palace,MID,4,2,1,12,2.0,0.509
+595,Gozo,Crystal Palace,MID,5,3,0,13,3.0,0.446
+595,Gozo,Crystal Palace,MID,6,4,1,18,3.0,0.44
+595,Gozo,Crystal Palace,MID,7,5,0,5,3.0,0.446
+633,Ahanor,Crystal Palace,DEF,3,1,0,10,3.0,0.0
+633,Ahanor,Crystal Palace,DEF,4,2,1,12,2.0,0.037
+633,Ahanor,Crystal Palace,DEF,5,3,0,13,3.0,0.0
+633,Ahanor,Crystal Palace,DEF,6,4,1,18,3.0,0.0
+633,Ahanor,Crystal Palace,DEF,7,5,0,5,3.0,0.0
+643,Chilwell,Crystal Palace,DEF,3,1,0,10,3.0,0.0
+643,Chilwell,Crystal Palace,DEF,4,2,1,12,2.0,0.037
+643,Chilwell,Crystal Palace,DEF,5,3,0,13,3.0,0.0
+643,Chilwell,Crystal Palace,DEF,6,4,1,18,3.0,0.0
+643,Chilwell,Crystal Palace,DEF,7,5,0,5,3.0,0.0
+644,Timber,Crystal Palace,MID,3,1,0,10,3.0,0.003
+644,Timber,Crystal Palace,MID,4,2,1,12,2.0,0.016
+644,Timber,Crystal Palace,MID,5,3,0,13,3.0,0.003
+644,Timber,Crystal Palace,MID,6,4,1,18,3.0,0.015
+644,Timber,Crystal Palace,MID,7,5,0,5,3.0,0.003
+647,Osorio,Crystal Palace,MID,3,1,0,10,3.0,0.003
+647,Osorio,Crystal Palace,MID,4,2,1,12,2.0,0.012
+647,Osorio,Crystal Palace,MID,5,3,0,13,3.0,0.003
+647,Osorio,Crystal Palace,MID,6,4,1,18,3.0,0.012
+647,Osorio,Crystal Palace,MID,7,5,0,5,3.0,0.003
+21,Nørgaard,Everton,MID,3,1,1,16,4.0,0.0
+21,Nørgaard,Everton,MID,4,2,0,19,3.0,0.0
+21,Nørgaard,Everton,MID,5,3,1,12,2.0,0.0
+21,Nørgaard,Everton,MID,6,4,0,11,2.0,0.0
+21,Nørgaard,Everton,MID,7,5,1,6,4.0,0.0
+209,Johnson,Everton,MID,3,1,1,16,4.0,0.991
+209,Johnson,Everton,MID,4,2,0,19,3.0,1.061
+209,Johnson,Everton,MID,5,3,1,12,2.0,1.068
+209,Johnson,Everton,MID,6,4,0,11,2.0,1.132
+209,Johnson,Everton,MID,7,5,1,6,4.0,0.991
+226,Pickford,Everton,GKP,3,1,1,16,4.0,2.916
+226,Pickford,Everton,GKP,4,2,0,19,3.0,2.921
+226,Pickford,Everton,GKP,5,3,1,12,2.0,3.281
+226,Pickford,Everton,GKP,6,4,0,11,2.0,3.516
+226,Pickford,Everton,GKP,7,5,1,6,4.0,2.916
+227,Travers,Everton,GKP,3,1,1,16,4.0,0.073
+227,Travers,Everton,GKP,4,2,0,19,3.0,0.003
+227,Travers,Everton,GKP,5,3,1,12,2.0,0.016
+227,Travers,Everton,GKP,6,4,0,11,2.0,0.004
+227,Travers,Everton,GKP,7,5,1,6,4.0,0.073
+228,King,Everton,GKP,3,1,1,16,4.0,0.0
+228,King,Everton,GKP,4,2,0,19,3.0,0.0
+228,King,Everton,GKP,5,3,1,12,2.0,0.037
+228,King,Everton,GKP,6,4,0,11,2.0,0.019
+228,King,Everton,GKP,7,5,1,6,4.0,0.0
+229,Tarkowski,Everton,DEF,3,1,1,16,4.0,2.86
+229,Tarkowski,Everton,DEF,4,2,0,19,3.0,3.095
+229,Tarkowski,Everton,DEF,5,3,1,12,2.0,3.721
+229,Tarkowski,Everton,DEF,6,4,0,11,2.0,3.881
+229,Tarkowski,Everton,DEF,7,5,1,6,4.0,2.86
+230,Branthwaite,Everton,DEF,3,1,1,16,4.0,3.557
+230,Branthwaite,Everton,DEF,4,2,0,19,3.0,4.612
+230,Branthwaite,Everton,DEF,5,3,1,12,2.0,4.143
+230,Branthwaite,Everton,DEF,6,4,0,11,2.0,4.457
+230,Branthwaite,Everton,DEF,7,5,1,6,4.0,3.557
+231,Keane,Everton,DEF,3,1,1,16,4.0,0.141
+231,Keane,Everton,DEF,4,2,0,19,3.0,0.073
+231,Keane,Everton,DEF,5,3,1,12,2.0,0.249
+231,Keane,Everton,DEF,6,4,0,11,2.0,0.233
+231,Keane,Everton,DEF,7,5,1,6,4.0,0.141
+232,O'Brien,Everton,DEF,3,1,1,16,4.0,0.146
+232,O'Brien,Everton,DEF,4,2,0,19,3.0,0.107
+232,O'Brien,Everton,DEF,5,3,1,12,2.0,0.29
+232,O'Brien,Everton,DEF,6,4,0,11,2.0,0.267
+232,O'Brien,Everton,DEF,7,5,1,6,4.0,0.146
+233,Mykolenko,Everton,DEF,3,1,1,16,4.0,2.619
+233,Mykolenko,Everton,DEF,4,2,0,19,3.0,3.85
+233,Mykolenko,Everton,DEF,5,3,1,12,2.0,4.118
+233,Mykolenko,Everton,DEF,6,4,0,11,2.0,4.348
+233,Mykolenko,Everton,DEF,7,5,1,6,4.0,2.619
+234,Patterson,Everton,DEF,3,1,1,16,4.0,0.0
+234,Patterson,Everton,DEF,4,2,0,19,3.0,0.0
+234,Patterson,Everton,DEF,5,3,1,12,2.0,0.0
+234,Patterson,Everton,DEF,6,4,0,11,2.0,0.0
+234,Patterson,Everton,DEF,7,5,1,6,4.0,0.0
+235,Aznou,Everton,DEF,3,1,1,16,4.0,0.0
+235,Aznou,Everton,DEF,4,2,0,19,3.0,0.0
+235,Aznou,Everton,DEF,5,3,1,12,2.0,0.0
+235,Aznou,Everton,DEF,6,4,0,11,2.0,0.0
+235,Aznou,Everton,DEF,7,5,1,6,4.0,0.0
+236,Dewsbury-Hall,Everton,MID,3,1,1,16,4.0,3.336
+236,Dewsbury-Hall,Everton,MID,4,2,0,19,3.0,4.129
+236,Dewsbury-Hall,Everton,MID,5,3,1,12,2.0,3.967
+236,Dewsbury-Hall,Everton,MID,6,4,0,11,2.0,3.998
+236,Dewsbury-Hall,Everton,MID,7,5,1,6,4.0,3.336
+238,Grealish,Everton,MID,3,1,1,16,4.0,1.127
+238,Grealish,Everton,MID,4,2,0,19,3.0,1.128
+238,Grealish,Everton,MID,5,3,1,12,2.0,1.092
+238,Grealish,Everton,MID,6,4,0,11,2.0,1.113
+238,Grealish,Everton,MID,7,5,1,6,4.0,1.127
+239,Garner,Everton,MID,3,1,1,16,4.0,1.869
+239,Garner,Everton,MID,4,2,0,19,3.0,1.82
+239,Garner,Everton,MID,5,3,1,12,2.0,1.871
+239,Garner,Everton,MID,6,4,0,11,2.0,1.849
+239,Garner,Everton,MID,7,5,1,6,4.0,1.869
+242,George,Everton,MID,3,1,1,16,4.0,2.995
+242,George,Everton,MID,4,2,0,19,3.0,3.384
+242,George,Everton,MID,5,3,1,12,2.0,3.853
+242,George,Everton,MID,6,4,0,11,2.0,3.918
+242,George,Everton,MID,7,5,1,6,4.0,2.995
+243,Alcaraz,Everton,MID,3,1,1,16,4.0,1.613
+243,Alcaraz,Everton,MID,4,2,0,19,3.0,1.676
+243,Alcaraz,Everton,MID,5,3,1,12,2.0,1.557
+243,Alcaraz,Everton,MID,6,4,0,11,2.0,1.727
+243,Alcaraz,Everton,MID,7,5,1,6,4.0,1.613
+244,Armstrong,Everton,MID,3,1,1,16,4.0,2.774
+244,Armstrong,Everton,MID,4,2,0,19,3.0,3.171
+244,Armstrong,Everton,MID,5,3,1,12,2.0,3.281
+244,Armstrong,Everton,MID,6,4,0,11,2.0,3.344
+244,Armstrong,Everton,MID,7,5,1,6,4.0,2.774
+245,Dibling,Everton,MID,3,1,1,16,4.0,0.096
+245,Dibling,Everton,MID,4,2,0,19,3.0,0.017
+245,Dibling,Everton,MID,5,3,1,12,2.0,0.032
+245,Dibling,Everton,MID,6,4,0,11,2.0,0.017
+245,Dibling,Everton,MID,7,5,1,6,4.0,0.096
+246,Röhl,Everton,MID,3,1,1,16,4.0,3.069
+246,Röhl,Everton,MID,4,2,0,19,3.0,3.176
+246,Röhl,Everton,MID,5,3,1,12,2.0,3.515
+246,Röhl,Everton,MID,6,4,0,11,2.0,3.287
+246,Röhl,Everton,MID,7,5,1,6,4.0,3.069
+247,Hackney,Everton,MID,3,1,1,16,4.0,1.558
+247,Hackney,Everton,MID,4,2,0,19,3.0,1.628
+247,Hackney,Everton,MID,5,3,1,12,2.0,1.649
+247,Hackney,Everton,MID,6,4,0,11,2.0,1.664
+247,Hackney,Everton,MID,7,5,1,6,4.0,1.558
+248,Beto,Everton,FWD,3,1,1,16,4.0,0.0
+248,Beto,Everton,FWD,4,2,0,19,3.0,0.0
+248,Beto,Everton,FWD,5,3,1,12,2.0,0.0
+248,Beto,Everton,FWD,6,4,0,11,2.0,0.0
+248,Beto,Everton,FWD,7,5,1,6,4.0,0.0
+249,Barry,Everton,FWD,3,1,1,16,4.0,2.077
+249,Barry,Everton,FWD,4,2,0,19,3.0,2.482
+249,Barry,Everton,FWD,5,3,1,12,2.0,2.678
+249,Barry,Everton,FWD,6,4,0,11,2.0,2.738
+249,Barry,Everton,FWD,7,5,1,6,4.0,2.077
+649,Maitland-Niles,Everton,DEF,3,1,1,16,4.0,0.0
+649,Maitland-Niles,Everton,DEF,4,2,0,19,3.0,0.0
+649,Maitland-Niles,Everton,DEF,5,3,1,12,2.0,0.037
+649,Maitland-Niles,Everton,DEF,6,4,0,11,2.0,0.019
+649,Maitland-Niles,Everton,DEF,7,5,1,6,4.0,0.0
+250,Leno,Fulham,GKP,3,1,1,8,3.0,3.342
+250,Leno,Fulham,GKP,4,2,0,14,4.0,3.026
+250,Leno,Fulham,GKP,5,3,1,16,4.0,3.005
+250,Leno,Fulham,GKP,6,4,0,12,2.0,3.975
+250,Leno,Fulham,GKP,7,5,1,11,2.0,3.854
+251,Lecomte,Fulham,GKP,3,1,1,8,3.0,0.129
+251,Lecomte,Fulham,GKP,4,2,0,14,4.0,0.144
+251,Lecomte,Fulham,GKP,5,3,1,16,4.0,0.196
+251,Lecomte,Fulham,GKP,6,4,0,12,2.0,0.091
+251,Lecomte,Fulham,GKP,7,5,1,11,2.0,0.138
+252,McNally,Fulham,GKP,3,1,1,8,3.0,0.0
+252,McNally,Fulham,GKP,4,2,0,14,4.0,0.0
+252,McNally,Fulham,GKP,5,3,1,16,4.0,0.0
+252,McNally,Fulham,GKP,6,4,0,12,2.0,0.0
+252,McNally,Fulham,GKP,7,5,1,11,2.0,0.0
+253,Andersen,Fulham,DEF,3,1,1,8,3.0,2.007
+253,Andersen,Fulham,DEF,4,2,0,14,4.0,1.615
+253,Andersen,Fulham,DEF,5,3,1,16,4.0,1.734
+253,Andersen,Fulham,DEF,6,4,0,12,2.0,1.871
+253,Andersen,Fulham,DEF,7,5,1,11,2.0,2.035
+254,Robinson,Fulham,DEF,3,1,1,8,3.0,2.852
+254,Robinson,Fulham,DEF,4,2,0,14,4.0,2.103
+254,Robinson,Fulham,DEF,5,3,1,16,4.0,2.221
+254,Robinson,Fulham,DEF,6,4,0,12,2.0,3.187
+254,Robinson,Fulham,DEF,7,5,1,11,2.0,3.0
+255,J.Cuenca,Fulham,DEF,3,1,1,8,3.0,0.369
+255,J.Cuenca,Fulham,DEF,4,2,0,14,4.0,0.326
+255,J.Cuenca,Fulham,DEF,5,3,1,16,4.0,0.421
+255,J.Cuenca,Fulham,DEF,6,4,0,12,2.0,0.28
+255,J.Cuenca,Fulham,DEF,7,5,1,11,2.0,0.376
+256,Tete,Fulham,DEF,3,1,1,8,3.0,0.134
+256,Tete,Fulham,DEF,4,2,0,14,4.0,0.33
+256,Tete,Fulham,DEF,5,3,1,16,4.0,0.167
+256,Tete,Fulham,DEF,6,4,0,12,2.0,0.296
+256,Tete,Fulham,DEF,7,5,1,11,2.0,0.127
+257,Bassey,Fulham,DEF,3,1,1,8,3.0,2.503
+257,Bassey,Fulham,DEF,4,2,0,14,4.0,2.046
+257,Bassey,Fulham,DEF,5,3,1,16,4.0,2.175
+257,Bassey,Fulham,DEF,6,4,0,12,2.0,3.216
+257,Bassey,Fulham,DEF,7,5,1,11,2.0,3.263
+258,Castagne,Fulham,DEF,3,1,1,8,3.0,3.255
+258,Castagne,Fulham,DEF,4,2,0,14,4.0,2.691
+258,Castagne,Fulham,DEF,5,3,1,16,4.0,2.735
+258,Castagne,Fulham,DEF,6,4,0,12,2.0,3.521
+258,Castagne,Fulham,DEF,7,5,1,11,2.0,3.256
+261,Iwobi,Fulham,MID,3,1,1,8,3.0,3.452
+261,Iwobi,Fulham,MID,4,2,0,14,4.0,3.233
+261,Iwobi,Fulham,MID,5,3,1,16,4.0,3.244
+261,Iwobi,Fulham,MID,6,4,0,12,2.0,4.318
+261,Iwobi,Fulham,MID,7,5,1,11,2.0,4.158
+262,Smith Rowe,Fulham,MID,3,1,1,8,3.0,1.975
+262,Smith Rowe,Fulham,MID,4,2,0,14,4.0,1.957
+262,Smith Rowe,Fulham,MID,5,3,1,16,4.0,1.913
+262,Smith Rowe,Fulham,MID,6,4,0,12,2.0,2.15
+262,Smith Rowe,Fulham,MID,7,5,1,11,2.0,2.018
+263,Kevin,Fulham,MID,3,1,1,8,3.0,1.168
+263,Kevin,Fulham,MID,4,2,0,14,4.0,1.256
+263,Kevin,Fulham,MID,5,3,1,16,4.0,1.17
+263,Kevin,Fulham,MID,6,4,0,12,2.0,1.307
+263,Kevin,Fulham,MID,7,5,1,11,2.0,1.254
+264,Bobb,Fulham,MID,3,1,1,8,3.0,2.377
+264,Bobb,Fulham,MID,4,2,0,14,4.0,2.414
+264,Bobb,Fulham,MID,5,3,1,16,4.0,2.364
+264,Bobb,Fulham,MID,6,4,0,12,2.0,2.816
+264,Bobb,Fulham,MID,7,5,1,11,2.0,2.786
+265,Berge,Fulham,MID,3,1,1,8,3.0,3.283
+265,Berge,Fulham,MID,4,2,0,14,4.0,2.729
+265,Berge,Fulham,MID,5,3,1,16,4.0,2.744
+265,Berge,Fulham,MID,6,4,0,12,2.0,2.995
+265,Berge,Fulham,MID,7,5,1,11,2.0,2.978
+266,Cairney,Fulham,MID,3,1,1,8,3.0,0.0
+266,Cairney,Fulham,MID,4,2,0,14,4.0,0.0
+266,Cairney,Fulham,MID,5,3,1,16,4.0,0.0
+266,Cairney,Fulham,MID,6,4,0,12,2.0,0.0
+266,Cairney,Fulham,MID,7,5,1,11,2.0,0.0
+268,King,Fulham,MID,3,1,1,8,3.0,3.358
+268,King,Fulham,MID,4,2,0,14,4.0,2.732
+268,King,Fulham,MID,5,3,1,16,4.0,2.729
+268,King,Fulham,MID,6,4,0,12,2.0,5.18
+268,King,Fulham,MID,7,5,1,11,2.0,4.954
+269,Sessegnon,Fulham,DEF,3,1,1,8,3.0,0.86
+269,Sessegnon,Fulham,DEF,4,2,0,14,4.0,0.955
+269,Sessegnon,Fulham,DEF,5,3,1,16,4.0,0.858
+269,Sessegnon,Fulham,DEF,6,4,0,12,2.0,1.047
+269,Sessegnon,Fulham,DEF,7,5,1,11,2.0,0.923
+270,Reed,Fulham,MID,3,1,1,8,3.0,0.371
+270,Reed,Fulham,MID,4,2,0,14,4.0,0.457
+270,Reed,Fulham,MID,5,3,1,16,4.0,0.466
+270,Reed,Fulham,MID,6,4,0,12,2.0,0.454
+270,Reed,Fulham,MID,7,5,1,11,2.0,0.448
+271,Muniz,Fulham,FWD,3,1,1,8,3.0,1.649
+271,Muniz,Fulham,FWD,4,2,0,14,4.0,1.615
+271,Muniz,Fulham,FWD,5,3,1,16,4.0,1.631
+271,Muniz,Fulham,FWD,6,4,0,12,2.0,1.761
+271,Muniz,Fulham,FWD,7,5,1,11,2.0,1.666
+272,Kusi-Asare,Fulham,FWD,3,1,1,8,3.0,0.411
+272,Kusi-Asare,Fulham,FWD,4,2,0,14,4.0,0.37
+272,Kusi-Asare,Fulham,FWD,5,3,1,16,4.0,0.456
+272,Kusi-Asare,Fulham,FWD,6,4,0,12,2.0,0.525
+272,Kusi-Asare,Fulham,FWD,7,5,1,11,2.0,0.582
+569,Gonzalo,Fulham,FWD,3,1,1,8,3.0,3.713
+569,Gonzalo,Fulham,FWD,4,2,0,14,4.0,2.738
+569,Gonzalo,Fulham,FWD,5,3,1,16,4.0,2.678
+569,Gonzalo,Fulham,FWD,6,4,0,12,2.0,4.909
+569,Gonzalo,Fulham,FWD,7,5,1,11,2.0,4.769
+570,Palacios,Fulham,MID,3,1,1,8,3.0,2.009
+570,Palacios,Fulham,MID,4,2,0,14,4.0,1.942
+570,Palacios,Fulham,MID,5,3,1,16,4.0,1.964
+570,Palacios,Fulham,MID,6,4,0,12,2.0,2.218
+570,Palacios,Fulham,MID,7,5,1,11,2.0,2.184
+580,Charles,Fulham,MID,3,1,1,8,3.0,0.95
+580,Charles,Fulham,MID,4,2,0,14,4.0,1.07
+580,Charles,Fulham,MID,5,3,1,16,4.0,1.093
+580,Charles,Fulham,MID,6,4,0,12,2.0,0.991
+580,Charles,Fulham,MID,7,5,1,11,2.0,1.065
+610,De Fougerolles,Fulham,DEF,3,1,1,8,3.0,0.0
+610,De Fougerolles,Fulham,DEF,4,2,0,14,4.0,0.0
+610,De Fougerolles,Fulham,DEF,5,3,1,16,4.0,0.0
+610,De Fougerolles,Fulham,DEF,6,4,0,12,2.0,0.0
+610,De Fougerolles,Fulham,DEF,7,5,1,11,2.0,0.0
+626,Zepa,Fulham,MID,3,1,1,8,3.0,0.127
+626,Zepa,Fulham,MID,4,2,0,14,4.0,0.323
+626,Zepa,Fulham,MID,5,3,1,16,4.0,0.16
+626,Zepa,Fulham,MID,6,4,0,12,2.0,0.289
+626,Zepa,Fulham,MID,7,5,1,11,2.0,0.12
+635,Larsson,Fulham,MID,3,1,1,8,3.0,0.015
+635,Larsson,Fulham,MID,4,2,0,14,4.0,0.001
+635,Larsson,Fulham,MID,5,3,1,16,4.0,0.073
+635,Larsson,Fulham,MID,6,4,0,12,2.0,0.004
+635,Larsson,Fulham,MID,7,5,1,11,2.0,0.016
+636,Ángel,Fulham,MID,3,1,1,8,3.0,0.015
+636,Ángel,Fulham,MID,4,2,0,14,4.0,0.001
+636,Ángel,Fulham,MID,5,3,1,16,4.0,0.073
+636,Ángel,Fulham,MID,6,4,0,12,2.0,0.004
+636,Ángel,Fulham,MID,7,5,1,11,2.0,0.016
+650,Affengruber,Fulham,DEF,3,1,1,8,3.0,0.0
+650,Affengruber,Fulham,DEF,4,2,0,14,4.0,0.0
+650,Affengruber,Fulham,DEF,5,3,1,16,4.0,0.0
+650,Affengruber,Fulham,DEF,6,4,0,12,2.0,0.019
+650,Affengruber,Fulham,DEF,7,5,1,11,2.0,0.037
+240,Iroegbunam,Hull City,MID,3,1,1,2,3.0,0.58
+240,Iroegbunam,Hull City,MID,4,2,0,6,4.0,0.57
+240,Iroegbunam,Hull City,MID,5,3,0,17,3.0,0.537
+240,Iroegbunam,Hull City,MID,6,4,1,9,3.0,0.58
+240,Iroegbunam,Hull City,MID,7,5,0,10,3.0,0.537
+273,Phillips,Hull City,GKP,3,1,1,2,3.0,0.046
+273,Phillips,Hull City,GKP,4,2,0,6,4.0,0.058
+273,Phillips,Hull City,GKP,5,3,0,17,3.0,0.013
+273,Phillips,Hull City,GKP,6,4,1,9,3.0,0.046
+273,Phillips,Hull City,GKP,7,5,0,10,3.0,0.013
+274,Butland,Hull City,GKP,3,1,1,2,3.0,0.0
+274,Butland,Hull City,GKP,4,2,0,6,4.0,0.0
+274,Butland,Hull City,GKP,5,3,0,17,3.0,0.0
+274,Butland,Hull City,GKP,6,4,1,9,3.0,0.0
+274,Butland,Hull City,GKP,7,5,0,10,3.0,0.0
+275,Cartwright,Hull City,GKP,3,1,1,2,3.0,0.0
+275,Cartwright,Hull City,GKP,4,2,0,6,4.0,0.0
+275,Cartwright,Hull City,GKP,5,3,0,17,3.0,0.0
+275,Cartwright,Hull City,GKP,6,4,1,9,3.0,0.0
+275,Cartwright,Hull City,GKP,7,5,0,10,3.0,0.0
+276,Lo-Tutala,Hull City,GKP,3,1,1,2,3.0,0.0
+276,Lo-Tutala,Hull City,GKP,4,2,0,6,4.0,0.0
+276,Lo-Tutala,Hull City,GKP,5,3,0,17,3.0,0.0
+276,Lo-Tutala,Hull City,GKP,6,4,1,9,3.0,0.0
+276,Lo-Tutala,Hull City,GKP,7,5,0,10,3.0,0.0
+277,Egan,Hull City,DEF,3,1,1,2,3.0,3.075
+277,Egan,Hull City,DEF,4,2,0,6,4.0,1.972
+277,Egan,Hull City,DEF,5,3,0,17,3.0,3.255
+277,Egan,Hull City,DEF,6,4,1,9,3.0,3.075
+277,Egan,Hull City,DEF,7,5,0,10,3.0,3.255
+278,Hughes,Hull City,DEF,3,1,1,2,3.0,0.0
+278,Hughes,Hull City,DEF,4,2,0,6,4.0,0.0
+278,Hughes,Hull City,DEF,5,3,0,17,3.0,0.0
+278,Hughes,Hull City,DEF,6,4,1,9,3.0,0.0
+278,Hughes,Hull City,DEF,7,5,0,10,3.0,0.0
+279,Ajayi,Hull City,DEF,3,1,1,2,3.0,3.884
+279,Ajayi,Hull City,DEF,4,2,0,6,4.0,2.321
+279,Ajayi,Hull City,DEF,5,3,0,17,3.0,3.839
+279,Ajayi,Hull City,DEF,6,4,1,9,3.0,3.884
+279,Ajayi,Hull City,DEF,7,5,0,10,3.0,3.839
+280,Coyle,Hull City,DEF,3,1,1,2,3.0,0.729
+280,Coyle,Hull City,DEF,4,2,0,6,4.0,0.585
+280,Coyle,Hull City,DEF,5,3,0,17,3.0,0.547
+280,Coyle,Hull City,DEF,6,4,1,9,3.0,0.729
+280,Coyle,Hull City,DEF,7,5,0,10,3.0,0.547
+281,Drameh,Hull City,DEF,3,1,1,2,3.0,0.0
+281,Drameh,Hull City,DEF,4,2,0,6,4.0,0.0
+281,Drameh,Hull City,DEF,5,3,0,17,3.0,0.0
+281,Drameh,Hull City,DEF,6,4,1,9,3.0,0.0
+281,Drameh,Hull City,DEF,7,5,0,10,3.0,0.0
+282,Giles,Hull City,DEF,3,1,1,2,3.0,3.192
+282,Giles,Hull City,DEF,4,2,0,6,4.0,2.445
+282,Giles,Hull City,DEF,5,3,0,17,3.0,3.281
+282,Giles,Hull City,DEF,6,4,1,9,3.0,3.192
+282,Giles,Hull City,DEF,7,5,0,10,3.0,3.281
+283,Jacob,Hull City,DEF,3,1,1,2,3.0,0.0
+283,Jacob,Hull City,DEF,4,2,0,6,4.0,0.0
+283,Jacob,Hull City,DEF,5,3,0,17,3.0,0.0
+283,Jacob,Hull City,DEF,6,4,1,9,3.0,0.0
+283,Jacob,Hull City,DEF,7,5,0,10,3.0,0.0
+284,McCarthy,Hull City,DEF,3,1,1,2,3.0,0.0
+284,McCarthy,Hull City,DEF,4,2,0,6,4.0,0.0
+284,McCarthy,Hull City,DEF,5,3,0,17,3.0,0.0
+284,McCarthy,Hull City,DEF,6,4,1,9,3.0,0.0
+284,McCarthy,Hull City,DEF,7,5,0,10,3.0,0.0
+285,McNair,Hull City,DEF,3,1,1,2,3.0,0.367
+285,McNair,Hull City,DEF,4,2,0,6,4.0,0.379
+285,McNair,Hull City,DEF,5,3,0,17,3.0,0.311
+285,McNair,Hull City,DEF,6,4,1,9,3.0,0.367
+285,McNair,Hull City,DEF,7,5,0,10,3.0,0.311
+286,Belloumi,Hull City,MID,3,1,1,2,3.0,3.757
+286,Belloumi,Hull City,MID,4,2,0,6,4.0,3.142
+286,Belloumi,Hull City,MID,5,3,0,17,3.0,4.103
+286,Belloumi,Hull City,MID,6,4,1,9,3.0,3.757
+286,Belloumi,Hull City,MID,7,5,0,10,3.0,4.103
+287,Millar,Hull City,MID,3,1,1,2,3.0,0.0
+287,Millar,Hull City,MID,4,2,0,6,4.0,0.0
+287,Millar,Hull City,MID,5,3,0,17,3.0,0.0
+287,Millar,Hull City,MID,6,4,1,9,3.0,0.0
+287,Millar,Hull City,MID,7,5,0,10,3.0,0.0
+288,Dowell,Hull City,MID,3,1,1,2,3.0,0.053
+288,Dowell,Hull City,MID,4,2,0,6,4.0,0.079
+288,Dowell,Hull City,MID,5,3,0,17,3.0,0.057
+288,Dowell,Hull City,MID,6,4,1,9,3.0,0.053
+288,Dowell,Hull City,MID,7,5,0,10,3.0,0.057
+289,Crooks,Hull City,MID,3,1,1,2,3.0,1.33
+289,Crooks,Hull City,MID,4,2,0,6,4.0,0.911
+289,Crooks,Hull City,MID,5,3,0,17,3.0,0.994
+289,Crooks,Hull City,MID,6,4,1,9,3.0,1.33
+289,Crooks,Hull City,MID,7,5,0,10,3.0,0.994
+290,Slater,Hull City,MID,3,1,1,2,3.0,3.242
+290,Slater,Hull City,MID,4,2,0,6,4.0,3.814
+290,Slater,Hull City,MID,5,3,0,17,3.0,3.66
+290,Slater,Hull City,MID,6,4,1,9,3.0,3.242
+290,Slater,Hull City,MID,7,5,0,10,3.0,3.66
+291,Matazo,Hull City,MID,3,1,1,2,3.0,0.0
+291,Matazo,Hull City,MID,4,2,0,6,4.0,0.0
+291,Matazo,Hull City,MID,5,3,0,17,3.0,0.0
+291,Matazo,Hull City,MID,6,4,1,9,3.0,0.0
+291,Matazo,Hull City,MID,7,5,0,10,3.0,0.0
+292,Ömür,Hull City,MID,3,1,1,2,3.0,0.015
+292,Ömür,Hull City,MID,4,2,0,6,4.0,0.001
+292,Ömür,Hull City,MID,5,3,0,17,3.0,0.003
+292,Ömür,Hull City,MID,6,4,1,9,3.0,0.015
+292,Ömür,Hull City,MID,7,5,0,10,3.0,0.003
+293,Kamara,Hull City,MID,3,1,1,2,3.0,0.0
+293,Kamara,Hull City,MID,4,2,0,6,4.0,0.0
+293,Kamara,Hull City,MID,5,3,0,17,3.0,0.0
+293,Kamara,Hull City,MID,6,4,1,9,3.0,0.0
+293,Kamara,Hull City,MID,7,5,0,10,3.0,0.0
+294,Zambrano,Hull City,MID,3,1,1,2,3.0,0.0
+294,Zambrano,Hull City,MID,4,2,0,6,4.0,0.0
+294,Zambrano,Hull City,MID,5,3,0,17,3.0,0.0
+294,Zambrano,Hull City,MID,6,4,1,9,3.0,0.0
+294,Zambrano,Hull City,MID,7,5,0,10,3.0,0.0
+295,McBurnie,Hull City,FWD,3,1,1,2,3.0,4.623
+295,McBurnie,Hull City,FWD,4,2,0,6,4.0,3.716
+295,McBurnie,Hull City,FWD,5,3,0,17,3.0,4.578
+295,McBurnie,Hull City,FWD,6,4,1,9,3.0,4.623
+295,McBurnie,Hull City,FWD,7,5,0,10,3.0,4.578
+296,Akintola,Hull City,MID,3,1,1,2,3.0,0.015
+296,Akintola,Hull City,MID,4,2,0,6,4.0,0.001
+296,Akintola,Hull City,MID,5,3,0,17,3.0,0.003
+296,Akintola,Hull City,MID,6,4,1,9,3.0,0.015
+296,Akintola,Hull City,MID,7,5,0,10,3.0,0.003
+297,Gyabi,Hull City,MID,3,1,1,2,3.0,0.0
+297,Gyabi,Hull City,MID,4,2,0,6,4.0,0.0
+297,Gyabi,Hull City,MID,5,3,0,17,3.0,0.0
+297,Gyabi,Hull City,MID,6,4,1,9,3.0,0.0
+297,Gyabi,Hull City,MID,7,5,0,10,3.0,0.0
+298,Destan,Hull City,FWD,3,1,1,2,3.0,0.0
+298,Destan,Hull City,FWD,4,2,0,6,4.0,0.0
+298,Destan,Hull City,FWD,5,3,0,17,3.0,0.0
+298,Destan,Hull City,FWD,6,4,1,9,3.0,0.0
+298,Destan,Hull City,FWD,7,5,0,10,3.0,0.0
+299,Burstow,Hull City,FWD,3,1,1,2,3.0,0.0
+299,Burstow,Hull City,FWD,4,2,0,6,4.0,0.0
+299,Burstow,Hull City,FWD,5,3,0,17,3.0,0.0
+299,Burstow,Hull City,FWD,6,4,1,9,3.0,0.0
+299,Burstow,Hull City,FWD,7,5,0,10,3.0,0.0
+340,Gelhardt,Hull City,MID,3,1,1,2,3.0,0.0
+340,Gelhardt,Hull City,MID,4,2,0,6,4.0,0.0
+340,Gelhardt,Hull City,MID,5,3,0,17,3.0,0.0
+340,Gelhardt,Hull City,MID,6,4,1,9,3.0,0.0
+340,Gelhardt,Hull City,MID,7,5,0,10,3.0,0.0
+556,Targett,Hull City,DEF,3,1,1,2,3.0,1.111
+556,Targett,Hull City,DEF,4,2,0,6,4.0,1.153
+556,Targett,Hull City,DEF,5,3,0,17,3.0,1.202
+556,Targett,Hull City,DEF,6,4,1,9,3.0,1.111
+556,Targett,Hull City,DEF,7,5,0,10,3.0,1.202
+563,Morita,Hull City,MID,3,1,1,2,3.0,0.669
+563,Morita,Hull City,MID,4,2,0,6,4.0,0.708
+563,Morita,Hull City,MID,5,3,0,17,3.0,0.656
+563,Morita,Hull City,MID,6,4,1,9,3.0,0.669
+563,Morita,Hull City,MID,7,5,0,10,3.0,0.656
+572,Tzolakis,Hull City,GKP,3,1,1,2,3.0,3.128
+572,Tzolakis,Hull City,GKP,4,2,0,6,4.0,2.221
+572,Tzolakis,Hull City,GKP,5,3,0,17,3.0,3.288
+572,Tzolakis,Hull City,GKP,6,4,1,9,3.0,3.128
+572,Tzolakis,Hull City,GKP,7,5,0,10,3.0,3.288
+574,Hjertø-Dahl,Hull City,MID,3,1,1,2,3.0,0.72
+574,Hjertø-Dahl,Hull City,MID,4,2,0,6,4.0,0.704
+574,Hjertø-Dahl,Hull City,MID,5,3,0,17,3.0,0.678
+574,Hjertø-Dahl,Hull City,MID,6,4,1,9,3.0,0.72
+574,Hjertø-Dahl,Hull City,MID,7,5,0,10,3.0,0.678
+576,Stroud,Hull City,MID,3,1,1,2,3.0,2.284
+576,Stroud,Hull City,MID,4,2,0,6,4.0,2.223
+576,Stroud,Hull City,MID,5,3,0,17,3.0,2.118
+576,Stroud,Hull City,MID,6,4,1,9,3.0,2.284
+576,Stroud,Hull City,MID,7,5,0,10,3.0,2.118
+585,Herrington,Hull City,DEF,3,1,1,2,3.0,0.822
+585,Herrington,Hull City,DEF,4,2,0,6,4.0,0.739
+585,Herrington,Hull City,DEF,5,3,0,17,3.0,0.683
+585,Herrington,Hull City,DEF,6,4,1,9,3.0,0.822
+585,Herrington,Hull City,DEF,7,5,0,10,3.0,0.683
+586,Mendy,Hull City,DEF,3,1,1,2,3.0,2.634
+586,Mendy,Hull City,DEF,4,2,0,6,4.0,1.616
+586,Mendy,Hull City,DEF,5,3,0,17,3.0,1.875
+586,Mendy,Hull City,DEF,6,4,1,9,3.0,2.634
+586,Mendy,Hull City,DEF,7,5,0,10,3.0,1.875
+589,Gourna-Douath,Hull City,MID,3,1,1,2,3.0,0.764
+589,Gourna-Douath,Hull City,MID,4,2,0,6,4.0,0.835
+589,Gourna-Douath,Hull City,MID,5,3,0,17,3.0,0.76
+589,Gourna-Douath,Hull City,MID,6,4,1,9,3.0,0.764
+589,Gourna-Douath,Hull City,MID,7,5,0,10,3.0,0.76
+617,Cho,Hull City,MID,3,1,1,2,3.0,0.49
+617,Cho,Hull City,MID,4,2,0,6,4.0,0.541
+617,Cho,Hull City,MID,5,3,0,17,3.0,0.431
+617,Cho,Hull City,MID,6,4,1,9,3.0,0.49
+617,Cho,Hull City,MID,7,5,0,10,3.0,0.431
+632,Ansah,Hull City,FWD,3,1,1,2,3.0,0.015
+632,Ansah,Hull City,FWD,4,2,0,6,4.0,0.001
+632,Ansah,Hull City,FWD,5,3,0,17,3.0,0.003
+632,Ansah,Hull City,FWD,6,4,1,9,3.0,0.015
+632,Ansah,Hull City,FWD,7,5,0,10,3.0,0.003
+637,Vaz,Hull City,FWD,3,1,1,2,3.0,0.015
+637,Vaz,Hull City,FWD,4,2,0,6,4.0,0.001
+637,Vaz,Hull City,FWD,5,3,0,17,3.0,0.003
+637,Vaz,Hull City,FWD,6,4,1,9,3.0,0.015
+637,Vaz,Hull City,FWD,7,5,0,10,3.0,0.003
+638,Norton-Cuffy,Hull City,DEF,3,1,1,2,3.0,0.0
+638,Norton-Cuffy,Hull City,DEF,4,2,0,6,4.0,0.0
+638,Norton-Cuffy,Hull City,DEF,5,3,0,17,3.0,0.0
+638,Norton-Cuffy,Hull City,DEF,6,4,1,9,3.0,0.0
+638,Norton-Cuffy,Hull City,DEF,7,5,0,10,3.0,0.0
+642,Thomas,Hull City,MID,3,1,1,2,3.0,0.012
+642,Thomas,Hull City,MID,4,2,0,6,4.0,0.009
+642,Thomas,Hull City,MID,5,3,0,17,3.0,0.003
+642,Thomas,Hull City,MID,6,4,1,9,3.0,0.012
+642,Thomas,Hull City,MID,7,5,0,10,3.0,0.003
+645,Mouzakitis,Hull City,MID,3,1,1,2,3.0,0.015
+645,Mouzakitis,Hull City,MID,4,2,0,6,4.0,0.001
+645,Mouzakitis,Hull City,MID,5,3,0,17,3.0,0.003
+645,Mouzakitis,Hull City,MID,6,4,1,9,3.0,0.015
+645,Mouzakitis,Hull City,MID,7,5,0,10,3.0,0.003
+259,Diop,Ipswich Town,DEF,3,1,1,14,4.0,3.556
+259,Diop,Ipswich Town,DEF,4,2,0,8,3.0,3.355
+259,Diop,Ipswich Town,DEF,5,3,0,9,3.0,3.355
+259,Diop,Ipswich Town,DEF,6,4,1,10,2.0,3.954
+259,Diop,Ipswich Town,DEF,7,5,0,15,5.0,3.232
+267,Lukić,Ipswich Town,MID,3,1,1,14,4.0,2.287
+267,Lukić,Ipswich Town,MID,4,2,0,8,3.0,2.311
+267,Lukić,Ipswich Town,MID,5,3,0,9,3.0,2.311
+267,Lukić,Ipswich Town,MID,6,4,1,10,2.0,2.564
+267,Lukić,Ipswich Town,MID,7,5,0,15,5.0,2.224
+300,Walton,Ipswich Town,GKP,3,1,1,14,4.0,0.127
+300,Walton,Ipswich Town,GKP,4,2,0,8,3.0,0.057
+300,Walton,Ipswich Town,GKP,5,3,0,9,3.0,0.057
+300,Walton,Ipswich Town,GKP,6,4,1,10,2.0,0.114
+300,Walton,Ipswich Town,GKP,7,5,0,15,5.0,0.094
+301,Palmer,Ipswich Town,GKP,3,1,1,14,4.0,0.484
+301,Palmer,Ipswich Town,GKP,4,2,0,8,3.0,0.381
+301,Palmer,Ipswich Town,GKP,5,3,0,9,3.0,0.381
+301,Palmer,Ipswich Town,GKP,6,4,1,10,2.0,0.589
+301,Palmer,Ipswich Town,GKP,7,5,0,15,5.0,0.395
+302,Button,Ipswich Town,GKP,3,1,1,14,4.0,0.017
+302,Button,Ipswich Town,GKP,4,2,0,8,3.0,0.023
+302,Button,Ipswich Town,GKP,5,3,0,9,3.0,0.023
+302,Button,Ipswich Town,GKP,6,4,1,10,2.0,0.017
+302,Button,Ipswich Town,GKP,7,5,0,15,5.0,0.03
+303,Kipré,Ipswich Town,DEF,3,1,1,14,4.0,0.101
+303,Kipré,Ipswich Town,DEF,4,2,0,8,3.0,0.104
+303,Kipré,Ipswich Town,DEF,5,3,0,9,3.0,0.104
+303,Kipré,Ipswich Town,DEF,6,4,1,10,2.0,0.094
+303,Kipré,Ipswich Town,DEF,7,5,0,15,5.0,0.123
+304,O'Shea,Ipswich Town,DEF,3,1,1,14,4.0,2.793
+304,O'Shea,Ipswich Town,DEF,4,2,0,8,3.0,3.306
+304,O'Shea,Ipswich Town,DEF,5,3,0,9,3.0,3.306
+304,O'Shea,Ipswich Town,DEF,6,4,1,10,2.0,3.596
+304,O'Shea,Ipswich Town,DEF,7,5,0,15,5.0,2.304
+305,Davis,Ipswich Town,DEF,3,1,1,14,4.0,3.023
+305,Davis,Ipswich Town,DEF,4,2,0,8,3.0,4.065
+305,Davis,Ipswich Town,DEF,5,3,0,9,3.0,4.065
+305,Davis,Ipswich Town,DEF,6,4,1,10,2.0,5.615
+305,Davis,Ipswich Town,DEF,7,5,0,15,5.0,2.883
+306,Greaves,Ipswich Town,DEF,3,1,1,14,4.0,2.229
+306,Greaves,Ipswich Town,DEF,4,2,0,8,3.0,2.571
+306,Greaves,Ipswich Town,DEF,5,3,0,9,3.0,2.571
+306,Greaves,Ipswich Town,DEF,6,4,1,10,2.0,3.102
+306,Greaves,Ipswich Town,DEF,7,5,0,15,5.0,2.0
+307,Johnson,Ipswich Town,DEF,3,1,1,14,4.0,0.0
+307,Johnson,Ipswich Town,DEF,4,2,0,8,3.0,0.0
+307,Johnson,Ipswich Town,DEF,5,3,0,9,3.0,0.0
+307,Johnson,Ipswich Town,DEF,6,4,1,10,2.0,0.0
+307,Johnson,Ipswich Town,DEF,7,5,0,15,5.0,0.002
+308,Furlong,Ipswich Town,DEF,3,1,1,14,4.0,0.928
+308,Furlong,Ipswich Town,DEF,4,2,0,8,3.0,0.851
+308,Furlong,Ipswich Town,DEF,5,3,0,9,3.0,0.851
+308,Furlong,Ipswich Town,DEF,6,4,1,10,2.0,0.876
+308,Furlong,Ipswich Town,DEF,7,5,0,15,5.0,0.87
+309,Núñez,Ipswich Town,MID,3,1,1,14,4.0,1.934
+309,Núñez,Ipswich Town,MID,4,2,0,8,3.0,1.67
+309,Núñez,Ipswich Town,MID,5,3,0,9,3.0,1.67
+309,Núñez,Ipswich Town,MID,6,4,1,10,2.0,1.683
+309,Núñez,Ipswich Town,MID,7,5,0,15,5.0,1.835
+310,Matusiwa,Ipswich Town,MID,3,1,1,14,4.0,0.0
+310,Matusiwa,Ipswich Town,MID,4,2,0,8,3.0,0.0
+310,Matusiwa,Ipswich Town,MID,5,3,0,9,3.0,0.0
+310,Matusiwa,Ipswich Town,MID,6,4,1,10,2.0,0.0
+310,Matusiwa,Ipswich Town,MID,7,5,0,15,5.0,0.0
+311,Burns,Ipswich Town,MID,3,1,1,14,4.0,0.0
+311,Burns,Ipswich Town,MID,4,2,0,8,3.0,0.0
+311,Burns,Ipswich Town,MID,5,3,0,9,3.0,0.0
+311,Burns,Ipswich Town,MID,6,4,1,10,2.0,0.0
+311,Burns,Ipswich Town,MID,7,5,0,15,5.0,0.0
+312,Taylor,Ipswich Town,MID,3,1,1,14,4.0,0.0
+312,Taylor,Ipswich Town,MID,4,2,0,8,3.0,0.0
+312,Taylor,Ipswich Town,MID,5,3,0,9,3.0,0.0
+312,Taylor,Ipswich Town,MID,6,4,1,10,2.0,0.0
+312,Taylor,Ipswich Town,MID,7,5,0,15,5.0,0.0
+313,Clarke,Ipswich Town,MID,3,1,1,14,4.0,1.602
+313,Clarke,Ipswich Town,MID,4,2,0,8,3.0,1.584
+313,Clarke,Ipswich Town,MID,5,3,0,9,3.0,1.584
+313,Clarke,Ipswich Town,MID,6,4,1,10,2.0,1.664
+313,Clarke,Ipswich Town,MID,7,5,0,15,5.0,1.577
+314,Ogbene,Ipswich Town,MID,3,1,1,14,4.0,0.0
+314,Ogbene,Ipswich Town,MID,4,2,0,8,3.0,0.0
+314,Ogbene,Ipswich Town,MID,5,3,0,9,3.0,0.0
+314,Ogbene,Ipswich Town,MID,6,4,1,10,2.0,0.0
+314,Ogbene,Ipswich Town,MID,7,5,0,15,5.0,0.0
+315,Fatawu,Ipswich Town,MID,3,1,1,14,4.0,2.247
+315,Fatawu,Ipswich Town,MID,4,2,0,8,3.0,2.31
+315,Fatawu,Ipswich Town,MID,5,3,0,9,3.0,2.31
+315,Fatawu,Ipswich Town,MID,6,4,1,10,2.0,3.107
+315,Fatawu,Ipswich Town,MID,7,5,0,15,5.0,2.028
+316,Emersonn,Ipswich Town,FWD,3,1,1,14,4.0,1.509
+316,Emersonn,Ipswich Town,FWD,4,2,0,8,3.0,1.515
+316,Emersonn,Ipswich Town,FWD,5,3,0,9,3.0,1.515
+316,Emersonn,Ipswich Town,FWD,6,4,1,10,2.0,1.698
+316,Emersonn,Ipswich Town,FWD,7,5,0,15,5.0,1.508
+317,Hirst,Ipswich Town,FWD,3,1,1,14,4.0,0.0
+317,Hirst,Ipswich Town,FWD,4,2,0,8,3.0,0.0
+317,Hirst,Ipswich Town,FWD,5,3,0,9,3.0,0.0
+317,Hirst,Ipswich Town,FWD,6,4,1,10,2.0,0.0
+317,Hirst,Ipswich Town,FWD,7,5,0,15,5.0,0.0
+318,Philogene,Ipswich Town,MID,3,1,1,14,4.0,0.0
+318,Philogene,Ipswich Town,MID,4,2,0,8,3.0,0.0
+318,Philogene,Ipswich Town,MID,5,3,0,9,3.0,0.0
+318,Philogene,Ipswich Town,MID,6,4,1,10,2.0,0.0
+318,Philogene,Ipswich Town,MID,7,5,0,15,5.0,0.0
+319,Szmodics,Ipswich Town,MID,3,1,1,14,4.0,0.0
+319,Szmodics,Ipswich Town,MID,4,2,0,8,3.0,0.0
+319,Szmodics,Ipswich Town,MID,5,3,0,9,3.0,0.0
+319,Szmodics,Ipswich Town,MID,6,4,1,10,2.0,0.0
+319,Szmodics,Ipswich Town,MID,7,5,0,15,5.0,0.0
+320,Akpom,Ipswich Town,FWD,3,1,1,14,4.0,2.693
+320,Akpom,Ipswich Town,FWD,4,2,0,8,3.0,2.475
+320,Akpom,Ipswich Town,FWD,5,3,0,9,3.0,2.475
+320,Akpom,Ipswich Town,FWD,6,4,1,10,2.0,2.551
+320,Akpom,Ipswich Town,FWD,7,5,0,15,5.0,2.267
+321,Walle Egeli,Ipswich Town,FWD,3,1,1,14,4.0,1.207
+321,Walle Egeli,Ipswich Town,FWD,4,2,0,8,3.0,1.195
+321,Walle Egeli,Ipswich Town,FWD,5,3,0,9,3.0,1.195
+321,Walle Egeli,Ipswich Town,FWD,6,4,1,10,2.0,1.39
+321,Walle Egeli,Ipswich Town,FWD,7,5,0,15,5.0,1.209
+322,Al-Hamadi,Ipswich Town,FWD,3,1,1,14,4.0,0.0
+322,Al-Hamadi,Ipswich Town,FWD,4,2,0,8,3.0,0.0
+322,Al-Hamadi,Ipswich Town,FWD,5,3,0,9,3.0,0.0
+322,Al-Hamadi,Ipswich Town,FWD,6,4,1,10,2.0,0.0
+322,Al-Hamadi,Ipswich Town,FWD,7,5,0,15,5.0,0.0
+323,McAteer,Ipswich Town,MID,3,1,1,14,4.0,1.725
+323,McAteer,Ipswich Town,MID,4,2,0,8,3.0,1.569
+323,McAteer,Ipswich Town,MID,5,3,0,9,3.0,1.569
+323,McAteer,Ipswich Town,MID,6,4,1,10,2.0,1.874
+323,McAteer,Ipswich Town,MID,7,5,0,15,5.0,1.619
+324,Mehmeti,Ipswich Town,MID,3,1,1,14,4.0,0.05
+324,Mehmeti,Ipswich Town,MID,4,2,0,8,3.0,0.026
+324,Mehmeti,Ipswich Town,MID,5,3,0,9,3.0,0.026
+324,Mehmeti,Ipswich Town,MID,6,4,1,10,2.0,0.055
+324,Mehmeti,Ipswich Town,MID,7,5,0,15,5.0,0.096
+554,Van Oevelen,Ipswich Town,GKP,3,1,1,14,4.0,0.0
+554,Van Oevelen,Ipswich Town,GKP,4,2,0,8,3.0,0.0
+554,Van Oevelen,Ipswich Town,GKP,5,3,0,9,3.0,0.0
+554,Van Oevelen,Ipswich Town,GKP,6,4,1,10,2.0,0.0
+554,Van Oevelen,Ipswich Town,GKP,7,5,0,15,5.0,0.0
+562,Maeda,Ipswich Town,MID,3,1,1,14,4.0,2.26
+562,Maeda,Ipswich Town,MID,4,2,0,8,3.0,2.341
+562,Maeda,Ipswich Town,MID,5,3,0,9,3.0,2.341
+562,Maeda,Ipswich Town,MID,6,4,1,10,2.0,2.23
+562,Maeda,Ipswich Town,MID,7,5,0,15,5.0,1.996
+564,Scherpen,Ipswich Town,GKP,3,1,1,14,4.0,2.875
+564,Scherpen,Ipswich Town,GKP,4,2,0,8,3.0,3.318
+564,Scherpen,Ipswich Town,GKP,5,3,0,9,3.0,3.318
+564,Scherpen,Ipswich Town,GKP,6,4,1,10,2.0,2.973
+564,Scherpen,Ipswich Town,GKP,7,5,0,15,5.0,2.198
+571,Florentino,Ipswich Town,MID,3,1,1,14,4.0,0.623
+571,Florentino,Ipswich Town,MID,4,2,0,8,3.0,0.515
+571,Florentino,Ipswich Town,MID,5,3,0,9,3.0,0.515
+571,Florentino,Ipswich Town,MID,6,4,1,10,2.0,0.558
+571,Florentino,Ipswich Town,MID,7,5,0,15,5.0,0.535
+591,Enciso,Ipswich Town,MID,3,1,1,14,4.0,2.801
+591,Enciso,Ipswich Town,MID,4,2,0,8,3.0,3.855
+591,Enciso,Ipswich Town,MID,5,3,0,9,3.0,3.855
+591,Enciso,Ipswich Town,MID,6,4,1,10,2.0,3.89
+591,Enciso,Ipswich Town,MID,7,5,0,15,5.0,2.417
+592,Ouattara,Ipswich Town,DEF,3,1,1,14,4.0,0.761
+592,Ouattara,Ipswich Town,DEF,4,2,0,8,3.0,0.702
+592,Ouattara,Ipswich Town,DEF,5,3,0,9,3.0,0.702
+592,Ouattara,Ipswich Town,DEF,6,4,1,10,2.0,0.835
+592,Ouattara,Ipswich Town,DEF,7,5,0,15,5.0,0.733
+602,Humphreys,Ipswich Town,MID,3,1,1,14,4.0,0.0
+602,Humphreys,Ipswich Town,MID,4,2,0,8,3.0,0.0
+602,Humphreys,Ipswich Town,MID,5,3,0,9,3.0,0.0
+602,Humphreys,Ipswich Town,MID,6,4,1,10,2.0,0.0
+602,Humphreys,Ipswich Town,MID,7,5,0,15,5.0,0.0
+619,Palacios,Ipswich Town,MID,3,1,1,14,4.0,0.937
+619,Palacios,Ipswich Town,MID,4,2,0,8,3.0,0.975
+619,Palacios,Ipswich Town,MID,5,3,0,9,3.0,0.975
+619,Palacios,Ipswich Town,MID,6,4,1,10,2.0,1.026
+619,Palacios,Ipswich Town,MID,7,5,0,15,5.0,0.985
+640,Flemming,Ipswich Town,FWD,3,1,1,14,4.0,0.086
+640,Flemming,Ipswich Town,FWD,4,2,0,8,3.0,0.016
+640,Flemming,Ipswich Town,FWD,5,3,0,9,3.0,0.016
+640,Flemming,Ipswich Town,FWD,6,4,1,10,2.0,0.025
+640,Flemming,Ipswich Town,FWD,7,5,0,15,5.0,0.025
+260,Wilson,Leeds,MID,3,1,0,5,3.0,1.847
+260,Wilson,Leeds,MID,4,2,1,17,2.0,2.137
+260,Wilson,Leeds,MID,5,3,1,8,3.0,1.926
+260,Wilson,Leeds,MID,6,4,0,1,5.0,1.915
+260,Wilson,Leeds,MID,7,5,1,16,4.0,2.005
+326,Perri,Leeds,GKP,3,1,0,5,3.0,0.0
+326,Perri,Leeds,GKP,4,2,1,17,2.0,0.0
+326,Perri,Leeds,GKP,5,3,1,8,3.0,0.0
+326,Perri,Leeds,GKP,6,4,0,1,5.0,0.0
+326,Perri,Leeds,GKP,7,5,1,16,4.0,0.0
+327,Bijol,Leeds,DEF,3,1,0,5,3.0,2.399
+327,Bijol,Leeds,DEF,4,2,1,17,2.0,2.627
+327,Bijol,Leeds,DEF,5,3,1,8,3.0,2.412
+327,Bijol,Leeds,DEF,6,4,0,1,5.0,2.088
+327,Bijol,Leeds,DEF,7,5,1,16,4.0,2.552
+329,Rodon,Leeds,DEF,3,1,0,5,3.0,0.844
+329,Rodon,Leeds,DEF,4,2,1,17,2.0,1.175
+329,Rodon,Leeds,DEF,5,3,1,8,3.0,0.979
+329,Rodon,Leeds,DEF,6,4,0,1,5.0,0.852
+329,Rodon,Leeds,DEF,7,5,1,16,4.0,0.93
+330,Bogle,Leeds,DEF,3,1,0,5,3.0,2.694
+330,Bogle,Leeds,DEF,4,2,1,17,2.0,3.02
+330,Bogle,Leeds,DEF,5,3,1,8,3.0,2.708
+330,Bogle,Leeds,DEF,6,4,0,1,5.0,2.137
+330,Bogle,Leeds,DEF,7,5,1,16,4.0,2.527
+331,Gudmundsson,Leeds,DEF,3,1,0,5,3.0,0.013
+331,Gudmundsson,Leeds,DEF,4,2,1,17,2.0,0.05
+331,Gudmundsson,Leeds,DEF,5,3,1,8,3.0,0.013
+331,Gudmundsson,Leeds,DEF,6,4,0,1,5.0,0.014
+331,Gudmundsson,Leeds,DEF,7,5,1,16,4.0,0.013
+332,Justin,Leeds,DEF,3,1,0,5,3.0,3.098
+332,Justin,Leeds,DEF,4,2,1,17,2.0,3.944
+332,Justin,Leeds,DEF,5,3,1,8,3.0,3.032
+332,Justin,Leeds,DEF,6,4,0,1,5.0,1.929
+332,Justin,Leeds,DEF,7,5,1,16,4.0,2.471
+333,Bornauw,Leeds,DEF,3,1,0,5,3.0,0.0
+333,Bornauw,Leeds,DEF,4,2,1,17,2.0,0.0
+333,Bornauw,Leeds,DEF,5,3,1,8,3.0,0.0
+333,Bornauw,Leeds,DEF,6,4,0,1,5.0,0.0
+333,Bornauw,Leeds,DEF,7,5,1,16,4.0,0.0
+334,Muharemović,Leeds,DEF,3,1,0,5,3.0,3.756
+334,Muharemović,Leeds,DEF,4,2,1,17,2.0,3.332
+334,Muharemović,Leeds,DEF,5,3,1,8,3.0,3.258
+334,Muharemović,Leeds,DEF,6,4,0,1,5.0,2.607
+334,Muharemović,Leeds,DEF,7,5,1,16,4.0,2.66
+335,Stach,Leeds,MID,3,1,0,5,3.0,3.75
+335,Stach,Leeds,MID,4,2,1,17,2.0,3.941
+335,Stach,Leeds,MID,5,3,1,8,3.0,3.918
+335,Stach,Leeds,MID,6,4,0,1,5.0,2.367
+335,Stach,Leeds,MID,7,5,1,16,4.0,2.644
+336,Okafor,Leeds,MID,3,1,0,5,3.0,2.123
+336,Okafor,Leeds,MID,4,2,1,17,2.0,2.123
+336,Okafor,Leeds,MID,5,3,1,8,3.0,2.189
+336,Okafor,Leeds,MID,6,4,0,1,5.0,1.892
+336,Okafor,Leeds,MID,7,5,1,16,4.0,1.983
+337,Aaronson,Leeds,MID,3,1,0,5,3.0,2.418
+337,Aaronson,Leeds,MID,4,2,1,17,2.0,2.817
+337,Aaronson,Leeds,MID,5,3,1,8,3.0,2.419
+337,Aaronson,Leeds,MID,6,4,0,1,5.0,2.328
+337,Aaronson,Leeds,MID,7,5,1,16,4.0,2.4
+338,Ampadu,Leeds,MID,3,1,0,5,3.0,3.861
+338,Ampadu,Leeds,MID,4,2,1,17,2.0,4.731
+338,Ampadu,Leeds,MID,5,3,1,8,3.0,3.804
+338,Ampadu,Leeds,MID,6,4,0,1,5.0,2.572
+338,Ampadu,Leeds,MID,7,5,1,16,4.0,3.06
+339,Longstaff,Leeds,MID,3,1,0,5,3.0,0.767
+339,Longstaff,Leeds,MID,4,2,1,17,2.0,0.785
+339,Longstaff,Leeds,MID,5,3,1,8,3.0,0.75
+339,Longstaff,Leeds,MID,6,4,0,1,5.0,0.85
+339,Longstaff,Leeds,MID,7,5,1,16,4.0,0.819
+341,Gnonto,Leeds,MID,3,1,0,5,3.0,0.0
+341,Gnonto,Leeds,MID,4,2,1,17,2.0,0.0
+341,Gnonto,Leeds,MID,5,3,1,8,3.0,0.0
+341,Gnonto,Leeds,MID,6,4,0,1,5.0,0.0
+341,Gnonto,Leeds,MID,7,5,1,16,4.0,0.0
+342,Harrison,Leeds,MID,3,1,0,5,3.0,0.0
+342,Harrison,Leeds,MID,4,2,1,17,2.0,0.0
+342,Harrison,Leeds,MID,5,3,1,8,3.0,0.0
+342,Harrison,Leeds,MID,6,4,0,1,5.0,0.0
+342,Harrison,Leeds,MID,7,5,1,16,4.0,0.0
+343,James,Leeds,MID,3,1,0,5,3.0,1.266
+343,James,Leeds,MID,4,2,1,17,2.0,1.26
+343,James,Leeds,MID,5,3,1,8,3.0,1.15
+343,James,Leeds,MID,6,4,0,1,5.0,1.288
+343,James,Leeds,MID,7,5,1,16,4.0,1.177
+344,Gruev,Leeds,MID,3,1,0,5,3.0,0.004
+344,Gruev,Leeds,MID,4,2,1,17,2.0,0.007
+344,Gruev,Leeds,MID,5,3,1,8,3.0,0.007
+344,Gruev,Leeds,MID,6,4,0,1,5.0,0.005
+344,Gruev,Leeds,MID,7,5,1,16,4.0,0.021
+345,Tanaka,Leeds,MID,3,1,0,5,3.0,0.933
+345,Tanaka,Leeds,MID,4,2,1,17,2.0,1.051
+345,Tanaka,Leeds,MID,5,3,1,8,3.0,0.959
+345,Tanaka,Leeds,MID,6,4,0,1,5.0,0.994
+345,Tanaka,Leeds,MID,7,5,1,16,4.0,1.044
+346,Calvert-Lewin,Leeds,FWD,3,1,0,5,3.0,4.961
+346,Calvert-Lewin,Leeds,FWD,4,2,1,17,2.0,4.751
+346,Calvert-Lewin,Leeds,FWD,5,3,1,8,3.0,4.847
+346,Calvert-Lewin,Leeds,FWD,6,4,0,1,5.0,3.535
+346,Calvert-Lewin,Leeds,FWD,7,5,1,16,4.0,3.639
+347,Nmecha,Leeds,FWD,3,1,0,5,3.0,2.057
+347,Nmecha,Leeds,FWD,4,2,1,17,2.0,2.044
+347,Nmecha,Leeds,FWD,5,3,1,8,3.0,2.02
+347,Nmecha,Leeds,FWD,6,4,0,1,5.0,1.998
+347,Nmecha,Leeds,FWD,7,5,1,16,4.0,1.969
+348,Piroe,Leeds,FWD,3,1,0,5,3.0,0.0
+348,Piroe,Leeds,FWD,4,2,1,17,2.0,0.0
+348,Piroe,Leeds,FWD,5,3,1,8,3.0,0.0
+348,Piroe,Leeds,FWD,6,4,0,1,5.0,0.0
+348,Piroe,Leeds,FWD,7,5,1,16,4.0,0.0
+349,Mateo Joseph,Leeds,FWD,3,1,0,5,3.0,0.0
+349,Mateo Joseph,Leeds,FWD,4,2,1,17,2.0,0.0
+349,Mateo Joseph,Leeds,FWD,5,3,1,8,3.0,0.0
+349,Mateo Joseph,Leeds,FWD,6,4,0,1,5.0,0.0
+349,Mateo Joseph,Leeds,FWD,7,5,1,16,4.0,0.0
+385,Trafford,Leeds,GKP,3,1,0,5,3.0,3.891
+385,Trafford,Leeds,GKP,4,2,1,17,2.0,3.879
+385,Trafford,Leeds,GKP,5,3,1,8,3.0,3.386
+385,Trafford,Leeds,GKP,6,4,0,1,5.0,2.386
+385,Trafford,Leeds,GKP,7,5,1,16,4.0,2.362
+598,Elvedi,Leeds,DEF,3,1,0,5,3.0,0.928
+598,Elvedi,Leeds,DEF,4,2,1,17,2.0,1.031
+598,Elvedi,Leeds,DEF,5,3,1,8,3.0,1.039
+598,Elvedi,Leeds,DEF,6,4,0,1,5.0,0.96
+598,Elvedi,Leeds,DEF,7,5,1,16,4.0,1.076
+603,Lienou,Leeds,DEF,3,1,0,5,3.0,0.0
+603,Lienou,Leeds,DEF,4,2,1,17,2.0,0.0
+603,Lienou,Leeds,DEF,5,3,1,8,3.0,0.0
+603,Lienou,Leeds,DEF,6,4,0,1,5.0,0.002
+603,Lienou,Leeds,DEF,7,5,1,16,4.0,0.0
+604,Cresswell,Leeds,MID,3,1,0,5,3.0,0.027
+604,Cresswell,Leeds,MID,4,2,1,17,2.0,0.032
+604,Cresswell,Leeds,MID,5,3,1,8,3.0,0.013
+604,Cresswell,Leeds,MID,6,4,0,1,5.0,0.066
+604,Cresswell,Leeds,MID,7,5,1,16,4.0,0.075
+625,Cairns,Leeds,GKP,3,1,0,5,3.0,0.017
+625,Cairns,Leeds,GKP,4,2,1,17,2.0,0.014
+625,Cairns,Leeds,GKP,5,3,1,8,3.0,0.01
+625,Cairns,Leeds,GKP,6,4,0,1,5.0,0.016
+625,Cairns,Leeds,GKP,7,5,1,16,4.0,0.009
+629,Zetterer,Leeds,GKP,3,1,0,5,3.0,0.0
+629,Zetterer,Leeds,GKP,4,2,1,17,2.0,0.0
+629,Zetterer,Leeds,GKP,5,3,1,8,3.0,0.0
+629,Zetterer,Leeds,GKP,6,4,0,1,5.0,0.002
+629,Zetterer,Leeds,GKP,7,5,1,16,4.0,0.0
+641,Bard,Leeds,DEF,3,1,0,5,3.0,0.0
+641,Bard,Leeds,DEF,4,2,1,17,2.0,0.037
+641,Bard,Leeds,DEF,5,3,1,8,3.0,0.0
+641,Bard,Leeds,DEF,6,4,0,1,5.0,0.002
+641,Bard,Leeds,DEF,7,5,1,16,4.0,0.0
+648,Bahoya,Leeds,MID,3,1,0,5,3.0,0.003
+648,Bahoya,Leeds,MID,4,2,1,17,2.0,0.016
+648,Bahoya,Leeds,MID,5,3,1,8,3.0,0.015
+648,Bahoya,Leeds,MID,6,4,0,1,5.0,0.009
+648,Bahoya,Leeds,MID,7,5,1,16,4.0,0.073
+350,A.Becker,Liverpool,GKP,3,1,0,12,2.0,4.337
+350,A.Becker,Liverpool,GKP,4,2,1,10,2.0,4.152
+350,A.Becker,Liverpool,GKP,5,3,0,3,3.0,4.339
+350,A.Becker,Liverpool,GKP,6,4,1,15,4.0,3.312
+350,A.Becker,Liverpool,GKP,7,5,0,4,3.0,4.339
+351,Mamardashvili,Liverpool,GKP,3,1,0,12,2.0,0.678
+351,Mamardashvili,Liverpool,GKP,4,2,1,10,2.0,0.735
+351,Mamardashvili,Liverpool,GKP,5,3,0,3,3.0,0.678
+351,Mamardashvili,Liverpool,GKP,6,4,1,15,4.0,0.822
+351,Mamardashvili,Liverpool,GKP,7,5,0,4,3.0,0.678
+352,Woodman,Liverpool,GKP,3,1,0,12,2.0,0.134
+352,Woodman,Liverpool,GKP,4,2,1,10,2.0,0.194
+352,Woodman,Liverpool,GKP,5,3,0,3,3.0,0.123
+352,Woodman,Liverpool,GKP,6,4,1,15,4.0,0.181
+352,Woodman,Liverpool,GKP,7,5,0,4,3.0,0.123
+353,Pecsi,Liverpool,GKP,3,1,0,12,2.0,0.0
+353,Pecsi,Liverpool,GKP,4,2,1,10,2.0,0.0
+353,Pecsi,Liverpool,GKP,5,3,0,3,3.0,0.0
+353,Pecsi,Liverpool,GKP,6,4,1,15,4.0,0.0
+353,Pecsi,Liverpool,GKP,7,5,0,4,3.0,0.0
+354,Jaros,Liverpool,GKP,3,1,0,12,2.0,0.0
+354,Jaros,Liverpool,GKP,4,2,1,10,2.0,0.0
+354,Jaros,Liverpool,GKP,5,3,0,3,3.0,0.0
+354,Jaros,Liverpool,GKP,6,4,1,15,4.0,0.0
+354,Jaros,Liverpool,GKP,7,5,0,4,3.0,0.0
+355,Davies,Liverpool,GKP,3,1,0,12,2.0,0.02
+355,Davies,Liverpool,GKP,4,2,1,10,2.0,0.014
+355,Davies,Liverpool,GKP,5,3,0,3,3.0,0.017
+355,Davies,Liverpool,GKP,6,4,1,15,4.0,0.009
+355,Davies,Liverpool,GKP,7,5,0,4,3.0,0.017
+356,Virgil,Liverpool,DEF,3,1,0,12,2.0,3.933
+356,Virgil,Liverpool,DEF,4,2,1,10,2.0,3.769
+356,Virgil,Liverpool,DEF,5,3,0,3,3.0,3.385
+356,Virgil,Liverpool,DEF,6,4,1,15,4.0,3.081
+356,Virgil,Liverpool,DEF,7,5,0,4,3.0,3.385
+357,Frimpong,Liverpool,DEF,3,1,0,12,2.0,3.488
+357,Frimpong,Liverpool,DEF,4,2,1,10,2.0,3.354
+357,Frimpong,Liverpool,DEF,5,3,0,3,3.0,3.256
+357,Frimpong,Liverpool,DEF,6,4,1,15,4.0,2.011
+357,Frimpong,Liverpool,DEF,7,5,0,4,3.0,3.256
+358,Kerkez,Liverpool,DEF,3,1,0,12,2.0,3.291
+358,Kerkez,Liverpool,DEF,4,2,1,10,2.0,3.207
+358,Kerkez,Liverpool,DEF,5,3,0,3,3.0,3.421
+358,Kerkez,Liverpool,DEF,6,4,1,15,4.0,2.125
+358,Kerkez,Liverpool,DEF,7,5,0,4,3.0,3.421
+359,Gomez,Liverpool,DEF,3,1,0,12,2.0,0.0
+359,Gomez,Liverpool,DEF,4,2,1,10,2.0,0.0
+359,Gomez,Liverpool,DEF,5,3,0,3,3.0,0.0
+359,Gomez,Liverpool,DEF,6,4,1,15,4.0,0.0
+359,Gomez,Liverpool,DEF,7,5,0,4,3.0,0.0
+360,Bradley,Liverpool,DEF,3,1,0,12,2.0,0.0
+360,Bradley,Liverpool,DEF,4,2,1,10,2.0,0.0
+360,Bradley,Liverpool,DEF,5,3,0,3,3.0,0.0
+360,Bradley,Liverpool,DEF,6,4,1,15,4.0,0.0
+360,Bradley,Liverpool,DEF,7,5,0,4,3.0,0.0
+361,Lucky,Liverpool,DEF,3,1,0,12,2.0,0.0
+361,Lucky,Liverpool,DEF,4,2,1,10,2.0,0.0
+361,Lucky,Liverpool,DEF,5,3,0,3,3.0,0.0
+361,Lucky,Liverpool,DEF,6,4,1,15,4.0,0.0
+361,Lucky,Liverpool,DEF,7,5,0,4,3.0,0.0
+362,Jacquet,Liverpool,DEF,3,1,0,12,2.0,3.162
+362,Jacquet,Liverpool,DEF,4,2,1,10,2.0,3.13
+362,Jacquet,Liverpool,DEF,5,3,0,3,3.0,3.153
+362,Jacquet,Liverpool,DEF,6,4,1,15,4.0,2.407
+362,Jacquet,Liverpool,DEF,7,5,0,4,3.0,3.153
+363,Leoni,Liverpool,DEF,3,1,0,12,2.0,0.0
+363,Leoni,Liverpool,DEF,4,2,1,10,2.0,0.0
+363,Leoni,Liverpool,DEF,5,3,0,3,3.0,0.0
+363,Leoni,Liverpool,DEF,6,4,1,15,4.0,0.0
+363,Leoni,Liverpool,DEF,7,5,0,4,3.0,0.0
+364,Tsimikas,Liverpool,DEF,3,1,0,12,2.0,1.152
+364,Tsimikas,Liverpool,DEF,4,2,1,10,2.0,1.159
+364,Tsimikas,Liverpool,DEF,5,3,0,3,3.0,1.047
+364,Tsimikas,Liverpool,DEF,6,4,1,15,4.0,1.149
+364,Tsimikas,Liverpool,DEF,7,5,0,4,3.0,1.047
+365,Ramsay,Liverpool,DEF,3,1,0,12,2.0,0.0
+365,Ramsay,Liverpool,DEF,4,2,1,10,2.0,0.0
+365,Ramsay,Liverpool,DEF,5,3,0,3,3.0,0.0
+365,Ramsay,Liverpool,DEF,6,4,1,15,4.0,0.0
+365,Ramsay,Liverpool,DEF,7,5,0,4,3.0,0.0
+366,Wirtz,Liverpool,MID,3,1,0,12,2.0,5.249
+366,Wirtz,Liverpool,MID,4,2,1,10,2.0,5.252
+366,Wirtz,Liverpool,MID,5,3,0,3,3.0,5.081
+366,Wirtz,Liverpool,MID,6,4,1,15,4.0,2.998
+366,Wirtz,Liverpool,MID,7,5,0,4,3.0,5.081
+367,Gakpo,Liverpool,MID,3,1,0,12,2.0,4.235
+367,Gakpo,Liverpool,MID,4,2,1,10,2.0,4.294
+367,Gakpo,Liverpool,MID,5,3,0,3,3.0,3.718
+367,Gakpo,Liverpool,MID,6,4,1,15,4.0,2.441
+367,Gakpo,Liverpool,MID,7,5,0,4,3.0,3.718
+368,Szoboszlai,Liverpool,MID,3,1,0,12,2.0,4.821
+368,Szoboszlai,Liverpool,MID,4,2,1,10,2.0,4.873
+368,Szoboszlai,Liverpool,MID,5,3,0,3,3.0,5.182
+368,Szoboszlai,Liverpool,MID,6,4,1,15,4.0,3.413
+368,Szoboszlai,Liverpool,MID,7,5,0,4,3.0,5.182
+369,Ngumoha,Liverpool,MID,3,1,0,12,2.0,2.798
+369,Ngumoha,Liverpool,MID,4,2,1,10,2.0,2.949
+369,Ngumoha,Liverpool,MID,5,3,0,3,3.0,2.748
+369,Ngumoha,Liverpool,MID,6,4,1,15,4.0,2.67
+369,Ngumoha,Liverpool,MID,7,5,0,4,3.0,2.748
+370,Chiesa,Liverpool,MID,3,1,0,12,2.0,0.0
+370,Chiesa,Liverpool,MID,4,2,1,10,2.0,0.0
+370,Chiesa,Liverpool,MID,5,3,0,3,3.0,0.0
+370,Chiesa,Liverpool,MID,6,4,1,15,4.0,0.0
+370,Chiesa,Liverpool,MID,7,5,0,4,3.0,0.0
+371,Gravenberch,Liverpool,MID,3,1,0,12,2.0,2.284
+371,Gravenberch,Liverpool,MID,4,2,1,10,2.0,2.548
+371,Gravenberch,Liverpool,MID,5,3,0,3,3.0,2.197
+371,Gravenberch,Liverpool,MID,6,4,1,15,4.0,2.235
+371,Gravenberch,Liverpool,MID,7,5,0,4,3.0,2.197
+372,Mac Allister,Liverpool,MID,3,1,0,12,2.0,2.145
+372,Mac Allister,Liverpool,MID,4,2,1,10,2.0,1.928
+372,Mac Allister,Liverpool,MID,5,3,0,3,3.0,2.157
+372,Mac Allister,Liverpool,MID,6,4,1,15,4.0,1.841
+372,Mac Allister,Liverpool,MID,7,5,0,4,3.0,2.157
+373,C.Jones,Liverpool,MID,3,1,0,12,2.0,0.0
+373,C.Jones,Liverpool,MID,4,2,1,10,2.0,0.0
+373,C.Jones,Liverpool,MID,5,3,0,3,3.0,0.0
+373,C.Jones,Liverpool,MID,6,4,1,15,4.0,0.0
+373,C.Jones,Liverpool,MID,7,5,0,4,3.0,0.0
+374,Endo,Liverpool,MID,3,1,0,12,2.0,0.688
+374,Endo,Liverpool,MID,4,2,1,10,2.0,0.744
+374,Endo,Liverpool,MID,5,3,0,3,3.0,0.687
+374,Endo,Liverpool,MID,6,4,1,15,4.0,0.831
+374,Endo,Liverpool,MID,7,5,0,4,3.0,0.687
+375,Nyoni,Liverpool,MID,3,1,0,12,2.0,0.685
+375,Nyoni,Liverpool,MID,4,2,1,10,2.0,0.693
+375,Nyoni,Liverpool,MID,5,3,0,3,3.0,0.601
+375,Nyoni,Liverpool,MID,6,4,1,15,4.0,0.629
+375,Nyoni,Liverpool,MID,7,5,0,4,3.0,0.601
+376,Bajcetic,Liverpool,MID,3,1,0,12,2.0,0.0
+376,Bajcetic,Liverpool,MID,4,2,1,10,2.0,0.0
+376,Bajcetic,Liverpool,MID,5,3,0,3,3.0,0.0
+376,Bajcetic,Liverpool,MID,6,4,1,15,4.0,0.0
+376,Bajcetic,Liverpool,MID,7,5,0,4,3.0,0.0
+377,Munoz,Liverpool,MID,3,1,0,12,2.0,1.736
+377,Munoz,Liverpool,MID,4,2,1,10,2.0,1.662
+377,Munoz,Liverpool,MID,5,3,0,3,3.0,1.654
+377,Munoz,Liverpool,MID,6,4,1,15,4.0,1.648
+377,Munoz,Liverpool,MID,7,5,0,4,3.0,1.654
+378,McConnell,Liverpool,MID,3,1,0,12,2.0,0.289
+378,McConnell,Liverpool,MID,4,2,1,10,2.0,0.12
+378,McConnell,Liverpool,MID,5,3,0,3,3.0,0.308
+378,McConnell,Liverpool,MID,6,4,1,15,4.0,0.16
+378,McConnell,Liverpool,MID,7,5,0,4,3.0,0.308
+379,Isak,Liverpool,FWD,3,1,0,12,2.0,6.058
+379,Isak,Liverpool,FWD,4,2,1,10,2.0,5.899
+379,Isak,Liverpool,FWD,5,3,0,3,3.0,5.664
+379,Isak,Liverpool,FWD,6,4,1,15,4.0,3.746
+379,Isak,Liverpool,FWD,7,5,0,4,3.0,5.664
+380,Ekitiké,Liverpool,FWD,3,1,0,12,2.0,0.0
+380,Ekitiké,Liverpool,FWD,4,2,1,10,2.0,0.0
+380,Ekitiké,Liverpool,FWD,5,3,0,3,3.0,0.0
+380,Ekitiké,Liverpool,FWD,6,4,1,15,4.0,0.0
+380,Ekitiké,Liverpool,FWD,7,5,0,4,3.0,0.0
+381,Koumas,Liverpool,MID,3,1,0,12,2.0,0.849
+381,Koumas,Liverpool,MID,4,2,1,10,2.0,0.826
+381,Koumas,Liverpool,MID,5,3,0,3,3.0,0.789
+381,Koumas,Liverpool,MID,6,4,1,15,4.0,0.826
+381,Koumas,Liverpool,MID,7,5,0,4,3.0,0.789
+382,Danns,Liverpool,FWD,3,1,0,12,2.0,0.0
+382,Danns,Liverpool,FWD,4,2,1,10,2.0,0.0
+382,Danns,Liverpool,FWD,5,3,0,3,3.0,0.0
+382,Danns,Liverpool,FWD,6,4,1,15,4.0,0.0
+382,Danns,Liverpool,FWD,7,5,0,4,3.0,0.0
+383,Elliott,Liverpool,MID,3,1,0,12,2.0,0.0
+383,Elliott,Liverpool,MID,4,2,1,10,2.0,0.0
+383,Elliott,Liverpool,MID,5,3,0,3,3.0,0.0
+383,Elliott,Liverpool,MID,6,4,1,15,4.0,0.0
+383,Elliott,Liverpool,MID,7,5,0,4,3.0,0.0
+579,Araujo,Liverpool,DEF,3,1,0,12,2.0,1.414
+579,Araujo,Liverpool,DEF,4,2,1,10,2.0,1.451
+579,Araujo,Liverpool,DEF,5,3,0,3,3.0,1.302
+579,Araujo,Liverpool,DEF,6,4,1,15,4.0,1.336
+579,Araujo,Liverpool,DEF,7,5,0,4,3.0,1.302
+627,Barcola,Liverpool,MID,3,1,0,12,2.0,0.208
+627,Barcola,Liverpool,MID,4,2,1,10,2.0,0.256
+627,Barcola,Liverpool,MID,5,3,0,3,3.0,0.168
+627,Barcola,Liverpool,MID,6,4,1,15,4.0,0.645
+627,Barcola,Liverpool,MID,7,5,0,4,3.0,0.168
+155,Enzo,Man City,MID,3,1,1,7,2.0,2.446
+155,Enzo,Man City,MID,4,2,0,16,4.0,2.099
+155,Enzo,Man City,MID,5,3,1,20,2.0,2.446
+155,Enzo,Man City,MID,6,4,0,14,4.0,2.099
+155,Enzo,Man City,MID,7,5,1,12,2.0,2.446
+237,Ndiaye,Man City,MID,3,1,1,7,2.0,3.754
+237,Ndiaye,Man City,MID,4,2,0,16,4.0,3.217
+237,Ndiaye,Man City,MID,5,3,1,20,2.0,3.754
+237,Ndiaye,Man City,MID,6,4,0,14,4.0,3.217
+237,Ndiaye,Man City,MID,7,5,1,12,2.0,3.754
+384,Donnarumma,Man City,GKP,3,1,1,7,2.0,4.388
+384,Donnarumma,Man City,GKP,4,2,0,16,4.0,3.215
+384,Donnarumma,Man City,GKP,5,3,1,20,2.0,4.388
+384,Donnarumma,Man City,GKP,6,4,0,14,4.0,3.215
+384,Donnarumma,Man City,GKP,7,5,1,12,2.0,4.388
+386,Bettinelli,Man City,GKP,3,1,1,7,2.0,0.037
+386,Bettinelli,Man City,GKP,4,2,0,16,4.0,0.0
+386,Bettinelli,Man City,GKP,5,3,1,20,2.0,0.037
+386,Bettinelli,Man City,GKP,6,4,0,14,4.0,0.0
+386,Bettinelli,Man City,GKP,7,5,1,12,2.0,0.037
+387,O'Reilly,Man City,DEF,3,1,1,7,2.0,3.631
+387,O'Reilly,Man City,DEF,4,2,0,16,4.0,3.411
+387,O'Reilly,Man City,DEF,5,3,1,20,2.0,3.631
+387,O'Reilly,Man City,DEF,6,4,0,14,4.0,3.411
+387,O'Reilly,Man City,DEF,7,5,1,12,2.0,3.631
+388,Guéhi,Man City,DEF,3,1,1,7,2.0,3.946
+388,Guéhi,Man City,DEF,4,2,0,16,4.0,2.881
+388,Guéhi,Man City,DEF,5,3,1,20,2.0,3.946
+388,Guéhi,Man City,DEF,6,4,0,14,4.0,2.881
+388,Guéhi,Man City,DEF,7,5,1,12,2.0,3.946
+389,Matheus N.,Man City,DEF,3,1,1,7,2.0,1.771
+389,Matheus N.,Man City,DEF,4,2,0,16,4.0,1.306
+389,Matheus N.,Man City,DEF,5,3,1,20,2.0,1.771
+389,Matheus N.,Man City,DEF,6,4,0,14,4.0,1.306
+389,Matheus N.,Man City,DEF,7,5,1,12,2.0,1.771
+390,Rúben,Man City,DEF,3,1,1,7,2.0,4.582
+390,Rúben,Man City,DEF,4,2,0,16,4.0,2.625
+390,Rúben,Man City,DEF,5,3,1,20,2.0,4.582
+390,Rúben,Man City,DEF,6,4,0,14,4.0,2.625
+390,Rúben,Man City,DEF,7,5,1,12,2.0,4.582
+391,Gvardiol,Man City,DEF,3,1,1,7,2.0,4.326
+391,Gvardiol,Man City,DEF,4,2,0,16,4.0,2.745
+391,Gvardiol,Man City,DEF,5,3,1,20,2.0,4.326
+391,Gvardiol,Man City,DEF,6,4,0,14,4.0,2.745
+391,Gvardiol,Man City,DEF,7,5,1,12,2.0,4.326
+392,Aït-Nouri,Man City,DEF,3,1,1,7,2.0,0.11
+392,Aït-Nouri,Man City,DEF,4,2,0,16,4.0,0.115
+392,Aït-Nouri,Man City,DEF,5,3,1,20,2.0,0.11
+392,Aït-Nouri,Man City,DEF,6,4,0,14,4.0,0.115
+392,Aït-Nouri,Man City,DEF,7,5,1,12,2.0,0.11
+393,Khusanov,Man City,DEF,3,1,1,7,2.0,3.483
+393,Khusanov,Man City,DEF,4,2,0,16,4.0,3.062
+393,Khusanov,Man City,DEF,5,3,1,20,2.0,3.483
+393,Khusanov,Man City,DEF,6,4,0,14,4.0,3.062
+393,Khusanov,Man City,DEF,7,5,1,12,2.0,3.483
+394,Alleyne,Man City,DEF,3,1,1,7,2.0,0.0
+394,Alleyne,Man City,DEF,4,2,0,16,4.0,0.0
+394,Alleyne,Man City,DEF,5,3,1,20,2.0,0.0
+394,Alleyne,Man City,DEF,6,4,0,14,4.0,0.0
+394,Alleyne,Man City,DEF,7,5,1,12,2.0,0.0
+395,Lewis,Man City,DEF,3,1,1,7,2.0,0.94
+395,Lewis,Man City,DEF,4,2,0,16,4.0,0.96
+395,Lewis,Man City,DEF,5,3,1,20,2.0,0.94
+395,Lewis,Man City,DEF,6,4,0,14,4.0,0.96
+395,Lewis,Man City,DEF,7,5,1,12,2.0,0.94
+396,Vitor Reis,Man City,DEF,3,1,1,7,2.0,0.707
+396,Vitor Reis,Man City,DEF,4,2,0,16,4.0,0.639
+396,Vitor Reis,Man City,DEF,5,3,1,20,2.0,0.707
+396,Vitor Reis,Man City,DEF,6,4,0,14,4.0,0.639
+396,Vitor Reis,Man City,DEF,7,5,1,12,2.0,0.707
+397,Semenyo,Man City,MID,3,1,1,7,2.0,5.781
+397,Semenyo,Man City,MID,4,2,0,16,4.0,3.486
+397,Semenyo,Man City,MID,5,3,1,20,2.0,5.781
+397,Semenyo,Man City,MID,6,4,0,14,4.0,3.486
+397,Semenyo,Man City,MID,7,5,1,12,2.0,5.781
+398,Foden,Man City,MID,3,1,1,7,2.0,4.016
+398,Foden,Man City,MID,4,2,0,16,4.0,2.349
+398,Foden,Man City,MID,5,3,1,20,2.0,4.016
+398,Foden,Man City,MID,6,4,0,14,4.0,2.349
+398,Foden,Man City,MID,7,5,1,12,2.0,4.016
+399,Cherki,Man City,MID,3,1,1,7,2.0,5.679
+399,Cherki,Man City,MID,4,2,0,16,4.0,5.529
+399,Cherki,Man City,MID,5,3,1,20,2.0,5.679
+399,Cherki,Man City,MID,6,4,0,14,4.0,5.529
+399,Cherki,Man City,MID,7,5,1,12,2.0,5.679
+400,Doku,Man City,MID,3,1,1,7,2.0,0.0
+400,Doku,Man City,MID,4,2,0,16,4.0,0.0
+400,Doku,Man City,MID,5,3,1,20,2.0,0.0
+400,Doku,Man City,MID,6,4,0,14,4.0,0.0
+400,Doku,Man City,MID,7,5,1,12,2.0,0.0
+402,Rodrigo,Man City,MID,3,1,1,7,2.0,0.0
+402,Rodrigo,Man City,MID,4,2,0,16,4.0,0.0
+402,Rodrigo,Man City,MID,5,3,1,20,2.0,0.0
+402,Rodrigo,Man City,MID,6,4,0,14,4.0,0.0
+402,Rodrigo,Man City,MID,7,5,1,12,2.0,0.0
+404,Reijnders,Man City,MID,3,1,1,7,2.0,0.0
+404,Reijnders,Man City,MID,4,2,0,16,4.0,0.0
+404,Reijnders,Man City,MID,5,3,1,20,2.0,0.0
+404,Reijnders,Man City,MID,6,4,0,14,4.0,0.0
+404,Reijnders,Man City,MID,7,5,1,12,2.0,0.0
+406,Kovačić,Man City,MID,3,1,1,7,2.0,1.487
+406,Kovačić,Man City,MID,4,2,0,16,4.0,1.413
+406,Kovačić,Man City,MID,5,3,1,20,2.0,1.487
+406,Kovačić,Man City,MID,6,4,0,14,4.0,1.413
+406,Kovačić,Man City,MID,7,5,1,12,2.0,1.487
+407,Echeverri,Man City,MID,3,1,1,7,2.0,0.055
+407,Echeverri,Man City,MID,4,2,0,16,4.0,0.025
+407,Echeverri,Man City,MID,5,3,1,20,2.0,0.055
+407,Echeverri,Man City,MID,6,4,0,14,4.0,0.025
+407,Echeverri,Man City,MID,7,5,1,12,2.0,0.055
+408,Phillips,Man City,MID,3,1,1,7,2.0,0.0
+408,Phillips,Man City,MID,4,2,0,16,4.0,0.0
+408,Phillips,Man City,MID,5,3,1,20,2.0,0.0
+408,Phillips,Man City,MID,6,4,0,14,4.0,0.0
+408,Phillips,Man City,MID,7,5,1,12,2.0,0.0
+409,Mukasa,Man City,MID,3,1,1,7,2.0,0.12
+409,Mukasa,Man City,MID,4,2,0,16,4.0,0.323
+409,Mukasa,Man City,MID,5,3,1,20,2.0,0.12
+409,Mukasa,Man City,MID,6,4,0,14,4.0,0.323
+409,Mukasa,Man City,MID,7,5,1,12,2.0,0.12
+410,Monga,Man City,MID,3,1,1,7,2.0,0.0
+410,Monga,Man City,MID,4,2,0,16,4.0,0.0
+410,Monga,Man City,MID,5,3,1,20,2.0,0.0
+410,Monga,Man City,MID,6,4,0,14,4.0,0.0
+410,Monga,Man City,MID,7,5,1,12,2.0,0.0
+411,Haaland,Man City,FWD,3,1,1,7,2.0,5.599
+411,Haaland,Man City,FWD,4,2,0,16,4.0,2.714
+411,Haaland,Man City,FWD,5,3,1,20,2.0,5.599
+411,Haaland,Man City,FWD,6,4,0,14,4.0,2.714
+411,Haaland,Man City,FWD,7,5,1,12,2.0,5.599
+481,Anderson,Man City,MID,3,1,1,7,2.0,3.005
+481,Anderson,Man City,MID,4,2,0,16,4.0,2.747
+481,Anderson,Man City,MID,5,3,1,20,2.0,3.005
+481,Anderson,Man City,MID,6,4,0,14,4.0,2.747
+481,Anderson,Man City,MID,7,5,1,12,2.0,3.005
+587,Rulli,Man City,GKP,3,1,1,7,2.0,0.016
+587,Rulli,Man City,GKP,4,2,0,16,4.0,0.001
+587,Rulli,Man City,GKP,5,3,1,20,2.0,0.016
+587,Rulli,Man City,GKP,6,4,0,14,4.0,0.001
+587,Rulli,Man City,GKP,7,5,1,12,2.0,0.016
+616,Bouaddi,Man City,MID,3,1,1,7,2.0,1.487
+616,Bouaddi,Man City,MID,4,2,0,16,4.0,1.6
+616,Bouaddi,Man City,MID,5,3,1,20,2.0,1.487
+616,Bouaddi,Man City,MID,6,4,0,14,4.0,1.6
+616,Bouaddi,Man City,MID,7,5,1,12,2.0,1.487
+621,McAidoo,Man City,MID,3,1,1,7,2.0,0.741
+621,McAidoo,Man City,MID,4,2,0,16,4.0,0.68
+621,McAidoo,Man City,MID,5,3,1,20,2.0,0.741
+621,McAidoo,Man City,MID,6,4,0,14,4.0,0.68
+621,McAidoo,Man City,MID,7,5,1,12,2.0,0.741
+622,Braithwaite,Man City,DEF,3,1,1,7,2.0,0.465
+622,Braithwaite,Man City,DEF,4,2,0,16,4.0,0.438
+622,Braithwaite,Man City,DEF,5,3,1,20,2.0,0.465
+622,Braithwaite,Man City,DEF,6,4,0,14,4.0,0.438
+622,Braithwaite,Man City,DEF,7,5,1,12,2.0,0.465
+628,Allan,Man City,MID,3,1,1,7,2.0,0.012
+628,Allan,Man City,MID,4,2,0,16,4.0,0.009
+628,Allan,Man City,MID,5,3,1,20,2.0,0.012
+628,Allan,Man City,MID,6,4,0,14,4.0,0.009
+628,Allan,Man City,MID,7,5,1,12,2.0,0.012
+43,Tielemans,Man Utd,MID,3,1,0,9,3.0,3.932
+43,Tielemans,Man Utd,MID,4,2,1,15,4.0,2.315
+43,Tielemans,Man Utd,MID,5,3,0,10,3.0,3.932
+43,Tielemans,Man Utd,MID,6,4,1,19,3.0,3.93
+43,Tielemans,Man Utd,MID,7,5,0,13,3.0,3.932
+131,Baleba,Man Utd,MID,3,1,0,9,3.0,0.0
+131,Baleba,Man Utd,MID,4,2,1,15,4.0,0.0
+131,Baleba,Man Utd,MID,5,3,0,10,3.0,0.0
+131,Baleba,Man Utd,MID,6,4,1,19,3.0,0.0
+131,Baleba,Man Utd,MID,7,5,0,13,3.0,0.0
+162,Andrey Santos,Man Utd,MID,3,1,0,9,3.0,2.032
+162,Andrey Santos,Man Utd,MID,4,2,1,15,4.0,1.954
+162,Andrey Santos,Man Utd,MID,5,3,0,10,3.0,2.032
+162,Andrey Santos,Man Utd,MID,6,4,1,19,3.0,2.074
+162,Andrey Santos,Man Utd,MID,7,5,0,13,3.0,2.032
+325,Darlow,Man Utd,GKP,3,1,0,9,3.0,0.0
+325,Darlow,Man Utd,GKP,4,2,1,15,4.0,0.0
+325,Darlow,Man Utd,GKP,5,3,0,10,3.0,0.0
+325,Darlow,Man Utd,GKP,6,4,1,19,3.0,0.0
+325,Darlow,Man Utd,GKP,7,5,0,13,3.0,0.0
+412,Lammens,Man Utd,GKP,3,1,0,9,3.0,3.18
+412,Lammens,Man Utd,GKP,4,2,1,15,4.0,3.298
+412,Lammens,Man Utd,GKP,5,3,0,10,3.0,3.18
+412,Lammens,Man Utd,GKP,6,4,1,19,3.0,3.155
+412,Lammens,Man Utd,GKP,7,5,0,13,3.0,3.18
+413,Bayindir,Man Utd,GKP,3,1,0,9,3.0,0.0
+413,Bayindir,Man Utd,GKP,4,2,1,15,4.0,0.0
+413,Bayindir,Man Utd,GKP,5,3,0,10,3.0,0.0
+413,Bayindir,Man Utd,GKP,6,4,1,19,3.0,0.0
+413,Bayindir,Man Utd,GKP,7,5,0,13,3.0,0.0
+414,Heaton,Man Utd,GKP,3,1,0,9,3.0,0.0
+414,Heaton,Man Utd,GKP,4,2,1,15,4.0,0.0
+414,Heaton,Man Utd,GKP,5,3,0,10,3.0,0.0
+414,Heaton,Man Utd,GKP,6,4,1,19,3.0,0.0
+414,Heaton,Man Utd,GKP,7,5,0,13,3.0,0.0
+415,Dorgu,Man Utd,MID,3,1,0,9,3.0,2.801
+415,Dorgu,Man Utd,MID,4,2,1,15,4.0,2.76
+415,Dorgu,Man Utd,MID,5,3,0,10,3.0,2.801
+415,Dorgu,Man Utd,MID,6,4,1,19,3.0,2.771
+415,Dorgu,Man Utd,MID,7,5,0,13,3.0,2.801
+416,De Ligt,Man Utd,DEF,3,1,0,9,3.0,0.0
+416,De Ligt,Man Utd,DEF,4,2,1,15,4.0,0.0
+416,De Ligt,Man Utd,DEF,5,3,0,10,3.0,0.0
+416,De Ligt,Man Utd,DEF,6,4,1,19,3.0,0.0
+416,De Ligt,Man Utd,DEF,7,5,0,13,3.0,0.0
+417,Dalot,Man Utd,DEF,3,1,0,9,3.0,1.756
+417,Dalot,Man Utd,DEF,4,2,1,15,4.0,1.763
+417,Dalot,Man Utd,DEF,5,3,0,10,3.0,1.756
+417,Dalot,Man Utd,DEF,6,4,1,19,3.0,1.839
+417,Dalot,Man Utd,DEF,7,5,0,13,3.0,1.756
+418,Maguire,Man Utd,DEF,3,1,0,9,3.0,3.786
+418,Maguire,Man Utd,DEF,4,2,1,15,4.0,3.583
+418,Maguire,Man Utd,DEF,5,3,0,10,3.0,3.786
+418,Maguire,Man Utd,DEF,6,4,1,19,3.0,3.748
+418,Maguire,Man Utd,DEF,7,5,0,13,3.0,3.786
+419,Martinez,Man Utd,DEF,3,1,0,9,3.0,2.021
+419,Martinez,Man Utd,DEF,4,2,1,15,4.0,2.222
+419,Martinez,Man Utd,DEF,5,3,0,10,3.0,2.021
+419,Martinez,Man Utd,DEF,6,4,1,19,3.0,2.464
+419,Martinez,Man Utd,DEF,7,5,0,13,3.0,2.021
+420,Yoro,Man Utd,DEF,3,1,0,9,3.0,1.09
+420,Yoro,Man Utd,DEF,4,2,1,15,4.0,1.218
+420,Yoro,Man Utd,DEF,5,3,0,10,3.0,1.09
+420,Yoro,Man Utd,DEF,6,4,1,19,3.0,1.196
+420,Yoro,Man Utd,DEF,7,5,0,13,3.0,1.09
+421,Heaven,Man Utd,DEF,3,1,0,9,3.0,1.326
+421,Heaven,Man Utd,DEF,4,2,1,15,4.0,1.629
+421,Heaven,Man Utd,DEF,5,3,0,10,3.0,1.326
+421,Heaven,Man Utd,DEF,6,4,1,19,3.0,1.76
+421,Heaven,Man Utd,DEF,7,5,0,13,3.0,1.326
+422,Mazraoui,Man Utd,DEF,3,1,0,9,3.0,1.293
+422,Mazraoui,Man Utd,DEF,4,2,1,15,4.0,1.518
+422,Mazraoui,Man Utd,DEF,5,3,0,10,3.0,1.293
+422,Mazraoui,Man Utd,DEF,6,4,1,19,3.0,1.418
+422,Mazraoui,Man Utd,DEF,7,5,0,13,3.0,1.293
+423,Shaw,Man Utd,DEF,3,1,0,9,3.0,4.738
+423,Shaw,Man Utd,DEF,4,2,1,15,4.0,2.993
+423,Shaw,Man Utd,DEF,5,3,0,10,3.0,4.738
+423,Shaw,Man Utd,DEF,6,4,1,19,3.0,4.65
+423,Shaw,Man Utd,DEF,7,5,0,13,3.0,4.738
+424,Amass,Man Utd,DEF,3,1,0,9,3.0,0.017
+424,Amass,Man Utd,DEF,4,2,1,15,4.0,0.009
+424,Amass,Man Utd,DEF,5,3,0,10,3.0,0.017
+424,Amass,Man Utd,DEF,6,4,1,19,3.0,0.01
+424,Amass,Man Utd,DEF,7,5,0,13,3.0,0.017
+425,Fredricson,Man Utd,DEF,3,1,0,9,3.0,0.0
+425,Fredricson,Man Utd,DEF,4,2,1,15,4.0,0.0
+425,Fredricson,Man Utd,DEF,5,3,0,10,3.0,0.0
+425,Fredricson,Man Utd,DEF,6,4,1,19,3.0,0.0
+425,Fredricson,Man Utd,DEF,7,5,0,13,3.0,0.0
+426,B.Fernandes,Man Utd,MID,3,1,0,9,3.0,5.449
+426,B.Fernandes,Man Utd,MID,4,2,1,15,4.0,3.279
+426,B.Fernandes,Man Utd,MID,5,3,0,10,3.0,5.449
+426,B.Fernandes,Man Utd,MID,6,4,1,19,3.0,5.704
+426,B.Fernandes,Man Utd,MID,7,5,0,13,3.0,5.449
+427,Mbeumo,Man Utd,MID,3,1,0,9,3.0,4.108
+427,Mbeumo,Man Utd,MID,4,2,1,15,4.0,2.565
+427,Mbeumo,Man Utd,MID,5,3,0,10,3.0,4.108
+427,Mbeumo,Man Utd,MID,6,4,1,19,3.0,4.159
+427,Mbeumo,Man Utd,MID,7,5,0,13,3.0,4.108
+428,Cunha,Man Utd,MID,3,1,0,9,3.0,4.589
+428,Cunha,Man Utd,MID,4,2,1,15,4.0,3.271
+428,Cunha,Man Utd,MID,5,3,0,10,3.0,4.589
+428,Cunha,Man Utd,MID,6,4,1,19,3.0,4.468
+428,Cunha,Man Utd,MID,7,5,0,13,3.0,4.589
+429,Rashford,Man Utd,MID,3,1,0,9,3.0,3.009
+429,Rashford,Man Utd,MID,4,2,1,15,4.0,2.848
+429,Rashford,Man Utd,MID,5,3,0,10,3.0,3.009
+429,Rashford,Man Utd,MID,6,4,1,19,3.0,3.208
+429,Rashford,Man Utd,MID,7,5,0,13,3.0,3.009
+430,Mount,Man Utd,MID,3,1,0,9,3.0,0.012
+430,Mount,Man Utd,MID,4,2,1,15,4.0,0.065
+430,Mount,Man Utd,MID,5,3,0,10,3.0,0.012
+430,Mount,Man Utd,MID,6,4,1,19,3.0,0.019
+430,Mount,Man Utd,MID,7,5,0,13,3.0,0.012
+431,Amad,Man Utd,MID,3,1,0,9,3.0,0.0
+431,Amad,Man Utd,MID,4,2,1,15,4.0,0.0
+431,Amad,Man Utd,MID,5,3,0,10,3.0,0.0
+431,Amad,Man Utd,MID,6,4,1,19,3.0,0.0
+431,Amad,Man Utd,MID,7,5,0,13,3.0,0.0
+432,Mainoo,Man Utd,MID,3,1,0,9,3.0,1.979
+432,Mainoo,Man Utd,MID,4,2,1,15,4.0,1.857
+432,Mainoo,Man Utd,MID,5,3,0,10,3.0,1.979
+432,Mainoo,Man Utd,MID,6,4,1,19,3.0,1.899
+432,Mainoo,Man Utd,MID,7,5,0,13,3.0,1.979
+433,Ugarte,Man Utd,MID,3,1,0,9,3.0,0.0
+433,Ugarte,Man Utd,MID,4,2,1,15,4.0,0.0
+433,Ugarte,Man Utd,MID,5,3,0,10,3.0,0.0
+433,Ugarte,Man Utd,MID,6,4,1,19,3.0,0.0
+433,Ugarte,Man Utd,MID,7,5,0,13,3.0,0.0
+434,J.Fletcher,Man Utd,MID,3,1,0,9,3.0,0.016
+434,J.Fletcher,Man Utd,MID,4,2,1,15,4.0,0.085
+434,J.Fletcher,Man Utd,MID,5,3,0,10,3.0,0.016
+434,J.Fletcher,Man Utd,MID,6,4,1,19,3.0,0.027
+434,J.Fletcher,Man Utd,MID,7,5,0,13,3.0,0.016
+435,Lacey,Man Utd,MID,3,1,0,9,3.0,0.636
+435,Lacey,Man Utd,MID,4,2,1,15,4.0,0.783
+435,Lacey,Man Utd,MID,5,3,0,10,3.0,0.636
+435,Lacey,Man Utd,MID,6,4,1,19,3.0,0.652
+435,Lacey,Man Utd,MID,7,5,0,13,3.0,0.636
+436,Collyer,Man Utd,MID,3,1,0,9,3.0,0.0
+436,Collyer,Man Utd,MID,4,2,1,15,4.0,0.0
+436,Collyer,Man Utd,MID,5,3,0,10,3.0,0.0
+436,Collyer,Man Utd,MID,6,4,1,19,3.0,0.0
+436,Collyer,Man Utd,MID,7,5,0,13,3.0,0.0
+437,Bendito Mantato,Man Utd,MID,3,1,0,9,3.0,0.308
+437,Bendito Mantato,Man Utd,MID,4,2,1,15,4.0,0.16
+437,Bendito Mantato,Man Utd,MID,5,3,0,10,3.0,0.308
+437,Bendito Mantato,Man Utd,MID,6,4,1,19,3.0,0.127
+437,Bendito Mantato,Man Utd,MID,7,5,0,13,3.0,0.308
+438,Fletcher,Man Utd,MID,3,1,0,9,3.0,0.112
+438,Fletcher,Man Utd,MID,4,2,1,15,4.0,0.062
+438,Fletcher,Man Utd,MID,5,3,0,10,3.0,0.112
+438,Fletcher,Man Utd,MID,6,4,1,19,3.0,0.054
+438,Fletcher,Man Utd,MID,7,5,0,13,3.0,0.112
+439,Šeško,Man Utd,FWD,3,1,0,9,3.0,2.634
+439,Šeško,Man Utd,FWD,4,2,1,15,4.0,2.586
+439,Šeško,Man Utd,FWD,5,3,0,10,3.0,2.634
+439,Šeško,Man Utd,FWD,6,4,1,19,3.0,2.621
+439,Šeško,Man Utd,FWD,7,5,0,13,3.0,2.634
+440,Zirkzee,Man Utd,FWD,3,1,0,9,3.0,0.152
+440,Zirkzee,Man Utd,FWD,4,2,1,15,4.0,0.277
+440,Zirkzee,Man Utd,FWD,5,3,0,10,3.0,0.152
+440,Zirkzee,Man Utd,FWD,6,4,1,19,3.0,0.13
+440,Zirkzee,Man Utd,FWD,7,5,0,13,3.0,0.152
+441,Obi,Man Utd,FWD,3,1,0,9,3.0,0.097
+441,Obi,Man Utd,FWD,4,2,1,15,4.0,0.174
+441,Obi,Man Utd,FWD,5,3,0,10,3.0,0.097
+441,Obi,Man Utd,FWD,6,4,1,19,3.0,0.105
+441,Obi,Man Utd,FWD,7,5,0,13,3.0,0.097
+405,N.Gonzalez,Newcastle,MID,3,1,1,3,3.0,1.862
+405,N.Gonzalez,Newcastle,MID,4,2,0,13,3.0,1.85
+405,N.Gonzalez,Newcastle,MID,5,3,1,11,2.0,1.76
+405,N.Gonzalez,Newcastle,MID,6,4,0,7,2.0,1.81
+405,N.Gonzalez,Newcastle,MID,7,5,1,2,3.0,1.862
+442,Pope,Newcastle,GKP,3,1,1,3,3.0,0.402
+442,Pope,Newcastle,GKP,4,2,0,13,3.0,0.353
+442,Pope,Newcastle,GKP,5,3,1,11,2.0,0.405
+442,Pope,Newcastle,GKP,6,4,0,7,2.0,0.365
+442,Pope,Newcastle,GKP,7,5,1,2,3.0,0.402
+443,Gillespie,Newcastle,GKP,3,1,1,3,3.0,0.0
+443,Gillespie,Newcastle,GKP,4,2,0,13,3.0,0.0
+443,Gillespie,Newcastle,GKP,5,3,1,11,2.0,0.037
+443,Gillespie,Newcastle,GKP,6,4,0,7,2.0,0.019
+443,Gillespie,Newcastle,GKP,7,5,1,2,3.0,0.0
+444,Jaouen,Newcastle,GKP,3,1,1,3,3.0,0.0
+444,Jaouen,Newcastle,GKP,4,2,0,13,3.0,0.0
+444,Jaouen,Newcastle,GKP,5,3,1,11,2.0,0.037
+444,Jaouen,Newcastle,GKP,6,4,0,7,2.0,0.019
+444,Jaouen,Newcastle,GKP,7,5,1,2,3.0,0.0
+445,Thiaw,Newcastle,DEF,3,1,1,3,3.0,3.963
+445,Thiaw,Newcastle,DEF,4,2,0,13,3.0,4.229
+445,Thiaw,Newcastle,DEF,5,3,1,11,2.0,4.57
+445,Thiaw,Newcastle,DEF,6,4,0,7,2.0,4.889
+445,Thiaw,Newcastle,DEF,7,5,1,2,3.0,3.963
+446,Schär,Newcastle,DEF,3,1,1,3,3.0,1.008
+446,Schär,Newcastle,DEF,4,2,0,13,3.0,1.014
+446,Schär,Newcastle,DEF,5,3,1,11,2.0,1.022
+446,Schär,Newcastle,DEF,6,4,0,7,2.0,1.037
+446,Schär,Newcastle,DEF,7,5,1,2,3.0,1.008
+447,Botman,Newcastle,DEF,3,1,1,3,3.0,3.005
+447,Botman,Newcastle,DEF,4,2,0,13,3.0,3.018
+447,Botman,Newcastle,DEF,5,3,1,11,2.0,3.664
+447,Botman,Newcastle,DEF,6,4,0,7,2.0,3.759
+447,Botman,Newcastle,DEF,7,5,1,2,3.0,3.005
+448,Burn,Newcastle,DEF,3,1,1,3,3.0,0.0
+448,Burn,Newcastle,DEF,4,2,0,13,3.0,0.0
+448,Burn,Newcastle,DEF,5,3,1,11,2.0,0.0
+448,Burn,Newcastle,DEF,6,4,0,7,2.0,0.0
+448,Burn,Newcastle,DEF,7,5,1,2,3.0,0.0
+449,Hall,Newcastle,DEF,3,1,1,3,3.0,3.517
+449,Hall,Newcastle,DEF,4,2,0,13,3.0,3.514
+449,Hall,Newcastle,DEF,5,3,1,11,2.0,4.117
+449,Hall,Newcastle,DEF,6,4,0,7,2.0,4.251
+449,Hall,Newcastle,DEF,7,5,1,2,3.0,3.517
+450,Livramento,Newcastle,DEF,3,1,1,3,3.0,0.0
+450,Livramento,Newcastle,DEF,4,2,0,13,3.0,0.0
+450,Livramento,Newcastle,DEF,5,3,1,11,2.0,0.0
+450,Livramento,Newcastle,DEF,6,4,0,7,2.0,0.0
+450,Livramento,Newcastle,DEF,7,5,1,2,3.0,0.0
+451,A.Murphy,Newcastle,DEF,3,1,1,3,3.0,0.0
+451,A.Murphy,Newcastle,DEF,4,2,0,13,3.0,0.0
+451,A.Murphy,Newcastle,DEF,5,3,1,11,2.0,0.0
+451,A.Murphy,Newcastle,DEF,6,4,0,7,2.0,0.0
+451,A.Murphy,Newcastle,DEF,7,5,1,2,3.0,0.0
+453,Barnes,Newcastle,MID,3,1,1,3,3.0,3.516
+453,Barnes,Newcastle,MID,4,2,0,13,3.0,3.486
+453,Barnes,Newcastle,MID,5,3,1,11,2.0,4.756
+453,Barnes,Newcastle,MID,6,4,0,7,2.0,4.842
+453,Barnes,Newcastle,MID,7,5,1,2,3.0,3.516
+454,Elanga,Newcastle,MID,3,1,1,3,3.0,3.977
+454,Elanga,Newcastle,MID,4,2,0,13,3.0,3.987
+454,Elanga,Newcastle,MID,5,3,1,11,2.0,4.19
+454,Elanga,Newcastle,MID,6,4,0,7,2.0,4.222
+454,Elanga,Newcastle,MID,7,5,1,2,3.0,3.977
+456,J.Ramsey,Newcastle,MID,3,1,1,3,3.0,1.545
+456,J.Ramsey,Newcastle,MID,4,2,0,13,3.0,1.546
+456,J.Ramsey,Newcastle,MID,5,3,1,11,2.0,1.853
+456,J.Ramsey,Newcastle,MID,6,4,0,7,2.0,1.842
+456,J.Ramsey,Newcastle,MID,7,5,1,2,3.0,1.545
+457,J.Murphy,Newcastle,MID,3,1,1,3,3.0,1.305
+457,J.Murphy,Newcastle,MID,4,2,0,13,3.0,1.519
+457,J.Murphy,Newcastle,MID,5,3,1,11,2.0,1.444
+457,J.Murphy,Newcastle,MID,6,4,0,7,2.0,1.607
+457,J.Murphy,Newcastle,MID,7,5,1,2,3.0,1.305
+458,Joelinton,Newcastle,MID,3,1,1,3,3.0,0.0
+458,Joelinton,Newcastle,MID,4,2,0,13,3.0,0.0
+458,Joelinton,Newcastle,MID,5,3,1,11,2.0,0.0
+458,Joelinton,Newcastle,MID,6,4,0,7,2.0,0.0
+458,Joelinton,Newcastle,MID,7,5,1,2,3.0,0.0
+459,L.Miley,Newcastle,MID,3,1,1,3,3.0,2.341
+459,L.Miley,Newcastle,MID,4,2,0,13,3.0,2.416
+459,L.Miley,Newcastle,MID,5,3,1,11,2.0,2.728
+459,L.Miley,Newcastle,MID,6,4,0,7,2.0,2.624
+459,L.Miley,Newcastle,MID,7,5,1,2,3.0,2.341
+460,Willock,Newcastle,MID,3,1,1,3,3.0,1.653
+460,Willock,Newcastle,MID,4,2,0,13,3.0,1.596
+460,Willock,Newcastle,MID,5,3,1,11,2.0,1.792
+460,Willock,Newcastle,MID,6,4,0,7,2.0,1.713
+460,Willock,Newcastle,MID,7,5,1,2,3.0,1.653
+461,Touré,Newcastle,MID,3,1,1,3,3.0,1.12
+461,Touré,Newcastle,MID,4,2,0,13,3.0,1.058
+461,Touré,Newcastle,MID,5,3,1,11,2.0,1.089
+461,Touré,Newcastle,MID,6,4,0,7,2.0,1.049
+461,Touré,Newcastle,MID,7,5,1,2,3.0,1.12
+462,Steur,Newcastle,MID,3,1,1,3,3.0,1.404
+462,Steur,Newcastle,MID,4,2,0,13,3.0,1.275
+462,Steur,Newcastle,MID,5,3,1,11,2.0,1.313
+462,Steur,Newcastle,MID,6,4,0,7,2.0,1.21
+462,Steur,Newcastle,MID,7,5,1,2,3.0,1.404
+463,Woltemade,Newcastle,FWD,3,1,1,3,3.0,0.0
+463,Woltemade,Newcastle,FWD,4,2,0,13,3.0,0.0
+463,Woltemade,Newcastle,FWD,5,3,1,11,2.0,0.0
+463,Woltemade,Newcastle,FWD,6,4,0,7,2.0,0.0
+463,Woltemade,Newcastle,FWD,7,5,1,2,3.0,0.0
+464,Wissa,Newcastle,FWD,3,1,1,3,3.0,2.966
+464,Wissa,Newcastle,FWD,4,2,0,13,3.0,2.926
+464,Wissa,Newcastle,FWD,5,3,1,11,2.0,3.4
+464,Wissa,Newcastle,FWD,6,4,0,7,2.0,3.541
+464,Wissa,Newcastle,FWD,7,5,1,2,3.0,2.966
+465,Osula,Newcastle,FWD,3,1,1,3,3.0,0.0
+465,Osula,Newcastle,FWD,4,2,0,13,3.0,0.0
+465,Osula,Newcastle,FWD,5,3,1,11,2.0,0.0
+465,Osula,Newcastle,FWD,6,4,0,7,2.0,0.0
+465,Osula,Newcastle,FWD,7,5,1,2,3.0,0.0
+466,Neave,Newcastle,FWD,3,1,1,3,3.0,0.273
+466,Neave,Newcastle,FWD,4,2,0,13,3.0,0.218
+466,Neave,Newcastle,FWD,5,3,1,11,2.0,0.322
+466,Neave,Newcastle,FWD,6,4,0,7,2.0,0.271
+466,Neave,Newcastle,FWD,7,5,1,2,3.0,0.273
+559,Bamba,Newcastle,MID,3,1,1,3,3.0,0.803
+559,Bamba,Newcastle,MID,4,2,0,13,3.0,0.841
+559,Bamba,Newcastle,MID,5,3,1,11,2.0,0.763
+559,Bamba,Newcastle,MID,6,4,0,7,2.0,0.803
+559,Bamba,Newcastle,MID,7,5,1,2,3.0,0.803
+567,Horníček,Newcastle,GKP,3,1,1,3,3.0,3.396
+567,Horníček,Newcastle,GKP,4,2,0,13,3.0,3.727
+567,Horníček,Newcastle,GKP,5,3,1,11,2.0,3.953
+567,Horníček,Newcastle,GKP,6,4,0,7,2.0,4.119
+567,Horníček,Newcastle,GKP,7,5,1,2,3.0,3.396
+593,Dedić,Newcastle,DEF,3,1,1,3,3.0,3.811
+593,Dedić,Newcastle,DEF,4,2,0,13,3.0,4.143
+593,Dedić,Newcastle,DEF,5,3,1,11,2.0,3.635
+593,Dedić,Newcastle,DEF,6,4,0,7,2.0,3.816
+593,Dedić,Newcastle,DEF,7,5,1,2,3.0,3.811
+609,Shahar,Newcastle,DEF,3,1,1,3,3.0,0.024
+609,Shahar,Newcastle,DEF,4,2,0,13,3.0,0.044
+609,Shahar,Newcastle,DEF,5,3,1,11,2.0,0.022
+609,Shahar,Newcastle,DEF,6,4,0,7,2.0,0.04
+609,Shahar,Newcastle,DEF,7,5,1,2,3.0,0.024
+634,Fernandez-Pardo,Newcastle,FWD,3,1,1,3,3.0,0.013
+634,Fernandez-Pardo,Newcastle,FWD,4,2,0,13,3.0,0.003
+634,Fernandez-Pardo,Newcastle,FWD,5,3,1,11,2.0,0.012
+634,Fernandez-Pardo,Newcastle,FWD,6,4,0,7,2.0,0.003
+634,Fernandez-Pardo,Newcastle,FWD,7,5,1,2,3.0,0.013
+167,Delap,Nott'm Forest,FWD,3,1,1,19,3.0,1.83
+167,Delap,Nott'm Forest,FWD,4,2,0,2,4.0,1.714
+167,Delap,Nott'm Forest,FWD,5,3,1,7,2.0,1.91
+167,Delap,Nott'm Forest,FWD,6,4,0,8,3.0,1.754
+167,Delap,Nott'm Forest,FWD,7,5,1,1,4.0,1.812
+201,Muñoz,Nott'm Forest,DEF,3,1,1,19,3.0,2.104
+201,Muñoz,Nott'm Forest,DEF,4,2,0,2,4.0,2.168
+201,Muñoz,Nott'm Forest,DEF,5,3,1,7,2.0,2.251
+201,Muñoz,Nott'm Forest,DEF,6,4,0,8,3.0,2.212
+201,Muñoz,Nott'm Forest,DEF,7,5,1,1,4.0,2.07
+467,Sels,Nott'm Forest,GKP,3,1,1,19,3.0,2.617
+467,Sels,Nott'm Forest,GKP,4,2,0,2,4.0,2.315
+467,Sels,Nott'm Forest,GKP,5,3,1,7,2.0,2.936
+467,Sels,Nott'm Forest,GKP,6,4,0,8,3.0,2.564
+467,Sels,Nott'm Forest,GKP,7,5,1,1,4.0,2.363
+468,John,Nott'm Forest,GKP,3,1,1,19,3.0,0.013
+468,John,Nott'm Forest,GKP,4,2,0,2,4.0,0.026
+468,John,Nott'm Forest,GKP,5,3,1,7,2.0,0.032
+468,John,Nott'm Forest,GKP,6,4,0,8,3.0,0.027
+468,John,Nott'm Forest,GKP,7,5,1,1,4.0,0.075
+469,N.Williams,Nott'm Forest,DEF,3,1,1,19,3.0,3.334
+469,N.Williams,Nott'm Forest,DEF,4,2,0,2,4.0,3.596
+469,N.Williams,Nott'm Forest,DEF,5,3,1,7,2.0,4.171
+469,N.Williams,Nott'm Forest,DEF,6,4,0,8,3.0,3.41
+469,N.Williams,Nott'm Forest,DEF,7,5,1,1,4.0,3.476
+470,Morato,Nott'm Forest,DEF,3,1,1,19,3.0,0.0
+470,Morato,Nott'm Forest,DEF,4,2,0,2,4.0,0.0
+470,Morato,Nott'm Forest,DEF,5,3,1,7,2.0,0.0
+470,Morato,Nott'm Forest,DEF,6,4,0,8,3.0,0.0
+470,Morato,Nott'm Forest,DEF,7,5,1,1,4.0,0.0
+471,Milenković,Nott'm Forest,DEF,3,1,1,19,3.0,4.791
+471,Milenković,Nott'm Forest,DEF,4,2,0,2,4.0,3.766
+471,Milenković,Nott'm Forest,DEF,5,3,1,7,2.0,5.051
+471,Milenković,Nott'm Forest,DEF,6,4,0,8,3.0,4.619
+471,Milenković,Nott'm Forest,DEF,7,5,1,1,4.0,3.909
+472,Murillo,Nott'm Forest,DEF,3,1,1,19,3.0,3.924
+472,Murillo,Nott'm Forest,DEF,4,2,0,2,4.0,2.89
+472,Murillo,Nott'm Forest,DEF,5,3,1,7,2.0,4.378
+472,Murillo,Nott'm Forest,DEF,6,4,0,8,3.0,3.904
+472,Murillo,Nott'm Forest,DEF,7,5,1,1,4.0,3.08
+473,Aina,Nott'm Forest,DEF,3,1,1,19,3.0,3.466
+473,Aina,Nott'm Forest,DEF,4,2,0,2,4.0,1.977
+473,Aina,Nott'm Forest,DEF,5,3,1,7,2.0,3.739
+473,Aina,Nott'm Forest,DEF,6,4,0,8,3.0,3.688
+473,Aina,Nott'm Forest,DEF,7,5,1,1,4.0,2.077
+474,Jair Cunha,Nott'm Forest,DEF,3,1,1,19,3.0,2.903
+474,Jair Cunha,Nott'm Forest,DEF,4,2,0,2,4.0,2.224
+474,Jair Cunha,Nott'm Forest,DEF,5,3,1,7,2.0,3.724
+474,Jair Cunha,Nott'm Forest,DEF,6,4,0,8,3.0,2.684
+474,Jair Cunha,Nott'm Forest,DEF,7,5,1,1,4.0,2.443
+475,Savona,Nott'm Forest,DEF,3,1,1,19,3.0,0.0
+475,Savona,Nott'm Forest,DEF,4,2,0,2,4.0,0.0
+475,Savona,Nott'm Forest,DEF,5,3,1,7,2.0,0.0
+475,Savona,Nott'm Forest,DEF,6,4,0,8,3.0,0.0
+475,Savona,Nott'm Forest,DEF,7,5,1,1,4.0,0.0
+476,O.Richards,Nott'm Forest,DEF,3,1,1,19,3.0,0.01
+476,O.Richards,Nott'm Forest,DEF,4,2,0,2,4.0,0.016
+476,O.Richards,Nott'm Forest,DEF,5,3,1,7,2.0,0.014
+476,O.Richards,Nott'm Forest,DEF,6,4,0,8,3.0,0.017
+476,O.Richards,Nott'm Forest,DEF,7,5,1,1,4.0,0.009
+477,Abbott,Nott'm Forest,DEF,3,1,1,19,3.0,0.0
+477,Abbott,Nott'm Forest,DEF,4,2,0,2,4.0,0.0
+477,Abbott,Nott'm Forest,DEF,5,3,1,7,2.0,0.0
+477,Abbott,Nott'm Forest,DEF,6,4,0,8,3.0,0.0
+477,Abbott,Nott'm Forest,DEF,7,5,1,1,4.0,0.0
+478,Netz,Nott'm Forest,DEF,3,1,1,19,3.0,0.454
+478,Netz,Nott'm Forest,DEF,4,2,0,2,4.0,0.407
+478,Netz,Nott'm Forest,DEF,5,3,1,7,2.0,0.487
+478,Netz,Nott'm Forest,DEF,6,4,0,8,3.0,0.376
+478,Netz,Nott'm Forest,DEF,7,5,1,1,4.0,0.479
+479,Bindon,Nott'm Forest,DEF,3,1,1,19,3.0,0.0
+479,Bindon,Nott'm Forest,DEF,4,2,0,2,4.0,0.0
+479,Bindon,Nott'm Forest,DEF,5,3,1,7,2.0,0.0
+479,Bindon,Nott'm Forest,DEF,6,4,0,8,3.0,0.0
+479,Bindon,Nott'm Forest,DEF,7,5,1,1,4.0,0.0
+480,Gibbs-White,Nott'm Forest,MID,3,1,1,19,3.0,4.2
+480,Gibbs-White,Nott'm Forest,MID,4,2,0,2,4.0,3.437
+480,Gibbs-White,Nott'm Forest,MID,5,3,1,7,2.0,4.634
+480,Gibbs-White,Nott'm Forest,MID,6,4,0,8,3.0,4.262
+480,Gibbs-White,Nott'm Forest,MID,7,5,1,1,4.0,3.354
+482,Hudson-Odoi,Nott'm Forest,MID,3,1,1,19,3.0,0.918
+482,Hudson-Odoi,Nott'm Forest,MID,4,2,0,2,4.0,0.859
+482,Hudson-Odoi,Nott'm Forest,MID,5,3,1,7,2.0,0.895
+482,Hudson-Odoi,Nott'm Forest,MID,6,4,0,8,3.0,0.87
+482,Hudson-Odoi,Nott'm Forest,MID,7,5,1,1,4.0,0.916
+483,Ndoye,Nott'm Forest,MID,3,1,1,19,3.0,3.282
+483,Ndoye,Nott'm Forest,MID,4,2,0,2,4.0,3.24
+483,Ndoye,Nott'm Forest,MID,5,3,1,7,2.0,3.725
+483,Ndoye,Nott'm Forest,MID,6,4,0,8,3.0,3.303
+483,Ndoye,Nott'm Forest,MID,7,5,1,1,4.0,3.251
+484,Hutchinson,Nott'm Forest,MID,3,1,1,19,3.0,0.0
+484,Hutchinson,Nott'm Forest,MID,4,2,0,2,4.0,0.0
+484,Hutchinson,Nott'm Forest,MID,5,3,1,7,2.0,0.0
+484,Hutchinson,Nott'm Forest,MID,6,4,0,8,3.0,0.0
+484,Hutchinson,Nott'm Forest,MID,7,5,1,1,4.0,0.0
+485,Bakwa,Nott'm Forest,MID,3,1,1,19,3.0,0.0
+485,Bakwa,Nott'm Forest,MID,4,2,0,2,4.0,0.0
+485,Bakwa,Nott'm Forest,MID,5,3,1,7,2.0,0.0
+485,Bakwa,Nott'm Forest,MID,6,4,0,8,3.0,0.0
+485,Bakwa,Nott'm Forest,MID,7,5,1,1,4.0,0.0
+486,McAtee,Nott'm Forest,MID,3,1,1,19,3.0,2.144
+486,McAtee,Nott'm Forest,MID,4,2,0,2,4.0,2.081
+486,McAtee,Nott'm Forest,MID,5,3,1,7,2.0,2.842
+486,McAtee,Nott'm Forest,MID,6,4,0,8,3.0,2.22
+486,McAtee,Nott'm Forest,MID,7,5,1,1,4.0,2.036
+487,Dominguez,Nott'm Forest,MID,3,1,1,19,3.0,0.617
+487,Dominguez,Nott'm Forest,MID,4,2,0,2,4.0,0.572
+487,Dominguez,Nott'm Forest,MID,5,3,1,7,2.0,0.601
+487,Dominguez,Nott'm Forest,MID,6,4,0,8,3.0,0.548
+487,Dominguez,Nott'm Forest,MID,7,5,1,1,4.0,0.646
+488,I.Sangaré,Nott'm Forest,MID,3,1,1,19,3.0,0.0
+488,I.Sangaré,Nott'm Forest,MID,4,2,0,2,4.0,0.0
+488,I.Sangaré,Nott'm Forest,MID,5,3,1,7,2.0,0.0
+488,I.Sangaré,Nott'm Forest,MID,6,4,0,8,3.0,0.0
+488,I.Sangaré,Nott'm Forest,MID,7,5,1,1,4.0,0.0
+489,Yates,Nott'm Forest,MID,3,1,1,19,3.0,0.343
+489,Yates,Nott'm Forest,MID,4,2,0,2,4.0,0.398
+489,Yates,Nott'm Forest,MID,5,3,1,7,2.0,0.404
+489,Yates,Nott'm Forest,MID,6,4,0,8,3.0,0.341
+489,Yates,Nott'm Forest,MID,7,5,1,1,4.0,0.417
+490,Wood,Nott'm Forest,FWD,3,1,1,19,3.0,2.035
+490,Wood,Nott'm Forest,FWD,4,2,0,2,4.0,1.943
+490,Wood,Nott'm Forest,FWD,5,3,1,7,2.0,2.468
+490,Wood,Nott'm Forest,FWD,6,4,0,8,3.0,1.965
+490,Wood,Nott'm Forest,FWD,7,5,1,1,4.0,2.014
+491,Igor Jesus,Nott'm Forest,FWD,3,1,1,19,3.0,3.957
+491,Igor Jesus,Nott'm Forest,FWD,4,2,0,2,4.0,2.976
+491,Igor Jesus,Nott'm Forest,FWD,5,3,1,7,2.0,5.236
+491,Igor Jesus,Nott'm Forest,FWD,6,4,0,8,3.0,3.997
+491,Igor Jesus,Nott'm Forest,FWD,7,5,1,1,4.0,2.967
+493,Kalimuendo,Nott'm Forest,FWD,3,1,1,19,3.0,0.547
+493,Kalimuendo,Nott'm Forest,FWD,4,2,0,2,4.0,0.497
+493,Kalimuendo,Nott'm Forest,FWD,5,3,1,7,2.0,0.525
+493,Kalimuendo,Nott'm Forest,FWD,6,4,0,8,3.0,0.484
+493,Kalimuendo,Nott'm Forest,FWD,7,5,1,1,4.0,0.57
+558,Schlager,Nott'm Forest,MID,3,1,1,19,3.0,1.782
+558,Schlager,Nott'm Forest,MID,4,2,0,2,4.0,1.489
+558,Schlager,Nott'm Forest,MID,5,3,1,7,2.0,1.856
+558,Schlager,Nott'm Forest,MID,6,4,0,8,3.0,1.576
+558,Schlager,Nott'm Forest,MID,7,5,1,1,4.0,1.655
+581,Diomande,Nott'm Forest,DEF,3,1,1,19,3.0,0.771
+581,Diomande,Nott'm Forest,DEF,4,2,0,2,4.0,0.527
+581,Diomande,Nott'm Forest,DEF,5,3,1,7,2.0,0.786
+581,Diomande,Nott'm Forest,DEF,6,4,0,8,3.0,0.433
+581,Diomande,Nott'm Forest,DEF,7,5,1,1,4.0,0.983
+590,Benda,Nott'm Forest,GKP,3,1,1,19,3.0,0.013
+590,Benda,Nott'm Forest,GKP,4,2,0,2,4.0,0.026
+590,Benda,Nott'm Forest,GKP,5,3,1,7,2.0,0.032
+590,Benda,Nott'm Forest,GKP,6,4,0,8,3.0,0.027
+590,Benda,Nott'm Forest,GKP,7,5,1,1,4.0,0.075
+112,Van Hecke,Spurs,DEF,3,1,0,18,3.0,3.578
+112,Van Hecke,Spurs,DEF,4,2,1,9,3.0,3.602
+112,Van Hecke,Spurs,DEF,5,3,1,2,3.0,3.602
+112,Van Hecke,Spurs,DEF,6,4,0,16,4.0,4.002
+112,Van Hecke,Spurs,DEF,7,5,1,7,2.0,4.749
+147,Tosin,Spurs,DEF,3,1,0,18,3.0,0.315
+147,Tosin,Spurs,DEF,4,2,1,9,3.0,0.134
+147,Tosin,Spurs,DEF,5,3,1,2,3.0,0.134
+147,Tosin,Spurs,DEF,6,4,0,16,4.0,0.33
+147,Tosin,Spurs,DEF,7,5,1,7,2.0,0.127
+401,Marmoush,Spurs,FWD,3,1,0,18,3.0,2.699
+401,Marmoush,Spurs,FWD,4,2,1,9,3.0,2.751
+401,Marmoush,Spurs,FWD,5,3,1,2,3.0,2.751
+401,Marmoush,Spurs,FWD,6,4,0,16,4.0,2.592
+401,Marmoush,Spurs,FWD,7,5,1,7,2.0,2.791
+403,Sávio,Spurs,MID,3,1,0,18,3.0,0.316
+403,Sávio,Spurs,MID,4,2,1,9,3.0,0.34
+403,Sávio,Spurs,MID,5,3,1,2,3.0,0.34
+403,Sávio,Spurs,MID,6,4,0,16,4.0,0.607
+403,Sávio,Spurs,MID,7,5,1,7,2.0,0.341
+455,Tonali,Spurs,MID,3,1,0,18,3.0,3.315
+455,Tonali,Spurs,MID,4,2,1,9,3.0,3.191
+455,Tonali,Spurs,MID,5,3,1,2,3.0,3.191
+455,Tonali,Spurs,MID,6,4,0,16,4.0,2.338
+455,Tonali,Spurs,MID,7,5,1,7,2.0,2.91
+494,Vicario,Spurs,GKP,3,1,0,18,3.0,0.0
+494,Vicario,Spurs,GKP,4,2,1,9,3.0,0.0
+494,Vicario,Spurs,GKP,5,3,1,2,3.0,0.0
+494,Vicario,Spurs,GKP,6,4,0,16,4.0,0.0
+494,Vicario,Spurs,GKP,7,5,1,7,2.0,0.0
+495,Austin,Spurs,GKP,3,1,0,18,3.0,0.007
+495,Austin,Spurs,GKP,4,2,1,9,3.0,0.046
+495,Austin,Spurs,GKP,5,3,1,2,3.0,0.046
+495,Austin,Spurs,GKP,6,4,0,16,4.0,0.024
+495,Austin,Spurs,GKP,7,5,1,7,2.0,0.063
+496,Kinsky,Spurs,GKP,3,1,0,18,3.0,3.731
+496,Kinsky,Spurs,GKP,4,2,1,9,3.0,3.648
+496,Kinsky,Spurs,GKP,5,3,1,2,3.0,3.648
+496,Kinsky,Spurs,GKP,6,4,0,16,4.0,3.615
+496,Kinsky,Spurs,GKP,7,5,1,7,2.0,4.34
+497,Dubravka,Spurs,GKP,3,1,0,18,3.0,1.027
+497,Dubravka,Spurs,GKP,4,2,1,9,3.0,1.306
+497,Dubravka,Spurs,GKP,5,3,1,2,3.0,1.306
+497,Dubravka,Spurs,GKP,6,4,0,16,4.0,1.005
+497,Dubravka,Spurs,GKP,7,5,1,7,2.0,1.436
+498,Senesi,Spurs,DEF,3,1,0,18,3.0,2.042
+498,Senesi,Spurs,DEF,4,2,1,9,3.0,2.196
+498,Senesi,Spurs,DEF,5,3,1,2,3.0,2.196
+498,Senesi,Spurs,DEF,6,4,0,16,4.0,2.012
+498,Senesi,Spurs,DEF,7,5,1,7,2.0,2.428
+499,Pedro Porro,Spurs,DEF,3,1,0,18,3.0,2.01
+499,Pedro Porro,Spurs,DEF,4,2,1,9,3.0,2.093
+499,Pedro Porro,Spurs,DEF,5,3,1,2,3.0,2.093
+499,Pedro Porro,Spurs,DEF,6,4,0,16,4.0,1.999
+499,Pedro Porro,Spurs,DEF,7,5,1,7,2.0,2.355
+500,Romero,Spurs,DEF,3,1,0,18,3.0,0.0
+500,Romero,Spurs,DEF,4,2,1,9,3.0,0.0
+500,Romero,Spurs,DEF,5,3,1,2,3.0,0.0
+500,Romero,Spurs,DEF,6,4,0,16,4.0,0.0
+500,Romero,Spurs,DEF,7,5,1,7,2.0,0.0
+502,Robertson,Spurs,DEF,3,1,0,18,3.0,3.788
+502,Robertson,Spurs,DEF,4,2,1,9,3.0,3.598
+502,Robertson,Spurs,DEF,5,3,1,2,3.0,3.598
+502,Robertson,Spurs,DEF,6,4,0,16,4.0,2.162
+502,Robertson,Spurs,DEF,7,5,1,7,2.0,4.135
+503,Van de Ven,Spurs,DEF,3,1,0,18,3.0,2.344
+503,Van de Ven,Spurs,DEF,4,2,1,9,3.0,2.459
+503,Van de Ven,Spurs,DEF,5,3,1,2,3.0,2.459
+503,Van de Ven,Spurs,DEF,6,4,0,16,4.0,2.002
+503,Van de Ven,Spurs,DEF,7,5,1,7,2.0,2.934
+505,Spence,Spurs,DEF,3,1,0,18,3.0,0.0
+505,Spence,Spurs,DEF,4,2,1,9,3.0,0.0
+505,Spence,Spurs,DEF,5,3,1,2,3.0,0.0
+505,Spence,Spurs,DEF,6,4,0,16,4.0,0.0
+505,Spence,Spurs,DEF,7,5,1,7,2.0,0.0
+506,Udogie,Spurs,DEF,3,1,0,18,3.0,0.848
+506,Udogie,Spurs,DEF,4,2,1,9,3.0,0.821
+506,Udogie,Spurs,DEF,5,3,1,2,3.0,0.821
+506,Udogie,Spurs,DEF,6,4,0,16,4.0,0.868
+506,Udogie,Spurs,DEF,7,5,1,7,2.0,0.861
+507,Phillips,Spurs,DEF,3,1,0,18,3.0,0.0
+507,Phillips,Spurs,DEF,4,2,1,9,3.0,0.0
+507,Phillips,Spurs,DEF,5,3,1,2,3.0,0.0
+507,Phillips,Spurs,DEF,6,4,0,16,4.0,0.0
+507,Phillips,Spurs,DEF,7,5,1,7,2.0,0.0
+508,Davies,Spurs,DEF,3,1,0,18,3.0,0.02
+508,Davies,Spurs,DEF,4,2,1,9,3.0,0.059
+508,Davies,Spurs,DEF,5,3,1,2,3.0,0.059
+508,Davies,Spurs,DEF,6,4,0,16,4.0,0.037
+508,Davies,Spurs,DEF,7,5,1,7,2.0,0.076
+509,Byfield,Spurs,DEF,3,1,0,18,3.0,0.0
+509,Byfield,Spurs,DEF,4,2,1,9,3.0,0.0
+509,Byfield,Spurs,DEF,5,3,1,2,3.0,0.0
+509,Byfield,Spurs,DEF,6,4,0,16,4.0,0.0
+509,Byfield,Spurs,DEF,7,5,1,7,2.0,0.0
+510,Rowswell,Spurs,DEF,3,1,0,18,3.0,0.0
+510,Rowswell,Spurs,DEF,4,2,1,9,3.0,0.0
+510,Rowswell,Spurs,DEF,5,3,1,2,3.0,0.0
+510,Rowswell,Spurs,DEF,6,4,0,16,4.0,0.0
+510,Rowswell,Spurs,DEF,7,5,1,7,2.0,0.0
+511,Souza,Spurs,DEF,3,1,0,18,3.0,0.0
+511,Souza,Spurs,DEF,4,2,1,9,3.0,0.0
+511,Souza,Spurs,DEF,5,3,1,2,3.0,0.0
+511,Souza,Spurs,DEF,6,4,0,16,4.0,0.0
+511,Souza,Spurs,DEF,7,5,1,7,2.0,0.0
+512,Kudus,Spurs,MID,3,1,0,18,3.0,1.56
+512,Kudus,Spurs,MID,4,2,1,9,3.0,1.429
+512,Kudus,Spurs,MID,5,3,1,2,3.0,1.429
+512,Kudus,Spurs,MID,6,4,0,16,4.0,1.539
+512,Kudus,Spurs,MID,7,5,1,7,2.0,1.543
+513,Xavi,Spurs,MID,3,1,0,18,3.0,0.0
+513,Xavi,Spurs,MID,4,2,1,9,3.0,0.0
+513,Xavi,Spurs,MID,5,3,1,2,3.0,0.0
+513,Xavi,Spurs,MID,6,4,0,16,4.0,0.0
+513,Xavi,Spurs,MID,7,5,1,7,2.0,0.0
+514,Tel,Spurs,MID,3,1,0,18,3.0,3.886
+514,Tel,Spurs,MID,4,2,1,9,3.0,3.766
+514,Tel,Spurs,MID,5,3,1,2,3.0,3.766
+514,Tel,Spurs,MID,6,4,0,16,4.0,3.305
+514,Tel,Spurs,MID,7,5,1,7,2.0,4.415
+515,Maddison,Spurs,MID,3,1,0,18,3.0,1.39
+515,Maddison,Spurs,MID,4,2,1,9,3.0,1.464
+515,Maddison,Spurs,MID,5,3,1,2,3.0,1.464
+515,Maddison,Spurs,MID,6,4,0,16,4.0,1.333
+515,Maddison,Spurs,MID,7,5,1,7,2.0,1.524
+516,Bentancur,Spurs,MID,3,1,0,18,3.0,1.868
+516,Bentancur,Spurs,MID,4,2,1,9,3.0,2.095
+516,Bentancur,Spurs,MID,5,3,1,2,3.0,2.095
+516,Bentancur,Spurs,MID,6,4,0,16,4.0,2.051
+516,Bentancur,Spurs,MID,7,5,1,7,2.0,2.63
+517,Odobert,Spurs,MID,3,1,0,18,3.0,0.0
+517,Odobert,Spurs,MID,4,2,1,9,3.0,0.0
+517,Odobert,Spurs,MID,5,3,1,2,3.0,0.0
+517,Odobert,Spurs,MID,6,4,0,16,4.0,0.0
+517,Odobert,Spurs,MID,7,5,1,7,2.0,0.0
+518,P.M.Sarr,Spurs,MID,3,1,0,18,3.0,0.0
+518,P.M.Sarr,Spurs,MID,4,2,1,9,3.0,0.0
+518,P.M.Sarr,Spurs,MID,5,3,1,2,3.0,0.0
+518,P.M.Sarr,Spurs,MID,6,4,0,16,4.0,0.0
+518,P.M.Sarr,Spurs,MID,7,5,1,7,2.0,0.0
+519,Gallagher,Spurs,MID,3,1,0,18,3.0,1.137
+519,Gallagher,Spurs,MID,4,2,1,9,3.0,1.219
+519,Gallagher,Spurs,MID,5,3,1,2,3.0,1.219
+519,Gallagher,Spurs,MID,6,4,0,16,4.0,1.14
+519,Gallagher,Spurs,MID,7,5,1,7,2.0,1.372
+520,Bergvall,Spurs,MID,3,1,0,18,3.0,0.99
+520,Bergvall,Spurs,MID,4,2,1,9,3.0,1.134
+520,Bergvall,Spurs,MID,5,3,1,2,3.0,1.134
+520,Bergvall,Spurs,MID,6,4,0,16,4.0,1.025
+520,Bergvall,Spurs,MID,7,5,1,7,2.0,1.24
+521,Kulusevski,Spurs,MID,3,1,0,18,3.0,0.0
+521,Kulusevski,Spurs,MID,4,2,1,9,3.0,0.0
+521,Kulusevski,Spurs,MID,5,3,1,2,3.0,0.0
+521,Kulusevski,Spurs,MID,6,4,0,16,4.0,0.0
+521,Kulusevski,Spurs,MID,7,5,1,7,2.0,0.0
+522,Gray,Spurs,MID,3,1,0,18,3.0,1.917
+522,Gray,Spurs,MID,4,2,1,9,3.0,1.929
+522,Gray,Spurs,MID,5,3,1,2,3.0,1.929
+522,Gray,Spurs,MID,6,4,0,16,4.0,1.754
+522,Gray,Spurs,MID,7,5,1,7,2.0,2.282
+523,Moore,Spurs,MID,3,1,0,18,3.0,1.469
+523,Moore,Spurs,MID,4,2,1,9,3.0,1.806
+523,Moore,Spurs,MID,5,3,1,2,3.0,1.806
+523,Moore,Spurs,MID,6,4,0,16,4.0,1.405
+523,Moore,Spurs,MID,7,5,1,7,2.0,1.834
+524,Olusesi,Spurs,MID,3,1,0,18,3.0,0.329
+524,Olusesi,Spurs,MID,4,2,1,9,3.0,0.352
+524,Olusesi,Spurs,MID,5,3,1,2,3.0,0.352
+524,Olusesi,Spurs,MID,6,4,0,16,4.0,0.324
+524,Olusesi,Spurs,MID,7,5,1,7,2.0,0.389
+525,Fernandes,Spurs,MID,3,1,0,18,3.0,3.927
+525,Fernandes,Spurs,MID,4,2,1,9,3.0,3.908
+525,Fernandes,Spurs,MID,5,3,1,2,3.0,3.908
+525,Fernandes,Spurs,MID,6,4,0,16,4.0,3.23
+525,Fernandes,Spurs,MID,7,5,1,7,2.0,3.99
+526,Solanke,Spurs,FWD,3,1,0,18,3.0,2.437
+526,Solanke,Spurs,FWD,4,2,1,9,3.0,2.453
+526,Solanke,Spurs,FWD,5,3,1,2,3.0,2.453
+526,Solanke,Spurs,FWD,6,4,0,16,4.0,2.378
+526,Solanke,Spurs,FWD,7,5,1,7,2.0,2.743
+527,Richarlison,Spurs,FWD,3,1,0,18,3.0,2.271
+527,Richarlison,Spurs,FWD,4,2,1,9,3.0,2.309
+527,Richarlison,Spurs,FWD,5,3,1,2,3.0,2.309
+527,Richarlison,Spurs,FWD,6,4,0,16,4.0,2.278
+527,Richarlison,Spurs,FWD,7,5,1,7,2.0,2.55
+528,Scarlett,Spurs,FWD,3,1,0,18,3.0,0.0
+528,Scarlett,Spurs,FWD,4,2,1,9,3.0,0.0
+528,Scarlett,Spurs,FWD,5,3,1,2,3.0,0.0
+528,Scarlett,Spurs,FWD,6,4,0,16,4.0,0.0
+528,Scarlett,Spurs,FWD,7,5,1,7,2.0,0.0
+578,Mudryk,Spurs,MID,3,1,0,18,3.0,0.491
+578,Mudryk,Spurs,MID,4,2,1,9,3.0,0.552
+578,Mudryk,Spurs,MID,5,3,1,2,3.0,0.552
+578,Mudryk,Spurs,MID,6,4,0,16,4.0,0.486
+578,Mudryk,Spurs,MID,7,5,1,7,2.0,0.563
+601,Williams-Barnett,Spurs,MID,3,1,0,18,3.0,0.027
+601,Williams-Barnett,Spurs,MID,4,2,1,9,3.0,0.013
+601,Williams-Barnett,Spurs,MID,5,3,1,2,3.0,0.013
+601,Williams-Barnett,Spurs,MID,6,4,0,16,4.0,0.026
+601,Williams-Barnett,Spurs,MID,7,5,1,7,2.0,0.032
+501,Danso,Sunderland,DEF,3,1,0,4,3.0,0.677
+501,Danso,Sunderland,DEF,4,2,1,1,4.0,0.889
+501,Danso,Sunderland,DEF,5,3,0,15,5.0,0.756
+501,Danso,Sunderland,DEF,6,4,1,5,2.0,0.697
+501,Danso,Sunderland,DEF,7,5,0,3,3.0,0.677
+529,Roefs,Sunderland,GKP,3,1,0,4,3.0,4.173
+529,Roefs,Sunderland,GKP,4,2,1,1,4.0,2.909
+529,Roefs,Sunderland,GKP,5,3,0,15,5.0,2.89
+529,Roefs,Sunderland,GKP,6,4,1,5,2.0,4.137
+529,Roefs,Sunderland,GKP,7,5,0,3,3.0,4.173
+530,Patterson,Sunderland,GKP,3,1,0,4,3.0,0.0
+530,Patterson,Sunderland,GKP,4,2,1,1,4.0,0.0
+530,Patterson,Sunderland,GKP,5,3,0,15,5.0,0.0
+530,Patterson,Sunderland,GKP,6,4,1,5,2.0,0.0
+530,Patterson,Sunderland,GKP,7,5,0,3,3.0,0.0
+531,Ellborg,Sunderland,GKP,3,1,0,4,3.0,0.027
+531,Ellborg,Sunderland,GKP,4,2,1,1,4.0,0.075
+531,Ellborg,Sunderland,GKP,5,3,0,15,5.0,0.066
+531,Ellborg,Sunderland,GKP,6,4,1,5,2.0,0.032
+531,Ellborg,Sunderland,GKP,7,5,0,3,3.0,0.027
+532,Ballard,Sunderland,DEF,3,1,0,4,3.0,4.356
+532,Ballard,Sunderland,DEF,4,2,1,1,4.0,3.601
+532,Ballard,Sunderland,DEF,5,3,0,15,5.0,3.537
+532,Ballard,Sunderland,DEF,6,4,1,5,2.0,4.634
+532,Ballard,Sunderland,DEF,7,5,0,3,3.0,4.356
+533,Mukiele,Sunderland,DEF,3,1,0,4,3.0,1.732
+533,Mukiele,Sunderland,DEF,4,2,1,1,4.0,1.658
+533,Mukiele,Sunderland,DEF,5,3,0,15,5.0,1.655
+533,Mukiele,Sunderland,DEF,6,4,1,5,2.0,1.875
+533,Mukiele,Sunderland,DEF,7,5,0,3,3.0,1.732
+534,Hume,Sunderland,DEF,3,1,0,4,3.0,3.43
+534,Hume,Sunderland,DEF,4,2,1,1,4.0,2.215
+534,Hume,Sunderland,DEF,5,3,0,15,5.0,2.179
+534,Hume,Sunderland,DEF,6,4,1,5,2.0,3.965
+534,Hume,Sunderland,DEF,7,5,0,3,3.0,3.43
+535,Alderete,Sunderland,DEF,3,1,0,4,3.0,0.905
+535,Alderete,Sunderland,DEF,4,2,1,1,4.0,0.998
+535,Alderete,Sunderland,DEF,5,3,0,15,5.0,0.952
+535,Alderete,Sunderland,DEF,6,4,1,5,2.0,1.223
+535,Alderete,Sunderland,DEF,7,5,0,3,3.0,0.905
+536,Reinildo,Sunderland,DEF,3,1,0,4,3.0,3.873
+536,Reinildo,Sunderland,DEF,4,2,1,1,4.0,3.28
+536,Reinildo,Sunderland,DEF,5,3,0,15,5.0,2.492
+536,Reinildo,Sunderland,DEF,6,4,1,5,2.0,3.923
+536,Reinildo,Sunderland,DEF,7,5,0,3,3.0,3.873
+537,Seelt,Sunderland,DEF,3,1,0,4,3.0,0.0
+537,Seelt,Sunderland,DEF,4,2,1,1,4.0,0.0
+537,Seelt,Sunderland,DEF,5,3,0,15,5.0,0.0
+537,Seelt,Sunderland,DEF,6,4,1,5,2.0,0.0
+537,Seelt,Sunderland,DEF,7,5,0,3,3.0,0.0
+538,Hjelde,Sunderland,DEF,3,1,0,4,3.0,0.0
+538,Hjelde,Sunderland,DEF,4,2,1,1,4.0,0.0
+538,Hjelde,Sunderland,DEF,5,3,0,15,5.0,0.0
+538,Hjelde,Sunderland,DEF,6,4,1,5,2.0,0.0
+538,Hjelde,Sunderland,DEF,7,5,0,3,3.0,0.0
+539,O'Nien,Sunderland,DEF,3,1,0,4,3.0,1.222
+539,O'Nien,Sunderland,DEF,4,2,1,1,4.0,1.408
+539,O'Nien,Sunderland,DEF,5,3,0,15,5.0,1.075
+539,O'Nien,Sunderland,DEF,6,4,1,5,2.0,1.833
+539,O'Nien,Sunderland,DEF,7,5,0,3,3.0,1.222
+540,Masuaku,Sunderland,DEF,3,1,0,4,3.0,0.0
+540,Masuaku,Sunderland,DEF,4,2,1,1,4.0,0.0
+540,Masuaku,Sunderland,DEF,5,3,0,15,5.0,0.0
+540,Masuaku,Sunderland,DEF,6,4,1,5,2.0,0.0
+540,Masuaku,Sunderland,DEF,7,5,0,3,3.0,0.0
+541,Meunier,Sunderland,DEF,3,1,0,4,3.0,3.494
+541,Meunier,Sunderland,DEF,4,2,1,1,4.0,3.34
+541,Meunier,Sunderland,DEF,5,3,0,15,5.0,2.708
+541,Meunier,Sunderland,DEF,6,4,1,5,2.0,3.384
+541,Meunier,Sunderland,DEF,7,5,0,3,3.0,3.494
+542,E.Le Fée,Sunderland,MID,3,1,0,4,3.0,4.015
+542,E.Le Fée,Sunderland,MID,4,2,1,1,4.0,3.294
+542,E.Le Fée,Sunderland,MID,5,3,0,15,5.0,3.015
+542,E.Le Fée,Sunderland,MID,6,4,1,5,2.0,4.367
+542,E.Le Fée,Sunderland,MID,7,5,0,3,3.0,4.015
+543,Diarra,Sunderland,MID,3,1,0,4,3.0,1.178
+543,Diarra,Sunderland,MID,4,2,1,1,4.0,1.138
+543,Diarra,Sunderland,MID,5,3,0,15,5.0,1.131
+543,Diarra,Sunderland,MID,6,4,1,5,2.0,1.253
+543,Diarra,Sunderland,MID,7,5,0,3,3.0,1.178
+544,Xhaka,Sunderland,MID,3,1,0,4,3.0,3.418
+544,Xhaka,Sunderland,MID,4,2,1,1,4.0,2.661
+544,Xhaka,Sunderland,MID,5,3,0,15,5.0,2.754
+544,Xhaka,Sunderland,MID,6,4,1,5,2.0,3.757
+544,Xhaka,Sunderland,MID,7,5,0,3,3.0,3.418
+545,Sadiki,Sunderland,MID,3,1,0,4,3.0,3.287
+545,Sadiki,Sunderland,MID,4,2,1,1,4.0,2.929
+545,Sadiki,Sunderland,MID,5,3,0,15,5.0,2.4
+545,Sadiki,Sunderland,MID,6,4,1,5,2.0,3.779
+545,Sadiki,Sunderland,MID,7,5,0,3,3.0,3.287
+546,Adingra,Sunderland,MID,3,1,0,4,3.0,0.0
+546,Adingra,Sunderland,MID,4,2,1,1,4.0,0.0
+546,Adingra,Sunderland,MID,5,3,0,15,5.0,0.0
+546,Adingra,Sunderland,MID,6,4,1,5,2.0,0.0
+546,Adingra,Sunderland,MID,7,5,0,3,3.0,0.0
+547,Mundle,Sunderland,MID,3,1,0,4,3.0,1.075
+547,Mundle,Sunderland,MID,4,2,1,1,4.0,1.132
+547,Mundle,Sunderland,MID,5,3,0,15,5.0,1.115
+547,Mundle,Sunderland,MID,6,4,1,5,2.0,1.055
+547,Mundle,Sunderland,MID,7,5,0,3,3.0,1.075
+548,Rigg,Sunderland,MID,3,1,0,4,3.0,0.913
+548,Rigg,Sunderland,MID,4,2,1,1,4.0,0.929
+548,Rigg,Sunderland,MID,5,3,0,15,5.0,0.942
+548,Rigg,Sunderland,MID,6,4,1,5,2.0,0.94
+548,Rigg,Sunderland,MID,7,5,0,3,3.0,0.913
+549,Talbi,Sunderland,MID,3,1,0,4,3.0,0.904
+549,Talbi,Sunderland,MID,4,2,1,1,4.0,0.996
+549,Talbi,Sunderland,MID,5,3,0,15,5.0,0.924
+549,Talbi,Sunderland,MID,6,4,1,5,2.0,1.142
+549,Talbi,Sunderland,MID,7,5,0,3,3.0,0.904
+550,Jocelin.T,Sunderland,MID,3,1,0,4,3.0,0.003
+550,Jocelin.T,Sunderland,MID,4,2,1,1,4.0,0.073
+550,Jocelin.T,Sunderland,MID,5,3,0,15,5.0,0.009
+550,Jocelin.T,Sunderland,MID,6,4,1,5,2.0,0.016
+550,Jocelin.T,Sunderland,MID,7,5,0,3,3.0,0.003
+551,N.Angulo,Sunderland,MID,3,1,0,4,3.0,2.223
+551,N.Angulo,Sunderland,MID,4,2,1,1,4.0,2.447
+551,N.Angulo,Sunderland,MID,5,3,0,15,5.0,2.123
+551,N.Angulo,Sunderland,MID,6,4,1,5,2.0,2.591
+551,N.Angulo,Sunderland,MID,7,5,0,3,3.0,2.223
+552,Brobbey,Sunderland,FWD,3,1,0,4,3.0,2.895
+552,Brobbey,Sunderland,FWD,4,2,1,1,4.0,2.706
+552,Brobbey,Sunderland,FWD,5,3,0,15,5.0,2.715
+552,Brobbey,Sunderland,FWD,6,4,1,5,2.0,3.012
+552,Brobbey,Sunderland,FWD,7,5,0,3,3.0,2.895
+553,Isidor,Sunderland,FWD,3,1,0,4,3.0,2.289
+553,Isidor,Sunderland,FWD,4,2,1,1,4.0,2.161
+553,Isidor,Sunderland,FWD,5,3,0,15,5.0,2.219
+553,Isidor,Sunderland,FWD,6,4,1,5,2.0,2.255
+553,Isidor,Sunderland,FWD,7,5,0,3,3.0,2.289
+612,Methalie,Sunderland,DEF,3,1,0,4,3.0,0.0
+612,Methalie,Sunderland,DEF,4,2,1,1,4.0,0.0
+612,Methalie,Sunderland,DEF,5,3,0,15,5.0,0.002
+612,Methalie,Sunderland,DEF,6,4,1,5,2.0,0.037
+612,Methalie,Sunderland,DEF,7,5,0,3,3.0,0.0
+613,Ahoka,Sunderland,MID,3,1,0,4,3.0,0.308
+613,Ahoka,Sunderland,MID,4,2,1,1,4.0,0.16
+613,Ahoka,Sunderland,MID,5,3,0,15,5.0,0.293
+613,Ahoka,Sunderland,MID,6,4,1,5,2.0,0.12
+613,Ahoka,Sunderland,MID,7,5,0,3,3.0,0.308
+646,Fofana,Sunderland,MID,3,1,0,4,3.0,0.003
+646,Fofana,Sunderland,MID,4,2,1,1,4.0,0.074
+646,Fofana,Sunderland,MID,5,3,0,15,5.0,0.012
+646,Fofana,Sunderland,MID,6,4,1,5,2.0,0.012
+646,Fofana,Sunderland,MID,7,5,0,3,3.0,0.003
+651,J.Angulo,Sunderland,FWD,3,1,0,4,3.0,0.0
+651,J.Angulo,Sunderland,FWD,4,2,1,1,4.0,0.0
+651,J.Angulo,Sunderland,FWD,5,3,0,15,5.0,0.002
+651,J.Angulo,Sunderland,FWD,6,4,1,5,2.0,0.037
+651,J.Angulo,Sunderland,FWD,7,5,0,3,3.0,0.0

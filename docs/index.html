@@ -3,75 +3,84 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FPL Streamlit Decision Lab</title>
-    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl" />
+    <title>FPL Streamlit Predictor</title>
+    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl-v2" />
   </head>
   <body>
     <div class="page-shell">
       <header class="masthead">
         <div class="rule-heavy"></div>
         <div class="dateline">
-          <span>Fantasy Premier League | Streamlit | Machine Learning</span>
-          <span>GitHub Pages portfolio wrapper | Live app embedded</span>
+          <span>Fantasy Premier League | Streamlit | RandomForest</span>
+          <span>Public team lookup | Five-gameweek transfer planner</span>
         </div>
         <div class="rule-light"></div>
-        <h1>FPL Streamlit Decision Lab</h1>
-        <p class="standfirst">A transfer and squad-planning workbench using public FPL data, fixture-adjusted projections, interpretable model diagnostics, and constrained squad optimization.</p>
+        <h1>FPL Streamlit Predictor</h1>
+        <p class="standfirst">A live FPL decision tool for finding transfer targets, importing public teams, reviewing player form, and planning moves over the next five gameweeks.</p>
         <nav class="jump-nav" aria-label="Page sections">
           <a href="#app">Live App</a>
-          <a href="#method">Method</a>
-          <a href="#portfolio">Portfolio Fit</a>
+          <a href="#achieves">What It Does</a>
+          <a href="#glossary">Metric Glossary</a>
         </nav>
       </header>
 
       <main>
         <section class="stat-strip" aria-label="Project highlights">
-          <div class="stat"><span>Surface</span><strong>Streamlit</strong></div>
-          <div class="stat"><span>Hosting</span><strong>Pages + Cloud</strong></div>
-          <div class="stat"><span>Model</span><strong>Interpretable</strong></div>
-          <div class="stat"><span>Decision layer</span><strong>Optimizer</strong></div>
+          <div class="stat"><span>Data</span><strong>2026-27 Live</strong></div>
+          <div class="stat"><span>Planning</span><strong>Next 5 GWs</strong></div>
+          <div class="stat"><span>Model</span><strong>RandomForest</strong></div>
+          <div class="stat"><span>Input</span><strong>Team ID</strong></div>
         </section>
 
         <section id="app" class="app-band">
           <div class="section-head split">
             <div>
               <p class="eyebrow">Live workbench</p>
-              <h2>Explore, rank, transfer, optimize</h2>
+              <h2>Check your team, compare players, plan transfers</h2>
             </div>
             <a class="chip" href="https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true">Open app</a>
           </div>
           <div class="embed-shell">
-            <iframe title="FPL Streamlit Decision Lab" src="https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true"></iframe>
+            <iframe title="FPL Streamlit Predictor" src="https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true"></iframe>
           </div>
           <p class="source-line">If the embedded app is sleeping, open it directly and wait for Streamlit Community Cloud to wake it.</p>
         </section>
 
-        <section id="method" class="method-grid">
+        <section id="achieves" class="method-grid">
           <div>
-            <p class="eyebrow">Pipeline</p>
-            <h3>Self-contained data, renewable each gameweek</h3>
-            <p>The repository commits processed app-ready data so the portfolio loads without a private service. A scheduled GitHub Actions workflow can fetch the public FPL API, rebuild projections, regenerate static metadata, run tests, and commit the updated snapshot.</p>
+            <p class="eyebrow">For your squad</p>
+            <h3>Import a public FPL team</h3>
+            <p>Enter a team ID to load the current squad, bank, captaincy, bench order, and recent transfer history from public FPL endpoints. The app shows the squad on a pitch and ranks realistic transfer options.</p>
           </div>
           <div>
-            <p class="eyebrow">Machine learning</p>
-            <h3>Explainable before clever</h3>
-            <p>The first model is an interpretable fixture-adjusted projection blend with room for Ridge, ElasticNet, and tree baselines once historical gameweek labels are added. The app shows feature influence and baseline lift alongside recommendations.</p>
+            <p class="eyebrow">For decisions</p>
+            <h3>Plan beyond one move</h3>
+            <p>The planner looks five gameweeks ahead, respects FPL squad rules, accounts for free transfers and hits, and compares hold, one-transfer, and two-transfer paths.</p>
           </div>
           <div>
-            <p class="eyebrow">Optimization</p>
-            <h3>FPL rules as constraints</h3>
-            <p>The optimizer respects budget, positions, club limits, legal formations, captaincy, bench ordering, and transfer costs. It supports generic transfer discovery and optional squad-specific recommendations.</p>
+            <p class="eyebrow">For context</p>
+            <h3>See the player evidence</h3>
+            <p>Each player has current FPL output, checked gameweek history, expected-goal involvement, ownership, price, upcoming fixture forecasts, and model-derived transfer scores.</p>
           </div>
         </section>
 
-        <section id="portfolio" class="method-band">
-          <p class="eyebrow">Portfolio fit</p>
-          <p>This project is designed as a companion to the StatsBomb recruitment explorer: similar editorial visual system, but a different technical proof point. StatsBomb demonstrates event-data profiling and static browser visualisation; this project demonstrates Streamlit, current data refresh, modelling, and decision optimization.</p>
-          <p class="source-line">Data: public Fantasy Premier League API | Code: GitHub repository | App: Streamlit Community Cloud</p>
+        <section id="glossary" class="glossary-band">
+          <div class="section-head">
+            <p class="eyebrow">Metric glossary</p>
+            <h2>What the app’s scores mean</h2>
+          </div>
+          <div class="glossary-grid">
+            <div><strong>predicted_next_gw</strong><p>Projected FPL points for the next gameweek.</p></div>
+            <div><strong>predicted_next5</strong><p>Projected points across the next five gameweeks.</p></div>
+            <div><strong>transfer_score</strong><p>A target ranking that combines projection, fixture run, differential upside, and risk.</p></div>
+            <div><strong>risk_score</strong><p>A caution score from minutes, starts, and availability. Lower is safer.</p></div>
+            <div><strong>fixture_ease</strong><p>Official FPL difficulty flipped so higher means easier.</p></div>
+            <div><strong>optimizer_value</strong><p>Five-gameweek projection divided by current FPL price.</p></div>
+          </div>
+          <p class="source-line">Data: public Fantasy Premier League API plus 2025-26 prior-season features where stable IDs match.</p>
         </section>
       </main>
     </div>
-    <script src="app.js?v=2026-09-02-fpl"></script>
+    <script src="app.js?v=2026-09-02-fpl-v2"></script>
   </body>
 </html>
-

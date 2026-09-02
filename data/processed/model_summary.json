@@ -1,28 +1,27 @@
 {
-  "generatedAt": "2026-09-02T15:31:43.062788+00:00",
-  "modelName": "Current-season projection with 2025-26 player and team priors",
-  "target": "next three gameweek expected points",
+  "generatedAt": "2026-09-02T22:18:26.947848+00:00",
+  "modelName": "RandomForestRegressor with Ridge and form baselines",
+  "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
-    "points_per_game",
-    "form",
-    "ep_next",
-    "blended_points_per_90",
-    "blended_xgi_per_90",
-    "fixture_ease",
-    "blended_start_rate",
+    "lag_points_mean3",
+    "lag_minutes_mean3",
+    "lag_starts_mean3",
+    "lag_xgi_mean3",
+    "lag_ict_mean3",
+    "fixture_difficulty",
+    "was_home",
+    "value",
+    "selected_millions",
     "team_attack_prior",
     "team_defence_prior"
   ],
-  "weights": {
-    "points_per_game": 0.27,
-    "form": 0.2,
-    "ep_next": 0.16,
-    "blended_points_per_90": 0.17,
-    "blended_xgi_per_90": 0.66,
-    "fixture_ease": 0.25,
-    "blended_start_rate": 0.18,
-    "team_attack_prior": 0.42,
-    "team_defence_prior": 0.3
+  "metricGlossary": {
+    "predicted_next_gw": "Projected points for the next gameweek, including captain-free appearance risk and fixture difficulty.",
+    "predicted_next5": "Projected points across the next five gameweeks, summing every scheduled fixture in that window.",
+    "transfer_score": "A ranking score for transfer targets: projected points plus fixture/value upside, less availability and minutes risk.",
+    "risk_score": "A caution score driven by minutes, start likelihood, injury status, and missing recent evidence. Lower is safer.",
+    "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
+    "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
   "rows": 651,
   "positions": {
@@ -37,11 +36,29 @@
     "playerPriorCoveragePct": 57.8,
     "teamPriorCoveragePct": 82.5
   },
+  "modelDiagnostics": {
+    "status": "trained",
+    "trainingRows": 18000,
+    "randomForestMae": 1.039,
+    "ridgeMae": 1.082,
+    "featureImportance": {
+      "lag_minutes_mean3": 0.3842,
+      "lag_ict_mean3": 0.2171,
+      "selected_millions": 0.1552,
+      "lag_xgi_mean3": 0.0762,
+      "value": 0.067,
+      "lag_points_mean3": 0.057,
+      "fixture_difficulty": 0.0257,
+      "was_home": 0.0116,
+      "lag_starts_mean3": 0.006,
+      "team_attack_prior": 0.0,
+      "team_defence_prior": 0.0
+    }
+  },
   "diagnostics": {
-    "meanPrediction": 7.736,
-    "meanBaseline": 4.901,
-    "meanLift": 2.835,
-    "backtestStatus": "live-current-season-with-prior-stabilisers",
+    "meanPredictionNext5": 6.788,
+    "meanBaseline": 8.157,
+    "meanLift": -1.37,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
