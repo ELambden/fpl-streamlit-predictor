@@ -146,7 +146,11 @@ def add_history_summary_features(rows: list[dict[str, Any]], history_rows: list[
         item["minutes_per_game"] = round(minutes / current_gameweek, 2)
         item["bonus_per_game"] = round(history_bonus / game_count, 3)
         item["bps_per_game"] = round(history_bps / game_count, 3)
+        success_threshold = 12.0 if item.get("position") == "MID" else 10.0
         item["defcons_per_90"] = round(per_90_source or (history_defcons * 90.0 / max(history_minutes, 1.0)), 3)
-        item["defcon_10_plus_pct"] = round(100.0 * sum(as_float(history.get("defensive_contribution")) >= 10.0 for history in played_rows) / played_count, 1)
+        item["defcon_success_pct"] = round(
+            100.0 * sum(as_float(history.get("defensive_contribution")) >= success_threshold for history in played_rows) / played_count,
+            1,
+        )
         result.append(item)
     return result

@@ -23,7 +23,7 @@ REQUIRED_COLUMNS = {
     "blended_xgi_per_90",
     "minutes_per_game",
     "defcons_per_90",
-    "defcon_10_plus_pct",
+    "defcon_success_pct",
     "bps_per_game",
     "bonus_per_game",
 }
@@ -75,7 +75,14 @@ def test_streamlit_app_exposes_decision_lab_controls() -> None:
     assert "Only include players" in app
     assert "Remove players" in app
     assert "Remove clubs" in app
-    assert "DefCons/90" in app
-    assert "% 10+ DefCons" in app
+    assert "Minimum Defcons/90" in app
+    assert "Defcon Success %" in app
     assert "BPS/game" in app
-    assert "decision-table" in app
+    assert "Rank table by" in app
+    assert "Players shown" in app
+    assert 'on_select="rerun"' in app
+    assert "Remove selected players" in app
+    assert "Primary y-axis" in app
+    assert "Secondary y-axis" in app
+    assert 'title_text="Gameweek"' in app
+    assert "st.scatter_chart" not in app

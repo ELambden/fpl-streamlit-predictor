@@ -61,12 +61,12 @@ NUMERIC_COLUMNS = [
     "prior_found", "prior_team_found", "blended_points_per_90", "blended_xgi_per_90", "availability_factor",
     "predicted_next_gw", "predicted_next3", "predicted_next5", "baseline_next5", "optimizer_value",
     "transfer_score", "risk_score", "forecast_points", "gw", "horizon_index", "bank", "value",
-    "minutes_per_game", "bonus_per_game", "bps_per_game", "defcons_per_90", "defcon_10_plus_pct",
+    "minutes_per_game", "bonus_per_game", "bps_per_game", "defcons_per_90", "defcon_success_pct",
 ]
 
 DISPLAY_COLUMNS = [
     "web_name", "team", "position", "price", "selected_by_percent", "form", "points_per_game",
-    "expected_goals", "defcons_per_90", "defcon_10_plus_pct", "bps_per_game", "predicted_next5", "transfer_score", "risk_score",
+    "expected_goals", "defcons_per_90", "defcon_success_pct", "bps_per_game", "predicted_next5", "transfer_score", "risk_score",
 ]
 
 CHART_METRICS = {
@@ -82,8 +82,8 @@ CHART_METRICS = {
     "xG": "expected_goals",
     "xA": "expected_assists",
     "xGI": "expected_goal_involvements",
-    "DefCons/90": "defcons_per_90",
-    "% 10+ DefCons": "defcon_10_plus_pct",
+    "Defcons/90": "defcons_per_90",
+    "Defcon Success %": "defcon_success_pct",
     "Bonus/game": "bonus_per_game",
     "BPS/game": "bps_per_game",
     "Fixture ease": "fixture_ease",
@@ -96,8 +96,8 @@ COLUMN_CONFIG = {
     "price": st.column_config.NumberColumn("Price", format="£%.1fm"),
     "selected_by_percent": st.column_config.NumberColumn("Own %", format="%.1f%%"),
     "expected_goals": st.column_config.NumberColumn("xG", format="%.2f"),
-    "defcons_per_90": st.column_config.NumberColumn("DefCons/90", format="%.2f"),
-    "defcon_10_plus_pct": st.column_config.NumberColumn("10+ DefCon %", format="%.1f%%"),
+    "defcons_per_90": st.column_config.NumberColumn("Defcons/90", format="%.2f"),
+    "defcon_success_pct": st.column_config.NumberColumn("Defcon Success %", format="%.1f%%"),
     "bps_per_game": st.column_config.NumberColumn("BPS/G", format="%.2f"),
     "predicted_next_gw": st.column_config.NumberColumn("Next GW", help=METRIC_GLOSSARY["predicted_next_gw"], format="%.2f"),
     "predicted_next5": st.column_config.NumberColumn("Next 5", help=METRIC_GLOSSARY["predicted_next5"], format="%.2f"),
@@ -118,7 +118,7 @@ def load_players() -> pd.DataFrame:
     data["player_id"] = data["player_id"].astype(str)
     data["price"] = data["now_cost"] / 10
     data["minutes_per_game"] = data.get("minutes_per_game", data["minutes"] / data["current_gameweek"].clip(lower=1)).fillna(0)
-    for column in ["bonus_per_game", "bps_per_game", "defcons_per_90", "defcon_10_plus_pct"]:
+    for column in ["bonus_per_game", "bps_per_game", "defcons_per_90", "defcon_success_pct"]:
         if column not in data:
             data[column] = 0.0
     data["player_label"] = data["web_name"] + " (" + data["team"] + ", " + data["position"] + ")"
@@ -192,7 +192,7 @@ def apply_global_filters(data: pd.DataFrame) -> pd.DataFrame:
         & (filtered["minutes_per_game"] >= st.session_state.min_minutes_per_game)
         & (filtered["selected_by_percent"] <= st.session_state.max_ownership)
         & (filtered["form"] >= st.session_state.min_form)
-        & (filtered["defcons_per_90"].between(st.session_state.defcon_range[0], st.session_state.defcon_range[1]))
+        & (filtered["defcons_per_90"] >= float(st.session_state.min_defcons_per90))
     ].copy()
 
 
@@ -265,58 +265,111 @@ def render_transfer_table(recommendations: list[dict[str, Any]]) -> None:
     st.dataframe(pd.DataFrame(rows), width="stretch", hide_index=True)
 
 
-def risk_class(value: float) -> str:
-    if value >= 1.3:
-        return "risk-high"
-    if value >= 0.8:
-        return "risk-mid"
-    return "risk-low"
-
-
 def render_decision_table(data: pd.DataFrame, row_limit: int) -> None:
     if data.empty:
         st.info("No players match the current filters.")
         return
-    visible = data.head(row_limit).copy()
-    max_score = max(float(visible["transfer_score"].max()), 0.1)
-    rows = []
-    for player in visible.to_dict("records"):
-        score = float(player.get("transfer_score", 0))
-        bar_width = max(2, min(100, int(100 * max(score, 0) / max_score)))
-        risk = float(player.get("risk_score", 0))
-        rows.append(
-            "<tr>"
-            f"<td class='player-cell'><strong>{html.escape(str(player.get('web_name', '')))}</strong><span>{html.escape(str(player.get('full_name', '')))}</span></td>"
-            f"<td>{html.escape(str(player.get('team', '')))}<br><span class='muted-cell'>{html.escape(str(player.get('status', '')))}</span></td>"
-            f"<td><span class='pos-pill'>{html.escape(str(player.get('position', '')))}</span></td>"
-            f"<td>£{float(player.get('price', 0)):.1f}m</td>"
-            f"<td>{float(player.get('form', 0)):.1f}</td>"
-            f"<td>{float(player.get('minutes_per_game', 0)):.0f}</td>"
-            f"<td>{float(player.get('expected_goals', 0)):.2f}</td>"
-            f"<td>{float(player.get('defcons_per_90', 0)):.2f}<br><span class='muted-cell'>{float(player.get('defcon_10_plus_pct', 0)):.0f}% 10+</span></td>"
-            f"<td>{float(player.get('bps_per_game', 0)):.1f}</td>"
-            f"<td>{float(player.get('predicted_next5', 0)):.2f}</td>"
-            f"<td><strong>{score:.2f}</strong><div class='score-bar'><span style='width:{bar_width}%'></span></div></td>"
-            f"<td class='{risk_class(risk)}'>{risk:.2f}</td>"
-            "</tr>"
-        )
-    table = (
-        "<div class='decision-shell'><table class='decision-table'>"
-        "<thead><tr><th>Player</th><th>Club</th><th>Pos</th><th>Price</th><th>Form</th><th>Min/G</th><th>xG</th><th>DefCons</th><th>BPS/G</th><th>Next 5</th><th>Transfer</th><th>Risk</th></tr></thead>"
-        "<tbody>" + "".join(rows) + "</tbody></table></div>"
+
+    visible = data.head(row_limit).copy().reset_index(drop=True)
+    table = visible[[
+        "player_id", "player_label", "web_name", "team", "position", "price", "selected_by_percent",
+        "form", "minutes_per_game", "expected_goals", "expected_assists", "expected_goal_involvements",
+        "defcons_per_90", "defcon_success_pct", "bps_per_game", "predicted_next5",
+        "transfer_score", "risk_score",
+    ]].copy()
+
+    event = st.dataframe(
+        table,
+        column_config={
+            **COLUMN_CONFIG,
+            "player_id": None,
+            "player_label": None,
+            "expected_assists": st.column_config.NumberColumn("xA", format="%.2f"),
+            "expected_goal_involvements": st.column_config.NumberColumn("xGI", format="%.2f"),
+            "minutes_per_game": st.column_config.NumberColumn("Min/G", format="%.0f"),
+            "transfer_score": st.column_config.ProgressColumn(
+                "Transfer score",
+                help=METRIC_GLOSSARY["transfer_score"],
+                min_value=0.0,
+                max_value=max(float(table["transfer_score"].max()), 1.0),
+                format="%.2f",
+            ),
+            "risk_score": st.column_config.ProgressColumn(
+                "Risk",
+                help=METRIC_GLOSSARY["risk_score"],
+                min_value=0.0,
+                max_value=max(float(table["risk_score"].max()), 1.0),
+                format="%.2f",
+            ),
+        },
+        column_order=[
+            "web_name", "team", "position", "price", "selected_by_percent", "form", "minutes_per_game",
+            "expected_goals", "expected_assists", "expected_goal_involvements", "defcons_per_90",
+            "defcon_success_pct", "bps_per_game", "predicted_next5", "transfer_score", "risk_score",
+        ],
+        width="stretch",
+        hide_index=True,
+        key="decision_table",
+        on_select="rerun",
+        selection_mode="multi-row",
     )
-    st.markdown(table, unsafe_allow_html=True)
+
+    selected_rows = list(getattr(getattr(event, "selection", None), "rows", []))
+    if selected_rows:
+        selected = table.iloc[selected_rows]["player_label"].tolist()
+        st.caption(f"Selected for removal: {', '.join(selected[:4])}" + ("..." if len(selected) > 4 else ""))
+    if st.button("Remove selected players", disabled=not selected_rows):
+        st.session_state.pending_remove_players = table.iloc[selected_rows]["player_label"].tolist()
+        st.rerun()
 
 
 def render_axis_chart(data: pd.DataFrame, x_label: str, y_label: str) -> None:
     if data.empty:
         st.info("No chart data matches the current filters.")
         return
+    import plotly.express as px
+
     x_col = CHART_METRICS[x_label]
     y_col = CHART_METRICS[y_label]
-    chart = data[["web_name", "team", "position", x_col, y_col, "selected_by_percent"]].dropna().copy()
-    chart = chart.rename(columns={x_col: x_label, y_col: y_label, "selected_by_percent": "Ownership %"})
-    st.scatter_chart(chart, x=x_label, y=y_label, color="position", size="Ownership %", height=420)
+    chart = pd.DataFrame({
+        "Player": data["web_name"],
+        "Club": data["team"],
+        "Position": data["position"],
+        "Price": data["price"],
+        "Ownership": data["selected_by_percent"],
+        "Form": data["form"],
+        "Next 5": data["predicted_next5"],
+        "Risk": data["risk_score"],
+        "Defcons/90": data["defcons_per_90"],
+        "Defcon Success %": data["defcon_success_pct"],
+        "x_value": data[x_col],
+        "y_value": data[y_col],
+    }).dropna(subset=["x_value", "y_value"])
+    fig = px.scatter(
+        chart,
+        x="x_value",
+        y="y_value",
+        color="Position",
+        size="Ownership",
+        hover_name="Player",
+        hover_data={
+            "Club": True,
+            "Price": ":.1f",
+            "Ownership": ":.1f",
+            "Form": ":.1f",
+            "Next 5": ":.2f",
+            "Risk": ":.2f",
+            "Defcons/90": ":.2f",
+            "Defcon Success %": ":.1f",
+            "x_value": False,
+            "y_value": False,
+        },
+        labels={"x_value": x_label, "y_value": y_label, "Ownership": "Ownership %"},
+        color_discrete_sequence=["#0088b0", "#d6006c", "#a07f00", "#201e1d"],
+        height=430,
+    )
+    fig.update_layout(template="plotly_white", paper_bgcolor="#f3f2f2", plot_bgcolor="#f3f2f2")
+    st.plotly_chart(fig, width="stretch")
 
 
 def render_home(players: pd.DataFrame, filtered: pd.DataFrame, model_summary: dict[str, Any]) -> None:
@@ -324,36 +377,27 @@ def render_home(players: pd.DataFrame, filtered: pd.DataFrame, model_summary: di
     st.title("FPL Streamlit Predictor")
     st.write("Compare players, tune the axes, remove noisy candidates, and plan transfers over the next five gameweeks.")
 
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Filtered players", f"{len(filtered):,}")
-    c2.metric("Best next 5", f"{filtered['predicted_next5'].max():.1f}" if len(filtered) else "-")
-    c3.metric("Best DefCons/90", f"{filtered['defcons_per_90'].max():.1f}" if len(filtered) else "-")
-    c4.metric("Model MAE", model_summary.get("modelDiagnostics", {}).get("randomForestMae", "-"))
 
-    control_1, control_2, control_3 = st.columns([1, 1, 1])
     metric_names = list(CHART_METRICS)
-    with control_1:
+    axis_1, axis_2 = st.columns([1, 1])
+    with axis_1:
         x_axis = st.selectbox("X axis", metric_names, index=metric_names.index("Price"))
-    with control_2:
+    with axis_2:
         y_axis = st.selectbox("Y axis", metric_names, index=metric_names.index("Predicted next 5"))
-    with control_3:
-        sort_by = st.selectbox("Rank table by", ["transfer_score", "predicted_next5", "defcons_per_90", "defcon_10_plus_pct", "bps_per_game", "form", "price", "risk_score"], index=0)
 
     render_axis_chart(filtered, x_axis, y_axis)
 
+    st.subheader("Decision table")
     table_controls = st.columns([1, 1, 1])
     with table_controls[0]:
-        row_limit = st.slider("Rows shown", 10, 120, 40, 10)
+        sort_by = st.selectbox("Rank table by", ["transfer_score", "predicted_next5", "defcons_per_90", "defcon_success_pct", "bps_per_game", "form", "price", "risk_score"], index=0)
     with table_controls[1]:
-        ascending = st.toggle("Lowest first", value=sort_by == "risk_score")
+        row_limit = st.slider("Players shown", 10, 120, 40, 10)
     with table_controls[2]:
-        show_raw = st.toggle("Show compact grid", value=False)
+        ascending = st.toggle("Lowest first", value=sort_by == "risk_score")
 
     ranked = filtered.sort_values(sort_by, ascending=ascending)
-    st.subheader("Decision table")
     render_decision_table(ranked, row_limit)
-    if show_raw:
-        st.dataframe(ranked.head(row_limit)[DISPLAY_COLUMNS], column_config=COLUMN_CONFIG, width="stretch", hide_index=True)
 
 
 def render_my_team(players: pd.DataFrame) -> None:
@@ -408,35 +452,53 @@ def render_player_lab(players: pd.DataFrame) -> None:
     c1.metric("Price", f"£{player['price']:.1f}m")
     c2.metric("Next GW", f"{player['predicted_next_gw']:.2f}")
     c3.metric("Next 5", f"{player['predicted_next5']:.2f}")
-    c4.metric("DefCons/90", f"{player['defcons_per_90']:.2f}")
+    c4.metric("Defcons/90", f"{player['defcons_per_90']:.2f}")
     if not player_history.empty:
-        import plotly.express as px
+        import plotly.graph_objects as go
+        from plotly.subplots import make_subplots
 
-        history_metrics = {
-            "Points": "total_points",
-            "Minutes": "minutes",
-            "xG": "expected_goals",
-            "xA": "expected_assists",
-            "xGI": "expected_goal_involvements",
-            "ICT": "ict_index",
-            "BPS": "bps",
-            "Bonus": "bonus",
-            "DefCons": "defensive_contribution",
-            "Transfers in": "transfers_in",
-            "Transfers out": "transfers_out",
-        }
-        x_metric = st.selectbox("History X axis", list(history_metrics), index=list(history_metrics).index("Points"))
-        y_metric = st.selectbox("History Y axis", list(history_metrics), index=list(history_metrics).index("Minutes"))
-        fig = px.scatter(
-            player_history,
-            x=history_metrics[x_metric],
-            y=history_metrics[y_metric],
-            size="minutes",
-            color="total_points",
-            hover_data=["gw", "total_points", "minutes", "defensive_contribution", "bps", "bonus"],
-            color_continuous_scale=["#d6006c", "#edbb00", "#0088b0"],
+        hidden = {"player_id", "web_name", "team", "position", "fixture", "opponent_team_id", "was_home"}
+        metric_columns = [
+            column for column in player_history.columns
+            if column not in hidden and column != "gw" and pd.api.types.is_numeric_dtype(player_history[column])
+        ]
+        label_by_column = {column: column.replace("_", " ").title() for column in metric_columns}
+        label_by_column.update({
+            "total_points": "Points",
+            "expected_goals": "xG",
+            "expected_assists": "xA",
+            "expected_goal_involvements": "xGI",
+            "ict_index": "ICT",
+            "bps": "BPS",
+            "defensive_contribution": "DefCons",
+            "transfers_in": "Transfers in",
+            "transfers_out": "Transfers out",
+        })
+        columns_by_label = {label_by_column[column]: column for column in metric_columns}
+        labels = list(columns_by_label)
+        primary_default = labels.index("Points") if "Points" in labels else 0
+        secondary_default = labels.index("Minutes") if "Minutes" in labels else min(1, len(labels) - 1)
+        y_primary = st.selectbox("Primary y-axis", labels, index=primary_default)
+        y_secondary = st.selectbox("Secondary y-axis", ["None", *labels], index=secondary_default + 1 if labels else 0)
+
+        ordered = player_history.sort_values("gw")
+        fig = make_subplots(specs=[[{"secondary_y": y_secondary != "None"}]])
+        primary_col = columns_by_label[y_primary]
+        fig.add_trace(
+            go.Scatter(x=ordered["gw"], y=ordered[primary_col], mode="lines+markers", name=y_primary, line={"color": "#0088b0", "width": 3}),
+            secondary_y=False,
         )
-        fig.update_layout(template="plotly_white", paper_bgcolor="#f3f2f2", plot_bgcolor="#f3f2f2")
+        if y_secondary != "None":
+            secondary_col = columns_by_label[y_secondary]
+            fig.add_trace(
+                go.Scatter(x=ordered["gw"], y=ordered[secondary_col], mode="lines+markers", name=y_secondary, line={"color": "#d6006c", "width": 3}),
+                secondary_y=True,
+            )
+        fig.update_xaxes(title_text="Gameweek", dtick=1)
+        fig.update_yaxes(title_text=y_primary, secondary_y=False)
+        if y_secondary != "None":
+            fig.update_yaxes(title_text=y_secondary, secondary_y=True)
+        fig.update_layout(template="plotly_white", paper_bgcolor="#f3f2f2", plot_bgcolor="#f3f2f2", hovermode="x unified", height=430)
         st.plotly_chart(fig, width="stretch")
         st.dataframe(player_history.sort_values("gw"), width="stretch", hide_index=True)
     else:
@@ -493,6 +555,14 @@ model_summary = load_model_summary()
 player_options = players.sort_values("web_name")["player_label"].tolist()
 team_options = sorted(players["team"].dropna().unique())
 
+if "exclude_players" not in st.session_state:
+    st.session_state.exclude_players = []
+pending_removals = st.session_state.pop("pending_remove_players", [])
+if pending_removals:
+    merged_exclusions = list(dict.fromkeys(list(st.session_state.exclude_players) + list(pending_removals)))
+    st.session_state.exclude_players = merged_exclusions
+    st.session_state.exclude_players_select = merged_exclusions
+
 with st.sidebar:
     st.header("Navigation")
     page = st.radio("View", ["Home", "My Team", "Player Lab", "Planner", "Data Notes"], label_visibility="collapsed")
@@ -500,14 +570,14 @@ with st.sidebar:
     st.selectbox("Position", ["All", *sorted(players["position"].dropna().unique())], key="position_filter")
     st.selectbox("Club", ["All", *team_options], key="team_filter")
     st.multiselect("Only include players", player_options, key="include_players")
-    st.multiselect("Remove players", player_options, key="exclude_players")
+    st.session_state.exclude_players = st.multiselect("Remove players", player_options, default=st.session_state.exclude_players, key="exclude_players_select")
     st.multiselect("Remove clubs", team_options, key="exclude_teams")
     max_cost = float(players["price"].max())
     st.slider("Price range", 3.5, max(14.0, max_cost), (4.0, max(14.0, max_cost)), 0.1, key="price_range")
     st.slider("Minimum total minutes", 0, int(players["minutes"].max()), 0, 90, key="min_minutes")
     st.slider("Minutes/game", 0, 90, 0, 5, key="min_minutes_per_game")
     st.select_slider("Minimum form", options=[0, 1, 2, 3, 4, 5, 6], value=0, key="min_form", format_func=lambda value: f"{value}+")
-    st.slider("DefCons/90", 0.0, max(10.0, float(players["defcons_per_90"].max())), (0.0, max(10.0, float(players["defcons_per_90"].max()))), 0.1, key="defcon_range")
+    st.select_slider("Minimum Defcons/90", options=list(range(13)), value=0, key="min_defcons_per90", format_func=lambda value: "12+" if value == 12 else str(value))
     st.slider("Maximum ownership %", 0.0, 100.0, 100.0, 0.5, key="max_ownership")
 
 filtered = apply_global_filters(players)
