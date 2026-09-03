@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Random Forest, Intuitively | FPL Streamlit Predictor</title>
+    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl-v3" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">FPL Predictor</a>
+        <nav>
+          <a href="index.html">App</a>
+          <a href="what-it-does.html">What It Does</a>
+          <a href="metric-glossary.html">Metric Glossary</a>
+          <a class="active" href="random-forest.html">Random Forest</a>
+        </nav>
+      </header>
+
+      <main class="content-page rf-page">
+        <section class="page-hero compact">
+          <p class="eyebrow">Model intuition</p>
+          <h1>Why a Random Forest Helps</h1>
+          <p class="standfirst">FPL decisions are rarely decided by one clean rule. Random Forests help by combining many small judgement calls into one balanced estimate.</p>
+        </section>
+
+        <section class="rf-story">
+          <article>
+            <h2>Think of it as a room of scouts</h2>
+            <p>One scout cares most about minutes. Another is cautious about injury flags. Another looks at xGI. Another notices fixture difficulty. A Random Forest builds many simple decision trees like that, then averages their opinions.</p>
+          </article>
+          <article>
+            <h2>It handles awkward tradeoffs</h2>
+            <p>A cheap defender with nailed minutes and good fixtures is a different bet from a rotation attacker with exciting xGI. A straight-line formula struggles with those bends. A forest can learn that the same signal matters differently depending on the rest of the profile.</p>
+          </article>
+          <article>
+            <h2>It reduces overreaction</h2>
+            <p>One haul can distort judgement. The model looks at rolling points, minutes, starts, xGI, ICT, price, ownership, team context, and fixture difficulty together. That makes it harder for one noisy stat to dominate the recommendation.</p>
+          </article>
+        </section>
+
+        <section class="decision-strip" aria-label="Decision benefits">
+          <div><span>Better shortlists</span><strong>Rank credible targets faster</strong></div>
+          <div><span>Cleaner comparisons</span><strong>Balance upside, price, and risk</strong></div>
+          <div><span>Less recency bias</span><strong>Use repeatable signals, not only last week</strong></div>
+        </section>
+
+        <section class="note-band">
+          <h2>What it still cannot know</h2>
+          <p>The model does not read press conferences, tactical leaks, private purchase prices, or late team news. Its job is to narrow the decision space and make tradeoffs visible. Final FPL decisions still need human judgement.</p>
+        </section>
+      </main>
+    </div>
+    <script src="app.js?v=2026-09-02-fpl-v3"></script>
+  </body>
+</html>

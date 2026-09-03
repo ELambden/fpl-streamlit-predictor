@@ -4,7 +4,7 @@ An interactive Fantasy Premier League portfolio project built to showcase Stream
 
 The repository is designed as a hybrid public portfolio:
 
-- `docs/` is a static GitHub Pages case-study wrapper styled to match the neighboring StatsBomb portfolio project.
+- `docs/` is a static multi-page GitHub Pages site: the home page embeds the app, with separate explainer pages for features, metrics, and the RandomForest model.
 - `app/streamlit_app.py` is the live Streamlit application, suitable for Streamlit Community Cloud.
 - The current deployed app is expected at `https://fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/`.
 - `data/processed/` contains committed sample outputs so the app can run without a live API call.
@@ -36,7 +36,7 @@ Run the Streamlit app:
 streamlit run app/streamlit_app.py
 ```
 
-Preview the GitHub Pages wrapper:
+Preview the GitHub Pages site:
 
 ```bash
 python -m http.server 8000 --directory docs
@@ -58,7 +58,7 @@ The GitHub Actions workflow in `.github/workflows/refresh-data.yml` can run this
 app/                 Streamlit user experience
 data/processed/      Committed player, history, forecast, and model-summary outputs
 data/raw/            Optional fetched API snapshots, ignored by git
-docs/                GitHub Pages portfolio wrapper
+docs/                GitHub Pages app home and explainer pages
 scripts/             Pipeline entry points
 src/fpl_decision_lab Reusable data, feature, model, and optimizer code
 tests/               Contract and logic tests
@@ -68,7 +68,7 @@ tests/               Contract and logic tests
 
 The app includes:
 
-- `Home`: player discovery and transfer-target landscape
+- `Home`: fast player discovery and top transfer targets
 - `My Team`: public FPL team-ID import, pitch view, and immediate transfer advice
 - `Player Lab`: current-season gameweek history and future fixture forecasts
 - `Planner`: five-gameweek transfer path planning
@@ -82,7 +82,7 @@ This is a decision-support and portfolio project, not guaranteed FPL advice. Pub
 
 ## GitHub Pages
 
-Set Pages `Source` to `GitHub Actions`. The workflow deploys `docs/` on every push to `main`; scheduled and manual runs also refresh data before deploying. The public Pages URL should become:
+The static site is split across `index.html`, `what-it-does.html`, `metric-glossary.html`, and `random-forest.html`. Set Pages `Source` to `GitHub Actions`. The workflow deploys `docs/` on every push to `main`; scheduled and manual runs also refresh data before deploying. The public Pages URL should become:
 
 ```text
 https://elambden.github.io/fpl-streamlit-predictor/

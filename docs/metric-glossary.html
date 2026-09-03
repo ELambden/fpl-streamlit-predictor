@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Metric Glossary | FPL Streamlit Predictor</title>
+    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl-v3" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">FPL Predictor</a>
+        <nav>
+          <a href="index.html">App</a>
+          <a href="what-it-does.html">What It Does</a>
+          <a class="active" href="metric-glossary.html">Metric Glossary</a>
+          <a href="random-forest.html">Random Forest</a>
+        </nav>
+      </header>
+
+      <main class="content-page">
+        <section class="page-hero compact">
+          <p class="eyebrow">Reference</p>
+          <h1>Metric Glossary</h1>
+          <p class="standfirst">The app uses a small set of decision metrics. They are designed for comparison, not certainty.</p>
+        </section>
+
+        <section class="glossary-grid standalone" aria-label="Metric definitions">
+          <article>
+            <strong>predicted_next_gw</strong>
+            <p>Projected FPL points for the next gameweek, adjusted for availability, recent role, and fixture context.</p>
+          </article>
+          <article>
+            <strong>predicted_next5</strong>
+            <p>Projected points across the next five gameweeks, summing every scheduled fixture in that window.</p>
+          </article>
+          <article>
+            <strong>transfer_score</strong>
+            <p>A ranking score for transfer targets: projected points plus fixture and value upside, less minutes and availability risk.</p>
+          </article>
+          <article>
+            <strong>risk_score</strong>
+            <p>A caution score driven by minutes, start likelihood, injury status, and missing recent evidence. Lower is safer.</p>
+          </article>
+          <article>
+            <strong>fixture_ease</strong>
+            <p>Official FPL fixture difficulty flipped so larger numbers mean an easier upcoming run.</p>
+          </article>
+          <article>
+            <strong>optimizer_value</strong>
+            <p>Projected five-gameweek points per million of current FPL price.</p>
+          </article>
+        </section>
+
+        <section class="note-band source-line">Static data snapshot loading...</section>
+      </main>
+    </div>
+    <script src="app.js?v=2026-09-02-fpl-v3"></script>
+  </body>
+</html>

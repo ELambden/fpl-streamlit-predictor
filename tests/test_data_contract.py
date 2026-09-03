@@ -21,6 +21,11 @@ REQUIRED_COLUMNS = {
     "player_code",
     "blended_points_per_90",
     "blended_xgi_per_90",
+    "minutes_per_game",
+    "defcons_per_90",
+    "defcon_10_plus_pct",
+    "bps_per_game",
+    "bonus_per_game",
 }
 
 
@@ -35,7 +40,7 @@ def test_history_and_forecast_outputs_exist() -> None:
     forecasts = read_csv_records(PLAYER_FORECASTS_CSV)
     assert history
     assert forecasts
-    assert {"player_id", "gw", "total_points", "minutes", "expected_goal_involvements"} <= set(history[0])
+    assert {"player_id", "gw", "total_points", "minutes", "expected_goal_involvements", "bonus", "bps", "defensive_contribution"} <= set(history[0])
     assert {"player_id", "gw", "horizon_index", "fixture_difficulty", "forecast_points"} <= set(forecasts[0])
     assert max(int(row["horizon_index"]) for row in forecasts) <= 5
 
@@ -47,12 +52,30 @@ def test_model_summary_explains_random_forest_and_glossary() -> None:
     assert "predicted_next5" in summary["metricGlossary"]
 
 
-def test_docs_wrapper_references_streamlit_embed_and_assets() -> None:
-    html = Path("docs/index.html").read_text(encoding="utf-8")
-    assert "fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true" in html
-    assert "Portfolio Fit" not in html
-    assert "What It Does" in html
-    assert "predicted_next5" in html
-    assert "styles.css" in html
-    assert "app.js" in html
+def test_docs_site_has_fast_app_home_and_explainer_pages() -> None:
+    index = Path("docs/index.html").read_text(encoding="utf-8")
+    what_it_does = Path("docs/what-it-does.html").read_text(encoding="utf-8")
+    glossary = Path("docs/metric-glossary.html").read_text(encoding="utf-8")
+    random_forest = Path("docs/random-forest.html").read_text(encoding="utf-8")
+
+    assert "fpl-app-predictor-sklxegssnh6exvzw2av6vg.streamlit.app/?embed=true" in index
+    assert "Import a public FPL team" not in index
+    assert "predicted_next5" not in index
+    assert "Portfolio Fit" not in index + what_it_does + glossary + random_forest
+    assert "What It Does" in what_it_does
+    assert "predicted_next5" in glossary
+    assert "Why a Random Forest Helps" in random_forest
+    assert "styles.css" in index
+    assert "app.js" in index
     assert "data/dashboard-data.json" in Path("docs/app.js").read_text(encoding="utf-8")
+
+
+def test_streamlit_app_exposes_decision_lab_controls() -> None:
+    app = Path("app/streamlit_app.py").read_text(encoding="utf-8")
+    assert "Only include players" in app
+    assert "Remove players" in app
+    assert "Remove clubs" in app
+    assert "DefCons/90" in app
+    assert "% 10+ DefCons" in app
+    assert "BPS/game" in app
+    assert "decision-table" in app

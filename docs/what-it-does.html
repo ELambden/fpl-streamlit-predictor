@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>What It Does | FPL Streamlit Predictor</title>
+    <link rel="stylesheet" href="styles.css?v=2026-09-02-fpl-v3" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html">FPL Predictor</a>
+        <nav>
+          <a href="index.html">App</a>
+          <a class="active" href="what-it-does.html">What It Does</a>
+          <a href="metric-glossary.html">Metric Glossary</a>
+          <a href="random-forest.html">Random Forest</a>
+        </nav>
+      </header>
+
+      <main class="content-page">
+        <section class="page-hero">
+          <p class="eyebrow">Decision tool</p>
+          <h1>What It Does</h1>
+          <p class="standfirst">The app turns live FPL data into a fast workbench for player discovery, public team lookup, transfer advice, and five-gameweek planning.</p>
+        </section>
+
+        <section class="feature-grid" aria-label="Core features">
+          <article>
+            <span class="feature-number">01</span>
+            <h2>Find transfer targets quickly</h2>
+            <p>Scan current players by club, position, price, minutes, ownership, projected points, fixture run, and risk. The home view is intentionally light so it opens quickly and gets straight to the shortlist.</p>
+          </article>
+          <article>
+            <span class="feature-number">02</span>
+            <h2>Import a public FPL team</h2>
+            <p>Enter a public team ID to load the squad, captain, vice-captain, bench order, bank context, and immediate transfer options. Team IDs are looked up at runtime through Streamlit cache and are not persisted.</p>
+          </article>
+          <article>
+            <span class="feature-number">03</span>
+            <h2>Inspect player evidence</h2>
+            <p>Player Lab opens the current-season gameweek table, points and minutes trends, xGI, ICT, ownership movement, and the upcoming forecast line for a selected player.</p>
+          </article>
+          <article>
+            <span class="feature-number">04</span>
+            <h2>Plan five gameweeks ahead</h2>
+            <p>The planner evaluates hold and transfer paths across the next five gameweeks while respecting FPL squad shape, club limits, budget, free transfers, and hit costs.</p>
+          </article>
+        </section>
+
+        <section class="note-band">
+          <h2>Data boundary</h2>
+          <p>Current 2026-27 public FPL data is the authority. Prior 2025-26 player and team information is used only where stable IDs match, and unmatched players fall back to neutral priors until current-season evidence builds up.</p>
+        </section>
+      </main>
+    </div>
+    <script src="app.js?v=2026-09-02-fpl-v3"></script>
+  </body>
+</html>

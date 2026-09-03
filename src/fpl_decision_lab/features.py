@@ -121,3 +121,32 @@ def numeric_columns(rows: list[dict[str, Any]], columns: list[str]) -> list[dict
                 item[column] = as_float(item[column])
         converted.append(item)
     return converted
+
+
+def add_history_summary_features(rows: list[dict[str, Any]], history_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    grouped: dict[str, list[dict[str, Any]]] = {}
+    for row in history_rows:
+        grouped.setdefault(str(row.get("player_id")), []).append(row)
+
+    result: list[dict[str, Any]] = []
+    for row in rows:
+        item = dict(row)
+        current_gameweek = max(as_float(item.get("current_gameweek"), 1.0), 1.0)
+        minutes = as_float(item.get("minutes"))
+        player_history = grouped.get(str(item.get("player_id")), [])
+        played_rows = [history for history in player_history if as_float(history.get("minutes")) > 0]
+        game_count = max(float(len(player_history)), current_gameweek, 1.0)
+        played_count = max(float(len(played_rows)), 1.0)
+        history_minutes = sum(as_float(history.get("minutes")) for history in player_history)
+        history_defcons = sum(as_float(history.get("defensive_contribution")) for history in player_history)
+        history_bonus = sum(as_float(history.get("bonus")) for history in player_history)
+        history_bps = sum(as_float(history.get("bps")) for history in player_history)
+        per_90_source = as_float(item.get("defensive_contribution_per_90"))
+
+        item["minutes_per_game"] = round(minutes / current_gameweek, 2)
+        item["bonus_per_game"] = round(history_bonus / game_count, 3)
+        item["bps_per_game"] = round(history_bps / game_count, 3)
+        item["defcons_per_90"] = round(per_90_source or (history_defcons * 90.0 / max(history_minutes, 1.0)), 3)
+        item["defcon_10_plus_pct"] = round(100.0 * sum(as_float(history.get("defensive_contribution")) >= 10.0 for history in played_rows) / played_count, 1)
+        result.append(item)
+    return result
