@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T18:58:28.412324+00:00",
+  "generatedAt": "2026-09-08T12:57:45.174172+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -23,42 +23,42 @@
     "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
     "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
-  "rows": 651,
+  "rows": 654,
   "positions": {
     "GKP": 71,
     "DEF": 214,
-    "MID": 288,
+    "MID": 291,
     "FWD": 78
   },
   "priorCoverage": {
     "playersWith2025_26Prior": 376,
-    "teamsWith2025_26Prior": 537,
-    "playerPriorCoveragePct": 57.8,
-    "teamPriorCoveragePct": 82.5
+    "teamsWith2025_26Prior": 540,
+    "playerPriorCoveragePct": 57.5,
+    "teamPriorCoveragePct": 82.6
   },
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
     "randomForestMae": 1.039,
-    "ridgeMae": 1.082,
+    "ridgeMae": 1.086,
     "featureImportance": {
-      "lag_minutes_mean3": 0.3842,
-      "lag_ict_mean3": 0.2171,
-      "selected_millions": 0.1552,
-      "lag_xgi_mean3": 0.0762,
-      "value": 0.067,
-      "lag_points_mean3": 0.057,
-      "fixture_difficulty": 0.0257,
-      "was_home": 0.0116,
-      "lag_starts_mean3": 0.006,
+      "lag_minutes_mean3": 0.4617,
+      "selected_millions": 0.1816,
+      "lag_ict_mean3": 0.1229,
+      "lag_xgi_mean3": 0.0741,
+      "value": 0.0716,
+      "lag_points_mean3": 0.0441,
+      "fixture_difficulty": 0.0231,
+      "was_home": 0.0135,
+      "lag_starts_mean3": 0.0075,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.788,
-    "meanBaseline": 8.157,
-    "meanLift": -1.37,
+    "meanPredictionNext5": 6.761,
+    "meanBaseline": 8.304,
+    "meanLift": -1.542,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
