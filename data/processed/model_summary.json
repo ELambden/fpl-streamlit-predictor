@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T13:31:51.312078+00:00",
+  "generatedAt": "2026-09-29T14:55:59.372658+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -39,26 +39,26 @@
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
-    "randomForestMae": 1.029,
-    "ridgeMae": 1.085,
+    "randomForestMae": 1.028,
+    "ridgeMae": 1.086,
     "featureImportance": {
-      "lag_minutes_mean3": 0.3589,
-      "selected_millions": 0.2029,
-      "lag_ict_mean3": 0.2012,
-      "lag_xgi_mean3": 0.0766,
+      "lag_minutes_mean3": 0.3586,
+      "lag_ict_mean3": 0.2015,
+      "selected_millions": 0.2012,
+      "lag_xgi_mean3": 0.0773,
       "value": 0.0739,
-      "lag_points_mean3": 0.0455,
-      "fixture_difficulty": 0.0223,
-      "was_home": 0.0139,
-      "lag_starts_mean3": 0.0048,
+      "lag_points_mean3": 0.0451,
+      "fixture_difficulty": 0.0237,
+      "was_home": 0.0135,
+      "lag_starts_mean3": 0.0053,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.55,
-    "meanBaseline": 8.901,
-    "meanLift": -2.351,
+    "meanPredictionNext5": 6.487,
+    "meanBaseline": 9.284,
+    "meanLift": -2.798,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
