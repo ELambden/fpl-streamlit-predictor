@@ -35,20 +35,20 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 7,Lewis-Skelly,Arsenal,MID,9,4,0,14,4.0,1.627
 7,Lewis-Skelly,Arsenal,MID,10,5,1,11,2.0,1.985
 8,Calafiori,Arsenal,DEF,6,1,1,13,3.0,3.489
-8,Calafiori,Arsenal,DEF,7,2,0,18,3.0,3.55
+8,Calafiori,Arsenal,DEF,7,2,0,18,3.0,3.543
 8,Calafiori,Arsenal,DEF,8,3,1,9,3.0,3.489
-8,Calafiori,Arsenal,DEF,9,4,0,14,4.0,3.363
-8,Calafiori,Arsenal,DEF,10,5,1,11,2.0,4.066
+8,Calafiori,Arsenal,DEF,9,4,0,14,4.0,3.359
+8,Calafiori,Arsenal,DEF,10,5,1,11,2.0,4.009
 9,Hincapie,Arsenal,DEF,6,1,1,13,3.0,1.506
 9,Hincapie,Arsenal,DEF,7,2,0,18,3.0,1.456
 9,Hincapie,Arsenal,DEF,8,3,1,9,3.0,1.506
 9,Hincapie,Arsenal,DEF,9,4,0,14,4.0,1.472
 9,Hincapie,Arsenal,DEF,10,5,1,11,2.0,1.567
-10,White,Arsenal,DEF,6,1,1,13,3.0,2.353
-10,White,Arsenal,DEF,7,2,0,18,3.0,2.213
-10,White,Arsenal,DEF,8,3,1,9,3.0,2.353
-10,White,Arsenal,DEF,9,4,0,14,4.0,1.989
-10,White,Arsenal,DEF,10,5,1,11,2.0,2.66
+10,White,Arsenal,DEF,6,1,1,13,3.0,2.36
+10,White,Arsenal,DEF,7,2,0,18,3.0,2.22
+10,White,Arsenal,DEF,8,3,1,9,3.0,2.36
+10,White,Arsenal,DEF,9,4,0,14,4.0,1.984
+10,White,Arsenal,DEF,10,5,1,11,2.0,2.659
 11,Mosquera,Arsenal,DEF,6,1,1,13,3.0,2.757
 11,Mosquera,Arsenal,DEF,7,2,0,18,3.0,2.418
 11,Mosquera,Arsenal,DEF,8,3,1,9,3.0,2.757
@@ -79,11 +79,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 16,Madueke,Arsenal,MID,8,3,1,9,3.0,1.181
 16,Madueke,Arsenal,MID,9,4,0,14,4.0,1.189
 16,Madueke,Arsenal,MID,10,5,1,11,2.0,1.181
-17,Merino,Arsenal,MID,6,1,1,13,3.0,1.493
-17,Merino,Arsenal,MID,7,2,0,18,3.0,1.385
-17,Merino,Arsenal,MID,8,3,1,9,3.0,1.493
-17,Merino,Arsenal,MID,9,4,0,14,4.0,1.33
-17,Merino,Arsenal,MID,10,5,1,11,2.0,1.64
+17,Merino,Arsenal,MID,6,1,1,13,3.0,1.486
+17,Merino,Arsenal,MID,7,2,0,18,3.0,1.35
+17,Merino,Arsenal,MID,8,3,1,9,3.0,1.486
+17,Merino,Arsenal,MID,9,4,0,14,4.0,1.302
+17,Merino,Arsenal,MID,10,5,1,11,2.0,1.633
 18,Martinelli,Arsenal,MID,6,1,1,13,3.0,0.0
 18,Martinelli,Arsenal,MID,7,2,0,18,3.0,0.0
 18,Martinelli,Arsenal,MID,8,3,1,9,3.0,0.0
@@ -94,11 +94,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 19,Zubimendi,Arsenal,MID,8,3,1,9,3.0,1.686
 19,Zubimendi,Arsenal,MID,9,4,0,14,4.0,1.325
 19,Zubimendi,Arsenal,MID,10,5,1,11,2.0,1.757
-20,Dowman,Arsenal,MID,6,1,1,13,3.0,1.114
-20,Dowman,Arsenal,MID,7,2,0,18,3.0,1.176
-20,Dowman,Arsenal,MID,8,3,1,9,3.0,1.114
-20,Dowman,Arsenal,MID,9,4,0,14,4.0,1.212
-20,Dowman,Arsenal,MID,10,5,1,11,2.0,1.133
+20,Dowman,Arsenal,MID,6,1,1,13,3.0,0.836
+20,Dowman,Arsenal,MID,7,2,0,18,3.0,0.882
+20,Dowman,Arsenal,MID,8,3,1,9,3.0,0.836
+20,Dowman,Arsenal,MID,9,4,0,14,4.0,0.909
+20,Dowman,Arsenal,MID,10,5,1,11,2.0,0.85
 22,Nwaneri,Arsenal,MID,6,1,1,13,3.0,0.0
 22,Nwaneri,Arsenal,MID,7,2,0,18,3.0,0.0
 22,Nwaneri,Arsenal,MID,8,3,1,9,3.0,0.0
@@ -114,36 +114,36 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 24,Nelson,Arsenal,MID,8,3,1,9,3.0,0.0
 24,Nelson,Arsenal,MID,9,4,0,14,4.0,0.0
 24,Nelson,Arsenal,MID,10,5,1,11,2.0,0.0
-25,Gyökeres,Arsenal,FWD,6,1,1,13,3.0,2.311
-25,Gyökeres,Arsenal,FWD,7,2,0,18,3.0,2.334
-25,Gyökeres,Arsenal,FWD,8,3,1,9,3.0,2.311
-25,Gyökeres,Arsenal,FWD,9,4,0,14,4.0,2.326
-25,Gyökeres,Arsenal,FWD,10,5,1,11,2.0,2.339
-26,Havertz,Arsenal,FWD,6,1,1,13,3.0,3.319
-26,Havertz,Arsenal,FWD,7,2,0,18,3.0,3.312
-26,Havertz,Arsenal,FWD,8,3,1,9,3.0,3.319
-26,Havertz,Arsenal,FWD,9,4,0,14,4.0,3.002
+25,Gyökeres,Arsenal,FWD,6,1,1,13,3.0,2.298
+25,Gyökeres,Arsenal,FWD,7,2,0,18,3.0,2.321
+25,Gyökeres,Arsenal,FWD,8,3,1,9,3.0,2.298
+25,Gyökeres,Arsenal,FWD,9,4,0,14,4.0,2.313
+25,Gyökeres,Arsenal,FWD,10,5,1,11,2.0,2.326
+26,Havertz,Arsenal,FWD,6,1,1,13,3.0,3.352
+26,Havertz,Arsenal,FWD,7,2,0,18,3.0,3.344
+26,Havertz,Arsenal,FWD,8,3,1,9,3.0,3.352
+26,Havertz,Arsenal,FWD,9,4,0,14,4.0,3.034
 26,Havertz,Arsenal,FWD,10,5,1,11,2.0,4.175
 27,G.Jesus,Arsenal,FWD,6,1,1,13,3.0,0.0
 27,G.Jesus,Arsenal,FWD,7,2,0,18,3.0,0.0
 27,G.Jesus,Arsenal,FWD,8,3,1,9,3.0,0.0
 27,G.Jesus,Arsenal,FWD,9,4,0,14,4.0,0.0
 27,G.Jesus,Arsenal,FWD,10,5,1,11,2.0,0.0
-31,Konsa,Arsenal,DEF,6,1,1,13,3.0,2.844
-31,Konsa,Arsenal,DEF,7,2,0,18,3.0,2.746
-31,Konsa,Arsenal,DEF,8,3,1,9,3.0,2.844
-31,Konsa,Arsenal,DEF,9,4,0,14,4.0,2.135
-31,Konsa,Arsenal,DEF,10,5,1,11,2.0,3.04
+31,Konsa,Arsenal,DEF,6,1,1,13,3.0,2.133
+31,Konsa,Arsenal,DEF,7,2,0,18,3.0,2.06
+31,Konsa,Arsenal,DEF,8,3,1,9,3.0,2.133
+31,Konsa,Arsenal,DEF,9,4,0,14,4.0,1.601
+31,Konsa,Arsenal,DEF,10,5,1,11,2.0,2.28
 452,Bruno G.,Arsenal,MID,6,1,1,13,3.0,3.032
 452,Bruno G.,Arsenal,MID,7,2,0,18,3.0,2.827
 452,Bruno G.,Arsenal,MID,8,3,1,9,3.0,3.032
 452,Bruno G.,Arsenal,MID,9,4,0,14,4.0,2.568
 452,Bruno G.,Arsenal,MID,10,5,1,11,2.0,3.203
-557,Tzolis,Arsenal,MID,6,1,1,13,3.0,3.214
-557,Tzolis,Arsenal,MID,7,2,0,18,3.0,3.011
-557,Tzolis,Arsenal,MID,8,3,1,9,3.0,3.214
-557,Tzolis,Arsenal,MID,9,4,0,14,4.0,2.655
-557,Tzolis,Arsenal,MID,10,5,1,11,2.0,2.979
+557,Tzolis,Arsenal,MID,6,1,1,13,3.0,2.396
+557,Tzolis,Arsenal,MID,7,2,0,18,3.0,2.262
+557,Tzolis,Arsenal,MID,8,3,1,9,3.0,2.396
+557,Tzolis,Arsenal,MID,9,4,0,14,4.0,2.003
+557,Tzolis,Arsenal,MID,10,5,1,11,2.0,2.236
 29,M.Bizot,Aston Villa,GKP,6,1,1,4,3.0,0.0
 29,M.Bizot,Aston Villa,GKP,7,2,0,17,3.0,0.0
 29,M.Bizot,Aston Villa,GKP,8,3,1,15,4.0,0.0
@@ -384,11 +384,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 68,Tavernier,Bournemouth,MID,8,3,0,16,4.0,2.913
 68,Tavernier,Bournemouth,MID,9,4,1,13,3.0,4.267
 68,Tavernier,Bournemouth,MID,10,5,0,12,2.0,4.316
-69,Scott,Bournemouth,MID,6,1,0,6,4.0,3.365
-69,Scott,Bournemouth,MID,7,2,1,20,3.0,3.876
-69,Scott,Bournemouth,MID,8,3,0,16,4.0,3.365
-69,Scott,Bournemouth,MID,9,4,1,13,3.0,3.876
-69,Scott,Bournemouth,MID,10,5,0,12,2.0,3.633
+69,Scott,Bournemouth,MID,6,1,0,6,4.0,1.684
+69,Scott,Bournemouth,MID,7,2,1,20,3.0,1.893
+69,Scott,Bournemouth,MID,8,3,0,16,4.0,1.684
+69,Scott,Bournemouth,MID,9,4,1,13,3.0,1.893
+69,Scott,Bournemouth,MID,10,5,0,12,2.0,1.816
 70,Kluivert,Bournemouth,MID,6,1,0,6,4.0,0.0
 70,Kluivert,Bournemouth,MID,7,2,1,20,3.0,0.0
 70,Kluivert,Bournemouth,MID,8,3,0,16,4.0,0.0
@@ -524,21 +524,21 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 93,Schuster,Brentford,DEF,8,3,0,11,2.0,1.868
 93,Schuster,Brentford,DEF,9,4,1,18,3.0,1.758
 93,Schuster,Brentford,DEF,10,5,0,5,4.0,1.579
-94,Schade,Brentford,MID,6,1,0,2,3.0,3.117
-94,Schade,Brentford,MID,7,2,1,14,4.0,3.431
+94,Schade,Brentford,MID,6,1,0,2,3.0,3.13
+94,Schade,Brentford,MID,7,2,1,14,4.0,3.469
 94,Schade,Brentford,MID,8,3,0,11,2.0,4.419
-94,Schade,Brentford,MID,9,4,1,18,3.0,3.449
-94,Schade,Brentford,MID,10,5,0,5,4.0,3.13
+94,Schade,Brentford,MID,9,4,1,18,3.0,3.463
+94,Schade,Brentford,MID,10,5,0,5,4.0,3.168
 95,O.Dango,Brentford,MID,6,1,0,2,3.0,2.655
 95,O.Dango,Brentford,MID,7,2,1,14,4.0,2.494
 95,O.Dango,Brentford,MID,8,3,0,11,2.0,2.625
 95,O.Dango,Brentford,MID,9,4,1,18,3.0,2.671
 95,O.Dango,Brentford,MID,10,5,0,5,4.0,2.422
-96,Damsgaard,Brentford,MID,6,1,0,2,3.0,1.888
-96,Damsgaard,Brentford,MID,7,2,1,14,4.0,1.585
-96,Damsgaard,Brentford,MID,8,3,0,11,2.0,1.959
-96,Damsgaard,Brentford,MID,9,4,1,18,3.0,1.916
-96,Damsgaard,Brentford,MID,10,5,0,5,4.0,1.473
+96,Damsgaard,Brentford,MID,6,1,0,2,3.0,1.416
+96,Damsgaard,Brentford,MID,7,2,1,14,4.0,1.189
+96,Damsgaard,Brentford,MID,8,3,0,11,2.0,1.47
+96,Damsgaard,Brentford,MID,9,4,1,18,3.0,1.437
+96,Damsgaard,Brentford,MID,10,5,0,5,4.0,1.105
 97,Jensen,Brentford,MID,6,1,0,2,3.0,0.0
 97,Jensen,Brentford,MID,7,2,1,14,4.0,0.0
 97,Jensen,Brentford,MID,8,3,0,11,2.0,0.0
@@ -569,16 +569,16 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 103,Dasilva,Brentford,MID,8,3,0,11,2.0,0.0
 103,Dasilva,Brentford,MID,9,4,1,18,3.0,0.0
 103,Dasilva,Brentford,MID,10,5,0,5,4.0,0.0
-105,Anthony,Brentford,MID,6,1,0,2,3.0,1.293
-105,Anthony,Brentford,MID,7,2,1,14,4.0,1.334
-105,Anthony,Brentford,MID,8,3,0,11,2.0,1.31
-105,Anthony,Brentford,MID,9,4,1,18,3.0,1.517
-105,Anthony,Brentford,MID,10,5,0,5,4.0,1.116
-106,Thiago,Brentford,FWD,6,1,0,2,3.0,4.819
-106,Thiago,Brentford,FWD,7,2,1,14,4.0,4.762
+105,Anthony,Brentford,MID,6,1,0,2,3.0,1.965
+105,Anthony,Brentford,MID,7,2,1,14,4.0,1.705
+105,Anthony,Brentford,MID,8,3,0,11,2.0,1.924
+105,Anthony,Brentford,MID,9,4,1,18,3.0,1.991
+105,Anthony,Brentford,MID,10,5,0,5,4.0,1.621
+106,Thiago,Brentford,FWD,6,1,0,2,3.0,4.814
+106,Thiago,Brentford,FWD,7,2,1,14,4.0,4.746
 106,Thiago,Brentford,FWD,8,3,0,11,2.0,6.183
-106,Thiago,Brentford,FWD,9,4,1,18,3.0,5.019
-106,Thiago,Brentford,FWD,10,5,0,5,4.0,4.531
+106,Thiago,Brentford,FWD,9,4,1,18,3.0,5.014
+106,Thiago,Brentford,FWD,10,5,0,5,4.0,4.514
 107,Furo,Brentford,FWD,6,1,0,2,3.0,0.0
 107,Furo,Brentford,FWD,7,2,1,14,4.0,0.0
 107,Furo,Brentford,FWD,8,3,0,11,2.0,0.0
@@ -589,11 +589,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 108,Wilson,Brentford,FWD,8,3,0,11,2.0,1.314
 108,Wilson,Brentford,FWD,9,4,1,18,3.0,1.197
 108,Wilson,Brentford,FWD,10,5,0,5,4.0,1.202
-565,M.Sangaré,Brentford,MID,6,1,0,2,3.0,2.867
-565,M.Sangaré,Brentford,MID,7,2,1,14,4.0,2.735
-565,M.Sangaré,Brentford,MID,8,3,0,11,2.0,3.207
-565,M.Sangaré,Brentford,MID,9,4,1,18,3.0,2.797
-565,M.Sangaré,Brentford,MID,10,5,0,5,4.0,2.793
+565,M.Sangaré,Brentford,MID,6,1,0,2,3.0,2.922
+565,M.Sangaré,Brentford,MID,7,2,1,14,4.0,2.818
+565,M.Sangaré,Brentford,MID,8,3,0,11,2.0,3.262
+565,M.Sangaré,Brentford,MID,9,4,1,18,3.0,2.852
+565,M.Sangaré,Brentford,MID,10,5,0,5,4.0,2.877
 620,Diouf,Brentford,DEF,6,1,0,2,3.0,0.615
 620,Diouf,Brentford,DEF,7,2,1,14,4.0,0.649
 620,Diouf,Brentford,DEF,8,3,0,11,2.0,0.662
@@ -634,11 +634,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 114,Boscagli,Brighton,DEF,8,3,0,14,4.0,3.238
 114,Boscagli,Brighton,DEF,9,4,0,15,5.0,2.643
 114,Boscagli,Brighton,DEF,10,5,1,4,3.0,3.737
-115,De Cuyper,Brighton,DEF,6,1,0,20,3.0,3.441
-115,De Cuyper,Brighton,DEF,7,2,1,8,2.0,5.2
-115,De Cuyper,Brighton,DEF,8,3,0,14,4.0,3.249
-115,De Cuyper,Brighton,DEF,9,4,0,15,5.0,3.338
-115,De Cuyper,Brighton,DEF,10,5,1,4,3.0,3.927
+115,De Cuyper,Brighton,DEF,6,1,0,20,3.0,3.431
+115,De Cuyper,Brighton,DEF,7,2,1,8,2.0,5.131
+115,De Cuyper,Brighton,DEF,8,3,0,14,4.0,3.238
+115,De Cuyper,Brighton,DEF,9,4,0,15,5.0,3.34
+115,De Cuyper,Brighton,DEF,10,5,1,4,3.0,3.917
 116,Dunk,Brighton,DEF,6,1,0,20,3.0,2.321
 116,Dunk,Brighton,DEF,7,2,1,8,2.0,3.147
 116,Dunk,Brighton,DEF,8,3,0,14,4.0,2.132
@@ -679,11 +679,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 123,Hinshelwood,Brighton,MID,8,3,0,14,4.0,0.0
 123,Hinshelwood,Brighton,MID,9,4,0,15,5.0,0.0
 123,Hinshelwood,Brighton,MID,10,5,1,4,3.0,0.0
-124,Groß,Brighton,MID,6,1,0,20,3.0,3.006
-124,Groß,Brighton,MID,7,2,1,8,2.0,4.654
-124,Groß,Brighton,MID,8,3,0,14,4.0,3.047
-124,Groß,Brighton,MID,9,4,0,15,5.0,3.009
-124,Groß,Brighton,MID,10,5,1,4,3.0,3.189
+124,Groß,Brighton,MID,6,1,0,20,3.0,2.964
+124,Groß,Brighton,MID,7,2,1,8,2.0,4.603
+124,Groß,Brighton,MID,8,3,0,14,4.0,3.005
+124,Groß,Brighton,MID,9,4,0,15,5.0,2.967
+124,Groß,Brighton,MID,10,5,1,4,3.0,3.151
 125,Georginio,Brighton,FWD,6,1,0,20,3.0,1.449
 125,Georginio,Brighton,FWD,7,2,1,8,2.0,1.602
 125,Georginio,Brighton,FWD,8,3,0,14,4.0,1.326
@@ -694,11 +694,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 126,O'Riley,Brighton,MID,8,3,0,14,4.0,1.911
 126,O'Riley,Brighton,MID,9,4,0,15,5.0,1.917
 126,O'Riley,Brighton,MID,10,5,1,4,3.0,1.823
-127,Gomez,Brighton,MID,6,1,0,20,3.0,4.369
-127,Gomez,Brighton,MID,7,2,1,8,2.0,6.04
-127,Gomez,Brighton,MID,8,3,0,14,4.0,3.691
-127,Gomez,Brighton,MID,9,4,0,15,5.0,3.448
-127,Gomez,Brighton,MID,10,5,1,4,3.0,4.291
+127,Gomez,Brighton,MID,6,1,0,20,3.0,4.36
+127,Gomez,Brighton,MID,7,2,1,8,2.0,5.997
+127,Gomez,Brighton,MID,8,3,0,14,4.0,3.718
+127,Gomez,Brighton,MID,9,4,0,15,5.0,3.477
+127,Gomez,Brighton,MID,10,5,1,4,3.0,4.307
 128,Buonanotte,Brighton,MID,6,1,0,20,3.0,0.0
 128,Buonanotte,Brighton,MID,7,2,1,8,2.0,0.0
 128,Buonanotte,Brighton,MID,8,3,0,14,4.0,0.0
@@ -739,11 +739,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 137,Tzimas,Brighton,FWD,8,3,0,14,4.0,0.0
 137,Tzimas,Brighton,FWD,9,4,0,15,5.0,0.0
 137,Tzimas,Brighton,FWD,10,5,1,4,3.0,0.0
-138,Kostoulas,Brighton,FWD,6,1,0,20,3.0,3.104
-138,Kostoulas,Brighton,FWD,7,2,1,8,2.0,4.47
-138,Kostoulas,Brighton,FWD,8,3,0,14,4.0,2.814
-138,Kostoulas,Brighton,FWD,9,4,0,15,5.0,2.795
-138,Kostoulas,Brighton,FWD,10,5,1,4,3.0,3.71
+138,Kostoulas,Brighton,FWD,6,1,0,20,3.0,3.11
+138,Kostoulas,Brighton,FWD,7,2,1,8,2.0,4.54
+138,Kostoulas,Brighton,FWD,8,3,0,14,4.0,2.728
+138,Kostoulas,Brighton,FWD,9,4,0,15,5.0,2.709
+138,Kostoulas,Brighton,FWD,10,5,1,4,3.0,3.748
 139,Ferguson,Brighton,FWD,6,1,0,20,3.0,0.0
 139,Ferguson,Brighton,FWD,7,2,1,8,2.0,0.0
 139,Ferguson,Brighton,FWD,8,3,0,14,4.0,0.0
@@ -754,11 +754,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 328,Struijk,Brighton,DEF,8,3,0,14,4.0,0.918
 328,Struijk,Brighton,DEF,9,4,0,15,5.0,0.902
 328,Struijk,Brighton,DEF,10,5,1,4,3.0,1.425
-504,Vuskovic,Brighton,DEF,6,1,0,20,3.0,4.419
-504,Vuskovic,Brighton,DEF,7,2,1,8,2.0,4.576
-504,Vuskovic,Brighton,DEF,8,3,0,14,4.0,3.884
-504,Vuskovic,Brighton,DEF,9,4,0,15,5.0,3.579
-504,Vuskovic,Brighton,DEF,10,5,1,4,3.0,4.061
+504,Vuskovic,Brighton,DEF,6,1,0,20,3.0,4.177
+504,Vuskovic,Brighton,DEF,7,2,1,8,2.0,4.358
+504,Vuskovic,Brighton,DEF,8,3,0,14,4.0,3.709
+504,Vuskovic,Brighton,DEF,9,4,0,15,5.0,3.393
+504,Vuskovic,Brighton,DEF,10,5,1,4,3.0,3.82
 594,David,Brighton,FWD,6,1,0,20,3.0,0.707
 594,David,Brighton,FWD,7,2,1,8,2.0,0.726
 594,David,Brighton,FWD,8,3,0,14,4.0,0.716
@@ -804,11 +804,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 28,Martinez,Chelsea,GKP,8,3,1,19,2.0,4.024
 28,Martinez,Chelsea,GKP,9,4,1,16,4.0,2.71
 28,Martinez,Chelsea,GKP,10,5,0,20,3.0,2.698
-40,Rogers,Chelsea,MID,6,1,1,3,3.0,3.412
-40,Rogers,Chelsea,MID,7,2,0,9,3.0,2.867
+40,Rogers,Chelsea,MID,6,1,1,3,3.0,3.415
+40,Rogers,Chelsea,MID,7,2,0,9,3.0,2.87
 40,Rogers,Chelsea,MID,8,3,1,19,2.0,4.806
-40,Rogers,Chelsea,MID,9,4,1,16,4.0,3.139
-40,Rogers,Chelsea,MID,10,5,0,20,3.0,2.867
+40,Rogers,Chelsea,MID,9,4,1,16,4.0,3.142
+40,Rogers,Chelsea,MID,10,5,0,20,3.0,2.87
 101,Henderson,Chelsea,MID,6,1,1,3,3.0,0.437
 101,Henderson,Chelsea,MID,7,2,0,9,3.0,0.408
 101,Henderson,Chelsea,MID,8,3,1,19,2.0,0.568
@@ -829,21 +829,21 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 141,Jörgensen,Chelsea,GKP,8,3,1,19,2.0,0.0
 141,Jörgensen,Chelsea,GKP,9,4,1,16,4.0,0.0
 141,Jörgensen,Chelsea,GKP,10,5,0,20,3.0,0.0
-142,James,Chelsea,DEF,6,1,1,3,3.0,1.625
-142,James,Chelsea,DEF,7,2,0,9,3.0,1.616
-142,James,Chelsea,DEF,8,3,1,19,2.0,2.057
-142,James,Chelsea,DEF,9,4,1,16,4.0,1.21
-142,James,Chelsea,DEF,10,5,0,20,3.0,1.616
+142,James,Chelsea,DEF,6,1,1,3,3.0,1.518
+142,James,Chelsea,DEF,7,2,0,9,3.0,1.541
+142,James,Chelsea,DEF,8,3,1,19,2.0,1.984
+142,James,Chelsea,DEF,9,4,1,16,4.0,1.187
+142,James,Chelsea,DEF,10,5,0,20,3.0,1.541
 143,Chalobah,Chelsea,DEF,6,1,1,3,3.0,0.0
 143,Chalobah,Chelsea,DEF,7,2,0,9,3.0,0.0
 143,Chalobah,Chelsea,DEF,8,3,1,19,2.0,0.0
 143,Chalobah,Chelsea,DEF,9,4,1,16,4.0,0.0
 143,Chalobah,Chelsea,DEF,10,5,0,20,3.0,0.0
-144,Gusto,Chelsea,DEF,6,1,1,3,3.0,2.226
-144,Gusto,Chelsea,DEF,7,2,0,9,3.0,2.283
-144,Gusto,Chelsea,DEF,8,3,1,19,2.0,2.128
-144,Gusto,Chelsea,DEF,9,4,1,16,4.0,2.077
-144,Gusto,Chelsea,DEF,10,5,0,20,3.0,2.283
+144,Gusto,Chelsea,DEF,6,1,1,3,3.0,2.169
+144,Gusto,Chelsea,DEF,7,2,0,9,3.0,2.214
+144,Gusto,Chelsea,DEF,8,3,1,19,2.0,2.104
+144,Gusto,Chelsea,DEF,9,4,1,16,4.0,1.997
+144,Gusto,Chelsea,DEF,10,5,0,20,3.0,2.214
 145,Fofana,Chelsea,DEF,6,1,1,3,3.0,2.161
 145,Fofana,Chelsea,DEF,7,2,0,9,3.0,1.85
 145,Fofana,Chelsea,DEF,8,3,1,19,2.0,2.242
@@ -959,11 +959,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 568,Barco,Chelsea,MID,8,3,1,19,2.0,1.602
 568,Barco,Chelsea,MID,9,4,1,16,4.0,1.533
 568,Barco,Chelsea,MID,10,5,0,20,3.0,1.395
-583,Chavarria,Chelsea,DEF,6,1,1,3,3.0,2.244
-583,Chavarria,Chelsea,DEF,7,2,0,9,3.0,2.219
-583,Chavarria,Chelsea,DEF,8,3,1,19,2.0,2.266
-583,Chavarria,Chelsea,DEF,9,4,1,16,4.0,2.095
-583,Chavarria,Chelsea,DEF,10,5,0,20,3.0,2.219
+583,Chavarria,Chelsea,DEF,6,1,1,3,3.0,2.005
+583,Chavarria,Chelsea,DEF,7,2,0,9,3.0,2.117
+583,Chavarria,Chelsea,DEF,8,3,1,19,2.0,2.144
+583,Chavarria,Chelsea,DEF,9,4,1,16,4.0,1.927
+583,Chavarria,Chelsea,DEF,10,5,0,20,3.0,2.117
 662,Nicoll-Jazuli,Chelsea,MID,6,1,1,3,3.0,0.344
 662,Nicoll-Jazuli,Chelsea,MID,7,2,0,9,3.0,0.34
 662,Nicoll-Jazuli,Chelsea,MID,8,3,1,19,2.0,0.33
@@ -994,21 +994,21 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 172,Wilson,Coventry City,GKP,8,3,1,10,2.0,0.332
 172,Wilson,Coventry City,GKP,9,4,1,20,3.0,0.264
 172,Wilson,Coventry City,GKP,10,5,0,9,3.0,0.291
-173,Thomas,Coventry City,DEF,6,1,1,17,3.0,3.36
-173,Thomas,Coventry City,DEF,7,2,0,19,3.0,3.352
+173,Thomas,Coventry City,DEF,6,1,1,17,3.0,3.418
+173,Thomas,Coventry City,DEF,7,2,0,19,3.0,3.375
 173,Thomas,Coventry City,DEF,8,3,1,10,2.0,4.025
-173,Thomas,Coventry City,DEF,9,4,1,20,3.0,3.36
-173,Thomas,Coventry City,DEF,10,5,0,9,3.0,3.352
+173,Thomas,Coventry City,DEF,9,4,1,20,3.0,3.418
+173,Thomas,Coventry City,DEF,10,5,0,9,3.0,3.375
 174,Kitching,Coventry City,DEF,6,1,1,17,3.0,0.0
 174,Kitching,Coventry City,DEF,7,2,0,19,3.0,0.0
 174,Kitching,Coventry City,DEF,8,3,1,10,2.0,0.0
 174,Kitching,Coventry City,DEF,9,4,1,20,3.0,0.0
 174,Kitching,Coventry City,DEF,10,5,0,9,3.0,0.0
-175,van Ewijk,Coventry City,DEF,6,1,1,17,3.0,1.761
-175,van Ewijk,Coventry City,DEF,7,2,0,19,3.0,1.755
+175,van Ewijk,Coventry City,DEF,6,1,1,17,3.0,1.766
+175,van Ewijk,Coventry City,DEF,7,2,0,19,3.0,1.761
 175,van Ewijk,Coventry City,DEF,8,3,1,10,2.0,2.161
-175,van Ewijk,Coventry City,DEF,9,4,1,20,3.0,1.761
-175,van Ewijk,Coventry City,DEF,10,5,0,9,3.0,1.755
+175,van Ewijk,Coventry City,DEF,9,4,1,20,3.0,1.766
+175,van Ewijk,Coventry City,DEF,10,5,0,9,3.0,1.761
 176,Dasilva,Coventry City,DEF,6,1,1,17,3.0,3.637
 176,Dasilva,Coventry City,DEF,7,2,0,19,3.0,3.724
 176,Dasilva,Coventry City,DEF,8,3,1,10,2.0,3.66
@@ -1174,21 +1174,21 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 199,Benitez,Crystal Palace,GKP,8,3,1,17,3.0,1.002
 199,Benitez,Crystal Palace,GKP,9,4,0,19,3.0,1.006
 199,Benitez,Crystal Palace,GKP,10,5,1,14,4.0,1.045
-202,Richards,Crystal Palace,DEF,6,1,1,18,3.0,3.7
-202,Richards,Crystal Palace,DEF,7,2,0,5,4.0,3.781
-202,Richards,Crystal Palace,DEF,8,3,1,17,3.0,3.7
-202,Richards,Crystal Palace,DEF,9,4,0,19,3.0,3.929
-202,Richards,Crystal Palace,DEF,10,5,1,14,4.0,3.65
+202,Richards,Crystal Palace,DEF,6,1,1,18,3.0,3.883
+202,Richards,Crystal Palace,DEF,7,2,0,5,4.0,3.825
+202,Richards,Crystal Palace,DEF,8,3,1,17,3.0,3.883
+202,Richards,Crystal Palace,DEF,9,4,0,19,3.0,4.009
+202,Richards,Crystal Palace,DEF,10,5,1,14,4.0,3.77
 203,Canvot,Crystal Palace,DEF,6,1,1,18,3.0,2.852
 203,Canvot,Crystal Palace,DEF,7,2,0,5,4.0,2.571
 203,Canvot,Crystal Palace,DEF,8,3,1,17,3.0,2.852
 203,Canvot,Crystal Palace,DEF,9,4,0,19,3.0,2.805
 203,Canvot,Crystal Palace,DEF,10,5,1,14,4.0,2.62
-204,Mitchell,Crystal Palace,DEF,6,1,1,18,3.0,3.641
-204,Mitchell,Crystal Palace,DEF,7,2,0,5,4.0,3.38
-204,Mitchell,Crystal Palace,DEF,8,3,1,17,3.0,3.641
-204,Mitchell,Crystal Palace,DEF,9,4,0,19,3.0,3.713
-204,Mitchell,Crystal Palace,DEF,10,5,1,14,4.0,3.394
+204,Mitchell,Crystal Palace,DEF,6,1,1,18,3.0,3.673
+204,Mitchell,Crystal Palace,DEF,7,2,0,5,4.0,3.418
+204,Mitchell,Crystal Palace,DEF,8,3,1,17,3.0,3.673
+204,Mitchell,Crystal Palace,DEF,9,4,0,19,3.0,3.745
+204,Mitchell,Crystal Palace,DEF,10,5,1,14,4.0,3.431
 205,Sosa,Crystal Palace,DEF,6,1,1,18,3.0,0.0
 205,Sosa,Crystal Palace,DEF,7,2,0,5,4.0,0.0
 205,Sosa,Crystal Palace,DEF,8,3,1,17,3.0,0.0
@@ -1264,11 +1264,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 220,Cardines,Crystal Palace,DEF,8,3,1,17,3.0,0.0
 220,Cardines,Crystal Palace,DEF,9,4,0,19,3.0,0.0
 220,Cardines,Crystal Palace,DEF,10,5,1,14,4.0,0.0
-221,Drakes-Thomas,Crystal Palace,MID,6,1,1,18,3.0,0.07
-221,Drakes-Thomas,Crystal Palace,MID,7,2,0,5,4.0,0.155
-221,Drakes-Thomas,Crystal Palace,MID,8,3,1,17,3.0,0.07
-221,Drakes-Thomas,Crystal Palace,MID,9,4,0,19,3.0,0.152
-221,Drakes-Thomas,Crystal Palace,MID,10,5,1,14,4.0,0.154
+221,Drakes-Thomas,Crystal Palace,MID,6,1,1,18,3.0,0.016
+221,Drakes-Thomas,Crystal Palace,MID,7,2,0,5,4.0,0.017
+221,Drakes-Thomas,Crystal Palace,MID,8,3,1,17,3.0,0.016
+221,Drakes-Thomas,Crystal Palace,MID,9,4,0,19,3.0,0.02
+221,Drakes-Thomas,Crystal Palace,MID,10,5,1,14,4.0,0.035
 222,Strand Larsen,Crystal Palace,FWD,6,1,1,18,3.0,2.24
 222,Strand Larsen,Crystal Palace,FWD,7,2,0,5,4.0,1.79
 222,Strand Larsen,Crystal Palace,FWD,8,3,1,17,3.0,2.24
@@ -1289,11 +1289,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 225,Uche,Crystal Palace,FWD,8,3,1,17,3.0,0.0
 225,Uche,Crystal Palace,FWD,9,4,0,19,3.0,0.0
 225,Uche,Crystal Palace,FWD,10,5,1,14,4.0,0.0
-241,McNeil,Crystal Palace,MID,6,1,1,18,3.0,1.605
-241,McNeil,Crystal Palace,MID,7,2,0,5,4.0,1.397
-241,McNeil,Crystal Palace,MID,8,3,1,17,3.0,1.605
-241,McNeil,Crystal Palace,MID,9,4,0,19,3.0,1.436
-241,McNeil,Crystal Palace,MID,10,5,1,14,4.0,1.564
+241,McNeil,Crystal Palace,MID,6,1,1,18,3.0,1.686
+241,McNeil,Crystal Palace,MID,7,2,0,5,4.0,1.474
+241,McNeil,Crystal Palace,MID,8,3,1,17,3.0,1.686
+241,McNeil,Crystal Palace,MID,9,4,0,19,3.0,1.511
+241,McNeil,Crystal Palace,MID,10,5,1,14,4.0,1.647
 555,Matthews,Crystal Palace,GKP,6,1,1,18,3.0,0.066
 555,Matthews,Crystal Palace,GKP,7,2,0,5,4.0,0.021
 555,Matthews,Crystal Palace,GKP,8,3,1,17,3.0,0.066
@@ -1304,11 +1304,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 577,Tomiyasu,Crystal Palace,DEF,8,3,1,17,3.0,1.054
 577,Tomiyasu,Crystal Palace,DEF,9,4,0,19,3.0,0.972
 577,Tomiyasu,Crystal Palace,DEF,10,5,1,14,4.0,1.101
-588,Khalaili,Crystal Palace,DEF,6,1,1,18,3.0,2.793
-588,Khalaili,Crystal Palace,DEF,7,2,0,5,4.0,2.666
-588,Khalaili,Crystal Palace,DEF,8,3,1,17,3.0,2.793
-588,Khalaili,Crystal Palace,DEF,9,4,0,19,3.0,2.577
-588,Khalaili,Crystal Palace,DEF,10,5,1,14,4.0,2.87
+588,Khalaili,Crystal Palace,DEF,6,1,1,18,3.0,2.095
+588,Khalaili,Crystal Palace,DEF,7,2,0,5,4.0,2.0
+588,Khalaili,Crystal Palace,DEF,8,3,1,17,3.0,2.095
+588,Khalaili,Crystal Palace,DEF,9,4,0,19,3.0,1.933
+588,Khalaili,Crystal Palace,DEF,10,5,1,14,4.0,2.152
 595,Gozo,Crystal Palace,MID,6,1,1,18,3.0,0.516
 595,Gozo,Crystal Palace,MID,7,2,0,5,4.0,0.599
 595,Gozo,Crystal Palace,MID,8,3,1,17,3.0,0.516
@@ -1360,9 +1360,9 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 228,King,Everton,GKP,9,4,0,17,3.0,0.122
 228,King,Everton,GKP,10,5,1,7,2.0,0.126
 229,Tarkowski,Everton,DEF,6,1,0,11,2.0,4.005
-229,Tarkowski,Everton,DEF,7,2,1,6,4.0,2.365
-229,Tarkowski,Everton,DEF,8,3,0,1,5.0,2.336
-229,Tarkowski,Everton,DEF,9,4,0,17,3.0,2.236
+229,Tarkowski,Everton,DEF,7,2,1,6,4.0,2.364
+229,Tarkowski,Everton,DEF,8,3,0,1,5.0,2.312
+229,Tarkowski,Everton,DEF,9,4,0,17,3.0,2.209
 229,Tarkowski,Everton,DEF,10,5,1,7,2.0,3.913
 230,Branthwaite,Everton,DEF,6,1,0,11,2.0,4.01
 230,Branthwaite,Everton,DEF,7,2,1,6,4.0,4.729
@@ -1379,11 +1379,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 232,O'Brien,Everton,DEF,8,3,0,1,5.0,0.989
 232,O'Brien,Everton,DEF,9,4,0,17,3.0,0.962
 232,O'Brien,Everton,DEF,10,5,1,7,2.0,1.098
-233,Mykolenko,Everton,DEF,6,1,0,11,2.0,6.251
-233,Mykolenko,Everton,DEF,7,2,1,6,4.0,3.217
-233,Mykolenko,Everton,DEF,8,3,0,1,5.0,2.861
-233,Mykolenko,Everton,DEF,9,4,0,17,3.0,3.816
-233,Mykolenko,Everton,DEF,10,5,1,7,2.0,5.71
+233,Mykolenko,Everton,DEF,6,1,0,11,2.0,4.592
+233,Mykolenko,Everton,DEF,7,2,1,6,4.0,2.515
+233,Mykolenko,Everton,DEF,8,3,0,1,5.0,2.201
+233,Mykolenko,Everton,DEF,9,4,0,17,3.0,2.946
+233,Mykolenko,Everton,DEF,10,5,1,7,2.0,4.186
 234,Patterson,Everton,DEF,6,1,0,11,2.0,0.0
 234,Patterson,Everton,DEF,7,2,1,6,4.0,0.0
 234,Patterson,Everton,DEF,8,3,0,1,5.0,0.0
@@ -1394,11 +1394,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 235,Aznou,Everton,DEF,8,3,0,1,5.0,0.0
 235,Aznou,Everton,DEF,9,4,0,17,3.0,0.0
 235,Aznou,Everton,DEF,10,5,1,7,2.0,0.0
-236,Dewsbury-Hall,Everton,MID,6,1,0,11,2.0,5.058
-236,Dewsbury-Hall,Everton,MID,7,2,1,6,4.0,5.367
-236,Dewsbury-Hall,Everton,MID,8,3,0,1,5.0,4.211
-236,Dewsbury-Hall,Everton,MID,9,4,0,17,3.0,5.245
-236,Dewsbury-Hall,Everton,MID,10,5,1,7,2.0,5.386
+236,Dewsbury-Hall,Everton,MID,6,1,0,11,2.0,5.07
+236,Dewsbury-Hall,Everton,MID,7,2,1,6,4.0,5.328
+236,Dewsbury-Hall,Everton,MID,8,3,0,1,5.0,4.172
+236,Dewsbury-Hall,Everton,MID,9,4,0,17,3.0,5.261
+236,Dewsbury-Hall,Everton,MID,10,5,1,7,2.0,5.398
 238,Grealish,Everton,MID,6,1,0,11,2.0,2.293
 238,Grealish,Everton,MID,7,2,1,6,4.0,2.322
 238,Grealish,Everton,MID,8,3,0,1,5.0,2.042
@@ -1499,11 +1499,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 257,Bassey,Fulham,DEF,8,3,0,7,2.0,3.499
 257,Bassey,Fulham,DEF,9,4,0,2,3.0,3.169
 257,Bassey,Fulham,DEF,10,5,1,17,3.0,3.455
-258,Castagne,Fulham,DEF,6,1,0,12,2.0,3.496
-258,Castagne,Fulham,DEF,7,2,1,11,2.0,3.36
-258,Castagne,Fulham,DEF,8,3,0,7,2.0,3.496
-258,Castagne,Fulham,DEF,9,4,0,2,3.0,3.431
-258,Castagne,Fulham,DEF,10,5,1,17,3.0,3.43
+258,Castagne,Fulham,DEF,6,1,0,12,2.0,3.894
+258,Castagne,Fulham,DEF,7,2,1,11,2.0,3.749
+258,Castagne,Fulham,DEF,8,3,0,7,2.0,3.894
+258,Castagne,Fulham,DEF,9,4,0,2,3.0,3.472
+258,Castagne,Fulham,DEF,10,5,1,17,3.0,3.553
 261,Iwobi,Fulham,MID,6,1,0,12,2.0,3.599
 261,Iwobi,Fulham,MID,7,2,1,11,2.0,3.534
 261,Iwobi,Fulham,MID,8,3,0,7,2.0,3.599
@@ -1534,11 +1534,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 266,Cairney,Fulham,MID,8,3,0,7,2.0,0.0
 266,Cairney,Fulham,MID,9,4,0,2,3.0,0.0
 266,Cairney,Fulham,MID,10,5,1,17,3.0,0.0
-268,King,Fulham,MID,6,1,0,12,2.0,4.581
-268,King,Fulham,MID,7,2,1,11,2.0,4.704
-268,King,Fulham,MID,8,3,0,7,2.0,4.581
-268,King,Fulham,MID,9,4,0,2,3.0,3.016
-268,King,Fulham,MID,10,5,1,17,3.0,2.949
+268,King,Fulham,MID,6,1,0,12,2.0,4.641
+268,King,Fulham,MID,7,2,1,11,2.0,4.77
+268,King,Fulham,MID,8,3,0,7,2.0,4.641
+268,King,Fulham,MID,9,4,0,2,3.0,3.011
+268,King,Fulham,MID,10,5,1,17,3.0,2.937
 269,Sessegnon,Fulham,DEF,6,1,0,12,2.0,0.865
 269,Sessegnon,Fulham,DEF,7,2,1,11,2.0,0.788
 269,Sessegnon,Fulham,DEF,8,3,0,7,2.0,0.865
@@ -1559,11 +1559,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 272,Kusi-Asare,Fulham,FWD,8,3,0,7,2.0,1.454
 272,Kusi-Asare,Fulham,FWD,9,4,0,2,3.0,1.305
 272,Kusi-Asare,Fulham,FWD,10,5,1,17,3.0,1.485
-569,Gonzalo,Fulham,FWD,6,1,0,12,2.0,5.011
-569,Gonzalo,Fulham,FWD,7,2,1,11,2.0,4.682
-569,Gonzalo,Fulham,FWD,8,3,0,7,2.0,5.011
-569,Gonzalo,Fulham,FWD,9,4,0,2,3.0,3.501
-569,Gonzalo,Fulham,FWD,10,5,1,17,3.0,3.634
+569,Gonzalo,Fulham,FWD,6,1,0,12,2.0,5.21
+569,Gonzalo,Fulham,FWD,7,2,1,11,2.0,4.864
+569,Gonzalo,Fulham,FWD,8,3,0,7,2.0,5.21
+569,Gonzalo,Fulham,FWD,9,4,0,2,3.0,3.762
+569,Gonzalo,Fulham,FWD,10,5,1,17,3.0,3.877
 570,Palacios,Fulham,MID,6,1,0,12,2.0,1.857
 570,Palacios,Fulham,MID,7,2,1,11,2.0,2.117
 570,Palacios,Fulham,MID,8,3,0,7,2.0,1.857
@@ -1669,21 +1669,21 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 285,McNair,Hull City,DEF,8,3,1,4,3.0,0.548
 285,McNair,Hull City,DEF,9,4,1,12,2.0,0.577
 285,McNair,Hull City,DEF,10,5,0,1,5.0,0.52
-286,Belloumi,Hull City,MID,6,1,1,9,3.0,4.001
-286,Belloumi,Hull City,MID,7,2,0,10,3.0,3.989
-286,Belloumi,Hull City,MID,8,3,1,4,3.0,4.001
-286,Belloumi,Hull City,MID,9,4,1,12,2.0,4.574
-286,Belloumi,Hull City,MID,10,5,0,1,5.0,3.288
+286,Belloumi,Hull City,MID,6,1,1,9,3.0,3.987
+286,Belloumi,Hull City,MID,7,2,0,10,3.0,3.973
+286,Belloumi,Hull City,MID,8,3,1,4,3.0,3.987
+286,Belloumi,Hull City,MID,9,4,1,12,2.0,4.645
+286,Belloumi,Hull City,MID,10,5,0,1,5.0,3.261
 287,Millar,Hull City,MID,6,1,1,9,3.0,0.0
 287,Millar,Hull City,MID,7,2,0,10,3.0,0.0
 287,Millar,Hull City,MID,8,3,1,4,3.0,0.0
 287,Millar,Hull City,MID,9,4,1,12,2.0,0.0
 287,Millar,Hull City,MID,10,5,0,1,5.0,0.0
-288,Dowell,Hull City,MID,6,1,1,9,3.0,0.094
-288,Dowell,Hull City,MID,7,2,0,10,3.0,0.106
-288,Dowell,Hull City,MID,8,3,1,4,3.0,0.094
-288,Dowell,Hull City,MID,9,4,1,12,2.0,0.165
-288,Dowell,Hull City,MID,10,5,0,1,5.0,0.157
+288,Dowell,Hull City,MID,6,1,1,9,3.0,0.029
+288,Dowell,Hull City,MID,7,2,0,10,3.0,0.036
+288,Dowell,Hull City,MID,8,3,1,4,3.0,0.029
+288,Dowell,Hull City,MID,9,4,1,12,2.0,0.098
+288,Dowell,Hull City,MID,10,5,0,1,5.0,0.133
 289,Crooks,Hull City,MID,6,1,1,9,3.0,1.057
 289,Crooks,Hull City,MID,7,2,0,10,3.0,0.934
 289,Crooks,Hull City,MID,8,3,1,4,3.0,1.057
@@ -1814,11 +1814,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 645,Mouzakitis,Hull City,MID,8,3,1,4,3.0,0.032
 645,Mouzakitis,Hull City,MID,9,4,1,12,2.0,0.032
 645,Mouzakitis,Hull City,MID,10,5,0,1,5.0,0.04
-259,Diop,Ipswich Town,DEF,6,1,1,10,2.0,4.2
-259,Diop,Ipswich Town,DEF,7,2,0,15,5.0,2.465
-259,Diop,Ipswich Town,DEF,8,3,1,18,3.0,3.4
+259,Diop,Ipswich Town,DEF,6,1,1,10,2.0,4.204
+259,Diop,Ipswich Town,DEF,7,2,0,15,5.0,2.453
+259,Diop,Ipswich Town,DEF,8,3,1,18,3.0,3.412
 259,Diop,Ipswich Town,DEF,9,4,0,11,2.0,5.014
-259,Diop,Ipswich Town,DEF,10,5,1,3,3.0,3.4
+259,Diop,Ipswich Town,DEF,10,5,1,3,3.0,3.412
 267,Lukić,Ipswich Town,MID,6,1,1,10,2.0,2.512
 267,Lukić,Ipswich Town,MID,7,2,0,15,5.0,1.569
 267,Lukić,Ipswich Town,MID,8,3,1,18,3.0,2.351
@@ -1849,11 +1849,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 304,O'Shea,Ipswich Town,DEF,8,3,1,18,3.0,3.749
 304,O'Shea,Ipswich Town,DEF,9,4,0,11,2.0,3.875
 304,O'Shea,Ipswich Town,DEF,10,5,1,3,3.0,3.749
-305,Davis,Ipswich Town,DEF,6,1,1,10,2.0,3.903
+305,Davis,Ipswich Town,DEF,6,1,1,10,2.0,3.95
 305,Davis,Ipswich Town,DEF,7,2,0,15,5.0,3.048
-305,Davis,Ipswich Town,DEF,8,3,1,18,3.0,3.72
-305,Davis,Ipswich Town,DEF,9,4,0,11,2.0,4.773
-305,Davis,Ipswich Town,DEF,10,5,1,3,3.0,3.72
+305,Davis,Ipswich Town,DEF,8,3,1,18,3.0,3.767
+305,Davis,Ipswich Town,DEF,9,4,0,11,2.0,4.82
+305,Davis,Ipswich Town,DEF,10,5,1,3,3.0,3.767
 306,Greaves,Ipswich Town,DEF,6,1,1,10,2.0,2.55
 306,Greaves,Ipswich Town,DEF,7,2,0,15,5.0,1.694
 306,Greaves,Ipswich Town,DEF,8,3,1,18,3.0,2.041
@@ -1904,11 +1904,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 315,Fatawu,Ipswich Town,MID,8,3,1,18,3.0,0.0
 315,Fatawu,Ipswich Town,MID,9,4,0,11,2.0,0.0
 315,Fatawu,Ipswich Town,MID,10,5,1,3,3.0,0.0
-316,Emersonn,Ipswich Town,FWD,6,1,1,10,2.0,3.314
-316,Emersonn,Ipswich Town,FWD,7,2,0,15,5.0,2.035
-316,Emersonn,Ipswich Town,FWD,8,3,1,18,3.0,2.707
-316,Emersonn,Ipswich Town,FWD,9,4,0,11,2.0,2.882
-316,Emersonn,Ipswich Town,FWD,10,5,1,3,3.0,2.707
+316,Emersonn,Ipswich Town,FWD,6,1,1,10,2.0,3.302
+316,Emersonn,Ipswich Town,FWD,7,2,0,15,5.0,2.168
+316,Emersonn,Ipswich Town,FWD,8,3,1,18,3.0,2.836
+316,Emersonn,Ipswich Town,FWD,9,4,0,11,2.0,2.893
+316,Emersonn,Ipswich Town,FWD,10,5,1,3,3.0,2.836
 317,Hirst,Ipswich Town,FWD,6,1,1,10,2.0,0.0
 317,Hirst,Ipswich Town,FWD,7,2,0,15,5.0,0.0
 317,Hirst,Ipswich Town,FWD,8,3,1,18,3.0,0.0
@@ -2014,11 +2014,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 329,Rodon,Leeds,DEF,8,3,0,20,3.0,0.0
 329,Rodon,Leeds,DEF,9,4,0,3,3.0,0.0
 329,Rodon,Leeds,DEF,10,5,1,19,2.0,0.0
-330,Bogle,Leeds,DEF,6,1,0,1,5.0,2.665
-330,Bogle,Leeds,DEF,7,2,1,16,4.0,2.908
-330,Bogle,Leeds,DEF,8,3,0,20,3.0,2.646
-330,Bogle,Leeds,DEF,9,4,0,3,3.0,2.646
-330,Bogle,Leeds,DEF,10,5,1,19,2.0,4.341
+330,Bogle,Leeds,DEF,6,1,0,1,5.0,2.625
+330,Bogle,Leeds,DEF,7,2,1,16,4.0,2.86
+330,Bogle,Leeds,DEF,8,3,0,20,3.0,2.605
+330,Bogle,Leeds,DEF,9,4,0,3,3.0,2.605
+330,Bogle,Leeds,DEF,10,5,1,19,2.0,4.246
 331,Gudmundsson,Leeds,DEF,6,1,0,1,5.0,0.587
 331,Gudmundsson,Leeds,DEF,7,2,1,16,4.0,0.6
 331,Gudmundsson,Leeds,DEF,8,3,0,20,3.0,0.557
@@ -2059,11 +2059,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 338,Ampadu,Leeds,MID,8,3,0,20,3.0,2.952
 338,Ampadu,Leeds,MID,9,4,0,3,3.0,2.952
 338,Ampadu,Leeds,MID,10,5,1,19,2.0,3.206
-339,Longstaff,Leeds,MID,6,1,0,1,5.0,0.726
-339,Longstaff,Leeds,MID,7,2,1,16,4.0,0.724
-339,Longstaff,Leeds,MID,8,3,0,20,3.0,0.688
-339,Longstaff,Leeds,MID,9,4,0,3,3.0,0.688
-339,Longstaff,Leeds,MID,10,5,1,19,2.0,0.715
+339,Longstaff,Leeds,MID,6,1,0,1,5.0,0.693
+339,Longstaff,Leeds,MID,7,2,1,16,4.0,0.702
+339,Longstaff,Leeds,MID,8,3,0,20,3.0,0.661
+339,Longstaff,Leeds,MID,9,4,0,3,3.0,0.661
+339,Longstaff,Leeds,MID,10,5,1,19,2.0,0.703
 341,Gnonto,Leeds,MID,6,1,0,1,5.0,0.0
 341,Gnonto,Leeds,MID,7,2,1,16,4.0,0.0
 341,Gnonto,Leeds,MID,8,3,0,20,3.0,0.0
@@ -2149,16 +2149,16 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 648,Bahoya,Leeds,MID,8,3,0,20,3.0,0.36
 648,Bahoya,Leeds,MID,9,4,0,3,3.0,0.36
 648,Bahoya,Leeds,MID,10,5,1,19,2.0,0.329
-350,A.Becker,Liverpool,GKP,6,1,1,15,4.0,2.453
-350,A.Becker,Liverpool,GKP,7,2,0,4,3.0,2.585
-350,A.Becker,Liverpool,GKP,8,3,1,5,3.0,2.503
-350,A.Becker,Liverpool,GKP,9,4,1,1,4.0,2.453
-350,A.Becker,Liverpool,GKP,10,5,0,8,3.0,2.585
-351,Mamardashvili,Liverpool,GKP,6,1,1,15,4.0,0.15
-351,Mamardashvili,Liverpool,GKP,7,2,0,4,3.0,0.087
-351,Mamardashvili,Liverpool,GKP,8,3,1,5,3.0,0.082
-351,Mamardashvili,Liverpool,GKP,9,4,1,1,4.0,0.15
-351,Mamardashvili,Liverpool,GKP,10,5,0,8,3.0,0.087
+350,A.Becker,Liverpool,GKP,6,1,1,15,4.0,2.403
+350,A.Becker,Liverpool,GKP,7,2,0,4,3.0,2.56
+350,A.Becker,Liverpool,GKP,8,3,1,5,3.0,2.478
+350,A.Becker,Liverpool,GKP,9,4,1,1,4.0,2.403
+350,A.Becker,Liverpool,GKP,10,5,0,8,3.0,2.56
+351,Mamardashvili,Liverpool,GKP,6,1,1,15,4.0,0.135
+351,Mamardashvili,Liverpool,GKP,7,2,0,4,3.0,0.113
+351,Mamardashvili,Liverpool,GKP,8,3,1,5,3.0,0.071
+351,Mamardashvili,Liverpool,GKP,9,4,1,1,4.0,0.135
+351,Mamardashvili,Liverpool,GKP,10,5,0,8,3.0,0.113
 352,Woodman,Liverpool,GKP,6,1,1,15,4.0,0.55
 352,Woodman,Liverpool,GKP,7,2,0,4,3.0,0.052
 352,Woodman,Liverpool,GKP,8,3,1,5,3.0,0.098
@@ -2184,16 +2184,16 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 356,Virgil,Liverpool,DEF,8,3,1,5,3.0,2.907
 356,Virgil,Liverpool,DEF,9,4,1,1,4.0,2.808
 356,Virgil,Liverpool,DEF,10,5,0,8,3.0,2.743
-357,Frimpong,Liverpool,DEF,6,1,1,15,4.0,2.243
-357,Frimpong,Liverpool,DEF,7,2,0,4,3.0,2.502
-357,Frimpong,Liverpool,DEF,8,3,1,5,3.0,2.442
-357,Frimpong,Liverpool,DEF,9,4,1,1,4.0,2.243
-357,Frimpong,Liverpool,DEF,10,5,0,8,3.0,2.502
-358,Kerkez,Liverpool,DEF,6,1,1,15,4.0,3.268
-358,Kerkez,Liverpool,DEF,7,2,0,4,3.0,3.269
-358,Kerkez,Liverpool,DEF,8,3,1,5,3.0,3.223
-358,Kerkez,Liverpool,DEF,9,4,1,1,4.0,3.268
-358,Kerkez,Liverpool,DEF,10,5,0,8,3.0,3.269
+357,Frimpong,Liverpool,DEF,6,1,1,15,4.0,2.188
+357,Frimpong,Liverpool,DEF,7,2,0,4,3.0,2.37
+357,Frimpong,Liverpool,DEF,8,3,1,5,3.0,2.324
+357,Frimpong,Liverpool,DEF,9,4,1,1,4.0,2.188
+357,Frimpong,Liverpool,DEF,10,5,0,8,3.0,2.37
+358,Kerkez,Liverpool,DEF,6,1,1,15,4.0,3.263
+358,Kerkez,Liverpool,DEF,7,2,0,4,3.0,3.272
+358,Kerkez,Liverpool,DEF,8,3,1,5,3.0,3.218
+358,Kerkez,Liverpool,DEF,9,4,1,1,4.0,3.263
+358,Kerkez,Liverpool,DEF,10,5,0,8,3.0,3.272
 359,Gomez,Liverpool,DEF,6,1,1,15,4.0,0.245
 359,Gomez,Liverpool,DEF,7,2,0,4,3.0,0.251
 359,Gomez,Liverpool,DEF,8,3,1,5,3.0,0.247
@@ -2209,11 +2209,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 361,Lucky,Liverpool,DEF,8,3,1,5,3.0,0.004
 361,Lucky,Liverpool,DEF,9,4,1,1,4.0,0.001
 361,Lucky,Liverpool,DEF,10,5,0,8,3.0,0.02
-362,Jacquet,Liverpool,DEF,6,1,1,15,4.0,2.745
-362,Jacquet,Liverpool,DEF,7,2,0,4,3.0,3.03
-362,Jacquet,Liverpool,DEF,8,3,1,5,3.0,2.912
-362,Jacquet,Liverpool,DEF,9,4,1,1,4.0,2.745
-362,Jacquet,Liverpool,DEF,10,5,0,8,3.0,3.03
+362,Jacquet,Liverpool,DEF,6,1,1,15,4.0,2.059
+362,Jacquet,Liverpool,DEF,7,2,0,4,3.0,2.272
+362,Jacquet,Liverpool,DEF,8,3,1,5,3.0,2.184
+362,Jacquet,Liverpool,DEF,9,4,1,1,4.0,2.059
+362,Jacquet,Liverpool,DEF,10,5,0,8,3.0,2.272
 363,Leoni,Liverpool,DEF,6,1,1,15,4.0,0.0
 363,Leoni,Liverpool,DEF,7,2,0,4,3.0,0.0
 363,Leoni,Liverpool,DEF,8,3,1,5,3.0,0.0
@@ -2235,15 +2235,15 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 366,Wirtz,Liverpool,MID,9,4,1,1,4.0,3.16
 366,Wirtz,Liverpool,MID,10,5,0,8,3.0,3.618
 367,Gakpo,Liverpool,MID,6,1,1,15,4.0,2.326
-367,Gakpo,Liverpool,MID,7,2,0,4,3.0,2.209
-367,Gakpo,Liverpool,MID,8,3,1,5,3.0,2.468
+367,Gakpo,Liverpool,MID,7,2,0,4,3.0,2.164
+367,Gakpo,Liverpool,MID,8,3,1,5,3.0,2.443
 367,Gakpo,Liverpool,MID,9,4,1,1,4.0,2.326
-367,Gakpo,Liverpool,MID,10,5,0,8,3.0,2.209
-368,Szoboszlai,Liverpool,MID,6,1,1,15,4.0,3.557
-368,Szoboszlai,Liverpool,MID,7,2,0,4,3.0,3.693
-368,Szoboszlai,Liverpool,MID,8,3,1,5,3.0,3.894
-368,Szoboszlai,Liverpool,MID,9,4,1,1,4.0,3.557
-368,Szoboszlai,Liverpool,MID,10,5,0,8,3.0,3.693
+367,Gakpo,Liverpool,MID,10,5,0,8,3.0,2.164
+368,Szoboszlai,Liverpool,MID,6,1,1,15,4.0,3.589
+368,Szoboszlai,Liverpool,MID,7,2,0,4,3.0,3.74
+368,Szoboszlai,Liverpool,MID,8,3,1,5,3.0,3.94
+368,Szoboszlai,Liverpool,MID,9,4,1,1,4.0,3.589
+368,Szoboszlai,Liverpool,MID,10,5,0,8,3.0,3.74
 369,Ngumoha,Liverpool,MID,6,1,1,15,4.0,1.699
 369,Ngumoha,Liverpool,MID,7,2,0,4,3.0,1.65
 369,Ngumoha,Liverpool,MID,8,3,1,5,3.0,1.755
@@ -2319,26 +2319,26 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 383,Elliott,Liverpool,MID,8,3,1,5,3.0,0.0
 383,Elliott,Liverpool,MID,9,4,1,1,4.0,0.0
 383,Elliott,Liverpool,MID,10,5,0,8,3.0,0.0
-579,Araujo,Liverpool,DEF,6,1,1,15,4.0,2.27
-579,Araujo,Liverpool,DEF,7,2,0,4,3.0,2.635
-579,Araujo,Liverpool,DEF,8,3,1,5,3.0,2.679
-579,Araujo,Liverpool,DEF,9,4,1,1,4.0,2.27
-579,Araujo,Liverpool,DEF,10,5,0,8,3.0,2.635
+579,Araujo,Liverpool,DEF,6,1,1,15,4.0,2.283
+579,Araujo,Liverpool,DEF,7,2,0,4,3.0,2.652
+579,Araujo,Liverpool,DEF,8,3,1,5,3.0,2.7
+579,Araujo,Liverpool,DEF,9,4,1,1,4.0,2.283
+579,Araujo,Liverpool,DEF,10,5,0,8,3.0,2.652
 627,Barcola,Liverpool,MID,6,1,1,15,4.0,2.422
 627,Barcola,Liverpool,MID,7,2,0,4,3.0,2.675
 627,Barcola,Liverpool,MID,8,3,1,5,3.0,2.876
 627,Barcola,Liverpool,MID,9,4,1,1,4.0,2.422
 627,Barcola,Liverpool,MID,10,5,0,8,3.0,2.675
-155,Enzo,Man City,MID,6,1,0,14,4.0,2.641
-155,Enzo,Man City,MID,7,2,1,12,2.0,2.777
-155,Enzo,Man City,MID,8,3,0,2,3.0,2.891
-155,Enzo,Man City,MID,9,4,1,5,3.0,2.794
-155,Enzo,Man City,MID,10,5,0,18,3.0,2.891
-237,Ndiaye,Man City,MID,6,1,0,14,4.0,2.837
-237,Ndiaye,Man City,MID,7,2,1,12,2.0,5.9
-237,Ndiaye,Man City,MID,8,3,0,2,3.0,3.69
-237,Ndiaye,Man City,MID,9,4,1,5,3.0,4.177
-237,Ndiaye,Man City,MID,10,5,0,18,3.0,3.69
+155,Enzo,Man City,MID,6,1,0,14,4.0,2.653
+155,Enzo,Man City,MID,7,2,1,12,2.0,2.786
+155,Enzo,Man City,MID,8,3,0,2,3.0,2.9
+155,Enzo,Man City,MID,9,4,1,5,3.0,2.803
+155,Enzo,Man City,MID,10,5,0,18,3.0,2.9
+237,Ndiaye,Man City,MID,6,1,0,14,4.0,2.713
+237,Ndiaye,Man City,MID,7,2,1,12,2.0,5.981
+237,Ndiaye,Man City,MID,8,3,0,2,3.0,3.585
+237,Ndiaye,Man City,MID,9,4,1,5,3.0,4.185
+237,Ndiaye,Man City,MID,10,5,0,18,3.0,3.585
 384,Donnarumma,Man City,GKP,6,1,0,14,4.0,3.419
 384,Donnarumma,Man City,GKP,7,2,1,12,2.0,4.599
 384,Donnarumma,Man City,GKP,8,3,0,2,3.0,3.66
@@ -2349,12 +2349,12 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 386,Bettinelli,Man City,GKP,8,3,0,2,3.0,0.122
 386,Bettinelli,Man City,GKP,9,4,1,5,3.0,0.127
 386,Bettinelli,Man City,GKP,10,5,0,18,3.0,0.122
-387,O'Reilly,Man City,DEF,6,1,0,14,4.0,2.15
-387,O'Reilly,Man City,DEF,7,2,1,12,2.0,2.828
-387,O'Reilly,Man City,DEF,8,3,0,2,3.0,2.496
-387,O'Reilly,Man City,DEF,9,4,1,5,3.0,2.561
-387,O'Reilly,Man City,DEF,10,5,0,18,3.0,2.496
-388,Guéhi,Man City,DEF,6,1,0,14,4.0,2.403
+387,O'Reilly,Man City,DEF,6,1,0,14,4.0,1.646
+387,O'Reilly,Man City,DEF,7,2,1,12,2.0,2.154
+387,O'Reilly,Man City,DEF,8,3,0,2,3.0,1.905
+387,O'Reilly,Man City,DEF,9,4,1,5,3.0,1.954
+387,O'Reilly,Man City,DEF,10,5,0,18,3.0,1.905
+388,Guéhi,Man City,DEF,6,1,0,14,4.0,2.393
 388,Guéhi,Man City,DEF,7,2,1,12,2.0,3.876
 388,Guéhi,Man City,DEF,8,3,0,2,3.0,2.397
 388,Guéhi,Man City,DEF,9,4,1,5,3.0,2.609
@@ -2369,16 +2369,16 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 390,Rúben,Man City,DEF,8,3,0,2,3.0,4.011
 390,Rúben,Man City,DEF,9,4,1,5,3.0,3.929
 390,Rúben,Man City,DEF,10,5,0,18,3.0,4.011
-391,Gvardiol,Man City,DEF,6,1,0,14,4.0,2.996
+391,Gvardiol,Man City,DEF,6,1,0,14,4.0,2.977
 391,Gvardiol,Man City,DEF,7,2,1,12,2.0,3.782
-391,Gvardiol,Man City,DEF,8,3,0,2,3.0,3.043
-391,Gvardiol,Man City,DEF,9,4,1,5,3.0,3.127
-391,Gvardiol,Man City,DEF,10,5,0,18,3.0,3.043
-392,Aït-Nouri,Man City,DEF,6,1,0,14,4.0,0.532
-392,Aït-Nouri,Man City,DEF,7,2,1,12,2.0,0.418
-392,Aït-Nouri,Man City,DEF,8,3,0,2,3.0,0.518
-392,Aït-Nouri,Man City,DEF,9,4,1,5,3.0,0.452
-392,Aït-Nouri,Man City,DEF,10,5,0,18,3.0,0.518
+391,Gvardiol,Man City,DEF,8,3,0,2,3.0,3.024
+391,Gvardiol,Man City,DEF,9,4,1,5,3.0,3.108
+391,Gvardiol,Man City,DEF,10,5,0,18,3.0,3.024
+392,Aït-Nouri,Man City,DEF,6,1,0,14,4.0,0.745
+392,Aït-Nouri,Man City,DEF,7,2,1,12,2.0,0.63
+392,Aït-Nouri,Man City,DEF,8,3,0,2,3.0,0.756
+392,Aït-Nouri,Man City,DEF,9,4,1,5,3.0,0.716
+392,Aït-Nouri,Man City,DEF,10,5,0,18,3.0,0.756
 393,Khusanov,Man City,DEF,6,1,0,14,4.0,2.08
 393,Khusanov,Man City,DEF,7,2,1,12,2.0,2.795
 393,Khusanov,Man City,DEF,8,3,0,2,3.0,2.464
@@ -2402,7 +2402,7 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 397,Semenyo,Man City,MID,6,1,0,14,4.0,2.865
 397,Semenyo,Man City,MID,7,2,1,12,2.0,3.974
 397,Semenyo,Man City,MID,8,3,0,2,3.0,2.973
-397,Semenyo,Man City,MID,9,4,1,5,3.0,3.503
+397,Semenyo,Man City,MID,9,4,1,5,3.0,3.486
 397,Semenyo,Man City,MID,10,5,0,18,3.0,2.973
 398,Foden,Man City,MID,6,1,0,14,4.0,0.0
 398,Foden,Man City,MID,7,2,1,12,2.0,0.0
@@ -2429,11 +2429,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 404,Reijnders,Man City,MID,8,3,0,2,3.0,0.0
 404,Reijnders,Man City,MID,9,4,1,5,3.0,0.0
 404,Reijnders,Man City,MID,10,5,0,18,3.0,0.0
-406,Kovačić,Man City,MID,6,1,0,14,4.0,1.463
+406,Kovačić,Man City,MID,6,1,0,14,4.0,1.484
 406,Kovačić,Man City,MID,7,2,1,12,2.0,1.434
-406,Kovačić,Man City,MID,8,3,0,2,3.0,1.437
-406,Kovačić,Man City,MID,9,4,1,5,3.0,1.42
-406,Kovačić,Man City,MID,10,5,0,18,3.0,1.437
+406,Kovačić,Man City,MID,8,3,0,2,3.0,1.439
+406,Kovačić,Man City,MID,9,4,1,5,3.0,1.412
+406,Kovačić,Man City,MID,10,5,0,18,3.0,1.439
 407,Echeverri,Man City,MID,6,1,0,14,4.0,0.0
 407,Echeverri,Man City,MID,7,2,1,12,2.0,0.0
 407,Echeverri,Man City,MID,8,3,0,2,3.0,0.0
@@ -2549,26 +2549,26 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 418,Maguire,Man Utd,DEF,8,3,1,3,3.0,3.81
 418,Maguire,Man Utd,DEF,9,4,0,6,4.0,3.693
 418,Maguire,Man Utd,DEF,10,5,1,2,3.0,3.81
-419,Martinez,Man Utd,DEF,6,1,1,19,2.0,2.698
-419,Martinez,Man Utd,DEF,7,2,0,13,3.0,1.972
-419,Martinez,Man Utd,DEF,8,3,1,3,3.0,2.345
-419,Martinez,Man Utd,DEF,9,4,0,6,4.0,1.946
-419,Martinez,Man Utd,DEF,10,5,1,2,3.0,2.345
+419,Martinez,Man Utd,DEF,6,1,1,19,2.0,2.679
+419,Martinez,Man Utd,DEF,7,2,0,13,3.0,2.019
+419,Martinez,Man Utd,DEF,8,3,1,3,3.0,2.412
+419,Martinez,Man Utd,DEF,9,4,0,6,4.0,1.99
+419,Martinez,Man Utd,DEF,10,5,1,2,3.0,2.412
 420,Yoro,Man Utd,DEF,6,1,1,19,2.0,1.106
 420,Yoro,Man Utd,DEF,7,2,0,13,3.0,0.948
 420,Yoro,Man Utd,DEF,8,3,1,3,3.0,0.967
 420,Yoro,Man Utd,DEF,9,4,0,6,4.0,0.933
 420,Yoro,Man Utd,DEF,10,5,1,2,3.0,0.967
-421,Heaven,Man Utd,DEF,6,1,1,19,2.0,1.566
-421,Heaven,Man Utd,DEF,7,2,0,13,3.0,1.299
-421,Heaven,Man Utd,DEF,8,3,1,3,3.0,1.304
-421,Heaven,Man Utd,DEF,9,4,0,6,4.0,1.311
-421,Heaven,Man Utd,DEF,10,5,1,2,3.0,1.304
-422,Mazraoui,Man Utd,DEF,6,1,1,19,2.0,1.278
-422,Mazraoui,Man Utd,DEF,7,2,0,13,3.0,0.878
-422,Mazraoui,Man Utd,DEF,8,3,1,3,3.0,1.003
-422,Mazraoui,Man Utd,DEF,9,4,0,6,4.0,0.952
-422,Mazraoui,Man Utd,DEF,10,5,1,2,3.0,1.003
+421,Heaven,Man Utd,DEF,6,1,1,19,2.0,1.573
+421,Heaven,Man Utd,DEF,7,2,0,13,3.0,1.289
+421,Heaven,Man Utd,DEF,8,3,1,3,3.0,1.311
+421,Heaven,Man Utd,DEF,9,4,0,6,4.0,1.301
+421,Heaven,Man Utd,DEF,10,5,1,2,3.0,1.311
+422,Mazraoui,Man Utd,DEF,6,1,1,19,2.0,0.958
+422,Mazraoui,Man Utd,DEF,7,2,0,13,3.0,0.658
+422,Mazraoui,Man Utd,DEF,8,3,1,3,3.0,0.752
+422,Mazraoui,Man Utd,DEF,9,4,0,6,4.0,0.714
+422,Mazraoui,Man Utd,DEF,10,5,1,2,3.0,0.752
 423,Shaw,Man Utd,DEF,6,1,1,19,2.0,3.454
 423,Shaw,Man Utd,DEF,7,2,0,13,3.0,3.633
 423,Shaw,Man Utd,DEF,8,3,1,3,3.0,3.832
@@ -2584,7 +2584,7 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 425,Fredricson,Man Utd,DEF,8,3,1,3,3.0,0.0
 425,Fredricson,Man Utd,DEF,9,4,0,6,4.0,0.0
 425,Fredricson,Man Utd,DEF,10,5,1,2,3.0,0.0
-426,B.Fernandes,Man Utd,MID,6,1,1,19,2.0,4.424
+426,B.Fernandes,Man Utd,MID,6,1,1,19,2.0,4.454
 426,B.Fernandes,Man Utd,MID,7,2,0,13,3.0,3.155
 426,B.Fernandes,Man Utd,MID,8,3,1,3,3.0,3.651
 426,B.Fernandes,Man Utd,MID,9,4,0,6,4.0,3.224
@@ -2599,11 +2599,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 428,Cunha,Man Utd,MID,8,3,1,3,3.0,4.11
 428,Cunha,Man Utd,MID,9,4,0,6,4.0,3.073
 428,Cunha,Man Utd,MID,10,5,1,2,3.0,4.11
-429,Rashford,Man Utd,MID,6,1,1,19,2.0,2.457
-429,Rashford,Man Utd,MID,7,2,0,13,3.0,2.278
-429,Rashford,Man Utd,MID,8,3,1,3,3.0,2.509
-429,Rashford,Man Utd,MID,9,4,0,6,4.0,2.203
-429,Rashford,Man Utd,MID,10,5,1,2,3.0,2.509
+429,Rashford,Man Utd,MID,6,1,1,19,2.0,2.426
+429,Rashford,Man Utd,MID,7,2,0,13,3.0,2.301
+429,Rashford,Man Utd,MID,8,3,1,3,3.0,2.532
+429,Rashford,Man Utd,MID,9,4,0,6,4.0,2.21
+429,Rashford,Man Utd,MID,10,5,1,2,3.0,2.532
 430,Mount,Man Utd,MID,6,1,1,19,2.0,0.706
 430,Mount,Man Utd,MID,7,2,0,13,3.0,0.762
 430,Mount,Man Utd,MID,8,3,1,3,3.0,0.705
@@ -2614,11 +2614,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 431,Amad,Man Utd,MID,8,3,1,3,3.0,0.0
 431,Amad,Man Utd,MID,9,4,0,6,4.0,0.0
 431,Amad,Man Utd,MID,10,5,1,2,3.0,0.0
-432,Mainoo,Man Utd,MID,6,1,1,19,2.0,3.297
-432,Mainoo,Man Utd,MID,7,2,0,13,3.0,2.859
-432,Mainoo,Man Utd,MID,8,3,1,3,3.0,2.881
-432,Mainoo,Man Utd,MID,9,4,0,6,4.0,2.694
-432,Mainoo,Man Utd,MID,10,5,1,2,3.0,2.881
+432,Mainoo,Man Utd,MID,6,1,1,19,2.0,3.155
+432,Mainoo,Man Utd,MID,7,2,0,13,3.0,2.656
+432,Mainoo,Man Utd,MID,8,3,1,3,3.0,2.73
+432,Mainoo,Man Utd,MID,9,4,0,6,4.0,2.557
+432,Mainoo,Man Utd,MID,10,5,1,2,3.0,2.73
 433,Ugarte,Man Utd,MID,6,1,1,19,2.0,0.0
 433,Ugarte,Man Utd,MID,7,2,0,13,3.0,0.0
 433,Ugarte,Man Utd,MID,8,3,1,3,3.0,0.0
@@ -2705,10 +2705,10 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 448,Burn,Newcastle,DEF,9,4,1,9,3.0,0.0
 448,Burn,Newcastle,DEF,10,5,0,10,3.0,0.0
 449,Hall,Newcastle,DEF,6,1,0,7,2.0,4.866
-449,Hall,Newcastle,DEF,7,2,1,2,3.0,3.752
-449,Hall,Newcastle,DEF,8,3,0,8,3.0,3.687
-449,Hall,Newcastle,DEF,9,4,1,9,3.0,3.752
-449,Hall,Newcastle,DEF,10,5,0,10,3.0,3.687
+449,Hall,Newcastle,DEF,7,2,1,2,3.0,3.686
+449,Hall,Newcastle,DEF,8,3,0,8,3.0,3.613
+449,Hall,Newcastle,DEF,9,4,1,9,3.0,3.686
+449,Hall,Newcastle,DEF,10,5,0,10,3.0,3.613
 450,Livramento,Newcastle,DEF,6,1,0,7,2.0,0.891
 450,Livramento,Newcastle,DEF,7,2,1,2,3.0,0.861
 450,Livramento,Newcastle,DEF,8,3,0,8,3.0,0.856
@@ -2719,11 +2719,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 451,A.Murphy,Newcastle,DEF,8,3,0,8,3.0,0.0
 451,A.Murphy,Newcastle,DEF,9,4,1,9,3.0,0.0
 451,A.Murphy,Newcastle,DEF,10,5,0,10,3.0,0.0
-453,Barnes,Newcastle,MID,6,1,0,7,2.0,4.813
-453,Barnes,Newcastle,MID,7,2,1,2,3.0,4.531
-453,Barnes,Newcastle,MID,8,3,0,8,3.0,4.368
-453,Barnes,Newcastle,MID,9,4,1,9,3.0,4.531
-453,Barnes,Newcastle,MID,10,5,0,10,3.0,4.368
+453,Barnes,Newcastle,MID,6,1,0,7,2.0,4.851
+453,Barnes,Newcastle,MID,7,2,1,2,3.0,4.826
+453,Barnes,Newcastle,MID,8,3,0,8,3.0,4.663
+453,Barnes,Newcastle,MID,9,4,1,9,3.0,4.826
+453,Barnes,Newcastle,MID,10,5,0,10,3.0,4.663
 454,Elanga,Newcastle,MID,6,1,0,7,2.0,0.0
 454,Elanga,Newcastle,MID,7,2,1,2,3.0,0.0
 454,Elanga,Newcastle,MID,8,3,0,8,3.0,0.0
@@ -2744,11 +2744,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 458,Joelinton,Newcastle,MID,8,3,0,8,3.0,0.0
 458,Joelinton,Newcastle,MID,9,4,1,9,3.0,0.0
 458,Joelinton,Newcastle,MID,10,5,0,10,3.0,0.0
-459,L.Miley,Newcastle,MID,6,1,0,7,2.0,2.405
-459,L.Miley,Newcastle,MID,7,2,1,2,3.0,2.342
-459,L.Miley,Newcastle,MID,8,3,0,8,3.0,2.285
-459,L.Miley,Newcastle,MID,9,4,1,9,3.0,2.342
-459,L.Miley,Newcastle,MID,10,5,0,10,3.0,2.285
+459,L.Miley,Newcastle,MID,6,1,0,7,2.0,1.804
+459,L.Miley,Newcastle,MID,7,2,1,2,3.0,1.756
+459,L.Miley,Newcastle,MID,8,3,0,8,3.0,1.714
+459,L.Miley,Newcastle,MID,9,4,1,9,3.0,1.756
+459,L.Miley,Newcastle,MID,10,5,0,10,3.0,1.714
 460,Willock,Newcastle,MID,6,1,0,7,2.0,2.256
 460,Willock,Newcastle,MID,7,2,1,2,3.0,2.041
 460,Willock,Newcastle,MID,8,3,0,8,3.0,2.278
@@ -2874,11 +2874,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 472,Murillo,Nott'm Forest,DEF,8,3,0,12,2.0,4.036
 472,Murillo,Nott'm Forest,DEF,9,4,0,4,3.0,4.096
 472,Murillo,Nott'm Forest,DEF,10,5,1,15,4.0,3.604
-473,Aina,Nott'm Forest,DEF,6,1,0,8,3.0,1.796
-473,Aina,Nott'm Forest,DEF,7,2,1,1,4.0,1.576
-473,Aina,Nott'm Forest,DEF,8,3,0,12,2.0,2.386
-473,Aina,Nott'm Forest,DEF,9,4,0,4,3.0,1.796
-473,Aina,Nott'm Forest,DEF,10,5,1,15,4.0,1.576
+473,Aina,Nott'm Forest,DEF,6,1,0,8,3.0,1.809
+473,Aina,Nott'm Forest,DEF,7,2,1,1,4.0,1.589
+473,Aina,Nott'm Forest,DEF,8,3,0,12,2.0,2.439
+473,Aina,Nott'm Forest,DEF,9,4,0,4,3.0,1.809
+473,Aina,Nott'm Forest,DEF,10,5,1,15,4.0,1.589
 474,Jair Cunha,Nott'm Forest,DEF,6,1,0,8,3.0,2.552
 474,Jair Cunha,Nott'm Forest,DEF,7,2,1,1,4.0,2.241
 474,Jair Cunha,Nott'm Forest,DEF,8,3,0,12,2.0,3.034
@@ -2944,16 +2944,16 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 487,Dominguez,Nott'm Forest,MID,8,3,0,12,2.0,0.798
 487,Dominguez,Nott'm Forest,MID,9,4,0,4,3.0,0.816
 487,Dominguez,Nott'm Forest,MID,10,5,1,15,4.0,0.847
-488,I.Sangaré,Nott'm Forest,MID,6,1,0,8,3.0,1.327
-488,I.Sangaré,Nott'm Forest,MID,7,2,1,1,4.0,1.659
-488,I.Sangaré,Nott'm Forest,MID,8,3,0,12,2.0,1.374
-488,I.Sangaré,Nott'm Forest,MID,9,4,0,4,3.0,1.327
-488,I.Sangaré,Nott'm Forest,MID,10,5,1,15,4.0,1.659
-489,Yates,Nott'm Forest,MID,6,1,0,8,3.0,0.921
-489,Yates,Nott'm Forest,MID,7,2,1,1,4.0,0.978
-489,Yates,Nott'm Forest,MID,8,3,0,12,2.0,0.982
-489,Yates,Nott'm Forest,MID,9,4,0,4,3.0,0.921
-489,Yates,Nott'm Forest,MID,10,5,1,15,4.0,0.978
+488,I.Sangaré,Nott'm Forest,MID,6,1,0,8,3.0,1.184
+488,I.Sangaré,Nott'm Forest,MID,7,2,1,1,4.0,1.407
+488,I.Sangaré,Nott'm Forest,MID,8,3,0,12,2.0,1.224
+488,I.Sangaré,Nott'm Forest,MID,9,4,0,4,3.0,1.184
+488,I.Sangaré,Nott'm Forest,MID,10,5,1,15,4.0,1.407
+489,Yates,Nott'm Forest,MID,6,1,0,8,3.0,0.536
+489,Yates,Nott'm Forest,MID,7,2,1,1,4.0,0.738
+489,Yates,Nott'm Forest,MID,8,3,0,12,2.0,0.566
+489,Yates,Nott'm Forest,MID,9,4,0,4,3.0,0.536
+489,Yates,Nott'm Forest,MID,10,5,1,15,4.0,0.738
 490,Wood,Nott'm Forest,FWD,6,1,0,8,3.0,1.66
 490,Wood,Nott'm Forest,FWD,7,2,1,1,4.0,1.628
 490,Wood,Nott'm Forest,FWD,8,3,0,12,2.0,1.679
@@ -2984,11 +2984,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 590,Benda,Nott'm Forest,GKP,8,3,0,12,2.0,0.125
 590,Benda,Nott'm Forest,GKP,9,4,0,4,3.0,0.152
 590,Benda,Nott'm Forest,GKP,10,5,1,15,4.0,0.154
-112,Van Hecke,Spurs,DEF,6,1,0,16,4.0,3.899
-112,Van Hecke,Spurs,DEF,7,2,1,7,2.0,4.201
-112,Van Hecke,Spurs,DEF,8,3,0,6,4.0,3.899
-112,Van Hecke,Spurs,DEF,9,4,1,8,2.0,4.201
-112,Van Hecke,Spurs,DEF,10,5,0,13,3.0,4.046
+112,Van Hecke,Spurs,DEF,6,1,0,16,4.0,2.989
+112,Van Hecke,Spurs,DEF,7,2,1,7,2.0,3.146
+112,Van Hecke,Spurs,DEF,8,3,0,6,4.0,2.989
+112,Van Hecke,Spurs,DEF,9,4,1,8,2.0,3.146
+112,Van Hecke,Spurs,DEF,10,5,0,13,3.0,3.099
 147,Tosin,Spurs,DEF,6,1,0,16,4.0,0.554
 147,Tosin,Spurs,DEF,7,2,1,7,2.0,0.598
 147,Tosin,Spurs,DEF,8,3,0,6,4.0,0.554
@@ -2999,11 +2999,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 401,Marmoush,Spurs,FWD,8,3,0,6,4.0,3.176
 401,Marmoush,Spurs,FWD,9,4,1,8,2.0,4.224
 401,Marmoush,Spurs,FWD,10,5,0,13,3.0,3.302
-403,Sávio,Spurs,MID,6,1,0,16,4.0,2.427
-403,Sávio,Spurs,MID,7,2,1,7,2.0,2.534
-403,Sávio,Spurs,MID,8,3,0,6,4.0,2.427
-403,Sávio,Spurs,MID,9,4,1,8,2.0,2.534
-403,Sávio,Spurs,MID,10,5,0,13,3.0,2.731
+403,Sávio,Spurs,MID,6,1,0,16,4.0,2.431
+403,Sávio,Spurs,MID,7,2,1,7,2.0,2.573
+403,Sávio,Spurs,MID,8,3,0,6,4.0,2.431
+403,Sávio,Spurs,MID,9,4,1,8,2.0,2.573
+403,Sávio,Spurs,MID,10,5,0,13,3.0,2.784
 455,Tonali,Spurs,MID,6,1,0,16,4.0,3.475
 455,Tonali,Spurs,MID,7,2,1,7,2.0,3.534
 455,Tonali,Spurs,MID,8,3,0,6,4.0,3.475
@@ -3034,11 +3034,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 498,Senesi,Spurs,DEF,8,3,0,6,4.0,2.134
 498,Senesi,Spurs,DEF,9,4,1,8,2.0,2.756
 498,Senesi,Spurs,DEF,10,5,0,13,3.0,2.362
-499,Pedro Porro,Spurs,DEF,6,1,0,16,4.0,1.86
+499,Pedro Porro,Spurs,DEF,6,1,0,16,4.0,1.868
 499,Pedro Porro,Spurs,DEF,7,2,1,7,2.0,2.472
-499,Pedro Porro,Spurs,DEF,8,3,0,6,4.0,1.86
+499,Pedro Porro,Spurs,DEF,8,3,0,6,4.0,1.868
 499,Pedro Porro,Spurs,DEF,9,4,1,8,2.0,2.472
-499,Pedro Porro,Spurs,DEF,10,5,0,13,3.0,2.24
+499,Pedro Porro,Spurs,DEF,10,5,0,13,3.0,2.248
 500,Romero,Spurs,DEF,6,1,0,16,4.0,0.0
 500,Romero,Spurs,DEF,7,2,1,7,2.0,0.0
 500,Romero,Spurs,DEF,8,3,0,6,4.0,0.0
@@ -3254,11 +3254,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 541,Meunier,Sunderland,DEF,8,3,1,13,3.0,3.13
 541,Meunier,Sunderland,DEF,9,4,0,7,2.0,3.316
 541,Meunier,Sunderland,DEF,10,5,1,6,4.0,2.971
-542,E.Le Fée,Sunderland,MID,6,1,1,5,3.0,4.798
-542,E.Le Fée,Sunderland,MID,7,2,0,3,3.0,4.581
-542,E.Le Fée,Sunderland,MID,8,3,1,13,3.0,4.798
-542,E.Le Fée,Sunderland,MID,9,4,0,7,2.0,5.021
-542,E.Le Fée,Sunderland,MID,10,5,1,6,4.0,4.18
+542,E.Le Fée,Sunderland,MID,6,1,1,5,3.0,4.708
+542,E.Le Fée,Sunderland,MID,7,2,0,3,3.0,4.513
+542,E.Le Fée,Sunderland,MID,8,3,1,13,3.0,4.708
+542,E.Le Fée,Sunderland,MID,9,4,0,7,2.0,4.96
+542,E.Le Fée,Sunderland,MID,10,5,1,6,4.0,4.101
 543,Diarra,Sunderland,MID,6,1,1,5,3.0,0.0
 543,Diarra,Sunderland,MID,7,2,0,3,3.0,0.0
 543,Diarra,Sunderland,MID,8,3,1,13,3.0,0.0
@@ -3304,11 +3304,11 @@ player_id,web_name,team,position,gw,horizon_index,was_home,opponent_team_id,fixt
 551,N.Angulo,Sunderland,MID,8,3,1,13,3.0,1.944
 551,N.Angulo,Sunderland,MID,9,4,0,7,2.0,1.709
 551,N.Angulo,Sunderland,MID,10,5,1,6,4.0,1.728
-552,Brobbey,Sunderland,FWD,6,1,1,5,3.0,3.43
-552,Brobbey,Sunderland,FWD,7,2,0,3,3.0,3.014
-552,Brobbey,Sunderland,FWD,8,3,1,13,3.0,3.43
-552,Brobbey,Sunderland,FWD,9,4,0,7,2.0,4.369
-552,Brobbey,Sunderland,FWD,10,5,1,6,4.0,2.933
+552,Brobbey,Sunderland,FWD,6,1,1,5,3.0,3.372
+552,Brobbey,Sunderland,FWD,7,2,0,3,3.0,2.956
+552,Brobbey,Sunderland,FWD,8,3,1,13,3.0,3.372
+552,Brobbey,Sunderland,FWD,9,4,0,7,2.0,4.312
+552,Brobbey,Sunderland,FWD,10,5,1,6,4.0,2.908
 553,Isidor,Sunderland,FWD,6,1,1,5,3.0,2.593
 553,Isidor,Sunderland,FWD,7,2,0,3,3.0,2.554
 553,Isidor,Sunderland,FWD,8,3,1,13,3.0,2.593
