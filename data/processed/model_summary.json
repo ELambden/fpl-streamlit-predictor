@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T16:11:20.512753+00:00",
+  "generatedAt": "2026-10-20T13:43:16.718040+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -23,42 +23,42 @@
     "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
     "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
-  "rows": 667,
+  "rows": 668,
   "positions": {
     "GKP": 73,
     "DEF": 217,
-    "MID": 298,
+    "MID": 299,
     "FWD": 79
   },
   "priorCoverage": {
     "playersWith2025_26Prior": 376,
-    "teamsWith2025_26Prior": 551,
-    "playerPriorCoveragePct": 56.4,
+    "teamsWith2025_26Prior": 552,
+    "playerPriorCoveragePct": 56.3,
     "teamPriorCoveragePct": 82.6
   },
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
-    "randomForestMae": 1.079,
-    "ridgeMae": 1.143,
+    "randomForestMae": 1.074,
+    "ridgeMae": 1.128,
     "featureImportance": {
-      "lag_minutes_mean3": 0.4544,
-      "selected_millions": 0.2122,
-      "lag_ict_mean3": 0.0929,
-      "value": 0.0775,
-      "lag_xgi_mean3": 0.074,
-      "lag_points_mean3": 0.0452,
-      "fixture_difficulty": 0.0277,
-      "was_home": 0.0105,
-      "lag_starts_mean3": 0.0057,
+      "lag_minutes_mean3": 0.4522,
+      "selected_millions": 0.2363,
+      "lag_ict_mean3": 0.0799,
+      "value": 0.0773,
+      "lag_xgi_mean3": 0.068,
+      "lag_points_mean3": 0.0447,
+      "fixture_difficulty": 0.0241,
+      "was_home": 0.0113,
+      "lag_starts_mean3": 0.0064,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.37,
-    "meanBaseline": 9.901,
-    "meanLift": -3.531,
+    "meanPredictionNext5": 6.301,
+    "meanBaseline": 9.932,
+    "meanLift": -3.631,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
