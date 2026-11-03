@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T14:45:36.466791+00:00",
+  "generatedAt": "2026-11-03T16:23:36.592624+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -23,42 +23,42 @@
     "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
     "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
-  "rows": 669,
+  "rows": 670,
   "positions": {
     "GKP": 74,
-    "DEF": 217,
+    "DEF": 218,
     "MID": 299,
     "FWD": 79
   },
   "priorCoverage": {
     "playersWith2025_26Prior": 376,
-    "teamsWith2025_26Prior": 553,
-    "playerPriorCoveragePct": 56.2,
+    "teamsWith2025_26Prior": 554,
+    "playerPriorCoveragePct": 56.1,
     "teamPriorCoveragePct": 82.7
   },
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
-    "randomForestMae": 1.117,
-    "ridgeMae": 1.19,
+    "randomForestMae": 1.114,
+    "ridgeMae": 1.191,
     "featureImportance": {
-      "lag_minutes_mean3": 0.4328,
-      "selected_millions": 0.2406,
-      "value": 0.088,
-      "lag_ict_mean3": 0.0776,
-      "lag_xgi_mean3": 0.0654,
-      "lag_points_mean3": 0.0448,
-      "fixture_difficulty": 0.03,
-      "was_home": 0.013,
-      "lag_starts_mean3": 0.0079,
+      "lag_minutes_mean3": 0.4146,
+      "selected_millions": 0.261,
+      "value": 0.0838,
+      "lag_ict_mean3": 0.0807,
+      "lag_xgi_mean3": 0.071,
+      "lag_points_mean3": 0.0416,
+      "fixture_difficulty": 0.0305,
+      "was_home": 0.011,
+      "lag_starts_mean3": 0.0059,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.348,
-    "meanBaseline": 9.671,
-    "meanLift": -3.323,
+    "meanPredictionNext5": 6.466,
+    "meanBaseline": 9.518,
+    "meanLift": -3.052,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
