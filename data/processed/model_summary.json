@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:23:36.592624+00:00",
+  "generatedAt": "2026-11-10T16:30:22.633493+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -23,42 +23,42 @@
     "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
     "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
-  "rows": 670,
+  "rows": 672,
   "positions": {
-    "GKP": 74,
-    "DEF": 218,
+    "GKP": 75,
+    "DEF": 219,
     "MID": 299,
     "FWD": 79
   },
   "priorCoverage": {
     "playersWith2025_26Prior": 376,
-    "teamsWith2025_26Prior": 554,
-    "playerPriorCoveragePct": 56.1,
+    "teamsWith2025_26Prior": 556,
+    "playerPriorCoveragePct": 56.0,
     "teamPriorCoveragePct": 82.7
   },
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
-    "randomForestMae": 1.114,
-    "ridgeMae": 1.191,
+    "randomForestMae": 1.092,
+    "ridgeMae": 1.193,
     "featureImportance": {
-      "lag_minutes_mean3": 0.4146,
-      "selected_millions": 0.261,
-      "value": 0.0838,
-      "lag_ict_mean3": 0.0807,
-      "lag_xgi_mean3": 0.071,
-      "lag_points_mean3": 0.0416,
-      "fixture_difficulty": 0.0305,
-      "was_home": 0.011,
-      "lag_starts_mean3": 0.0059,
+      "lag_minutes_mean3": 0.4037,
+      "selected_millions": 0.2487,
+      "value": 0.0896,
+      "lag_ict_mean3": 0.0866,
+      "lag_xgi_mean3": 0.0737,
+      "lag_points_mean3": 0.0483,
+      "fixture_difficulty": 0.0296,
+      "was_home": 0.0122,
+      "lag_starts_mean3": 0.0077,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.466,
-    "meanBaseline": 9.518,
-    "meanLift": -3.052,
+    "meanPredictionNext5": 6.39,
+    "meanBaseline": 9.719,
+    "meanLift": -3.328,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
