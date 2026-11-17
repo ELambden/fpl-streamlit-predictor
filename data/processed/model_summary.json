@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T16:30:22.633493+00:00",
+  "generatedAt": "2026-11-17T17:43:38.846535+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -56,9 +56,9 @@
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.39,
-    "meanBaseline": 9.719,
-    "meanLift": -3.328,
+    "meanPredictionNext5": 6.33,
+    "meanBaseline": 9.946,
+    "meanLift": -3.616,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
