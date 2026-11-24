@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T17:43:38.846535+00:00",
+  "generatedAt": "2026-11-24T19:36:42.857798+00:00",
   "modelName": "RandomForestRegressor with Ridge and form baselines",
   "target": "fixture-level FPL points, aggregated over the next five gameweeks",
   "features": [
@@ -23,42 +23,42 @@
     "fixture_ease": "A flipped fixture difficulty measure where larger numbers mean an easier upcoming run.",
     "optimizer_value": "Projected five-gameweek points per million of current FPL price."
   },
-  "rows": 672,
+  "rows": 674,
   "positions": {
-    "GKP": 75,
+    "GKP": 76,
     "DEF": 219,
-    "MID": 299,
+    "MID": 300,
     "FWD": 79
   },
   "priorCoverage": {
     "playersWith2025_26Prior": 376,
-    "teamsWith2025_26Prior": 556,
-    "playerPriorCoveragePct": 56.0,
-    "teamPriorCoveragePct": 82.7
+    "teamsWith2025_26Prior": 558,
+    "playerPriorCoveragePct": 55.8,
+    "teamPriorCoveragePct": 82.8
   },
   "modelDiagnostics": {
     "status": "trained",
     "trainingRows": 18000,
-    "randomForestMae": 1.092,
-    "ridgeMae": 1.193,
+    "randomForestMae": 1.107,
+    "ridgeMae": 1.226,
     "featureImportance": {
-      "lag_minutes_mean3": 0.4037,
-      "selected_millions": 0.2487,
-      "value": 0.0896,
-      "lag_ict_mean3": 0.0866,
-      "lag_xgi_mean3": 0.0737,
-      "lag_points_mean3": 0.0483,
-      "fixture_difficulty": 0.0296,
-      "was_home": 0.0122,
-      "lag_starts_mean3": 0.0077,
+      "lag_minutes_mean3": 0.431,
+      "selected_millions": 0.2431,
+      "value": 0.0808,
+      "lag_ict_mean3": 0.0806,
+      "lag_xgi_mean3": 0.072,
+      "lag_points_mean3": 0.0438,
+      "fixture_difficulty": 0.0309,
+      "was_home": 0.0108,
+      "lag_starts_mean3": 0.007,
       "team_attack_prior": 0.0,
       "team_defence_prior": 0.0
     }
   },
   "diagnostics": {
-    "meanPredictionNext5": 6.33,
-    "meanBaseline": 9.946,
-    "meanLift": -3.616,
+    "meanPredictionNext5": 6.225,
+    "meanBaseline": 9.973,
+    "meanLift": -3.748,
     "note": "2026-27 live FPL data is authoritative; 2025-26 priors are used only where stable player/team codes match."
   }
 }
